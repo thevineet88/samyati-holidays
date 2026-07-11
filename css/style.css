@@ -473,4 +473,30 @@ footer img[src*="samyati-logo"] {
 @media (max-width: 767px) {
   .sticky-sidebar { position: static; }
   .trust-stat .number { font-size: 1.5rem; }
+
+  /* Package cards: fluid height on mobile */
+  .package-card { height: auto !important; min-height: 0; }
+
+  /* Why / Values cards: tighter padding */
+  .why-card { padding: 16px 14px; }
+  .why-icon { width: 40px; height: 40px; margin-bottom: 10px; }
+
+  /* Section padding: reduce top/bottom whitespace */
+  section { padding-top: 2.5rem !important; padding-bottom: 2.5rem !important; }
+  /* Keep trust bar compact */
+  .trust-bar.py-8 { padding-top: 1.25rem !important; padding-bottom: 1.25rem !important; }
+
+  /* Instagram: max 3 posts on mobile */
+  .insta-item:nth-child(n+4) { display: none !important; }
+
+  /* WA float: icon only on mobile */
+  .wa-float { padding: 12px 14px; }
+
+  /* Hero section: less bottom padding */
+  .hero-pb { padding-bottom: 4rem !important; }
+
+  /* Page header sections: reduce top pad */
+  .pt-28 { padding-top: 5.5rem !important; }
+  .pb-16 { padding-bottom: 2rem !important; }
+  .pb-12 { padding-bottom: 1.5rem !important; }
 }
