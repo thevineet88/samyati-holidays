@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="assets/samyati-logo-cropped.png" type="image/png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Package Details, Samyati Holidays</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#2D2E6E',
+            orange: '#F47920',
+          },
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+            inter: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="font-inter">
+
+  <!-- NAV -->
+  <nav id="navbar" class="bg-white shadow-sm sticky top-0 z-50 transition-shadow duration-300">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html">
+          <img src="assets/samyati-logo-cropped.png" alt="Samyati Holidays" class="h-16 w-auto object-contain" />
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="packages.html" class="nav-link active">Packages</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <a href="https://wa.me/919076068549" target="_blank" class="btn-orange text-sm px-5 py-2">Book Now</a>
+        </div>
+        <button id="menu-btn" class="md:hidden p-2 rounded-lg hover:bg-gray-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="md:hidden bg-white border-t border-gray-100 px-4 pb-4">
+      <div class="flex flex-col gap-3 pt-3">
+        <a href="index.html" class="nav-link py-1">Home</a>
+        <a href="packages.html" class="nav-link py-1">Packages</a>
+        <a href="about.html" class="nav-link py-1">About</a>
+        <a href="contact.html" class="nav-link py-1">Contact</a>
+        <a href="https://wa.me/919076068549" target="_blank" class="btn-orange text-sm text-center mt-2">Book Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- LOADING STATE -->
+  <div id="loading-state" class="min-h-screen flex items-center justify-center">
+    <div class="text-center">
+      <div class="w-12 h-12 border-4 border-navy border-t-orange rounded-full animate-spin mx-auto mb-4"></div>
+      <p class="font-poppins text-navy font-semibold">Loading package details…</p>
+    </div>
+  </div>
+
+  <!-- ERROR STATE -->
+  <div id="error-state" class="min-h-screen flex items-center justify-center hidden">
+    <div class="text-center px-4">
+      <div class="text-6xl mb-4">🗺️</div>
+      <h2 class="font-poppins text-2xl font-bold text-navy mb-2">Package not found</h2>
+      <p class="text-gray-500 mb-6">The package you're looking for doesn't exist or may have been updated.</p>
+      <a href="packages.html" class="btn-navy">Browse All Packages</a>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT (hidden until loaded) -->
+  <div id="main-content" class="hidden">
+
+    <!-- HERO -->
+    <section id="hero-section" class="relative h-[420px] md:h-[520px] bg-gray-800 overflow-hidden">
+      <img id="hero-img" src="" alt="" class="w-full h-full object-cover" />
+      <div class="hero-overlay absolute inset-0"></div>
+      <div class="absolute inset-0 flex flex-col justify-end pb-10 px-4">
+        <div class="max-w-6xl mx-auto w-full">
+          <div class="flex flex-wrap gap-2 mb-3" id="hero-chips"></div>
+          <h1 id="hero-title" class="font-poppins text-4xl md:text-5xl font-bold text-white leading-tight mb-2"></h1>
+          <p id="hero-subtitle" class="text-white/80 text-lg mb-4"></p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <span id="hero-dates" class="text-white font-semibold text-sm bg-white/20 px-3 py-1 rounded-full"></span>
+            <span id="hero-duration" class="text-white font-semibold text-sm bg-white/20 px-3 py-1 rounded-full"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BREADCRUMB -->
+    <div class="bg-gray-50 border-b border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-2 flex items-center gap-2 text-sm text-gray-500">
+        <a href="index.html" class="hover:text-navy">Home</a>
+        <span>›</span>
+        <a href="packages.html" class="hover:text-navy">Packages</a>
+        <span>›</span>
+        <span id="breadcrumb-title" class="text-navy font-semibold"></span>
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="max-w-6xl mx-auto px-4 py-10 lg:py-14">
+      <div class="flex flex-col lg:flex-row gap-10">
+
+        <!-- LEFT: Main Details -->
+        <div class="flex-1 min-w-0">
+
+          <!-- Highlights -->
+          <section class="mb-10">
+            <div class="section-pin-divider mb-4">
+              <div class="pin-icon"></div>
+              <div class="line"></div>
+              <span class="section-eyebrow">Trip Highlights</span>
+            </div>
+            <ul id="highlights-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></ul>
+          </section>
+
+          <!-- Advisory (only if present) -->
+          <section id="advisory-section" class="mb-10 hidden">
+            <div class="bg-orange/10 border-l-4 border-orange rounded-r-xl p-4">
+              <div class="flex gap-3 items-start">
+                <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                </svg>
+                <div>
+                  <p class="font-poppins font-semibold text-navy text-sm mb-1">Important Advisory</p>
+                  <p id="advisory-text" class="text-gray-700 text-sm"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Flight Note (only if present) -->
+          <section id="flight-section" class="mb-10 hidden">
+            <div class="bg-blue-50 border-l-4 border-blue-400 rounded-r-xl p-4">
+              <div class="flex gap-3 items-start">
+                <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
+                </svg>
+                <div>
+                  <p class="font-poppins font-semibold text-navy text-sm mb-1">Flight Information</p>
+                  <p id="flight-text" class="text-gray-700 text-sm"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Travel Details -->
+          <section class="mb-10">
+            <div class="section-pin-divider mb-4">
+              <div class="pin-icon"></div>
+              <div class="line"></div>
+              <span class="section-eyebrow">Travel Details</span>
+            </div>
+            <div class="bg-navy/5 rounded-xl p-5 grid sm:grid-cols-3 gap-4">
+              <div>
+                <p class="text-xs font-poppins font-semibold text-navy uppercase tracking-wide mb-1">Departure</p>
+                <p id="travel-departure" class="text-sm text-gray-700"></p>
+              </div>
+              <div>
+                <p class="text-xs font-poppins font-semibold text-navy uppercase tracking-wide mb-1">Train / Mode</p>
+                <p id="travel-train" class="text-sm text-gray-700"></p>
+              </div>
+              <div>
+                <p class="text-xs font-poppins font-semibold text-navy uppercase tracking-wide mb-1">Return</p>
+                <p id="travel-arrival" class="text-sm text-gray-700"></p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Itinerary -->
+          <section class="mb-10">
+            <div class="section-pin-divider mb-6">
+              <div class="pin-icon"></div>
+              <div class="line"></div>
+              <span class="section-eyebrow">Day-by-Day Itinerary</span>
+            </div>
+            <div id="itinerary-list" class="space-y-4"></div>
+          </section>
+
+          <!-- Inclusions / Exclusions -->
+          <section class="mb-10">
+            <div class="section-pin-divider mb-6">
+              <div class="pin-icon"></div>
+              <div class="line"></div>
+              <span class="section-eyebrow">Inclusions & Exclusions</span>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+              <div class="bg-green-50 rounded-xl p-5">
+                <h3 class="font-poppins font-bold text-green-800 mb-4 flex items-center gap-2">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                  Inclusions
+                </h3>
+                <ul id="inclusions-list" class="space-y-2"></ul>
+              </div>
+              <div class="bg-red-50 rounded-xl p-5">
+                <h3 class="font-poppins font-bold text-red-800 mb-4 flex items-center gap-2">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/></svg>
+                  Exclusions
+                </h3>
+                <ul id="exclusions-list" class="space-y-2"></ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- Installments -->
+          <section id="installments-section" class="mb-10 hidden">
+            <div class="section-pin-divider mb-6">
+              <div class="pin-icon"></div>
+              <div class="line"></div>
+              <span class="section-eyebrow">Payment Schedule</span>
+            </div>
+            <div class="overflow-x-auto rounded-xl border border-gray-200">
+              <table class="pricing-table">
+                <thead>
+                  <tr>
+                    <th>Installment</th>
+                    <th>Amount</th>
+                    <th>Due By</th>
+                  </tr>
+                </thead>
+                <tbody id="installments-body"></tbody>
+              </table>
+            </div>
+          </section>
+
+          <!-- Cancellation Policy -->
+          <section id="cancellation-section" class="mb-10 hidden">
+            <div class="section-pin-divider mb-6">
+              <div class="pin-icon"></div>
+              <div class="line"></div>
+              <span class="section-eyebrow">Refund & Cancellation Policy</span>
+            </div>
+            <div class="overflow-x-auto rounded-xl border border-gray-200">
+              <table class="pricing-table">
+                <thead>
+                  <tr>
+                    <th>Cancellation Date</th>
+                    <th>Amount Deducted</th>
+                  </tr>
+                </thead>
+                <tbody id="cancellation-body"></tbody>
+              </table>
+            </div>
+            <p class="text-xs text-gray-500 mt-3">* First installment is non-refundable in all cases.</p>
+          </section>
+
+          <!-- Points to Note -->
+          <section class="mb-10">
+            <div class="section-pin-divider mb-4">
+              <div class="pin-icon"></div>
+              <div class="line"></div>
+              <span class="section-eyebrow">Points to Note</span>
+            </div>
+            <div class="bg-gray-50 rounded-xl p-5">
+              <ul class="space-y-2 text-sm text-gray-700">
+                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Smoking and drinking is strictly prohibited during travel and at sightseeing places.</li>
+                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Sightseeing schedule is subject to change as per on-day circumstances and availability of time.</li>
+                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Company won't be responsible for expenses caused due to unforeseen events (accidents, vehicle breakdown, delays, climatic conditions, etc.).</li>
+                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Participants should sit as per seating arrangement allotted during travel.</li>
+                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Participants have to pay on their own for extra rides/activities at sightseeing spots.</li>
+                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Tour operators have the right to make on-spot changes in the program for unforeseen events.</li>
+              </ul>
+            </div>
+          </section>
+
+        </div>
+
+        <!-- RIGHT: Sticky Sidebar -->
+        <div class="lg:w-80 flex-shrink-0">
+          <div class="sticky-sidebar space-y-5">
+
+            <!-- Price Card -->
+            <div class="bg-navy rounded-2xl p-6 text-white">
+              <p class="text-white/70 text-sm mb-1">Starting from</p>
+              <p id="sidebar-price" class="font-poppins text-4xl font-bold text-orange"></p>
+              <p id="sidebar-price-note" class="text-white/70 text-xs mt-1 mb-4"></p>
+              <div class="border-t border-white/20 pt-4 space-y-2 text-sm">
+                <div class="flex justify-between">
+                  <span class="text-white/70">Dates</span>
+                  <span id="sidebar-dates" class="font-semibold text-right max-w-[160px]"></span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-white/70">Duration</span>
+                  <span id="sidebar-duration" class="font-semibold"></span>
+                </div>
+                <div class="flex justify-between" id="sidebar-booking-row">
+                  <span class="text-white/70">Last Booking</span>
+                  <span id="sidebar-last-booking" class="font-semibold text-orange"></span>
+                </div>
+              </div>
+              <a id="sidebar-whatsapp" href="#" target="_blank" class="mt-5 w-full flex items-center justify-center gap-2 bg-[#25D366] text-white font-poppins font-bold py-3 rounded-xl hover:bg-[#1ebe5a] transition-colors">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Book on WhatsApp
+              </a>
+              <a id="sidebar-enquire" href="contact.html" class="mt-3 w-full flex items-center justify-center gap-2 border-2 border-white/40 text-white font-poppins font-semibold py-3 rounded-xl hover:bg-white/10 transition-colors">
+                Send Enquiry
+              </a>
+            </div>
+
+            <!-- Quick Inclusions -->
+            <div class="bg-white rounded-2xl border border-gray-200 p-5">
+              <h3 class="font-poppins font-bold text-navy mb-3 text-sm">What's Included</h3>
+              <ul id="sidebar-inclusions" class="space-y-2"></ul>
+            </div>
+
+            <!-- Need Help -->
+            <div class="bg-orange/10 rounded-2xl p-5">
+              <h3 class="font-poppins font-bold text-navy mb-2 text-sm">Need Help?</h3>
+              <p class="text-xs text-gray-600 mb-3">Call or WhatsApp our travel experts</p>
+              <div class="space-y-1 text-xs font-semibold text-navy">
+                <p>Rohit: <a href="tel:+919076068549" class="text-orange">+91 90760 68549</a></p>
+                <p>Shrutika: <a href="tel:+918369818047" class="text-orange">+91 83698 18047</a></p>
+                <p>Tejashree: <a href="tel:+918104226001" class="text-orange">+91 81042 26001</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- OTHER PACKAGES CTA -->
+    <section class="bg-navy py-14 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <p class="section-eyebrow text-orange mb-2">Explore More</p>
+        <h2 class="font-poppins text-3xl font-bold text-white mb-4">Not the right trip?</h2>
+        <p class="text-white/70 mb-8">Browse all our group tour packages and find your perfect journey.</p>
+        <a href="packages.html" class="btn-orange text-lg px-8 py-3">View All Packages</a>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-navy text-white py-10 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row justify-between gap-8">
+        <div>
+          <img src="assets/samyati-logo-cropped.png" alt="Samyati Holidays" class="h-14 w-auto mb-3" />
+          <p class="text-white/60 text-sm max-w-xs">Mumbai's trusted group tour company. Travel together, make memories.</p>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 text-sm">
+          <div>
+            <p class="font-poppins font-bold mb-3 text-orange">Quick Links</p>
+            <ul class="space-y-2 text-white/70">
+              <li><a href="index.html" class="hover:text-white">Home</a></li>
+              <li><a href="packages.html" class="hover:text-white">Packages</a></li>
+              <li><a href="about.html" class="hover:text-white">About Us</a></li>
+              <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-poppins font-bold mb-3 text-orange">Contact</p>
+            <ul class="space-y-2 text-white/70">
+              <li><a href="tel:+919076068549" class="hover:text-white">+91 90760 68549</a></li>
+              <li><a href="https://wa.me/919076068549" class="hover:text-white">WhatsApp Us</a></li>
+              <li>Airoli, Mumbai</li>
+            </ul>
+          </div>
+          <div>
+            <p class="font-poppins font-bold mb-3 text-orange">Follow Us</p>
+            <ul class="space-y-2 text-white/70">
+              <li><a href="https://instagram.com/samyatiholidays" target="_blank" class="hover:text-white">Instagram</a></li>
+              <li><a href="https://facebook.com/samyatiholidays" target="_blank" class="hover:text-white">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-white/20 mt-8 pt-6 text-center text-white/50 text-xs">
+        © 2026 Samyati Holidays. All rights reserved. | Made with ❤️ in Mumbai
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a id="wa-float-btn" href="https://wa.me/919076068549" target="_blank" class="wa-float">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    WhatsApp Us
+  </a>
+
+  <script src="js/preloader.js"></script>
+<script src="js/main.js"></script>
+  <script src="js/packages-data.js"></script>
+  <script>
+    // ── Package Detail Page Logic ──
+    (async function () {
+      const params = new URLSearchParams(window.location.search);
+      const slug = params.get('slug');
+
+      if (!slug) {
+        showError();
+        return;
+      }
+
+      let packages;
+      // Try inline data first (works on file://) then fall back to fetch
+      if (typeof SAMYATI_PACKAGES !== 'undefined') {
+        packages = SAMYATI_PACKAGES;
+      } else {
+        try {
+          const jsonUrl = new URL('packages.json', window.location.href).href;
+          const res = await fetch(jsonUrl);
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          packages = await res.json();
+        } catch (e) {
+          console.error('Failed to load packages.json:', e);
+          showError('Could not load package data. Please open this site through a local server.');
+          return;
+        }
+      }
+
+      const pkg = packages.find(p => p.slug === slug);
+      if (!pkg) {
+        console.error('No package found for slug:', slug);
+        showError('Package "' + slug + '" not found.');
+        return;
+      }
+
+      // Update page title
+      document.title = `${pkg.title}, Samyati Holidays`;
+
+      // ── Hero ──
+      const heroImg = document.getElementById('hero-img');
+      heroImg.src = pkg.hero;
+      heroImg.alt = pkg.title;
+      document.getElementById('hero-title').textContent = pkg.title;
+      document.getElementById('hero-subtitle').textContent = pkg.subtitle;
+      document.getElementById('hero-dates').textContent = '📅 ' + pkg.dates;
+      document.getElementById('hero-duration').textContent = '⏱ ' + pkg.duration;
+      document.getElementById('breadcrumb-title').textContent = pkg.title;
+
+      // Category chips in hero
+      const chipsEl = document.getElementById('hero-chips');
+      const catLabels = { nature: 'Nature', adventure: 'Adventure', spiritual: 'Spiritual', beach: 'Beach' };
+      (pkg.category || []).forEach(c => {
+        const chip = document.createElement('span');
+        chip.className = 'chip';
+        chip.textContent = catLabels[c] || c;
+        chipsEl.appendChild(chip);
+      });
+
+      // ── Highlights ──
+      const hlList = document.getElementById('highlights-list');
+      (pkg.highlights || []).forEach(h => {
+        const li = document.createElement('li');
+        li.className = 'flex items-start gap-2 text-gray-700 text-sm';
+        li.innerHTML = `<span class="pin-bullet flex-shrink-0" style="margin-top:5px"></span><span>${h}</span>`;
+        hlList.appendChild(li);
+      });
+
+      // ── Advisory ──
+      if (pkg.advisory) {
+        document.getElementById('advisory-section').classList.remove('hidden');
+        document.getElementById('advisory-text').textContent = pkg.advisory;
+      }
+
+      // ── Flight Note ──
+      if (pkg.flightNote) {
+        document.getElementById('flight-section').classList.remove('hidden');
+        document.getElementById('flight-text').textContent = pkg.flightNote;
+      }
+
+      // ── Travel ──
+      document.getElementById('travel-departure').textContent = pkg.travel.departure;
+      document.getElementById('travel-train').textContent = pkg.travel.train;
+      document.getElementById('travel-arrival').textContent = pkg.travel.arrival;
+
+      // ── Itinerary ──
+      const itiList = document.getElementById('itinerary-list');
+      (pkg.itinerary || []).forEach(day => {
+        const item = document.createElement('div');
+        item.className = 'accordion-item';
+        item.innerHTML = `
+          <button class="accordion-btn" onclick="toggleAccordion(this)">
+            <div class="flex items-center gap-3">
+              <span class="day-badge">${day.day}</span>
+              <div class="text-left">
+                <span class="text-xs text-gray-400 font-normal font-inter block">${day.date}</span>
+                ${day.title}
+              </div>
+            </div>
+            <svg class="accordion-icon w-5 h-5 text-navy flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="accordion-body pb-4 pl-11">
+            <p class="text-gray-600 text-sm mb-2">${day.description}</p>
+            <span class="text-xs font-poppins font-semibold text-orange">🍽 ${day.meals}</span>
+          </div>`;
+        itiList.appendChild(item);
+      });
+
+      // ── Inclusions ──
+      const incList = document.getElementById('inclusions-list');
+      (pkg.inclusions || []).forEach(inc => {
+        const li = document.createElement('li');
+        li.className = 'flex items-start gap-2 text-sm text-green-800';
+        li.innerHTML = `<svg class="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>${inc}</span>`;
+        incList.appendChild(li);
+      });
+
+      const excList = document.getElementById('exclusions-list');
+      (pkg.exclusions || []).forEach(exc => {
+        const li = document.createElement('li');
+        li.className = 'flex items-start gap-2 text-sm text-red-800';
+        li.innerHTML = `<svg class="w-4 h-4 text-red-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg><span>${exc}</span>`;
+        excList.appendChild(li);
+      });
+
+      // ── Installments ──
+      if (pkg.installments && pkg.installments.length > 0) {
+        document.getElementById('installments-section').classList.remove('hidden');
+        const tbody = document.getElementById('installments-body');
+        pkg.installments.forEach(inst => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td class="font-semibold">${inst.name}</td><td>${inst.amount}</td><td class="text-orange font-semibold">${inst.dueBy}</td>`;
+          tbody.appendChild(tr);
+        });
+      }
+
+      // ── Cancellation ──
+      if (pkg.cancellation && pkg.cancellation.length > 0) {
+        document.getElementById('cancellation-section').classList.remove('hidden');
+        const tbody = document.getElementById('cancellation-body');
+        pkg.cancellation.forEach(row => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td>${row.deadline}</td><td class="font-semibold text-red-600">${row.deduction}</td>`;
+          tbody.appendChild(tr);
+        });
+      }
+
+      // ── Sidebar ──
+      document.getElementById('sidebar-price').textContent = pkg.priceLabel;
+      document.getElementById('sidebar-price-note').textContent = pkg.priceNote;
+      document.getElementById('sidebar-dates').textContent = pkg.dates;
+      document.getElementById('sidebar-duration').textContent = pkg.duration;
+      document.getElementById('sidebar-last-booking').textContent = pkg.lastBooking;
+
+      // WhatsApp pre-filled message
+      const waMsg = encodeURIComponent(`Hi! I'm interested in the *${pkg.title}* (${pkg.dates}) package. Please share more details.`);
+      document.getElementById('sidebar-whatsapp').href = `https://wa.me/919076068549?text=${waMsg}`;
+      document.getElementById('wa-float-btn').href = `https://wa.me/919076068549?text=${waMsg}`;
+
+      // Sidebar inclusions (first 5)
+      const sideInc = document.getElementById('sidebar-inclusions');
+      (pkg.inclusions || []).slice(0, 5).forEach(inc => {
+        const li = document.createElement('li');
+        li.className = 'flex items-start gap-2 text-xs text-gray-700';
+        li.innerHTML = `<svg class="w-3.5 h-3.5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>${inc}</span>`;
+        sideInc.appendChild(li);
+      });
+      if ((pkg.inclusions || []).length > 5) {
+        const more = document.createElement('li');
+        more.className = 'text-xs text-navy font-semibold mt-1';
+        more.textContent = `+ ${pkg.inclusions.length - 5} more…`;
+        sideInc.appendChild(more);
+      }
+
+      // Show content
+      document.getElementById('loading-state').classList.add('hidden');
+      document.getElementById('main-content').classList.remove('hidden');
+    })();
+
+    function showError(msg) {
+      document.getElementById('loading-state').classList.add('hidden');
+      const el = document.getElementById('error-state');
+      el.classList.remove('hidden');
+      if (msg) {
+        const p = el.querySelector('p');
+        if (p) p.textContent = msg;
+      }
+    }
+
+    function toggleAccordion(btn) {
+      const body = btn.nextElementSibling;
+      const icon = btn.querySelector('.accordion-icon');
+      const isOpen = body.classList.contains('open');
+      // Close all
+      document.querySelectorAll('.accordion-body').forEach(b => b.classList.remove('open'));
+      document.querySelectorAll('.accordion-icon').forEach(i => i.classList.remove('open'));
+      if (!isOpen) {
+        body.classList.add('open');
+        icon.classList.add('open');
+      }
+    }
+  </script>
+</body>
+</html>

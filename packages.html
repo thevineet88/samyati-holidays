@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="icon" href="assets/samyati-logo-cropped.png" type="image/png"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>All Packages, Samyati Holidays</title>
+  <meta name="description" content="Explore all group tour packages from Samyati Holidays. Spiritual, adventure and nature tours departing from Mumbai."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { navy: '#2D2E6E', orange: '#F47920', 'light-gray': '#F5F6FA', 'dark-gray': '#2C2C2C', muted: '#6B7280' }, fontFamily: { poppins: ['Poppins','sans-serif'], inter: ['Inter','sans-serif'] } } }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="font-inter text-dark-gray">
+
+<!-- NAV -->
+<nav id="main-nav" class="fixed top-0 left-0 right-0 z-50 bg-white transition-shadow duration-300">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <a href="index.html" class="flex items-center gap-2">
+        <img src="assets/samyati-logo-cropped.png" alt="Samyati Holidays" class="h-16 w-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+        <div class="hidden items-center gap-1"><span class="font-poppins font-bold text-navy text-lg">SAMYATI</span><span class="font-poppins text-orange text-xs ml-1" style="font-style:italic">Holidays</span></div>
+      </a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="packages.html" class="nav-link active">Packages</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+      <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20enquire%20about%20your%20packages." target="_blank" class="hidden md:flex btn-orange items-center gap-2 text-sm py-2 px-4">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp Us
+      </a>
+      <button id="menu-btn" class="md:hidden p-2 rounded-md text-dark-gray hover:bg-light-gray">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="md:hidden bg-white border-t border-gray-100 px-4 py-4 space-y-3">
+    <a href="index.html" class="block nav-link py-2">Home</a>
+    <a href="packages.html" class="block nav-link py-2">Packages</a>
+    <a href="about.html" class="block nav-link py-2">About Us</a>
+    <a href="contact.html" class="block nav-link py-2">Contact</a>
+    <a href="https://wa.me/919076068549" target="_blank" class="btn-orange w-full text-center mt-2 block">WhatsApp Us</a>
+  </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<section class="pt-28 pb-12 bg-navy">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <p class="text-orange font-poppins font-semibold text-sm tracking-widest uppercase mb-3">Explore India With Us</p>
+    <h1 class="font-poppins font-bold text-white text-4xl md:text-5xl mb-4">All Packages</h1>
+    <p class="text-white/70 text-lg max-w-xl mx-auto">Group departures from Mumbai, spiritual pilgrimages, mountain adventures, and coastal escapes. All-inclusive, all organized.</p>
+  </div>
+</section>
+
+<!-- FILTER TABS -->
+<section class="bg-white border-b border-gray-100 sticky top-16 z-40">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="flex flex-wrap gap-3 justify-center">
+      <button class="filter-tab active" data-cat="all">All Packages</button>
+      <button class="filter-tab" data-cat="spiritual">Spiritual</button>
+      <button class="filter-tab" data-cat="adventure">Adventure</button>
+      <button class="filter-tab" data-cat="nature">Nature &amp; Hills</button>
+      <button class="filter-tab" data-cat="beach">Beach</button>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES GRID -->
+<section class="py-12 bg-light-gray">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- 1: Ujjain-Indore -->
+      <div class="pkg-card-wrap" data-cat="spiritual">
+        <div class="package-card">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80" alt="Mahakaleshwar Ujjain"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Spiritual</span>
+            <span class="absolute top-3 right-3 bg-green-500 text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Seats Available</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Ujjain – Indore – Omkareshwar</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="chip">🗓 5D / 4N</span>
+              <span class="chip">📅 Jun 2026</span>
+              <span class="chip">🚂 Train</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="chip">Mahakaleshwar</span>
+              <span class="chip">Omkareshwar</span>
+              <span class="chip">Mahakal Corridor</span>
+            </div>
+            <div class="mt-auto">
+              <p class="text-muted text-xs mb-1">Starting from</p>
+              <p class="font-poppins font-bold text-orange text-2xl mb-4">₹8,999<span class="text-sm font-semibold text-muted">/-</span></p>
+              <div class="flex gap-2">
+                <a href="package-detail.html?slug=ujjain-indore" class="btn-navy flex-1 text-sm py-2">View Details</a>
+                <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20the%20Ujjain-Indore-Omkareshwar%20package.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2: Gokarna -->
+      <div class="pkg-card-wrap" data-cat="beach spiritual">
+        <div class="package-card">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80" alt="Gokarna"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Beach</span>
+            <span class="absolute top-3 right-3 bg-green-500 text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Seats Available</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Gokarna – Murudeshwar</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="chip">🗓 5D / 4N</span>
+              <span class="chip">📅 Aug 2026</span>
+              <span class="chip">🚂 Train</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="chip">Gokarna Beach</span>
+              <span class="chip">Murudeshwar Shiva</span>
+              <span class="chip">Yana Caves</span>
+            </div>
+            <div class="mt-auto">
+              <p class="text-muted text-xs mb-1">Starting from</p>
+              <p class="font-poppins font-bold text-orange text-2xl mb-4">₹9,999<span class="text-sm font-semibold text-muted">/-</span></p>
+              <div class="flex gap-2">
+                <a href="package-detail.html?slug=gokarna-murudeshwar" class="btn-navy flex-1 text-sm py-2">View Details</a>
+                <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20the%20Gokarna-Murudeshwar%20package.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3: Nainital-Mussoorie -->
+      <div class="pkg-card-wrap" data-cat="adventure nature">
+        <div class="package-card">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=80" alt="Nainital"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span>
+            <span class="absolute top-3 right-3 bg-green-500 text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Seats Available</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Nainital – Mussoorie</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="chip">🗓 9D / 8N</span>
+              <span class="chip">📅 Apr 2026</span>
+              <span class="chip">🚂 Train</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="chip">Jim Corbett Safari</span>
+              <span class="chip">River Rafting</span>
+              <span class="chip">Kainchi Dham</span>
+            </div>
+            <div class="mt-auto">
+              <p class="text-muted text-xs mb-1">Starting from</p>
+              <p class="font-poppins font-bold text-orange text-2xl mb-4">₹19,499<span class="text-sm font-semibold text-muted">/-</span></p>
+              <div class="flex gap-2">
+                <a href="package-detail.html?slug=nainital-mussoorie" class="btn-navy flex-1 text-sm py-2">View Details</a>
+                <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20the%20Nainital-Mussoorie%20package.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4: Ayodhya-Kashi-Prayagraj -->
+      <div class="pkg-card-wrap" data-cat="spiritual">
+        <div class="package-card">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=80" alt="Varanasi"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Spiritual</span>
+            <span class="absolute top-3 right-3 bg-green-500 text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Seats Available</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Ayodhya – Kashi – Prayagraj</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="chip">🗓 6D / 5N</span>
+              <span class="chip">📅 Sep 2026</span>
+              <span class="chip">🚂 Train</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="chip">Ram Mandir</span>
+              <span class="chip">Kashi Vishwanath</span>
+              <span class="chip">Triveni Sangam</span>
+            </div>
+            <div class="mt-auto">
+              <p class="text-muted text-xs mb-1">Starting from</p>
+              <p class="font-poppins font-bold text-orange text-2xl mb-4">₹14,444<span class="text-sm font-semibold text-muted">/-</span></p>
+              <div class="flex gap-2">
+                <a href="package-detail.html?slug=ayodhya-kashi-prayagraj" class="btn-navy flex-1 text-sm py-2">View Details</a>
+                <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20the%20Ayodhya-Kashi-Prayagraj%20package.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5: Kedarnath-Badrinath -->
+      <div class="pkg-card-wrap" data-cat="spiritual">
+        <div class="package-card">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Kedarnath"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Spiritual</span>
+            <span class="absolute top-3 right-3 bg-green-500 text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Seats Available</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Kedarnath – Badrinath Yatra</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="chip">🗓 11D / 10N</span>
+              <span class="chip">📅 Sep 2026</span>
+              <span class="chip">🚂 Train</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="chip">Kedarnath Trek</span>
+              <span class="chip">Badrinath Darshan</span>
+              <span class="chip">Ganga Aarti</span>
+            </div>
+            <div class="mt-auto">
+              <p class="text-muted text-xs mb-1">Starting from</p>
+              <p class="font-poppins font-bold text-orange text-2xl mb-4">₹21,111<span class="text-sm font-semibold text-muted">/-</span></p>
+              <div class="flex gap-2">
+                <a href="package-detail.html?slug=kedarnath-badrinath" class="btn-navy flex-1 text-sm py-2">View Details</a>
+                <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Kedarnath-Badrinath%20Yatra.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6: Rameshwaram -->
+      <div class="pkg-card-wrap" data-cat="spiritual">
+        <div class="package-card">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&q=80" alt="Rameshwaram"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Spiritual</span>
+            <span class="absolute top-3 right-3 bg-green-500 text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Seats Available</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Rameshwaram – Kanyakumari</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="chip">🗓 8D / 7N</span>
+              <span class="chip">📅 Oct 2026</span>
+              <span class="chip">🚂 Train</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="chip">Ramanathaswamy</span>
+              <span class="chip">Kanyakumari</span>
+              <span class="chip">Meenakshi Temple</span>
+            </div>
+            <div class="mt-auto">
+              <p class="text-muted text-xs mb-1">Starting from</p>
+              <p class="font-poppins font-bold text-orange text-2xl mb-4">₹15,999<span class="text-sm font-semibold text-muted">/-</span></p>
+              <div class="flex gap-2">
+                <a href="package-detail.html?slug=rameshwaram" class="btn-navy flex-1 text-sm py-2">View Details</a>
+                <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20the%20Rameshwaram%20package.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7: Kerala -->
+      <div class="pkg-card-wrap" data-cat="nature">
+        <div class="package-card">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&q=80" alt="Kerala"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Nature</span>
+            <span class="absolute top-3 right-3 bg-green-500 text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Seats Available</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Kerala Trip</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="chip">🗓 8D / 7N</span>
+              <span class="chip">📅 Oct 2026</span>
+              <span class="chip">🚂 Train</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="chip">Munnar Tea Gardens</span>
+              <span class="chip">Alleppey Houseboat</span>
+              <span class="chip">Thekkady</span>
+            </div>
+            <div class="mt-auto">
+              <p class="text-muted text-xs mb-1">Starting from</p>
+              <p class="font-poppins font-bold text-orange text-2xl mb-4">₹15,555<span class="text-sm font-semibold text-muted">/-</span></p>
+              <div class="flex gap-2">
+                <a href="package-detail.html?slug=kerala" class="btn-navy flex-1 text-sm py-2">View Details</a>
+                <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20the%20Kerala%20package.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8: Sikkim-Darjeeling -->
+      <div class="pkg-card-wrap" data-cat="adventure nature">
+        <div class="package-card">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Sikkim"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span>
+            <span class="absolute top-3 right-3 bg-green-500 text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Seats Available</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Sikkim – Darjeeling</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="chip">🗓 7D / 6N</span>
+              <span class="chip">📅 Sep 2026</span>
+              <span class="chip">✈️ Flight</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="chip">Tsomgo Lake</span>
+              <span class="chip">Tiger Hill Sunrise</span>
+              <span class="chip">Toy Train</span>
+            </div>
+            <div class="mt-auto">
+              <p class="text-muted text-xs mb-1">Starting from</p>
+              <p class="font-poppins font-bold text-orange text-2xl mb-4">₹27,777<span class="text-sm font-semibold text-muted">/-</span></p>
+              <div class="flex gap-2">
+                <a href="package-detail.html?slug=sikkim-darjeeling" class="btn-navy flex-1 text-sm py-2">View Details</a>
+                <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20the%20Sikkim-Darjeeling%20package.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coming Soon cards -->
+      <div class="pkg-card-wrap" data-cat="spiritual">
+        <div class="package-card opacity-90">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&q=80" alt="Varanasi"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Spiritual</span>
+            <span class="coming-soon-badge">Coming Soon</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Varanasi – Prayagraj</h3>
+            <div class="flex flex-wrap gap-2 mb-3"><span class="chip">🗓 6D / 5N</span><span class="chip">📅 Jan 2027</span></div>
+            <p class="text-muted text-sm leading-relaxed mb-4">Ghats of Varanasi, Sangam at Prayagraj, Kashi Vishwanath darshan, a spiritual journey like no other.</p>
+            <div class="mt-auto">
+              <a href="https://wa.me/919076068549?text=Hi!%20I%20want%20to%20know%20more%20about%20the%20upcoming%20Varanasi-Prayagraj%20tour." target="_blank" class="btn-outline-navy w-full text-sm py-2">Notify Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pkg-card-wrap" data-cat="adventure">
+        <div class="package-card opacity-90">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=600&q=80" alt="Ladakh"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span>
+            <span class="coming-soon-badge">Coming Soon</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Ladakh – Pangong Lake</h3>
+            <div class="flex flex-wrap gap-2 mb-3"><span class="chip">🗓 8D / 7N</span><span class="chip">📅 Jul 2027</span></div>
+            <p class="text-muted text-sm leading-relaxed mb-4">The roof of the world, Magnetic Hill, Pangong Lake, Khardung La and monasteries in the sky.</p>
+            <div class="mt-auto">
+              <a href="https://wa.me/919076068549?text=Hi!%20I%20want%20to%20know%20more%20about%20the%20upcoming%20Ladakh%20tour." target="_blank" class="btn-outline-navy w-full text-sm py-2">Notify Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pkg-card-wrap" data-cat="nature">
+        <div class="package-card opacity-90">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=600&q=80" alt="Meghalaya"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Nature</span>
+            <span class="coming-soon-badge">Coming Soon</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Meghalaya – Cherrapunji</h3>
+            <div class="flex flex-wrap gap-2 mb-3"><span class="chip">🗓 7D / 6N</span><span class="chip">📅 Oct 2026</span></div>
+            <p class="text-muted text-sm leading-relaxed mb-4">Living root bridges, Nohkalikai Falls, Dawki river, the abode of clouds is like nowhere else on earth.</p>
+            <div class="mt-auto">
+              <a href="https://wa.me/919076068549?text=Hi!%20I%20want%20to%20know%20more%20about%20the%20upcoming%20Meghalaya%20tour." target="_blank" class="btn-outline-navy w-full text-sm py-2">Notify Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pkg-card-wrap" data-cat="nature">
+        <div class="package-card opacity-90">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600&q=80" alt="Kerala"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Nature</span>
+            <span class="coming-soon-badge">Coming Soon</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Kerala Backwaters</h3>
+            <div class="flex flex-wrap gap-2 mb-3"><span class="chip">🗓 6D / 5N</span><span class="chip">📅 Dec 2026</span></div>
+            <p class="text-muted text-sm leading-relaxed mb-4">Houseboat stays in Alleppey, Munnar tea estates, Periyar wildlife reserve, God's own country at its finest.</p>
+            <div class="mt-auto">
+              <a href="https://wa.me/919076068549?text=Hi!%20I%20want%20to%20know%20more%20about%20the%20upcoming%20Kerala%20tour." target="_blank" class="btn-outline-navy w-full text-sm py-2">Notify Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pkg-card-wrap" data-cat="adventure">
+        <div class="package-card opacity-90">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600&q=80" alt="Andaman"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span>
+            <span class="coming-soon-badge">Coming Soon</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Andaman Islands</h3>
+            <div class="flex flex-wrap gap-2 mb-3"><span class="chip">🗓 6D / 5N</span><span class="chip">📅 Feb 2027</span></div>
+            <p class="text-muted text-sm leading-relaxed mb-4">Radhanagar Beach, Cellular Jail, glass-bottom kayaking, scuba diving, paradise with a history.</p>
+            <div class="mt-auto">
+              <a href="https://wa.me/919076068549?text=Hi!%20I%20want%20to%20know%20more%20about%20the%20upcoming%20Andaman%20tour." target="_blank" class="btn-outline-navy w-full text-sm py-2">Notify Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pkg-card-wrap" data-cat="spiritual">
+        <div class="package-card opacity-90">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=600&q=80" alt="Shirdi"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Spiritual</span>
+            <span class="coming-soon-badge">Coming Soon</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Shirdi – Shani Shingnapur – Trimbakeshwar</h3>
+            <div class="flex flex-wrap gap-2 mb-3"><span class="chip">🗓 3D / 2N</span><span class="chip">📅 TBA</span></div>
+            <p class="text-muted text-sm leading-relaxed mb-4">Maharashtra's most revered pilgrimage circuit, Sai Baba darshan, Shani temple and Trimbakeshwar Jyotirlinga.</p>
+            <div class="mt-auto">
+              <a href="https://wa.me/919076068549?text=Hi!%20I%20want%20to%20know%20more%20about%20the%20upcoming%20Shirdi%20tour." target="_blank" class="btn-outline-navy w-full text-sm py-2">Notify Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pkg-card-wrap" data-cat="nature">
+        <div class="package-card opacity-90">
+          <div class="relative">
+            <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&q=80" alt="Coorg"/>
+            <span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Nature</span>
+            <span class="coming-soon-badge">Coming Soon</span>
+          </div>
+          <div class="p-5 flex flex-col flex-1">
+            <h3 class="font-poppins font-bold text-navy text-lg mb-2">Coorg – Ooty – Mysore</h3>
+            <div class="flex flex-wrap gap-2 mb-3"><span class="chip">🗓 6D / 5N</span><span class="chip">📅 Nov 2026</span></div>
+            <p class="text-muted text-sm leading-relaxed mb-4">South India's best, coffee plantations of Coorg, cool Ooty hill stations and the royal Mysore Palace.</p>
+            <div class="mt-auto">
+              <a href="https://wa.me/919076068549?text=Hi!%20I%20want%20to%20know%20more%20about%20the%20upcoming%20Coorg-Ooty-Mysore%20tour." target="_blank" class="btn-outline-navy w-full text-sm py-2">Notify Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="py-12 bg-navy text-center">
+  <div class="max-w-2xl mx-auto px-4">
+    <h2 class="font-poppins font-bold text-white text-2xl md:text-3xl mb-3">Don't see what you're looking for?</h2>
+    <p class="text-white/70 mb-6">Drop us a WhatsApp message and tell us where you want to go. We plan custom group departures too.</p>
+    <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20have%20a%20custom%20travel%20request." target="_blank" class="btn-orange inline-flex items-center gap-2 text-base py-3 px-8">
+      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Chat With Us
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-navy text-white border-t border-white/10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
+      <div class="flex items-center gap-2">
+        <span class="font-poppins font-bold text-white">SAMYATI</span>
+        <span class="font-poppins text-orange" style="font-style:italic">Holidays</span>
+        <span class="text-white/50 mx-2">|</span>
+        <span class="text-white/60">Your journey, our expertise</span>
+      </div>
+      <div class="flex gap-6 text-white/60">
+        <a href="index.html" class="hover:text-orange">Home</a>
+        <a href="packages.html" class="hover:text-orange">Packages</a>
+        <a href="about.html" class="hover:text-orange">About</a>
+        <a href="contact.html" class="hover:text-orange">Contact</a>
+      </div>
+      <div class="flex gap-4">
+        <a href="https://wa.me/919076068549" target="_blank" class="text-white/60 hover:text-orange">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/samyati_holidays/" target="_blank" class="text-white/60 hover:text-orange">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+      </div>
+    </div>
+    <p class="text-center text-white/40 text-xs mt-6">© 2026 Samyati Holidays. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20enquire%20about%20your%20packages." target="_blank" class="wa-float">
+  <svg class="w-6 h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  <span class="hidden md:inline">Chat with us</span>
+</a>
+
+<script src="js/preloader.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
