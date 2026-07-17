@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.6;
   padding-right: 24px;
 }
-.accordion-body.open { max-height: 400px; }
+.accordion-body.open { max-height: 1200px !important; }
 .accordion-icon { transition: transform 0.3s; flex-shrink: 0; }
 .accordion-icon.open { transform: rotate(180deg); }
 

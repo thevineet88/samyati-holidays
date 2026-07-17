@@ -28,22 +28,29 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// ── Accordion ──
-document.querySelectorAll('.accordion-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const body = btn.nextElementSibling;
-    const icon = btn.querySelector('.accordion-icon');
-    const isOpen = body.classList.contains('open');
+// ── Accordion — collapse all on load, then toggle via inline style ──
+// Collapse all accordion bodies immediately — no CSS dependency
+document.querySelectorAll('.accordion-body').forEach(function (b) {
+  b.style.display = 'none';
+  b.classList.remove('open');
+});
 
-    // close all
-    document.querySelectorAll('.accordion-body').forEach(b => b.classList.remove('open'));
-    document.querySelectorAll('.accordion-icon').forEach(i => i.classList.remove('open'));
+document.addEventListener('click', function (e) {
+  var btn = e.target.closest('.accordion-btn');
+  if (!btn) return;
+  var body = btn.nextElementSibling;
+  var icon = btn.querySelector('.accordion-icon');
+  var isOpen = body && body.style.display !== 'none';
 
-    if (!isOpen) {
-      body.classList.add('open');
-      icon && icon.classList.add('open');
-    }
-  });
+  if (!isOpen && body) {
+    body.style.display = 'block';
+    body.classList.add('open');
+    icon && icon.classList.add('open');
+  } else if (isOpen && body) {
+    body.style.display = 'none';
+    body.classList.remove('open');
+    icon && icon.classList.remove('open');
+  }
 });
 
 // ── Package Filter Tabs ──
