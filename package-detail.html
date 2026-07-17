@@ -478,7 +478,8 @@
       // WhatsApp pre-filled message
       const waMsg = encodeURIComponent(`Hi! I'm interested in the *${pkg.title}* (${pkg.dates}) package. Please share more details.`);
       document.getElementById('sidebar-whatsapp').href = `https://wa.me/919076068549?text=${waMsg}`;
-      document.getElementById('wa-float-btn').href = `https://wa.me/919076068549?text=${waMsg}`;
+      const waFloat = document.querySelector('.wa-float');
+      if (waFloat) waFloat.href = `https://wa.me/919076068549?text=${waMsg}`;
 
       // Sidebar inclusions (first 5)
       const sideInc = document.getElementById('sidebar-inclusions');
