@@ -24,7 +24,7 @@
     + '<svg width="28" height="32" viewBox="0 0 28 32" fill="none"><path d="M14 0C8.477 0 4 4.477 4 10c0 7.5 10 22 10 22s10-14.5 10-22c0-5.523-4.477-10-10-10z" fill="#2D2E6E"/><circle cx="14" cy="10" r="4" fill="#F47920"/><path d="M11 12l3-6 3 6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>'
     + '<div><span class="font-poppins font-bold text-navy text-lg leading-none tracking-wide">SAMYATI</span><br/><span class="font-poppins text-orange text-xs" style="font-style:italic">Holidays</span></div>'
     + '</div></a>'
-    + '<span class="tagline-hand block text-navy text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap">Feeling <span class="fam">&ldquo;फॅमिली&rdquo;</span> वाली!</span>'
+    + '<span class="tagline-hand self-end block text-navy text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2">Feeling <span class="fam">&ldquo;फॅमिली&rdquo;</span> वाली!</span>'
     + '</div>'
     + '<div class="hidden md:flex items-center gap-8">'
     + '<a href="index.html" class="nav-link' + cl('home') + '">Home</a>'
