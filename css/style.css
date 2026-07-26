@@ -1,6 +1,6 @@
 /* Samyati Holidays — Custom CSS */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&family=Kalam:wght@400;700&display=swap');
 
 :root {
   --navy: #2D2E6E;
@@ -49,6 +49,15 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link.active { color: var(--navy); }
 .nav-link.active::after { width: 100%; }
 
+/* ── BRAND TAGLINE (handwritten) ── */
+.tagline-hand {
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+.tagline-hand .fam { color: var(--orange); }
+
 /* ── MAP PIN MOTIF ── */
 .pin-bullet {
   display: inline-block;
@@ -81,6 +90,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ── HERO ── */
+.hero-offset { padding-top: 7.5rem !important; }
+@media (min-width: 768px) { .hero-offset { padding-top: 8.5rem !important; } }
+
+/* Page header sections (about/contact/packages): a bit more than Tailwind's default pt-28 on desktop */
+@media (min-width: 768px) { .pt-28 { padding-top: 8rem !important; } }
+
 .hero-overlay {
   background: linear-gradient(to top, rgba(45,46,110,0.85) 0%, rgba(45,46,110,0.3) 50%, rgba(0,0,0,0.1) 100%);
 }
@@ -166,6 +181,22 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .btn-orange:hover { background: #d96510; transform: translateY(-1px); }
+
+.btn-whatsapp {
+  background: #25D366;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s, transform 0.15s;
+  text-align: center;
+}
+.btn-whatsapp:hover { background: #1ebe5a; transform: translateY(-1px); }
 
 .btn-outline-navy {
   background: transparent;
@@ -445,8 +476,8 @@ h1, h2, h3, h4, h5, h6 {
 /* ── WHY CARD ── */
 .why-card {
   background: white;
-  border-radius: 12px;
-  padding: 28px 24px;
+  border-radius: 16px;
+  padding: 36px 28px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   transition: box-shadow 0.2s, transform 0.2s;
 }
@@ -455,11 +486,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-3px);
 }
 .why-icon {
-  width: 52px; height: 52px;
+  width: 72px; height: 72px;
   background: #EEF0FF;
-  border-radius: 12px;
+  border-radius: 16px;
   display: flex; align-items: center; justify-content: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 /* ── FOOTER LOGO (white bg on navy) ── */
@@ -482,7 +513,7 @@ footer img[src*="samyati-logo"] {
   .why-icon { width: 40px; height: 40px; margin-bottom: 10px; }
 
   /* Section padding: reduce top/bottom whitespace */
-  section { padding-top: 2.5rem !important; padding-bottom: 2.5rem !important; }
+  section { padding-top: 2rem !important; padding-bottom: 2rem !important; }
   /* Keep trust bar compact */
   .trust-bar.py-8 { padding-top: 1.25rem !important; padding-bottom: 1.25rem !important; }
 
@@ -495,8 +526,8 @@ footer img[src*="samyati-logo"] {
   /* Hero section: less bottom padding */
   .hero-pb { padding-bottom: 4rem !important; }
 
-  /* Page header sections: reduce top pad */
-  .pt-28 { padding-top: 5.5rem !important; }
+  /* Page header sections: buffer below the shorter mobile nav (64px) */
+  .pt-28 { padding-top: 7rem !important; }
   .pb-16 { padding-bottom: 2rem !important; }
   .pb-12 { padding-bottom: 1.5rem !important; }
 }

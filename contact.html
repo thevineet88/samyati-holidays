@@ -8,10 +8,10 @@
   <meta name="description" content="Get in touch with Samyati Holidays. WhatsApp us on +91 90760 68549 or fill the enquiry form. We respond within 30 minutes."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&family=Kalam:wght@400;700&display=swap" rel="stylesheet"/>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>tailwind.config={theme:{extend:{colors:{navy:'#2D2E6E',orange:'#F47920','light-gray':'#F5F6FA','dark-gray':'#2C2C2C',muted:'#6B7280'},fontFamily:{poppins:['Poppins','sans-serif'],inter:['Inter','sans-serif']}}}}</script>
-  <link rel="stylesheet" href="css/style.css?v=4"/>
+  <link rel="stylesheet" href="css/style.css?v=6"/>
 </head>
 <body data-page="contact" class="font-inter text-dark-gray">
 
@@ -85,7 +85,7 @@
           <div>
             <p class="font-poppins font-semibold text-navy mb-1">Based In</p>
             <p class="text-dark-gray font-semibold">Airoli, Mumbai</p>
-            <p class="text-muted text-sm mt-1">All group tours depart from Mumbai</p>
+            <p class="text-muted text-sm mt-1">All group tours depart from Mumbai &amp; Pune</p>
           </div>
         </div>
 
@@ -112,7 +112,7 @@
           <h2 class="section-title text-2xl mt-1 mb-6">Enquiry Form</h2>
           <div class="form-success mb-4">Thank you! Your message has been sent. We'll WhatsApp you shortly.</div>
           <div class="form-error mb-4">Something went wrong. Please WhatsApp us directly at +91 90760 68549.</div>
-          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-async class="space-y-5">
+          <form action="https://formspree.io/f/xnjelqae" method="POST" data-async class="space-y-5">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label class="form-label">Full Name *</label>
@@ -129,14 +129,25 @@
             </div>
             <div>
               <label class="form-label">Package of Interest</label>
-              <select name="package" class="form-field">
-                <option value="">Select a package (optional)</option>
-                <option>Kedarnath – Badrinath Yatra (11 Days, Sep 2026)</option>
-                <option>Gokarna – Murudeshwar (5 Days, Aug 2026)</option>
-                <option>Sikkim – Darjeeling (7 Days, Sep 2026)</option>
-                <option>Not sure yet, tell me what's available</option>
-                <option>Custom / Other</option>
-              </select>
+              <input type="text" name="package" placeholder="e.g. Kedarnath-Badrinath, Kerala, or tell us what you're looking for" class="form-field"/>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="form-label">Starting From City *</label>
+                <select name="starting_city" required class="form-field">
+                  <option value="">Select</option>
+                  <option>Mumbai</option>
+                  <option>Pune</option>
+                </select>
+              </div>
+              <div>
+                <label class="form-label">Type of Tour *</label>
+                <select name="tour_type" required class="form-field">
+                  <option value="">Select</option>
+                  <option>Group Tour</option>
+                  <option>Customized Tour</option>
+                </select>
+              </div>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
@@ -160,6 +171,10 @@
               <label class="form-label">Your Message</label>
               <textarea name="message" rows="4" placeholder="Tell us about what you're looking for, any questions you have, special requirements..." class="form-field resize-none"></textarea>
             </div>
+            <p class="text-muted text-xs bg-light-gray rounded-lg px-4 py-3 -mt-1">
+              Don't see your ideal trip? We fully support <strong class="text-navy">customizable packages</strong>,
+              tell us your dates, destination, and group size, and we'll build a private itinerary just for you.
+            </p>
             <button type="submit" class="btn-orange w-full py-4 text-base flex items-center justify-center gap-2">
               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
               Send Enquiry
@@ -210,9 +225,9 @@
 </section>
 
 <!-- FOOTER -->
-<script src="js/components.js"></script>
+<script src="js/components.js?v=2"></script>
 <script src="js/preloader.js"></script>
-<script src="js/main.js?v=2"></script>
+<script src="js/main.js?v=3"></script>
 <div id="site-footer"></div>
 </body>
 </html>
