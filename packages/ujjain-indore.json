@@ -1,0 +1,83 @@
+{
+  "slug": "ujjain-indore",
+  "title": "Ujjain – Indore – Omkareshwar",
+  "subtitle": "Indore · Omkareshwar Jyotirlinga · Mahakaleshwar · Mahakal Corridor",
+  "dates": "25 – 29 June 2026",
+  "duration": "5 Days / 4 Nights",
+  "price": 8999,
+  "priceLabel": "₹8,999/-",
+  "priceNote": "per person (inclusive of train)",
+  "lastBooking": "Contact us",
+  "category": [
+    "spiritual"
+  ],
+  "hero": "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=600&q=80",
+    "https://images.unsplash.com/photo-1591018533941-dbb4c4ef5dc2?w=600&q=80",
+    "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600&q=80"
+  ],
+  "highlights": [
+    "Mahakaleshwar Jyotirlinga",
+    "Omkareshwar Jyotirlinga",
+    "Mahakal Corridor Ujjain",
+    "Lal Baug Palace Indore",
+    "56 Bhog Street Food Market"
+  ],
+  "inclusions": [
+    "SL Train Tickets (both ways)",
+    "Tempo Traveller for local sightseeing",
+    "3★ Accommodation",
+    "Breakfast & Dinner",
+    "Mineral Water",
+    "Entry Fees",
+    "First Aid",
+    "Tour Buddy"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Train Food",
+    "Lunch",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Pune Jn. — 2:45 PM, 25 Jun 2026 | Kalyan Jn. — 5:30 PM, 25 Jun 2026",
+    "train": "Train to Indore",
+    "arrival": "Return: 28 Jun evening, Arrive home 29 Jun"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train",
+      "description": "Board train at Pune Jn. at 2:45 PM or Kalyan Jn. at 5:30 PM. Overnight journey to Indore.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Indore Sightseeing",
+      "description": "Arrive Indore. Check in and freshen up. Explore Indore: Rajwada (historic palace), Lal Baug Palace, Kaanch Mandir (Glass Temple), Khajrana Ganesh Temple. Evening at the famous 56 Bhog Street Food Market. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Omkareshwar & Mahakal Corridor",
+      "description": "Morning visit to Omkareshwar Jyotirlinga — one of the 12 sacred Jyotirlingas located on an island shaped like the OM symbol. Evening: stroll through the magnificent Mahakal Corridor in Ujjain. Check in at hotel in Ujjain. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Ujjain Sightseeing & Depart",
+      "description": "Visit Mahakaleshwar Jyotirlinga — one of the 12 Jyotirlingas with the famous Bhasma Aarti. Visit Kalbhairav Temple, Harsiddhi Mata Temple, Maharishi Sandipani Ashram, and Mangalnath Temple. Board the return train in the evening.",
+      "meals": "Breakfast"
+    },
+    {
+      "day": 5,
+      "title": "Arrive Home",
+      "description": "Arrive at home station in the morning. Return Home with Sweet Memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [],
+  "cancellation": []
+}

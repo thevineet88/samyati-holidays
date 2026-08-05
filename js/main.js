@@ -1,14 +1,14 @@
 // Samyati Holidays — Main JS
 
 // ── Mobile Nav Toggle ──
-const menuBtn = document.getElementById('menu-btn');
+const menuBtn = document.getElementById('mobile-menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
 if (menuBtn && mobileMenu) {
   menuBtn.addEventListener('click', () => {
-    mobileMenu.classList.toggle('open');
+    mobileMenu.classList.toggle('hidden');
     const icon = menuBtn.querySelector('svg');
     // swap hamburger ↔ X
-    if (mobileMenu.classList.contains('open')) {
+    if (!mobileMenu.classList.contains('hidden')) {
       icon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>`;
     } else {
       icon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>`;
@@ -18,7 +18,7 @@ if (menuBtn && mobileMenu) {
 
 // ── Sticky Nav Shadow ──
 window.addEventListener('scroll', () => {
-  const nav = document.getElementById('main-nav');
+  const nav = document.getElementById('main-header');
   if (nav) {
     if (window.scrollY > 10) {
       nav.classList.add('shadow-md');
@@ -53,25 +53,86 @@ document.addEventListener('click', function (e) {
   }
 });
 
-// ── Package Filter Tabs ──
-const filterTabs = document.querySelectorAll('.filter-tab');
-const packageCards = document.querySelectorAll('.pkg-card-wrap');
+// ── Dynamic Package Renderer ──
+// Load packages-data.js (loaded after main.js in HTML), render all cards
+function renderPackageCard(pkg) {
+  const cats = pkg.category.map(c => {
+    const map = { spiritual: 'Spiritual', beach: 'Beach', adventure: 'Adventure', nature: 'Nature & Hills' };
+    return map[c] || c;
+  });
+  const catAttr = pkg.category.join(' ');
+  const isComingSoon = pkg.comingSoon === true;
+  const waMsg = encodeURIComponent('Hi Samyati Holidays! I am interested in the ' + pkg.title + ' package. Please share details.');
+  const notifyMsg = encodeURIComponent('Hi! I want to know more about the upcoming ' + pkg.title + ' tour.');
+  const opacityClass = isComingSoon ? ' opacity-90' : '';
+  const badgeClass = isComingSoon ? 'bg-orange text-white' : 'bg-green-500 text-white';
+  const badgeText = isComingSoon ? 'Coming Soon' : 'Seats Available';
+  const actionButtons = isComingSoon
+    ? '<a href="https://wa.me/919076068549?text=' + notifyMsg + '" target="_blank" class="btn-outline-navy w-full text-sm py-2">Notify Me</a>'
+    : '<a href="' + pkg.slug + '.html" class="btn-navy flex-1 text-sm py-2">View Details</a>' +
+      '<a href="https://wa.me/919076068549?text=' + waMsg + '" target="_blank" class="btn-whatsapp flex-1 text-sm py-2">WhatsApp Now</a>';
+  return '<div class="pkg-card-wrap" data-cat="' + catAttr + '">' +
+    '<div class="package-card' + opacityClass + '">' +
+      '<div class="relative">' +
+        '<img loading="lazy" decoding="async" src="' + pkg.hero.replace('w=1200', 'w=600') + '" alt="' + pkg.title + '"/>' +
+        '<span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">' + cats[0] + '</span>' +
+        '<span class="absolute top-3 right-3 ' + badgeClass + ' text-xs font-poppins font-semibold px-3 py-1 rounded-full">' + badgeText + '</span>' +
+      '</div>' +
+      '<div class="p-5 flex flex-col flex-1">' +
+        '<h3 class="font-poppins font-bold text-navy text-lg mb-2">' + pkg.title + '</h3>' +
+        '<div class="flex flex-wrap gap-2 mb-3">' +
+          '<span class="chip">\u{1F4C5} ' + pkg.duration + '</span>' +
+          '<span class="chip">\u{1F4C5} ' + pkg.dates + '</span>' +
+        '</div>' +
+        '<div class="flex flex-wrap gap-2 mb-4">' +
+          (pkg.highlights.slice(0, 3).map(h => '<span class="chip">' + h + '</span>').join('')) +
+        '</div>' +
+        '<div class="mt-auto">' +
+          (isComingSoon ? '' : '<p class="text-muted text-xs mb-1">Starting from</p>' +
+          '<p class="font-poppins font-bold text-orange text-2xl mb-4">' + pkg.priceLabel + '<span class="text-sm font-semibold text-muted">/-</span></p>') +
+          '<div class="flex gap-2">' + actionButtons + '</div>' +
+        '</div>' +
+      '</div>' +
+    '</div>' +
+  '</div>';
+}
 
-filterTabs.forEach(tab => {
-  tab.addEventListener('click', () => {
-    filterTabs.forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
+function initPackages() {
+  if (typeof SAMYATI_PACKAGES === 'undefined') return;
+  var grid = document.getElementById('packages-grid');
+  if (!grid) return;
 
-    const cat = tab.dataset.cat;
-    packageCards.forEach(card => {
-      if (cat === 'all' || card.dataset.cat === cat) {
-        card.style.display = '';
-      } else {
-        card.style.display = 'none';
-      }
+  var sorted = SAMYATI_PACKAGES.slice().sort(function(a, b) { return a.price - b.price; });
+
+  sorted.forEach(function(pkg) {
+    grid.insertAdjacentHTML('beforeend', renderPackageCard(pkg));
+  });
+
+  // Re-bind filter tabs to the dynamically rendered cards
+  var filterTabs = document.querySelectorAll('.filter-tab');
+  var packageCards = document.querySelectorAll('.pkg-card-wrap');
+
+  filterTabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      filterTabs.forEach(function(t) { t.classList.remove('active'); });
+      tab.classList.add('active');
+      var cat = tab.dataset.cat;
+      packageCards.forEach(function(card) {
+        if (cat === 'all' || card.dataset.cat.indexOf(cat) !== -1) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
     });
   });
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initPackages);
+} else {
+  initPackages();
+}
 
 // ── Async Form Submission ──
 document.querySelectorAll('form[data-async]').forEach(form => {

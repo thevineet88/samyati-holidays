@@ -1,0 +1,96 @@
+{
+  "slug": "manali-kasol",
+  "title": "Manali – Kasol",
+  "subtitle": "Solang Valley · Parvati Valley · Kasol Campsite · Adventure",
+  "dates": "08 – 15 April 2026",
+  "duration": "8 Days / 7 Nights",
+  "price": 17999,
+  "priceLabel": "₹17,999/-",
+  "priceNote": "per person (Sleeper) | ₹22,999/- (3AC)",
+  "lastBooking": "15 Mar 2026",
+  "category": [
+    "adventure",
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+  ],
+  "highlights": [
+    "Solang Valley Snow Activities",
+    "Hidimba Temple Manali",
+    "Kasol Parvati Valley",
+    "Tibetan Monastery",
+    "DJ Night in Manali"
+  ],
+  "inclusions": [
+    "Mumbai to Mumbai Train Tickets (3AC upgrade available)",
+    "Non-AC Bus for local transfers",
+    "Accommodation (3/4 Sharing)",
+    "Breakfast & Dinner",
+    "Entry Fees",
+    "Mineral Water",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Train Food",
+    "Lunch",
+    "Snow activities & clothes (at own cost)",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Mumbai Central (MMCT) — 5:30 PM, 08 Apr 2026",
+    "train": "Train to Ambala Cantt",
+    "arrival": "Reach Mumbai, 15 Apr 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)",
+      "meals": ""
+    },
+    {
+      "day": 2,
+      "title": "Train Journey & Reach Manali",
+      "description": "Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)",
+      "meals": ""
+    },
+    {
+      "day": 3,
+      "title": "Solang Valley Adventure",
+      "description": "Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)",
+      "meals": ""
+    },
+    {
+      "day": 4,
+      "title": "Manali Local Sightseeing",
+      "description": "Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)",
+      "meals": ""
+    },
+    {
+      "day": 5,
+      "title": "Manali to Kasol",
+      "description": "Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)",
+      "meals": ""
+    },
+    {
+      "day": 6,
+      "title": "Kasol & Parvati Valley",
+      "description": "Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)",
+      "meals": ""
+    },
+    {
+      "day": 7,
+      "title": "Kasol to Manali",
+      "description": "Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)",
+      "meals": ""
+    }
+  ],
+  "installments": [],
+  "cancellation": [],
+  "advisory": "Snow activities and snow clothes at own cost. Carry warm jackets. Good physical fitness recommended for valley treks."
+}

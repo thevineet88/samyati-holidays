@@ -1,0 +1,95 @@
+{
+  "slug": "mathura-vrindavan",
+  "title": "Mathura – Vrindavan",
+  "subtitle": "Banke Bihari · Prem Mandir · Barsana · Krishna Janmbhoomi",
+  "dates": "26 – 30 March 2026",
+  "duration": "5 Days / 4 Nights",
+  "price": 11111,
+  "priceLabel": "₹11,111/-",
+  "priceNote": "per person (Sleeper) | ₹13,666/- (3AC)",
+  "lastBooking": "23 Jan 2026",
+  "category": [
+    "spiritual"
+  ],
+  "hero": "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80"
+  ],
+  "highlights": [
+    "Banke Bihari Temple Vrindavan",
+    "Prem Mandir",
+    "Krishna Janmbhoomi Mathura",
+    "Barsana Govardhan Parikrama",
+    "ISKON Temple"
+  ],
+  "inclusions": [
+    "Both way SL Train Tickets (3AC upgrade available)",
+    "Non-AC Tempo Traveller/Bus for local sightseeing",
+    "Accommodation in 3★ Hotel (3/4 Sharing)",
+    "Local Auto for sightseeing",
+    "3 Breakfasts & 2 Dinners",
+    "Mineral Water (1L on sightseeing days)",
+    "Entry Fees",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Train Food",
+    "Lunch",
+    "Day 4 Dinner",
+    "Adventure/Activity charges",
+    "Damage to hotel room",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Bandra Terminus — 10:30 AM, 26 Mar 2026",
+    "train": "Paschim Express",
+    "arrival": "Reach Mumbai by 10:45 PM, 30 Mar 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "Reporting Station: Bandra Terminus. Reporting Time: 10:30 AM, 26 March 2026. Train: Paschim Express. Board train for Mathura. Overnight journey.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 2,
+      "title": "Vrindavan Sightseeing Reach Mathura station till 07:00 AM. Start your journey to",
+      "description": "27 March 2026 (Friday) stay at hotel. Mathura - Vrindavan",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Barsana Sightseeing Have breakfast & start visiting Barsana sightseeing cover an",
+      "description": "28 March 2026 (Saturday) places. By autorickshaws, we will complete Govardhan parikrama and covering some nearby holy spots. Also Vrindavan. Mathura - Vrindavan",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Gokul & Mathura Sightseeing Have breakfast &  check out from the hotel. Begin wi",
+      "description": "29 March 2026 (Sunday) birthplace of Lord Krishna, Krishna Janmbhoomi Mathura - Vrindavan",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Reach Mumbai",
+      "description": "Return train journey. Reach Mumbai by approximately 10:45 PM on 30 March 2026. Return home with sweet memories!",
+      "meals": "Breakfast & Dinner"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹6,111/- (SL) | ₹7,666/- (3AC)",
+      "dueBy": "23 Jan 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹5,000/- (SL) | ₹6,000/- (3AC)",
+      "dueBy": "02 Mar 2026"
+    }
+  ],
+  "cancellation": []
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "bhutan",
+  "title": "Bhutan",
+  "subtitle": "Phuntsholing · Thimphu · Paro",
+  "dates": "26 September – 02 October 2026",
+  "duration": "7 Days / 6 Nights",
+  "price": 33333,
+  "priceLabel": "₹33,333/-",
+  "priceNote": "per person",
+  "lastBooking": "05 April 2026",
+  "category": [
+    "adventure",
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+  ],
+  "highlights": [
+    "Thimphu Capital City",
+    "Tashichho Dzong",
+    "Buddha Dordenma Statue",
+    "Paro Dzong & National Museum",
+    "Traditional Bhutanese Culture"
+  ],
+  "inclusions": [
+    "Pickup & Drop from Bagdogra Airport",
+    "3★ Accommodation",
+    "All Transportation",
+    "Breakfast & Dinner",
+    "All Sightseeing",
+    "Tour Buddy",
+    "Immigration Processing"
+  ],
+  "exclusions": [
+    "Flights to Bagdogra (not included)",
+    "5% GST",
+    "Lunch",
+    "Personal expenses",
+    "Camera fees at monuments",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Bagdogra Airport (IXB) — 11:00 AM, 26 Sep 2026",
+    "train": "Fly to Bagdogra — drive to Phuntsholing",
+    "arrival": "Return: Bagdogra Airport, 02 Oct 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Bagdogra to Phuntsholing",
+      "description": "Meet at Bagdogra Airport by 11:00 AM. Drive approximately 5 hours to Phuntsholing (gateway to Bhutan). Immigration process completed en route. Photo stop at Zangto Pelri monastery. Dinner and hotel stay in Phuntsholing.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 2,
+      "title": "Phuntsholing to Thimphu",
+      "description": "Breakfast and check out. Drive approximately 5 hours to Thimphu. En route visit Kharbandi Gompa. In Thimphu visit BBS Clock Tower, Tashichho Dzong. Free time for shopping at local market. Dinner and overnight stay in Thimphu.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Thimphu Full-Day City Tour",
+      "description": "Breakfast. Full-day sightseeing in Thimphu. Visit Royal Takin Preserve, Buddha Dordenma Statue, Standing Buddha Park, National Library, Handicraft Centre, and Simply Bhutan. Return to hotel. Dinner and overnight stay in Thimphu.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Thimphu to Paro",
+      "description": "Breakfast and check out. Drive approximately 2 hours to Paro. Visit traditional Bhutanese beer brewery, National Museum (Ta Dzong), and Paro Dzong. Evening: traditional Bhutanese cultural program (at own expense). Dinner and overnight stay in Paro.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Tiger's Nest Trek",
+      "description": "Breakfast. Visit Taktsang Monastery (Tiger's Nest) — perched on a cliff at approximately 3,120 metres. The trek is approximately 12 km total from Paro town. After return, visit Drukgyel Dzong Viewpoint. Free time for shopping at local market. Dinner and overnight stay in Paro.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 6,
+      "title": "Paro to Bagdogra",
+      "description": "Breakfast and check out. Begin the approximately 9-hour road journey back to Bagdogra. Check in at hotel, have dinner. Overnight stay in Bagdogra.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 7,
+      "title": "Bagdogra to Home",
+      "description": "Breakfast and check out. Drop at Bagdogra Airport by approximately 9:00 AM. Catch your flight to your respective city.",
+      "meals": "Breakfast"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹13,333/-",
+      "dueBy": "05 April 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹10,000/-",
+      "dueBy": "05 June 2026"
+    },
+    {
+      "name": "3rd Installment",
+      "amount": "₹10,000/-",
+      "dueBy": "15 August 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 25 June 2026",
+      "deduction": "40%"
+    },
+    {
+      "deadline": "On/Before 05 September 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ],
+  "advisory": "Original Voter ID or Passport (valid 6+ months) mandatory. Aadhaar NOT accepted. PVC cards downloaded online NOT accepted. Carry warm clothing for high altitude.",
+  "flightNote": "Fly to Bagdogra (IXB). Meet at airport by 11:00 AM. Return flight from Bagdogra on 02 Oct 2026. Flights to be booked independently."
+}

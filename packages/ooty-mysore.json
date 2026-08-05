@@ -1,0 +1,112 @@
+{
+  "slug": "ooty-mysore",
+  "title": "Ooty – Mysore – Adiyogi",
+  "subtitle": "Mysore Palace · Ooty Lake · Adiyogi Shiva · Brindavan Gardens",
+  "dates": "16 – 21 April 2026",
+  "duration": "6 Days / 5 Nights",
+  "price": 14499,
+  "priceLabel": "₹14,499/-",
+  "priceNote": "per person (Sleeper) | ₹16,999/- (3AC)",
+  "lastBooking": "05 Feb 2026",
+  "category": [
+    "nature",
+    "adventure"
+  ],
+  "hero": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80"
+  ],
+  "highlights": [
+    "Mysore Palace",
+    "Brindavan Gardens",
+    "Ooty Botanical Garden & Lake",
+    "Doddabetta Peak",
+    "Adiyogi Shiva Statue Coimbatore"
+  ],
+  "inclusions": [
+    "Mumbai to Mumbai SL Train Tickets (3AC upgrade available)",
+    "Non-AC Bus for local sightseeing",
+    "Accommodation in 3★ Hotel (3-4 Sharing)",
+    "Breakfast & Dinner",
+    "Entry Fees",
+    "Tour Buddy"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Jeep Charges",
+    "Lunch",
+    "Meals during train journey",
+    "Boating/Ride Charges",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "CSMT Mumbai — 7:00 AM, 16 Apr 2026",
+    "train": "Train to Bangalore",
+    "arrival": "Reach Mumbai (Panvel) by 05:00 PM, 21 Apr 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Reach Bangalore & Drive to Mysore",
+      "description": "Reporting Station : CSMT : 07:00 AM 16 April 2026 (Thursday) Mumbai to Bangalore till 06:00 AM",
+      "meals": ""
+    },
+    {
+      "day": 2,
+      "title": "Mysore Sightseeing",
+      "description": "After breakfast, proceed for Mysore sightseeing. Visit Mysore Zoo, Mysore Palace, and Krishnaraja Sagar (KRS) Dam. Experience the royal heritage of the city. Dinner and overnight stay. 17 April 2026 (Friday)",
+      "meals": ""
+    },
+    {
+      "day": 3,
+      "title": "Travel to Ooty",
+      "description": "After breakfast, check out from hotel. Departure to Ooty (3-4 hrs). Check in at hotel. After rest, visit Doddabetta Park and Botanical Garden. Enjoy the cool Nilgiri air. Dinner and overnight stay. 18 April 2026 (Saturday)",
+      "meals": ""
+    },
+    {
+      "day": 4,
+      "title": "Ooty Sightseeing",
+      "description": "Breakfast Dinner & rest 19 April 2026 (Sunday) 1.Dolphin’s Nose 2.Sim’s Park",
+      "meals": ""
+    },
+    {
+      "day": 5,
+      "title": "Coimbatore Sightseeing & Adiyogi",
+      "description": "After breakfast, check out from hotel. Proceed to Coimbatore (3 hrs). Visit the magnificent Adiyogi Shiva statue, the 112-ft iconic landmark. Spend time in meditation and reflection. Dinner and overnight stay. 20 April 2026 (Monday)",
+      "meals": ""
+    },
+    {
+      "day": 6,
+      "title": "Return Journey to Mumbai",
+      "description": "After breakfast, check out from hotel. Board train for Mumbai. Reach Mumbai (Panvel station) by 05:00 PM. Return home with sweet memories! 21 April 2026 (Tuesday)",
+      "meals": ""
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹7,499/- (SL) | ₹9,999/- (3AC)",
+      "dueBy": "05 Feb 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹7,000/-",
+      "dueBy": "30 Mar 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 28 Feb 2026",
+      "deduction": "50%"
+    },
+    {
+      "deadline": "On/Before 05 Apr 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ]
+}

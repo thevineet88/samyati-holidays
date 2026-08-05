@@ -1,0 +1,108 @@
+{
+  "slug": "jaipur",
+  "title": "Jaipur",
+  "subtitle": "Amber Fort · Hawa Mahal · Khatu Shyam Ji · City Palace",
+  "dates": "12 – 16 March 2026",
+  "duration": "5 Days / 4 Nights",
+  "price": 9999,
+  "priceLabel": "₹9,999/-",
+  "priceNote": "per person (Sleeper) | ₹12,499/- (3AC)",
+  "lastBooking": "20 Feb 2026",
+  "category": [
+    "spiritual",
+    "adventure"
+  ],
+  "hero": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80"
+  ],
+  "highlights": [
+    "Amer Fort & Nahargarh",
+    "Hawa Mahal & City Palace",
+    "Jantar Mantar",
+    "Khatu Shyam Ji Darshan",
+    "Jal Mahal"
+  ],
+  "inclusions": [
+    "Both way Sleeper Train Tickets (3AC upgrade, ₹2,500 extra)",
+    "3★ Accommodation (3/4 Sharing)",
+    "AC Tempo Traveller for Sightseeing",
+    "3 Breakfasts & 2 Dinners",
+    "1L Mineral Water on sightseeing days",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Entry Fees",
+    "Train Food",
+    "Lunch",
+    "Personal expenses",
+    "Ride/Boating charges",
+    "Damage to hotel room",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Bandra Terminus — 8:30 AM, 12 Mar 2026",
+    "train": "BDTS JP SPL Express",
+    "arrival": "Reach Mumbai by 11:20 AM, 16 Mar 2026 (09705 BDTS Nonstop SF Exp)"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "Reporting Station: Bandra Terminus. Reporting Time: 08:30 AM. Board train for Jaipur. Overnight journey. 12 March 2026 (Thursday)",
+      "meals": ""
+    },
+    {
+      "day": 2,
+      "title": "Jaipur Sightseeing",
+      "description": "Reach Jaipur by morning. Check in at hotel. Freshen up. After breakfast, proceed for city sightseeing. Visit Hawa Mahal, City Palace, and Jantar Mantar. Dinner and overnight stay. 13 March 2026 (Friday)",
+      "meals": ""
+    },
+    {
+      "day": 3,
+      "title": "Khatu Shyam Ji Darshan",
+      "description": "Early morning departure from hotel. Proceed to Khatu Shyam Ji darshan (3 hrs). Return to Jaipur by afternoon. Shopping time at local market. Dinner and overnight stay. 14 March 2026 (Saturday)",
+      "meals": ""
+    },
+    {
+      "day": 4,
+      "title": "Jaipur Sightseeing & Return",
+      "description": "After breakfast, proceed for remaining sightseeing places. Visit Amer Fort and local markets. In the evening, check out from hotel and proceed to railway station. Board train for Mumbai. 15 March 2026 (Sunday)",
+      "meals": ""
+    },
+    {
+      "day": 5,
+      "title": "Reach Mumbai",
+      "description": "Breakfast. Reach Jaipur Junction till 06:00 AM. Board train for Mumbai. Reach Mumbai by 11:20 AM, 16 March 2026. Return home with sweet memories!",
+      "meals": ""
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹4,999/- (SL) | ₹7,499/- (3AC)",
+      "dueBy": "20 Feb 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹5,000/- (Both)",
+      "dueBy": "02 Mar 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 28 Feb 2026",
+      "deduction": "50%"
+    },
+    {
+      "deadline": "On/Before 05 Mar 2026",
+      "deduction": "80%"
+    },
+    {
+      "deadline": "48 hrs till departure",
+      "deduction": "No Refund"
+    }
+  ]
+}

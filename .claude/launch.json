@@ -4,7 +4,7 @@
     {
       "name": "samyati-holidays",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "3456"],
+      "runtimeArgs": ["-m", "http.server", "3456", "--directory", "dist"],
       "port": 3456
     }
   ]

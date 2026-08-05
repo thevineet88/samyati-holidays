@@ -1,0 +1,87 @@
+{
+  "slug": "tadoba",
+  "title": "Tadoba",
+  "subtitle": "Jungle Safari \u00b7 Wildlife \u00b7 Tiger Reserve",
+  "dates": "01 \u2013 05 May 2026",
+  "duration": "5 Days / 4 Nights",
+  "price": 16999,
+  "priceLabel": "\u20b916,999/-",
+  "priceNote": "per person (Sleeper) | \u20b919,499/- (3AC)",
+  "lastBooking": "25 Feb 2026",
+  "category": [
+    "adventure",
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80"
+  ],
+  "highlights": [
+    "Tadoba Tiger Reserve",
+    "Jungle Safari (3 Gypsy Safaris)",
+    "Wildlife Spotting",
+    "Resort Stay in Nature",
+    "Nagpur Excursion"
+  ],
+  "inclusions": [
+    "To & Fro SL Train Tickets (3AC upgrade available)",
+    "AC Tempo Traveller transfers",
+    "Deluxe AC Accommodation (2-3 Sharing)",
+    "2 Breakfasts, 1 Lunch & 2 Dinners",
+    "3 Gypsy Jungle Safaris",
+    "Safari & Guide Charges",
+    "AC Transfers to Safari Gates",
+    "Mineral Water",
+    "First Aid",
+    "Tour Buddy"
+  ],
+  "exclusions": [
+    "Meals during train travel",
+    "Lunch (some days)",
+    "Gondola Ride charges",
+    "Adventure activities",
+    "Chain Vehicles",
+    "Beverages",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "CSMT Mumbai \u2014 6:00 PM, 01 May 2026",
+    "train": "Vidarbha Express",
+    "arrival": "Reach Mumbai by 06:45 AM, 05 May 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "01 May 2026 (Friday) \u2014 Reporting Station: Chhatrapati Shivaji Maharaj Terminus (CSMT). Board the train for Nagpur. Overnight train journey.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 2,
+      "title": "Reach Nagpur & Transfer to Resort",
+      "description": "02 May 2026 (Saturday) \u2014 Reach Nagpur by morning. Check in at hotel/resort. Freshen up. Enjoy breakfast. Afternoon jungle safari at Tadoba Tiger Reserve. Return to resort. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Jungle Safari Day",
+      "description": "03 May 2026 (Sunday) \u2014 Early morning jungle safari (best time for wildlife spotting). Return to resort for breakfast. Second safari in the afternoon. Free time to relax at the resort. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Return to Nagpur & Board Train",
+      "description": "04 May 2026 (Monday) \u2014 Breakfast. Check out from resort. Last morning safari at Tadoba. Return to Nagpur. Board return train for Mumbai. Overnight journey.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Reach Mumbai",
+      "description": "05 May 2026 (Tuesday) \u2014 Reach Mumbai by approximately 6:45 AM. Return home with sweet memories!",
+      "meals": "Breakfast & Dinner"
+    }
+  ],
+  "installments": [],
+  "cancellation": [],
+  "advisory": "Carry binoculars for wildlife viewing. Wear neutral-colored clothing. Follow all jungle safari rules strictly."
+}

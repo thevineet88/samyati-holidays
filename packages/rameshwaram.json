@@ -1,0 +1,126 @@
+{
+  "slug": "rameshwaram",
+  "title": "Rameshwaram Trip",
+  "subtitle": "Madurai · Rameshwaram · Kanyakumari · Trivandrum",
+  "dates": "28 Oct – 04 Nov 2026",
+  "duration": "8 Days / 7 Nights",
+  "price": 15999,
+  "priceLabel": "₹15,999/-",
+  "priceNote": "per person (Sleeper Class) | ₹18,666/- (3AC)",
+  "lastBooking": "30 July 2026",
+  "category": [
+    "spiritual"
+  ],
+  "hero": "https://images.unsplash.com/photo-1616136232539-4a5b0b27614a?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1591018533941-dbb4c4ef5dc2?w=600&q=80",
+    "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=600&q=80",
+    "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&q=80"
+  ],
+  "highlights": [
+    "Ramanathaswamy Temple — Char Dham",
+    "Meenakshi Amman Temple Madurai",
+    "Dhanushkodi Beach",
+    "Kanyakumari Sunrise/Sunset",
+    "Vivekananda Rock Memorial"
+  ],
+  "inclusions": [
+    "Both way SL Train Tickets (3AC upgrade available)",
+    "Non-AC Tempo Traveller / Bus for local sightseeing",
+    "Accommodation in 3★ Hotel (3/4 Sharing)",
+    "5 Breakfasts & 4 Dinners",
+    "Entry Fees",
+    "1L Mineral Water on sightseeing days",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Train Food",
+    "Lunch",
+    "Boating / Activities",
+    "Any damage to hotel room",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "LTT Mumbai — 8:00 PM, 28 Oct | Pune — 11:30 PM, 28 Oct 2026",
+    "train": "Nagarcoil Express (16339)",
+    "arrival": "Return: Netravati Exp (16346) for Mumbai | Cape Pune Exp (16382) for Pune"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train",
+      "description": "Board Nagarcoil Express (16339) at LTT Mumbai at 8:00 PM or Pune at 11:30 PM. Overnight train journey to South India.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Train Journey",
+      "description": "Continue train journey. Relax and prepare for your South India pilgrimage.",
+      "meals": "No Meals (train food at own cost)"
+    },
+    {
+      "day": 3,
+      "title": "Madurai Sightseeing",
+      "description": "Arrive Madurai at 4:30 AM. After freshening up, visit Thirumalai Nayakkar Palace and the magnificent Meenakshi Amman Temple. Check in and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Rameshwaram Sightseeing",
+      "description": "Visit Dhanushkodi Beach — the meeting point of Bay of Bengal and Indian Ocean. See the APJ Abdul Kalam Memorial House. Seek blessings at Ramanathaswamy Temple (one of the 12 Jyotirlingas & Char Dham). Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Kanyakumari Sightseeing",
+      "description": "Check out and head to Kanyakumari. En route visit Pamban Beach and APJ Abdul Kalam Museum. Visit Kanyakumari Temple and Vivekananda Rock Memorial. Witness the mesmerising sunset at Sunset Point. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 6,
+      "title": "Trivandrum Sightseeing",
+      "description": "Morning breakfast and head to Thiruvananthapuram. En route enjoy Poovar Backwaters (boating at own expense). Visit Sree Anantha Padmanabhaswamy Temple — one of the oldest and richest temples in India. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 7,
+      "title": "Depart to Mumbai",
+      "description": "Wake up call. Breakfast. Check out and reach station by 9:00 AM. Board Netravati Exp (16346) for Mumbaikars or Cape Pune Exp (16382) for Punekars. Enjoy the return journey with fellow travellers.",
+      "meals": "Breakfast"
+    },
+    {
+      "day": 8,
+      "title": "Reach Mumbai / Pune",
+      "description": "Reach LTT Mumbai by 5:00 PM and Pune station by 9:45 PM. Return Home with Sweet Memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹7,999/- (SL) | ₹9,666/- (3AC)",
+      "dueBy": "30 July 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹8,000/- (SL) | ₹9,000/- (3AC)",
+      "dueBy": "15 Sep 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 30 Aug 2026",
+      "deduction": "40%"
+    },
+    {
+      "deadline": "On/Before 10 Oct 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ]
+}

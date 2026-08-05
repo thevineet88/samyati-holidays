@@ -1,0 +1,117 @@
+{
+  "slug": "jagannath-puri",
+  "title": "Jagannath Puri",
+  "subtitle": "Puri · Konark · Bhubaneshwar · Odisha Temples",
+  "dates": "05 – 11 November 2025",
+  "duration": "7 Days / 6 Nights",
+  "price": 11111,
+  "priceLabel": "₹11,111/-",
+  "priceNote": "per person (Sleeper) | ₹13,666/- (3AC)",
+  "lastBooking": "17 Aug 2025",
+  "category": [
+    "spiritual"
+  ],
+  "hero": "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80"
+  ],
+  "highlights": [
+    "Jagannath Temple Puri",
+    "Konark Sun Temple",
+    "Lingaraj Temple Bhubaneshwar",
+    "Puri Beach",
+    "Nandankanan Zoo"
+  ],
+  "inclusions": [
+    "Both way Sleeper Train Tickets (3AC upgrade available)",
+    "Accommodation (2/3 Sharing)",
+    "Non-AC Bus for Sightseeing",
+    "3 Breakfasts & 2 Dinners",
+    "1L Mineral Water on sightseeing days",
+    "Entry Fees",
+    "First Aid",
+    "Tour Buddy"
+  ],
+  "exclusions": [
+    "Train Food",
+    "Lunch",
+    "Personal expenses",
+    "Damage to hotel room",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "LTT Mumbai — 11:30 PM, 05 Nov 2025",
+    "train": "Train to Puri",
+    "arrival": "Reach Mumbai by 04:30 AM, 11 Nov 2025"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "Reporting Station: Lokmanya Tilak Terminus. Reporting Time: 11:30 PM. Board train for Puri. Overnight journey. 05 November 2025",
+      "meals": ""
+    },
+    {
+      "day": 2,
+      "title": "Train Journey to Puri",
+      "description": "Enjoy the train journey. Play fun games with fellow travellers. Reach Puri by morning. Check in at hotel. Freshen up. Breakfast and rest. 06 November 2025",
+      "meals": ""
+    },
+    {
+      "day": 3,
+      "title": "Puri Sightseeing",
+      "description": "Arrive at Puri Station by 08:00 AM. Breakfast & check in at hotel. Visit the sacred Jagannath Temple for darshan. Spend evening at Puri Beach. Dinner and overnight stay at hotel. 07 November 2025",
+      "meals": ""
+    },
+    {
+      "day": 4,
+      "title": "Bhubaneshwar Sightseeing",
+      "description": "After breakfast, check out and drive to Bhubaneshwar (2 hrs). Visit Lingaraj Temple and Khandagiri Caves. Explore the ancient architecture. Dinner and overnight stay. 08 November 2025",
+      "meals": ""
+    },
+    {
+      "day": 5,
+      "title": "Konark & Chilika Lake",
+      "description": "After breakfast, check out and proceed for sightseeing. Visit Konark Sun Temple, a UNESCO World Heritage site. After lunch, enjoy boat ride at Chilika Lake with migratory birds and dolphins. Dinner and overnight stay. 09 November 2025",
+      "meals": ""
+    },
+    {
+      "day": 6,
+      "title": "Return Journey",
+      "description": "Enjoy breakfast & check out. Board train for Mumbai. Enjoy the return journey, recalling all the fun moments. Overnight journey. 10 November 2025",
+      "meals": ""
+    },
+    {
+      "day": 7,
+      "title": "Reach Mumbai",
+      "description": "Reach Mumbai at approximately 4:30 AM on 11 November 2025. Return home with sweet memories!",
+      "meals": ""
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹6,111/- (SL) | ₹8,666/- (3AC)",
+      "dueBy": "17 Aug 2025"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹5,000/- (Both)",
+      "dueBy": "25 Oct 2025"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 01 Oct 2025",
+      "deduction": "50%"
+    },
+    {
+      "deadline": "On/Before 02 Nov 2025",
+      "deduction": "80%"
+    },
+    {
+      "deadline": "48 hrs till departure",
+      "deduction": "No Refund"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "coorg",
+  "title": "Coorg",
+  "subtitle": "Madikeri · Abbey Falls · Talacauvery · Coffee Plantations",
+  "dates": "24 – 28 June 2026",
+  "duration": "5 Days / 4 Nights",
+  "price": 10999,
+  "priceLabel": "₹10,999/-",
+  "priceNote": "per person (Sleeper) | ₹13,499/- (3AC)",
+  "lastBooking": "10 Apr 2026",
+  "category": [
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80"
+  ],
+  "highlights": [
+    "Abbey Falls",
+    "Talacauvery Temple",
+    "Dubbare Elephant Camp",
+    "Golden Temple (Nisargdham)",
+    "Coffee Plantation Visit"
+  ],
+  "inclusions": [
+    "Sleeper Class Train Tickets both ways (3AC upgrade available)",
+    "Accommodation in Deluxe Hotel (2-3 Sharing)",
+    "Non-AC Bus for Sightseeing",
+    "3 Breakfasts & 2 Dinners",
+    "1L Mineral Water on sightseeing days",
+    "Guide Charges",
+    "All Entry Fees",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Lunch",
+    "Meals during train journey",
+    "Boating/Ride Charges",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Panvel Station — 10:30 AM, 24 Jun 2026",
+    "train": "Train to Mangaluru",
+    "arrival": "Reach Mumbai by 10:45 AM, 28 Jun 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "Reporting Station: Panvel Station. Reporting Time: 10:30 AM. Board train for Mangaluru. Overnight journey. 24 June 2026 (Wednesday)",
+      "meals": ""
+    },
+    {
+      "day": 2,
+      "title": "Reach Mangaluru & Travel to Coorg",
+      "description": "Arrive at Mangaluru Junction by 06:00 AM. Travel to Madikeri by Non-AC Bus (3 hrs). En-route breakfast. Check in at hotel. Freshen up. Evening at leisure. Dinner and overnight stay. 25 June 2026 (Thursday)",
+      "meals": ""
+    },
+    {
+      "day": 3,
+      "title": "Coorg Sightseeing",
+      "description": "After breakfast, proceed for Coorg sightseeing. Visit Dubare Elephant Camp for elephant interaction. Visit Golden Temple (Namdroling Monastery) in Bylakuppe. Explore local spice plantations. Dinner and overnight stay. 26 June 2026 (Friday)",
+      "meals": ""
+    },
+    {
+      "day": 4,
+      "title": "Abbey Falls & Departure",
+      "description": "After breakfast, check out from hotel. Visit Abbey Falls, the stunning cascade in the coffee plantations. Later, proceed to Mangaluru Junction Station. Board train for Mumbai. 27 June 2026 (Saturday)",
+      "meals": ""
+    },
+    {
+      "day": 5,
+      "title": "Reach Mumbai",
+      "description": "Reach Mumbai by approximately 10:45 AM on 28 June 2026. Return home with sweet memories!",
+      "meals": ""
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹5,999/- (SL) | ₹8,499/- (3AC)",
+      "dueBy": "20 Apr 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹5,000/-",
+      "dueBy": "05 Jun 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 30 Apr 2026",
+      "deduction": "40%"
+    },
+    {
+      "deadline": "On/Before 10 Jun 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ]
+}

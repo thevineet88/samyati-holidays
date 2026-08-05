@@ -1,0 +1,130 @@
+{
+  "slug": "sikkim-darjeeling",
+  "title": "Sikkim – Darjeeling",
+  "subtitle": "Gangtok · Pelling · Darjeeling · Toy Train",
+  "dates": "03 – 09 September 2026",
+  "duration": "7 Days / 6 Nights",
+  "price": 27777,
+  "priceLabel": "₹27,777/-",
+  "priceNote": "per person (flight not included — book separately)",
+  "lastBooking": "20 June 2026",
+  "category": [
+    "adventure",
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=80",
+    "https://images.unsplash.com/photo-1605649461784-bc37c5a22cc2?w=600&q=80"
+  ],
+  "highlights": [
+    "Tsomgo Lake at 12,400 ft",
+    "Nathula Pass at 14,500 ft",
+    "Darjeeling Toy Train Ride",
+    "Tiger Hill Sunrise at 2,590m",
+    "Pemayangtse Monastery"
+  ],
+  "flightNote": "Suggested flight: Indigo 6E 5305 (BOM 7:50 AM → IXB 10:50 AM) on 03 Sep 2026. Return: Akasa Air QP 1132 (IXB 1:55 PM → BOM 5:05 PM) on 09 Sep 2026. Flights to be booked independently.",
+  "inclusions": [
+    "Xylo/Ertiga/Innova for local sightseeing (AC inactive in hilly areas)",
+    "3★ Accommodation (2-3 Sharing)",
+    "Entry Fees",
+    "Breakfast & Dinner",
+    "Pelling Ropeway Tickets",
+    "Mineral Water (1L on sightseeing days)",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "Train / Airfare (book independently)",
+    "5% GST",
+    "Sharing cab for Nathula Pass",
+    "Nathula Entry Pass & Namchi Village",
+    "Toy Train Tickets",
+    "Travel/Medical Insurance",
+    "Camera Fees",
+    "Heater Charges",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Mumbai (BOM) → Bagdogra (IXB) — 03 Sep 2026",
+    "train": "Fly to Bagdogra — pickup at airport",
+    "arrival": "Return: Bagdogra (IXB) → Mumbai (BOM) — 09 Sep 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrive Bagdogra → Gangtok",
+      "description": "Fly to Bagdogra (IXB). Pickup at airport. Drive to Gangtok — 120 km (approx. 4.5 hrs). Check in at hotel. Evening at leisure to explore MG Marg. Dinner and overnight stay.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 2,
+      "title": "Tsomgo Lake & Baba Mandir",
+      "description": "Visit Tsomgo Lake at 12,400 ft — a glacial lake of stunning beauty. Proceed to New Baba Mandir at 13,200 ft. Optional visit to Nathula Pass at 14,500 ft (India-China border; own cost). Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Gangtok → Pelling via Namchi",
+      "description": "Check out and drive to Pelling. En route visit Siddheswar Dham at Namchi — a grand pilgrimage complex. Check in at hotel. Dinner and overnight stay in Pelling.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Pelling Sightseeing",
+      "description": "Visit Orange Garden, Rimbi Waterfalls, Pemayangtse Monastery (one of the oldest monasteries in Sikkim), Rabdantse Ruins, and Pelling Sky Walk. Enjoy Ropeway (ticket included). Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Pelling → Darjeeling",
+      "description": "Breakfast and check out. Drive to Darjeeling — 80 km (approx. 4 hrs). Check in at hotel. Enjoy the famous Toy Train ride: Darjeeling–Ghum–Darjeeling (at own cost; prior booking mandatory). Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 6,
+      "title": "Darjeeling Sightseeing",
+      "description": "Wake up at 4:00 AM for the spectacular sunrise from Tiger Hill (2,590m). Visit Himalayan Mountaineering Institute, Padmaja Naidu Zoological Park (closed Thursdays), Tenzing Rock, Tibetan Refugee Self-help Centre (closed Sundays), and Tea Garden (Chitrey outer view). Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 7,
+      "title": "Return Journey",
+      "description": "Packed breakfast and check out. Drive from Darjeeling to Bagdogra Airport (IXB). Board return flight to Mumbai. Return Home with Sweet Memories!",
+      "meals": "Breakfast"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹9,777/-",
+      "dueBy": "20 June 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹9,000/-",
+      "dueBy": "30 July 2026"
+    },
+    {
+      "name": "3rd Installment",
+      "amount": "₹9,000/-",
+      "dueBy": "20 Aug 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 05 Aug 2026",
+      "deduction": "40%"
+    },
+    {
+      "deadline": "On/Before 25 Aug 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ]
+}

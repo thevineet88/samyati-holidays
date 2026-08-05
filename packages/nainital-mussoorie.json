@@ -1,0 +1,138 @@
+{
+  "slug": "nainital-mussoorie",
+  "title": "Nainital – Mussoorie",
+  "subtitle": "Mussoorie · Rishikesh · Nainital · Jim Corbett · Kainchi Dham",
+  "dates": "03 – 11 April 2026",
+  "duration": "9 Days / 8 Nights",
+  "price": 19499,
+  "priceLabel": "₹19,499/-",
+  "priceNote": "per person (Sleeper Class) | ₹21,999/- (3AC)",
+  "lastBooking": "30 Jan 2026",
+  "category": [
+    "adventure",
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?w=600&q=80",
+    "https://images.unsplash.com/photo-1569324277816-53278c3cf8bb?w=600&q=80",
+    "https://images.unsplash.com/photo-1597150566623-9ed83c01f5cc?w=600&q=80"
+  ],
+  "highlights": [
+    "Jim Corbett Jungle Jeep Safari",
+    "Nainital Naini Lake",
+    "Kempty Falls Mussoorie",
+    "River Rafting Rishikesh",
+    "Kainchi Dham"
+  ],
+  "inclusions": [
+    "Mumbai to Mumbai SL Train Tickets (3AC upgrade available)",
+    "Non-AC Tempo Traveller for local sightseeing",
+    "Deluxe Hotel Accommodation (2-3 Sharing)",
+    "Jungle Safari (Jim Corbett)",
+    "Breakfast & Dinner",
+    "Entry Fees",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Meals during train journey",
+    "All day Lunch",
+    "Mineral Water",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Bandra Terminus — 11:00 PM, 03 Apr 2026",
+    "train": "Bandra Haridwar Express (19019)",
+    "arrival": "Reach Mumbai by 10:15 PM, 11 Apr 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train at Bandra",
+      "description": "Board Bandra Haridwar Express (19019) at Bandra Terminus at 11:00 PM. Overnight journey to Haridwar.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Train Journey",
+      "description": "Continue train journey. Rest and bond with your travel group.",
+      "meals": "No Meals (train food at own cost)"
+    },
+    {
+      "day": 3,
+      "title": "Arrive Haridwar → Mussoorie",
+      "description": "Arrive Haridwar at 8:00 AM. Proceed to Mussoorie — the Queen of Hills. Visit the famous Kempty Falls and enjoy the evening at Mall Road. Dinner and overnight stay.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Rishikesh Adventure",
+      "description": "Head to Rishikesh — the Yoga Capital of the World. Enjoy thrilling River Rafting on the Ganges. Visit Ram Jhula. Witness the evening Ganga Aarti. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Journey to Nainital via Kainchi Dham",
+      "description": "Breakfast and check out. Journey to Nainital. En route visit Kainchi Dham — a serene spiritual sanctuary and haven for tranquility. Check in at hotel. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 6,
+      "title": "Nainital Sightseeing",
+      "description": "Breakfast and sightseeing in Nainital. Seek blessings at Naina Devi Temple. Enjoy boating at Naini Lake (at own cost). Visit Eco Cave Garden. Evening shopping at Mall Road. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 7,
+      "title": "Jim Corbett Jungle Safari",
+      "description": "Breakfast and check out. Proceed to Jim Corbett National Park for an adventurous Jeep Safari through India's most renowned wildlife reserve — famed for Bengal tiger sightings and lush landscapes. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 8,
+      "title": "Travel to Delhi & Board Train",
+      "description": "Breakfast and check out. Catch the return train from Haridwar Junction by 12:00 PM. Board the overnight train back to Mumbai.",
+      "meals": "Breakfast"
+    },
+    {
+      "day": 9,
+      "title": "Reach Mumbai",
+      "description": "Reach Mumbai by 10:15 PM. Return Home with Sweet Memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹7,499/- (SL) | ₹9,999/- (3AC)",
+      "dueBy": "30 Jan 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹6,000/-",
+      "dueBy": "27 Feb 2026"
+    },
+    {
+      "name": "3rd Installment",
+      "amount": "₹6,000/-",
+      "dueBy": "23 Mar 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 20 Feb 2026",
+      "deduction": "50%"
+    },
+    {
+      "deadline": "On/Before 25 Mar 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ]
+}

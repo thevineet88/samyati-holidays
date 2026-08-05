@@ -1,0 +1,85 @@
+{
+  "slug": "hyderabad",
+  "title": "Hyderabad",
+  "subtitle": "Golconda Fort · Charminar · Ramoji Film City · Srisailam",
+  "dates": "17 – 21 January 2026",
+  "duration": "5 Days / 4 Nights",
+  "price": 13333,
+  "priceLabel": "₹9,999/-",
+  "priceNote": "per person",
+  "lastBooking": "10 Jan 2026",
+  "category": [
+    "spiritual",
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1575995872537-3793d29d972c?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1575995872537-3793d29d972c?w=1200&q=80"
+  ],
+  "highlights": [
+    "Golconda Fort",
+    "Charminar",
+    "Hussain Sagar Lake",
+    "Ramoji Film City",
+    "Mallikarjun Jyotirlinga Srisailam"
+  ],
+  "inclusions": [
+    "Both way SL Train Tickets (3AC upgrade available)",
+    "Non-AC Tempo Traveller/Bus for local sightseeing",
+    "Accommodation in 3★ Hotel (3/4 Sharing)",
+    "2 Breakfasts & 3 Dinners",
+    "Ramoji Film City Ticket",
+    "Mineral Water",
+    "Entry Fees",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Train Food",
+    "Lunch",
+    "Srisailam Darshan Passes (buy online)",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "CSMT Mumbai — 8:30 PM, 17 Jan | Pune Jn. — 1:15 AM, 18 Jan",
+    "train": "Train to Hyderabad",
+    "arrival": "Reach Pune by 09:00 AM, 21 Jan | Reach Mumbai by 1:15 PM, 21 Jan"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "Reporting Station: CSMT, Mumbai at 8:30 PM or Pune Junction at 1:15 AM. Board train for Hyderabad. Overnight train journey.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Hyderabad Sightseeing",
+      "description": "Reach Hyderabad Deccan Railway Station by approximately 12:00 PM. Transfer to hotel, check in, freshen up. Visit Golconda Fort, Charminar, and Hussain Sagar Lake. Dinner and rest at hotel.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Srisailam Darshan",
+      "description": "Start early by approximately 4:00 AM for Mallikarjun Jyotirlinga, Srisailam (one of the 12 Jyotirlingas and 18 Maha Shakti Peethas). Breakfast at local dhaba. Also visit Chhatrapati Shivaji Maharaj Temple. Return to hotel, dinner and rest.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Hyderabad Sightseeing",
+      "description": "Breakfast. Proceed for remaining Hyderabad sightseeing. Visit remaining attractions and explore the city. Dinner and overnight stay at hotel.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Reach Mumbai",
+      "description": "Breakfast and check out. Board return train for Mumbai. Reach Mumbai. Return home with sweet memories!",
+      "meals": "Breakfast"
+    }
+  ],
+  "installments": [],
+  "cancellation": [],
+  "advisory": "Participants can buy Srisailam darshan passes online before the trip. SPARSH: ₹500, ATHISEEGHRA: ₹300, SEEGHRA: ₹150."
+}

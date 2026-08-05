@@ -1,0 +1,106 @@
+{
+  "slug": "goa",
+  "title": "Goa",
+  "subtitle": "North Goa · South Goa · Beaches & Churches",
+  "dates": "06 – 10 March 2025",
+  "duration": "5 Days / 4 Nights",
+  "price": 9499,
+  "priceLabel": "₹9,499/-",
+  "priceNote": "per person (inclusive of bus) | ₹11,999/- (Double Sharing)",
+  "lastBooking": "28 Jan 2025",
+  "category": [
+    "beach"
+  ],
+  "hero": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80"
+  ],
+  "highlights": [
+    "Vagator & Chapora Fort",
+    "Old Goa Churches",
+    "Panjim & Miramar Beach",
+    "Boat Cruise",
+    "South Goa Beaches"
+  ],
+  "inclusions": [
+    "Mumbai to Goa AC Sleeper Bus Tickets",
+    "Goa to Mumbai AC Sleeper Bus Tickets",
+    "Non-AC Tempo Traveller/Bus for local sightseeing",
+    "Accommodation in Deluxe AC Hotel (3/4 Sharing)",
+    "3 Breakfasts & 2 Dinners",
+    "Entry Fees",
+    "Mineral Water (1L on sightseeing days)",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Meals during bus journey",
+    "Day 4 Dinner",
+    "Boating/Rides Charges",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Mumbai — 6:00 PM, 06 Mar | Pune — 9:30 PM, 06 Mar",
+    "train": "AC Sleeper Bus",
+    "arrival": "Reach Mumbai by 06:00 AM, 10 Mar | Reach Pune by 09:00 AM, 10 Mar"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Reach Goa & Check In",
+      "description": "Pickup from Mapusa by 10:00 AM. Proceed to Vagator Beach. Check in at hotel. Freshen up. Evening visit to Baga Beach and enjoy the Boat Cruise. Dinner and overnight stay. 06 March 2025",
+      "meals": ""
+    },
+    {
+      "day": 2,
+      "title": "North Goa Sightseeing",
+      "description": "After breakfast, proceed for North Goa sightseeing. Visit Calangute, Baga, and Anjuna beaches. Watch dolphins at Coco Beach. Dinner and overnight stay. 07 March 2025",
+      "meals": ""
+    },
+    {
+      "day": 3,
+      "title": "Old Goa & South Goa Sightseeing",
+      "description": "After breakfast, check out and proceed for South Goa sightseeing. Visit old Goa churches, Basilica of Bom Jesus, and Mangueshi Temple. Spend leisure time at Palolem Beach. Dinner and overnight stay. 08 March 2025",
+      "meals": ""
+    },
+    {
+      "day": 4,
+      "title": "South Goa Sightseeing & Leisure",
+      "description": "NOTE : Sequence of Sightseeing places may vary. Reach Pune & Mumbai by \" Return Home with Sweet Memories ! \"",
+      "meals": ""
+    },
+    {
+      "day": 5,
+      "title": "Reach Mumbai",
+      "description": "Reach Mumbai by approximately 9:00 AM. Return home with sweet memories!",
+      "meals": ""
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹5,499/-",
+      "dueBy": "28 Jan 2025"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹4,000/-",
+      "dueBy": "01 Mar 2025"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 30 Jan 2025",
+      "deduction": "40%"
+    },
+    {
+      "deadline": "On/Before 03 Mar 2025",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ]
+}

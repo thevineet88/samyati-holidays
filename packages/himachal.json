@@ -1,0 +1,136 @@
+{
+  "slug": "himachal",
+  "title": "Himachal Pradesh",
+  "subtitle": "Amritsar · Dharamshala · Manali · Kasol",
+  "dates": "22 – 30 January 2026",
+  "duration": "9 Days / 8 Nights",
+  "price": 16499,
+  "priceLabel": "₹16,499/-",
+  "priceNote": "per person (Sleeper) | ₹18,999/- (3AC)",
+  "lastBooking": "10 November 2025",
+  "category": [
+    "adventure",
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1626015365107-338e1a33e918?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1626015365107-338e1a33e918?w=1200&q=80"
+  ],
+  "highlights": [
+    "Amritsar & Golden Temple",
+    "Wagha Border Ceremony",
+    "Dharamshala & Dalai Lama Temple",
+    "Manali Solang Valley",
+    "Kasol & Parvati Valley"
+  ],
+  "inclusions": [
+    "Mumbai to Mumbai Train Tickets (3AC upgrade available)",
+    "Non-AC Tempo Traveller for local sightseeing",
+    "Accommodation in 3★ Hotel (3/4 Sharing)",
+    "Breakfast & Dinner",
+    "Entry Fees",
+    "Mineral Water",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Train Food",
+    "Lunch",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Mumbai Central (MMCT) — 10:00 AM, 22 Jan 2026",
+    "train": "Train to Amritsar",
+    "arrival": "Reach Mumbai, 30 Jan 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "Reporting Station: Mumbai Central Railway Station (MMCT). Train departure: 10:00 AM. Board train for Amritsar/Himachal Pradesh. Overnight journey.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Reach Amritsar",
+      "description": "Continue train journey. Reach Amritsar Junction by approximately 8:15 PM. Proceed to hotel, check in, take rest. Overnight at hotel in Amritsar.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Amritsar Sightseeing",
+      "description": "Breakfast at hotel. Visit Attari-Wagah Border. Visit Golden Temple in the evening. Free time for shopping at local market. Return to hotel, dinner, leisure time. Overnight at Amritsar.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Amritsar to Dharamshala",
+      "description": "Early breakfast and check out. Journey towards Dharamshala. Visit HPCA Cricket Stadium, BhagsuNag Waterfall, Dalai Lama Temple, and St. John Church. Check in at hotel, dinner, rest. Overnight at Dharamshala.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Dharamshala to Manali",
+      "description": "Early breakfast and check out. Journey towards Manali. Visit Hidimba Temple, Ghatotkach Temple, Tibetan Monastery, and Mall Road. Check in at hotel, dinner, rest. Overnight at Manali.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 6,
+      "title": "Solang Valley Adventure",
+      "description": "Breakfast. Proceed to Solang Valley for snow activities. Return to hotel, enjoy DJ Night, dinner, rest. Snow activities and clothes at own cost.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 7,
+      "title": "Manali to Manikaran to Kasol",
+      "description": "Breakfast and check out. Journey towards Manikaran. Visit Hot Water Springs and Manikaran Gurudwara. Continue to Kasol campsite. Leisure time, dinner, tent stay. Overnight at Kasol.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 8,
+      "title": "Kasol to Ambala",
+      "description": "Breakfast and check out. Proceed towards Ambala Cantt Junction. Opportunity for river rafting and paragliding (at own cost). Catch return train in the evening. Overnight train journey.",
+      "meals": "Breakfast"
+    },
+    {
+      "day": 9,
+      "title": "Reach Mumbai",
+      "description": "Return train journey to Mumbai. Expected arrival approximately 11:55 PM. Return home with sweet memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹6,600/- (SL) | ₹7,600/- (3AC)",
+      "dueBy": "10 November 2025"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹5,000/-",
+      "dueBy": "20 December 2025"
+    },
+    {
+      "name": "3rd Installment",
+      "amount": "₹4,899/- (SL) | ₹6,399/- (3AC)",
+      "dueBy": "15 January 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 22 December 2025",
+      "deduction": "40%"
+    },
+    {
+      "deadline": "On/Before 15 January 2026",
+      "deduction": "80%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ],
+  "advisory": "Carry warm clothing. High altitude areas may have cold weather. Good physical fitness recommended for trekking activities."
+}

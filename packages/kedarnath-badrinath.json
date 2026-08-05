@@ -1,0 +1,157 @@
+{
+  "slug": "kedarnath-badrinath",
+  "title": "Kedarnath – Badrinath",
+  "subtitle": "Haridwar · Kedarnath Trek · Badrinath · Rishikesh",
+  "dates": "26 Sep – 06 Oct 2026",
+  "duration": "11 Days / 10 Nights",
+  "price": 21111,
+  "priceLabel": "₹21,111/-",
+  "priceNote": "per person (Sleeper Class) | ₹23,777/- (3AC)",
+  "lastBooking": "10 May 2026",
+  "category": [
+    "spiritual"
+  ],
+  "hero": "https://images.unsplash.com/photo-1591679901834-e2a5ea59c5b5?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1626015365107-338e1a33e918?w=600&q=80",
+    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
+    "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=600&q=80"
+  ],
+  "highlights": [
+    "Kedarnath Temple (3,583m altitude)",
+    "21km Trek to Kedarnath",
+    "Badrinath Dham",
+    "Ganga Aarti at Haridwar",
+    "River Adventure at Rishikesh"
+  ],
+  "inclusions": [
+    "Mumbai to Mumbai SL Train Tickets (3AC upgrade available)",
+    "Non-AC Tempo Traveller for local sightseeing",
+    "Deluxe Hotels (3-4 Sharing)",
+    "6-7 Sharing rooms near Kedarnath Temple",
+    "Breakfast & Dinner",
+    "Entry Fees",
+    "Sonprayag to Sonprayag Jeep expense",
+    "First Aid",
+    "Tour Manager (Haridwar to Delhi)"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Meals during train journey",
+    "All day Lunch",
+    "Day 5 Breakfast",
+    "Mineral water",
+    "Boating / Ride Charges",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "advisory": "Age 16–50 required. Physical fitness mandatory for 21km Kedarnath trek. Dham Yatra rules apply. Alternative options (Horse/Helicopter/Doli) available at own cost.",
+  "travel": {
+    "departure": "Bandra Terminus — 11:00 PM, 26 Sep 2026",
+    "train": "Bandra Haridwar Express (19019)",
+    "arrival": "Reach Mumbai at 08:00 AM, 06 Oct 2026 (Punjab Mail 12138)"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train at Bandra",
+      "description": "Board Bandra Haridwar Express (19019) at Bandra Terminus at 11:00 PM. Overnight journey to Haridwar.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Train Journey",
+      "description": "Continue train journey to Haridwar. Relax and prepare for the spiritual journey ahead.",
+      "meals": "No Meals (train food at own cost)"
+    },
+    {
+      "day": 3,
+      "title": "Haridwar Sightseeing",
+      "description": "Arrive Haridwar at 7:45 AM. Take a holy dip at Har-ki-Pauri. Sightseeing in Haridwar. Witness the mesmerising Ganga Aarti in the evening. Check in and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Haridwar → Sonprayag",
+      "description": "Early morning check out at 5:00 AM. Start the 12-hour bus journey to Sonprayag. En route visit Devprayag — the sacred confluence of Alaknanda and Bhagirathi rivers. Dinner and overnight stay in Sonprayag.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Sonprayag → Kedarnath Trek",
+      "description": "Check out at 4:00 AM. Local Jeep to Gauri-Kund (base of trek). Begin the 21km trek to Kedarnath on foot. Alternatives: Horse/Helicopter/Doli at own cost. Dinner and overnight stay near Kedarnath Temple.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 6,
+      "title": "Kedarnath Darshan → Sonprayag",
+      "description": "Early morning darshan at Kedarnath Temple & Bhairavnath Temple (4:00–7:00 AM). After breakfast, begin the 21km descent to Gauri-Kund. Return to Sonprayag by Jeep. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 7,
+      "title": "Sonprayag → Badrinath",
+      "description": "Check out at 5:00 AM. 10-hour bus journey to Badrinath. Visit Shri Badrinath Temple. Dinner at nearby hotel. Overnight stay in Joshimath.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 8,
+      "title": "Badrinath → Rishikesh",
+      "description": "Check out at 5:00 AM. 10-hour journey to Rishikesh. Check in at hotel. Dinner and overnight stay in Rishikesh.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 9,
+      "title": "Rishikesh Sightseeing & Depart",
+      "description": "Check out at 9:00 AM. Adventure activities at Rishikesh (River Rafting etc. at own cost). Sightseeing in Rishikesh. Enroute dinner. Board overnight bus/train towards Delhi.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 10,
+      "title": "Delhi → Board Return Train",
+      "description": "Arrive Delhi at 4:00 AM. Board Punjab Mail (12138) for Mumbai. Rest in train.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 11,
+      "title": "Reach Mumbai",
+      "description": "Reach Mumbai at 8:00 AM. Return Home with Sweet Memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹7,111/- (SL) | ₹9,499/- (3AC)",
+      "dueBy": "10 May 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹7,000/-",
+      "dueBy": "30 June 2026"
+    },
+    {
+      "name": "3rd Installment",
+      "amount": "₹7,000/-",
+      "dueBy": "10 Sep 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "45+ days before departure",
+      "deduction": "Railway & hotel cancellation policies"
+    },
+    {
+      "deadline": "44–30 days before departure",
+      "deduction": "40%"
+    },
+    {
+      "deadline": "29–8 days before departure",
+      "deduction": "80%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ]
+}

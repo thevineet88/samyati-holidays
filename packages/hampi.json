@@ -1,0 +1,82 @@
+{
+  "slug": "hampi",
+  "title": "Hampi",
+  "subtitle": "Vijayanagara Ruins · Temple Architecture · Heritage",
+  "dates": "05 – 09 November 2025",
+  "duration": "5 Days / 4 Nights",
+  "price": 7999,
+  "priceLabel": "₹7,999/-",
+  "priceNote": "per person (inclusive of bus)",
+  "lastBooking": "25 Oct 2025",
+  "category": [
+    "nature",
+    "adventure"
+  ],
+  "hero": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=1200&q=80"
+  ],
+  "highlights": [
+    "Virupaksha Temple",
+    "Vittala Temple & Stone Chariot",
+    "Lotus Mahal",
+    "Elephant Stables",
+    "Underground Shiva Temple"
+  ],
+  "inclusions": [
+    "Mumbai to Hampi AC Bus Tickets (both ways)",
+    "Accommodation",
+    "Breakfast & Dinner",
+    "Entry Fees",
+    "Mineral Water",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Lunch",
+    "Meals during bus journey",
+    "Personal expenses",
+    "Coracle Ride (at own cost)",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Borivali — 2:00 PM, 05 Nov | Multiple pickup points across Mumbai",
+    "train": "AC Bus to Hampi",
+    "arrival": "Reach Mumbai, 09 Nov 2025"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Bus from Mumbai",
+      "description": "Boarding points: Borivali (2:00 PM), Sion (3:00 PM), Nerul LP (4:00 PM), Kalamboli MCD (5:00 PM), Wakad Bridge (7:30 PM), Navale Bridge (9:00 PM). Arrive 15 minutes before departure. Overnight bus journey towards Hosapete.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Hampi Sightseeing",
+      "description": "Reach Hosapete by approximately 6:00 AM. Freshen up in common dormitory rooms. Breakfast. Sightseeing: Underground Shiva Temple, Lotus Mahal, Elephant Stable, Queen's Bath Complex, Monolithic Nandi. Check into hotel. Dinner and overnight stay.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Hampi Sightseeing",
+      "description": "Breakfast. Visit Kondaram Temple, Sugreev Caves, King's Balance, Stone Chariot, and Vijay Vitthal Temple. Evening: Coracle Ride (at own expense). Shopping in Hampi streets. Return to hotel. Dinner and overnight stay.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Hampi Sightseeing + Return",
+      "description": "Breakfast. Visit Virupaksha Temple, Kadalekalu Ganesha, Sasivekalu Ganesha, Badavalinga Temple, and Ugra Narasimha Temple. After sightseeing, board bus for return journey to Mumbai.",
+      "meals": "Breakfast"
+    },
+    {
+      "day": 5,
+      "title": "Reach Mumbai",
+      "description": "Reach Mumbai by approximately 7:00 AM. Return home with sweet memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [],
+  "cancellation": []
+}

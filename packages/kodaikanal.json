@@ -1,0 +1,93 @@
+{
+  "slug": "kodaikanal",
+  "title": "Kodaikanal",
+  "subtitle": "Hill Station Escape \u00b7 Bryant Park \u00b7 Coakers Walk \u00b7 Pillar Rocks",
+  "dates": "26 Mar \u2013 01 Apr 2026",
+  "duration": "7 Days / 6 Nights",
+  "price": 10499,
+  "priceLabel": "\u20b910,499/-",
+  "priceNote": "per person (Sleeper) | \u20b912,999/- (3AC)",
+  "lastBooking": "20 Jan 2026",
+  "category": [
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80"
+  ],
+  "highlights": [
+    "Kodaikanal Lake",
+    "Coakers Walk",
+    "Pillar Rocks & Guna Cave",
+    "Bryant Park",
+    "Vattakanal View Point"
+  ],
+  "inclusions": [
+    "Sleeper Train Tickets both ways (3AC upgrade available)",
+    "3\u2605 Accommodation (2-3 Sharing)",
+    "Non-AC Bus for Sightseeing",
+    "3 Breakfasts & 2 Dinners",
+    "1L Mineral Water on sightseeing days",
+    "Guide Charges",
+    "All Entry Fees",
+    "Tour Buddy"
+  ],
+  "exclusions": [
+    "Lunch",
+    "Meals during train journey",
+    "Boating/Ride Charges",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "CSMT Mumbai \u2014 8:00 PM, 26 Mar | Pune Jn. \u2014 11:30 PM, 26 Mar",
+    "train": "Nagarcoil Exp",
+    "arrival": "Reach Pune by 02:00 AM, 01 Apr | Reach Mumbai by 06:00 AM, 01 Apr (Dadar Central Chalukya Exp 11022)"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "26 March 2026 (Thursday) \u2014 Reporting Station: Chhatrapati Shivaji Maharaj Terminus (CSMT). Board the overnight train for Kodaikanal. Train departure: 8:00 PM. Overnight journey.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Train Journey",
+      "description": "27 March 2026 (Friday) \u2014 Enjoy the scenic train journey. Watch the landscapes change as you travel south. Overnight on train.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 3,
+      "title": "Reach Kodaikanal & Begin Sightseeing",
+      "description": "28 March 2026 (Saturday) \u2014 Reach Kodaikanal Road station by 4:00 AM. Freshen up at the station. Transfer to hotel and check in (early check-in subject to availability). After breakfast, begin local sightseeing. Enroute lunch (at own cost).",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Kodaikanal Sightseeing",
+      "description": "29 March 2026 (Sunday) \u2014 After breakfast, proceed for full-day Kodaikanal sightseeing. Visit Bryant Park, Coaker's Walk, Pillar Rocks, and other scenic points. Enroute lunch (at own cost). Return to hotel.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 5,
+      "title": "More Sightseeing",
+      "description": "30 March 2026 (Monday) \u2014 After breakfast, continue sightseeing. Visit Dolphin Nose, Pine Forest, and other attractions. Enroute lunch (at own cost). Return to hotel for dinner.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 6,
+      "title": "Return Journey Begins",
+      "description": "31 March 2026 (Tuesday) \u2014 After breakfast, check out from hotel. Begin return journey to Mumbai with memories of the trip with your travel buddies.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 7,
+      "title": "Reach Mumbai",
+      "description": "01 April 2026 (Wednesday) \u2014 Reach Mumbai by approximately 6:00 AM. Return home with sweet memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [],
+  "cancellation": []
+}

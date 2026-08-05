@@ -1,0 +1,105 @@
+{
+  "slug": "rann-utsav",
+  "title": "Rann Utsav",
+  "subtitle": "White Rann · Kutch Desert · Cultural Festival",
+  "dates": "04 – 08 February 2026",
+  "duration": "5 Days / 4 Nights",
+  "price": 12999,
+  "priceLabel": "₹12,999/-",
+  "priceNote": "per person (Sleeper) | ₹14,499/- (3AC)",
+  "lastBooking": "27 Nov 2025",
+  "category": [
+    "adventure",
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80"
+  ],
+  "highlights": [
+    "White Rann of Kutch",
+    "Kalo Dungar Hill",
+    "Gandhi nu Gam Village",
+    "Kutch Museum & Aaina Mahal",
+    "Cultural Activities at Dhordo"
+  ],
+  "inclusions": [
+    "Sleeper Train Tickets both ways (3AC upgrade available)",
+    "AC Tempo Traveller/Bus for local sightseeing",
+    "Premium AC Tent Stay (Twin Sharing) in Dhordo",
+    "2 Breakfasts & 3 Dinners",
+    "White Rann Permit Fees",
+    "Tour Buddy"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Meals during train journey",
+    "Day 1 Breakfast",
+    "Activity/Ride Charges",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Dadar Western — 2:30 PM, 04 Feb 2026",
+    "train": "Train to Bhuj",
+    "arrival": "Reach Mumbai by 02:00 PM, 08 Feb 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Mumbai to Bhuj",
+      "description": "Catch train from Dadar Western Railway Station at approximately 2:30 PM. Overnight train journey.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Dhordo and White Rann",
+      "description": "Reach Bhuj Railway Station at approximately 7:00 AM. Transfer to Dhordo tent accommodation. Freshen up. Lunch. Leisure time. Evening visit to White Rann Desert. Dinner and rest at Dhordo.",
+      "meals": "Lunch, Dinner"
+    },
+    {
+      "day": 3,
+      "title": "White Rann and Kalo Dungar",
+      "description": "Early morning White Rann visit. Breakfast. Leisure and activity time. Lunch. Evening visit to Kalo Dungar and Gandhi Nu Gam village. Enjoy cultural activities. Dinner and rest.",
+      "meals": "Breakfast, Lunch, Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Bhuj Sightseeing + Return",
+      "description": "Breakfast and check out from tents. Bhuj sightseeing: Kutch Museum, Aaina Mahal, Prag Mahal, Sharad Baug Palace, Swaminarayan Temple. Dinner en route. Catch return train at approximately 10:00 PM. Overnight journey.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Reach Mumbai",
+      "description": "Reach Mumbai at approximately 2:00 PM. Return home with sweet memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹6,999/- (SL) | ₹8,499/- (3AC)",
+      "dueBy": "27 Nov 2025"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹6,000/-",
+      "dueBy": "28 Jan 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 20 Dec 2025",
+      "deduction": "40%"
+    },
+    {
+      "deadline": "On/Before 31 Jan 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "somnath-dwarka",
+  "title": "Somnath – Dwarka",
+  "subtitle": "Dwarkadish Temple · Somnath Jyotirlinga · Girnar Darshan · Bet Dwarka",
+  "dates": "15 – 21 January 2026",
+  "duration": "7 Days / 6 Nights",
+  "price": 13499,
+  "priceLabel": "₹13,499/-",
+  "priceNote": "per person (Sleeper) | ₹14,999/- (3AC)",
+  "lastBooking": "08 November 2025",
+  "category": [
+    "spiritual"
+  ],
+  "hero": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&q=80"
+  ],
+  "highlights": [
+    "Dwarkadish Temple",
+    "Somnath Jyotirlinga",
+    "Bet Dwarka Darshan",
+    "Girnar Darshan (Ropeway)",
+    "Nageshwar Jyotirlinga"
+  ],
+  "inclusions": [
+    "Both way Train Tickets (Sleeper/3AC)",
+    "Accommodation in 3★ Hotel",
+    "Transport for sightseeing",
+    "Breakfast & Dinner",
+    "Entry Fees",
+    "Mineral Water",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Train Food",
+    "Lunch (at own cost)",
+    "Girnar Ropeway Tickets (book online)",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Mumbai Central — 8:00 PM, 15 Jan 2026",
+    "train": "Saurashtra Mail",
+    "arrival": "Reach Mumbai by 06:00 AM, 21 Jan 2026 (Saurashtra Janta Express 19218 from Junagadh)"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "Reporting Station: Mumbai Central Railway Station. Reporting Time: 8:00 PM, 15 January 2026. Train: Saurashtra Mail. Board train for Dwarka. Overnight journey.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Dwarka Sightseeing",
+      "description": "Reach Dwarka Railway Station by approximately 1:15 PM. Proceed to hotel and check in. Lunch at own cost. Visit Dwarkadhish Temple and Rukmini Temple. Return to hotel, dinner and rest. Overnight at Dwarka.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Bet Dwarka and Somnath",
+      "description": "Breakfast and hotel checkout. Visit Bet Dwarka and Nageshwar Temple. Lunch en route at own expense. Continue to Somnath (4.5 hrs). Evening visit to Somnath Jyotirlinga. Check in at hotel, dinner and rest.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Somnath to Girnar",
+      "description": "Breakfast and checkout. Visit Bhalka Teerth, Geeta Mandir, and Triveni Sangam. Travel towards Girnar (2.5 hrs). Reach Girnar, check in at hotel. Dinner and rest. Overnight at Girnar/Junagadh.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Girnar Darshan",
+      "description": "Start early for Girnar Darshan. Breakfast en route at own expense. Reach Girnar Ropeway point and take ropeway to top. Complete Girnar Darshan. Ropeway tickets must be booked online at udankhatola.com (time slot: 7:00 AM - 8:00 AM). Return to hotel. Dinner and rest.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 6,
+      "title": "Junagadh to Mumbai",
+      "description": "Breakfast. Check out and proceed towards Junagadh Railway Station. Board return train (Saurashtra Janta Express, 19218) at approximately 12:58 PM. Overnight journey to Mumbai.",
+      "meals": "Breakfast"
+    },
+    {
+      "day": 7,
+      "title": "Reach Mumbai",
+      "description": "Reach Mumbai at approximately 6:00 AM. Return home with sweet memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹7,499/- (SL) | ₹8,999/- (3AC)",
+      "dueBy": "08 November 2025"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹6,000/-",
+      "dueBy": "28 December 2025"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 30 November 2025",
+      "deduction": "50%"
+    },
+    {
+      "deadline": "On/Before 05 January 2026",
+      "deduction": "80%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ],
+  "advisory": "Girnar ropedway tickets must be booked online at udankhatola.com. Time slot: 7 AM - 8 AM. Carry valid ID proof."
+}

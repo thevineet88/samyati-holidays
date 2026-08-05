@@ -1,0 +1,109 @@
+{
+  "slug": "kashmir",
+  "title": "Kashmir",
+  "subtitle": "Amritsar · Pahalgam · Sonmarg · Gulmarg · Srinagar",
+  "dates": "06 – 14 February 2026",
+  "duration": "9 Days / 8 Nights",
+  "price": 20499,
+  "priceLabel": "₹20,499/-",
+  "priceNote": "per person (inclusive of train)",
+  "lastBooking": "10 Jan 2026",
+  "category": [
+    "adventure",
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+  ],
+  "highlights": [
+    "Golden Temple Amritsar",
+    "Wagha Border",
+    "Betaab Valley Pahalgam",
+    "Sonmarg Glacier",
+    "Gulmarg & Srinagar Houseboat"
+  ],
+  "inclusions": [
+    "SL Train Tickets (both ways)",
+    "3★ Hotel Stay",
+    "Breakfast & Dinner",
+    "Transport",
+    "Entry Fees",
+    "Houseboat Stay",
+    "Shikara Ride",
+    "Tour Buddy"
+  ],
+  "exclusions": [
+    "Flights to Amritsar (if not by train)",
+    "5% GST",
+    "Lunch",
+    "Personal expenses",
+    "Camera fees",
+    "Pony rides",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Mumbai Central — 10:30 AM, 06 Feb 2026",
+    "train": "Train to Amritsar",
+    "arrival": "Reach Mumbai, 14 Feb 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train from Mumbai",
+      "description": "Board Train from Mumbaiyour train journey. Here begins our journey to the amazing North. Have a deep sleep to get refreshed for next day and start the fun-trip. Reporting Station: Mumbai Central Railway Station. Board train for Amritsar. Overnight journey. 06 February 2026 (Friday)",
+      "meals": ""
+    },
+    {
+      "day": 2,
+      "title": "Train Journey to Amritsar",
+      "description": "Enjoy the train journey with scenic views of the countryside. Reach Amritsar by morning. Check in at hotel. Freshen up. Evening visit to Golden Temple. Dinner and overnight stay at Amritsar. 07 February 2026 (Saturday)",
+      "meals": ""
+    },
+    {
+      "day": 3,
+      "title": "Amritsar Sightseeing & Journey to Pahalgam",
+      "description": "After breakfast, visit Golden Temple and Jallianwala Bagh. After lunch, visit Attari-Wagha Border for the flag ceremony. Evening board bus for Pahalgam. Overnight journey. 08 February 2026 (Sunday)",
+      "meals": ""
+    },
+    {
+      "day": 4,
+      "title": "Reach Pahalgam till 08:00 AM Check in at Hotel (as per Hotels’ standard check in",
+      "description": "Reach Pahalgam by 08:00 AM. Check in at hotel. Freshen up. After breakfast, head towards Betaab Valley, a famous Bollywood shooting location. Enjoy the scenic beauty of the valley. Dinner and overnight stay. 09 February 2026 (Monday)",
+      "meals": ""
+    },
+    {
+      "day": 5,
+      "title": "Pahalgam to Srinagar",
+      "description": "After breakfast, check out and head towards Srinagar (3 hrs). Check in at houseboat on Dal Lake. After lunch, proceed for Srinagar sightseeing. Visit Mughal Gardens and local markets. Dinner and overnight stay in houseboat. 10 February 2026 (Tuesday)",
+      "meals": ""
+    },
+    {
+      "day": 6,
+      "title": "Sonmarg Day Trip",
+      "description": "OVERNIGHT STAY IN SRINAGAR11 FEBRUARY 2026(Wednesday) Full day excursion to ‘The Meadows of Gold’, also the last stop of Kashmir. the sledding ride & horse ride (at your own cost). to Hotel.",
+      "meals": ""
+    },
+    {
+      "day": 7,
+      "title": "Gulmarg Sightseeing",
+      "description": "OVERNIGHT STAY IN SRINAGAR12 FEBRUARY 2026(Thursday) Catch some rays at ‘The Meadows of Flowers’. Get ready to witness breathtaking views from Gondola ride. Gondola ride is the second highest cable ride in the world. This ride comprises of 2 stages : Phase 1 (Gulmarg to Kongdoori Peak) &",
+      "meals": ""
+    },
+    {
+      "day": 8,
+      "title": "Return Journey to Mumbai",
+      "description": "Early morning (04:00 AM) check out from hotel. Start journey to Amritsar (10 hrs). Enroute breakfast at local dhaba. Reach Amritsar by afternoon. Board train for Mumbai. Overnight journey. 13 February 2026 (Friday)",
+      "meals": ""
+    },
+    {
+      "day": 9,
+      "title": "Reach Mumbai",
+      "description": "Return train journey to Mumbai. Reach Mumbai by approximately 11:55 PM on 14 February 2026. Return home with sweet memories!",
+      "meals": ""
+    }
+  ],
+  "installments": [],
+  "cancellation": [],
+  "advisory": "Carry warm woolen clothing. Snow activities at own cost. Good walking shoes essential. Stay hydrated at high altitudes."
+}

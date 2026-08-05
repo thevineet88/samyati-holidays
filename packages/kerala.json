@@ -1,0 +1,126 @@
+{
+  "slug": "kerala",
+  "title": "Kerala Trip",
+  "subtitle": "Munnar · Thekkady · Alleppey Backwaters",
+  "dates": "02 – 09 October 2026",
+  "duration": "8 Days / 7 Nights",
+  "price": 15555,
+  "priceLabel": "₹15,555/-",
+  "priceNote": "per person (Sleeper Class) | ₹17,999/- (3AC)",
+  "lastBooking": "25 July 2026",
+  "category": [
+    "nature"
+  ],
+  "hero": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=600&q=80",
+    "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600&q=80",
+    "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80"
+  ],
+  "highlights": [
+    "Munnar Tea Gardens",
+    "Alleppey Houseboat Stay",
+    "Periyar Wildlife Sanctuary",
+    "Thekkady Spice Market",
+    "Kerala Backwaters"
+  ],
+  "inclusions": [
+    "Both way SL Train Tickets (3AC upgrade available)",
+    "AC Tempo Traveller / Bus for local sightseeing",
+    "Accommodation in 3★ Hotel (3/4 Sharing)",
+    "Houseboat Stay (3-sharing compulsory)",
+    "5 Breakfasts & 4 Dinners",
+    "1L Mineral Water on sightseeing days",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Train Food",
+    "Lunch",
+    "Boating / Activities (at own cost)",
+    "Any damage to hotel room",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Panvel — 11:00 PM, 02 Oct 2026",
+    "train": "NZM-ERS SF Express (22656)",
+    "arrival": "Reach Mumbai by 05:00 PM, 09 Oct 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train at Panvel",
+      "description": "Board the NZM-ERS SF Express (22656) at Panvel at 11:00 PM. Settle in and get comfortable for the overnight train journey to Kerala.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Train Journey",
+      "description": "Enjoy the scenic train journey crossing the Western Ghats. Relax, bond with fellow travellers and look forward to Kerala.",
+      "meals": "No Meals (train food at own cost)"
+    },
+    {
+      "day": 3,
+      "title": "Arrive Ernakulam → Munnar",
+      "description": "Arrive Ernakulam at 3:00 AM. After freshening up, depart for Munnar. En route visit Cheeyapara Waterfalls and Valara Waterfalls. Check in to hotel. Dinner and overnight stay.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Munnar Sightseeing",
+      "description": "Full-day sightseeing in Munnar — Mattupetty Dam, Echo Point, Blossom Hydel Park, and Tea Museum. Return to hotel. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Thekkady Sightseeing",
+      "description": "Early morning breakfast and check out. Visit Periyar Wildlife Sanctuary (boating at own cost), optional Elephant Ride (own cost), and Shopping at Local Market. Return to hotel. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 6,
+      "title": "Alleppey Houseboat",
+      "description": "Early morning breakfast and check out. Check in at Private Houseboat. Leisure time on the houseboat, Lunch on Houseboat. Spend a relaxed evening cruising the backwaters. Dinner and overnight stay on Houseboat.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 7,
+      "title": "Departure for Mumbai",
+      "description": "Early morning breakfast. Check out from Houseboat. Catch the return train from Alleppey at 10:30 AM (for Mumbaikars). Overnight train journey back home.",
+      "meals": "Breakfast"
+    },
+    {
+      "day": 8,
+      "title": "Reach Mumbai",
+      "description": "Reach Mumbai by 05:00 PM. Return Home with Sweet Memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹8,555/- (SL) | ₹8,999/- (3AC)",
+      "dueBy": "25 July 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹7,000/- (SL) | ₹9,000/- (3AC)",
+      "dueBy": "20 Aug 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 05 Aug 2026",
+      "deduction": "50%"
+    },
+    {
+      "deadline": "On/Before 25 Aug 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ]
+}

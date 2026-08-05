@@ -1,0 +1,120 @@
+{
+  "slug": "ayodhya-kashi-prayagraj",
+  "title": "Ayodhya – Kashi – Prayagraj",
+  "subtitle": "Varanasi · Ayodhya · Prayagraj Triveni Sangam",
+  "dates": "26 Sep – 01 Oct 2026",
+  "duration": "6 Days / 5 Nights",
+  "price": 14444,
+  "priceLabel": "₹14,444/-",
+  "priceNote": "per person (SL) | ₹16,999/- (3AC) | ₹18,666/- (2AC)",
+  "lastBooking": "10 July 2026",
+  "category": [
+    "spiritual"
+  ],
+  "hero": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1575995872537-3793d29d972c?w=600&q=80",
+    "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=600&q=80",
+    "https://images.unsplash.com/photo-1584182773775-6027bc655dd4?w=600&q=80"
+  ],
+  "highlights": [
+    "Ram Mandir Ayodhya",
+    "Kashi Vishwanath Temple",
+    "Ganga Aarti Dashashwamedh Ghat",
+    "Triveni Sangam Prayagraj",
+    "Saryu River Aarti"
+  ],
+  "inclusions": [
+    "SL Train Tickets (3AC/2AC upgrade available)",
+    "AC Tempo Traveller for sightseeing",
+    "Auto for local travel",
+    "Deluxe Hotel (2-3 Sharing)",
+    "Breakfast & Dinner",
+    "Mineral Water",
+    "Entry Fees",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Train Food",
+    "Lunch",
+    "Boating Charges",
+    "Personal expenses",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "LTT Mumbai — 10:00 AM, 26 Sep 2026",
+    "train": "Jaynagar Pawan Express (11061)",
+    "arrival": "Return: Patliputra-Mumbai LTT SF Express (12142), Arrive Mumbai 3:00 PM, 01 Oct 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Board Train at LTT Mumbai",
+      "description": "Board Jaynagar Pawan Express (11061) at LTT at 10:00 AM. Overnight journey to Varanasi.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Arrive Varanasi — Ganga Aarti",
+      "description": "Arrive Varanasi at 1:00 PM. Check in and freshen up. Evening: witness the grand Ganga Aarti at Dashashwamedh Ghat — one of the most spectacular spiritual experiences in India. Dinner and overnight stay.",
+      "meals": "Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Kashi Sightseeing",
+      "description": "Early morning 5:00 AM darshan at the sacred Kashi Vishwanath Temple. Visit Kalbhairav Temple and Devi Annapoorna Temple. Explore the ancient ghats of Varanasi. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Ayodhya Sightseeing",
+      "description": "Early morning departure to Ayodhya. Visit the magnificent Ram Janmbhoomi and Ram Mandir. Seek blessings at Hanuman Gadhi. Take a holy dip and witness aarti at Saryu River. Dinner and overnight stay.",
+      "meals": "Breakfast & Dinner"
+    },
+    {
+      "day": 5,
+      "title": "Prayagraj — Triveni Sangam",
+      "description": "Head to Prayagraj. Visit Triveni Sangam — the sacred confluence of Ganga, Yamuna, and the invisible Saraswati. Seek blessings at Bade Hanumanji Temple. Board the return train to Mumbai.",
+      "meals": "Breakfast"
+    },
+    {
+      "day": 6,
+      "title": "Arrive Mumbai",
+      "description": "Arrive Mumbai at 3:00 PM via Patliputra-Mumbai LTT SF Express (12142). Return Home with Sweet Memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment",
+      "amount": "Confirm by 10 July 2026",
+      "dueBy": "10 July 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹4,000/-",
+      "dueBy": "15 Aug 2026"
+    },
+    {
+      "name": "3rd Installment",
+      "amount": "₹4,000/-",
+      "dueBy": "15 Sep 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 20 Aug 2026",
+      "deduction": "40%"
+    },
+    {
+      "deadline": "On/Before 17 Sep 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "After that",
+      "deduction": "No Refund"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "rajasthan",
+  "title": "Rajasthan",
+  "subtitle": "Jaipur · Pushkar · Udaipur · Jaisalmer · Jodhpur",
+  "dates": "13 – 22 November 2025",
+  "duration": "10 Days / 9 Nights",
+  "price": 22999,
+  "priceLabel": "₹22,999/-",
+  "priceNote": "per person (Sleeper) | ₹25,499/- (3AC)",
+  "lastBooking": "15 Aug 2025",
+  "category": [
+    "spiritual",
+    "adventure"
+  ],
+  "hero": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80",
+  "gallery": [
+    "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80"
+  ],
+  "highlights": [
+    "Jaipur Amer Fort & Hawa Mahal",
+    "Pushkar Brahma Temple",
+    "Udaipur City Palace & Pichola Lake",
+    "Jaisalmer Desert Camping & Camel Safari",
+    "Jodhpur Mehrangarh Fort"
+  ],
+  "inclusions": [
+    "Both way Sleeper Train Tickets",
+    "Accommodation (2-3 Sharing)",
+    "1 Night Desert Tent Stay",
+    "Camel Safari at Sand Dunes",
+    "AC Tempo Traveller for Sightseeing",
+    "7 Breakfasts & 7 Dinners",
+    "1L Mineral Water on sightseeing days",
+    "Entry Fees",
+    "First Aid",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Train Food",
+    "Lunch",
+    "Personal expenses",
+    "Boating/Ride charges",
+    "Damage to hotel room",
+    "Anything not mentioned in inclusions"
+  ],
+  "travel": {
+    "departure": "Bandra Terminus — 4:00 PM, 13 Nov 2025",
+    "train": "Train to Jaipur",
+    "arrival": "Reach Mumbai by 01:00 PM, 22 Nov 2025"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Mumbai to Jaipur",
+      "description": "Reporting Station: Bandra Terminus. Reporting Time: 04:00 PM, 13 November 2025. Board train for Jaipur. Overnight journey.",
+      "meals": ""
+    },
+    {
+      "day": 2,
+      "title": "Reach Jaipur & Check In",
+      "description": "14 November 2025 station till 10:00 AM Freshen - Up evening Dinner & overnight",
+      "meals": ""
+    },
+    {
+      "day": 3,
+      "title": "Jaipur Sightseeing",
+      "description": "15 November 2025 Breakfast Dinner & overnight stay at hotel in Jaipur City Mahal",
+      "meals": ""
+    },
+    {
+      "day": 4,
+      "title": "Jaipur to Pushkar",
+      "description": "16 November 2025 Breakfast Dinner & overnight stay at hotel in Udaipur Pushkar Lake",
+      "meals": ""
+    },
+    {
+      "day": 5,
+      "title": "Pushkar to Udaipur",
+      "description": "17 November 2025 Breakfast Dinner & overnight stay at hotel in Udaipur",
+      "meals": ""
+    },
+    {
+      "day": 6,
+      "title": "Udaipur Sightseeing",
+      "description": "18 November 2025 Enroute Breakfast Dinner & overnight stay at hotel in Jaisalmer",
+      "meals": ""
+    },
+    {
+      "day": 7,
+      "title": "Udaipur to Jaisalmer",
+      "description": "Breakfast & check out. Drive to Jaisalmer. En route enjoy the scenic beauty. Check in at desert camp. Enjoy cultural evening, dinner. Overnight at desert camp.",
+      "meals": ""
+    },
+    {
+      "day": 8,
+      "title": "Jaisalmer Sightseeing",
+      "description": "20 November 2025 Breakfast Enroute cover Places Dinner & overnight",
+      "meals": ""
+    },
+    {
+      "day": 9,
+      "title": "Jodhpur Sightseeing & Return",
+      "description": "21 November 2025 Breakfast Station till 06:00 PM Mehrangarh Fort",
+      "meals": ""
+    },
+    {
+      "day": 10,
+      "title": "Reach Mumbai",
+      "description": "Breakfast. Proceed for remaining sightseeing. Reach Jaipur Junction by 06:00 PM. Board train for Mumbai. Reach Mumbai by 01:00 PM, 22 November 2025. Return home with sweet memories!",
+      "meals": ""
+    }
+  ],
+  "installments": [],
+  "cancellation": []
+}
