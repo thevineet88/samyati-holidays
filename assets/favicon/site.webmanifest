@@ -1,0 +1,21 @@
+{
+  "name": "Samyati Holidays",
+  "short_name": "Samyati",
+  "description": "Group tours from Mumbai & Pune - Kedarnath, Gokarna, Sikkim and more",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2D2E6E",
+  "icons": [
+    {
+      "src": "favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
