@@ -115,8 +115,10 @@
               <div class="form-error mb-3" style="display:none">Something went wrong. Please WhatsApp us directly.</div>
               <form action="https://formspree.io/f/xnjelqae" method="POST" data-async class="space-y-3">
                 <input type="hidden" name="package" value="{{ PAGE_TITLE }}"/>
-                <div><input type="text" name="name" placeholder="Your Name" required class="form-field text-sm"/></div>
-                <div><input type="tel" name="phone" placeholder="Phone / WhatsApp Number" required class="form-field text-sm"/></div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  <input type="text" name="name" placeholder="Your Name" required class="form-field text-sm"/>
+                  <input type="tel" name="phone" placeholder="Phone / WhatsApp Number" required class="form-field text-sm"/>
+                </div>
                 <div><input type="email" name="email" placeholder="Email Address" required class="form-field text-sm"/></div>
                 <div><select name="travellers" class="form-field text-sm"><option value="">No. of Travellers</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select></div>
                 <div><textarea name="message" placeholder="Any questions?" rows="3" class="form-field text-sm resize-none"></textarea></div>
