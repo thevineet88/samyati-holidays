@@ -5,10 +5,10 @@ const menuBtn = document.getElementById('mobile-menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
 if (menuBtn && mobileMenu) {
   menuBtn.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('open');
     const icon = menuBtn.querySelector('svg');
     // swap hamburger ↔ X
-    if (!mobileMenu.classList.contains('hidden')) {
+    if (mobileMenu.classList.contains('open')) {
       icon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>`;
     } else {
       icon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>`;
@@ -188,7 +188,7 @@ if (carousel) {
 
 // ── Active nav link highlight ──
 const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-document.querySelectorAll('.nav-link').forEach(link => {
+document.querySelectorAll('nav:not(#mobile-menu) .nav-link').forEach(link => {
   const href = link.getAttribute('href');
   if (href === currentPage || (currentPage === '' && href === 'index.html')) {
     link.classList.add('active');

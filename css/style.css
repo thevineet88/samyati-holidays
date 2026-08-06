@@ -123,6 +123,18 @@ h1, h2, h3, h4, h5, h6 {
   gap: 12px;
   margin-bottom: 8px;
 }
+
+/* Prevent section-pin-divider from overriding display:none on hidden parents */
+#mobile-menu .section-pin-divider {
+  display: none;
+}
+
+/* Hide section pin dividers entirely on mobile/tablet */
+@media (max-width: 767px) {
+  .section-pin-divider {
+    display: none !important;
+  }
+}
 .section-pin-divider .pin-icon {
   width: 20px; height: 20px;
   border: 2px solid var(--navy);
@@ -444,8 +456,13 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 #mobile-menu.open {
-  display: block;
+  display: block !important;
 }
+/* No orange underline animation on mobile menu links (touch triggers :hover) */
+#mobile-menu .nav-link::after,
+#mobile-menu .nav-link:hover::after,
+#mobile-menu .nav-link.active::after { display: none; }
+#mobile-menu .nav-link.active { color: var(--orange); }
 
 /* ── WHATSAPP FLOAT ── */
 .wa-float {
