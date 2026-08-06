@@ -125,6 +125,10 @@
               class="bg-white/15 text-white text-xs font-poppins px-3 py-1.5 rounded-full backdrop-blur-sm"
               >🌿 Nature Escapes</span
             >
+            <span
+              class="bg-orange/90 text-white text-xs font-poppins px-3 py-1.5 rounded-full font-semibold"
+              >✨ Customized Trips</span
+            >
           </div>
           <div class="flex flex-col sm:flex-row gap-4">
             <a href="packages.html" class="btn-navy text-base py-3 px-8"
@@ -166,43 +170,149 @@
       </div>
     </section>
 
-    <!-- ── TRUST BAR ── -->
-    <section class="trust-bar py-8">
+<!-- ── UPCOMING TRIPS ── -->
+    <section class="py-6 md:py-8 bg-white relative">
+      <div class="absolute inset-x-0 top-0 h-px bg-gray-200"></div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          <div class="trust-stat">
-            <div class="number stat-num" data-target="6" data-suffix="+">0</div>
-            <div class="label">Years Experience</div>
+        <div class="mb-6">
+          <div class="flex items-center gap-3 mb-2">
+            <div style="width:12px;height:12px;border-radius:50%;background:#F47920"></div>
+            <span class="text-orange font-poppins font-semibold text-sm tracking-widest uppercase">Upcoming Trips</span>
           </div>
-          <div class="trust-stat">
-            <div
-              class="number stat-num"
-              data-target="20000"
-              data-suffix="+"
-              data-format="comma"
-            >
-              0
+          <h2 class="font-poppins font-bold text-navy text-2xl md:text-3xl">Book your next adventure</h2>
+        </div>
+
+        <div class="relative">
+          <button id="upcoming-prev" class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 z-20 w-11 h-11 -ml-2 rounded-full bg-white shadow-lg border border-gray-200 text-navy hover:bg-navy hover:text-white items-center justify-center transition-colors" aria-label="Previous">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+          </button>
+          <button id="upcoming-next" class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 z-20 w-11 h-11 -mr-2 rounded-full bg-white shadow-lg border border-gray-200 text-navy hover:bg-navy hover:text-white items-center justify-center transition-colors" aria-label="Next">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </button>
+
+          <div id="upcoming-track" class="flex gap-4 overflow-x-auto scroll-smooth snap-x snap-mandatory md:snap-none pb-4 px-2 md:px-12 scrollbar-hide" style="scrollbar-width: none; -ms-overflow-style: none;">
+          <a href="ayodhya-kashi-prayagraj.html" class="upcoming-card flex-shrink-0 w-[80%] sm:w-[45%] md:w-[30%] lg:w-[22%] group">
+            <div class="relative overflow-hidden rounded-2xl bg-light-gray">
+              <div class="aspect-square overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=600&q=80" alt="Ayodhya – Kashi – Prayagraj" loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"/>
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white">
+                <p class="font-poppins font-semibold text-sm md:text-base leading-tight mb-1 line-clamp-1">Ayodhya – Kashi – Prayagraj</p>
+                <p class="text-white/90 text-xs md:text-sm">Starts from ₹14,444*</p>
+              </div>
             </div>
-            <div class="label">Happy Travellers</div>
-          </div>
-          <div class="trust-stat">
-            <div class="number stat-num" data-target="50" data-suffix="+">
-              0
+          </a>
+          <a href="bhutan.html" class="upcoming-card flex-shrink-0 w-[80%] sm:w-[45%] md:w-[30%] lg:w-[22%] group">
+            <div class="relative overflow-hidden rounded-2xl bg-light-gray">
+              <div class="aspect-square overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Bhutan" loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"/>
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white">
+                <p class="font-poppins font-semibold text-sm md:text-base leading-tight mb-1 line-clamp-1">Bhutan</p>
+                <p class="text-white/90 text-xs md:text-sm">Starts from ₹33,333*</p>
+              </div>
             </div>
-            <div class="label">Destinations</div>
-          </div>
-          <div class="trust-stat">
-            <div class="number stat-num" data-target="100" data-suffix="%">
-              0
+          </a>
+          <a href="kedarnath-badrinath.html" class="upcoming-card flex-shrink-0 w-[80%] sm:w-[45%] md:w-[30%] lg:w-[22%] group">
+            <div class="relative overflow-hidden rounded-2xl bg-light-gray">
+              <div class="aspect-square overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1591679901834-e2a5ea59c5b5?w=600&q=80" alt="Kedarnath – Badrinath" loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"/>
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white">
+                <p class="font-poppins font-semibold text-sm md:text-base leading-tight mb-1 line-clamp-1">Kedarnath – Badrinath</p>
+                <p class="text-white/90 text-xs md:text-sm">Starts from ₹21,111*</p>
+              </div>
             </div>
-            <div class="label">Group Safety Record</div>
-          </div>
+          </a>
+          <a href="kerala.html" class="upcoming-card flex-shrink-0 w-[80%] sm:w-[45%] md:w-[30%] lg:w-[22%] group">
+            <div class="relative overflow-hidden rounded-2xl bg-light-gray">
+              <div class="aspect-square overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&q=80" alt="Kerala Trip" loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"/>
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white">
+                <p class="font-poppins font-semibold text-sm md:text-base leading-tight mb-1 line-clamp-1">Kerala Trip</p>
+                <p class="text-white/90 text-xs md:text-sm">Starts from ₹15,555*</p>
+              </div>
+            </div>
+          </a>
+          <a href="rameshwaram.html" class="upcoming-card flex-shrink-0 w-[80%] sm:w-[45%] md:w-[30%] lg:w-[22%] group">
+            <div class="relative overflow-hidden rounded-2xl bg-light-gray">
+              <div class="aspect-square overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1616136232539-4a5b0b27614a?w=600&q=80" alt="Rameshwaram Trip" loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"/>
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white">
+                <p class="font-poppins font-semibold text-sm md:text-base leading-tight mb-1 line-clamp-1">Rameshwaram Trip</p>
+                <p class="text-white/90 text-xs md:text-sm">Starts from ₹15,999*</p>
+              </div>
+            </div>
+          </a>
+          <a href="sikkim-darjeeling.html" class="upcoming-card flex-shrink-0 w-[80%] sm:w-[45%] md:w-[30%] lg:w-[22%] group">
+            <div class="relative overflow-hidden rounded-2xl bg-light-gray">
+              <div class="aspect-square overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Sikkim – Darjeeling" loading="lazy" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"/>
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+              <div class="absolute bottom-0 left-0 right-0 p-3 text-white">
+                <p class="font-poppins font-semibold text-sm md:text-base leading-tight mb-1 line-clamp-1">Sikkim – Darjeeling</p>
+                <p class="text-white/90 text-xs md:text-sm">Starts from ₹27,777*</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="text-center mt-6">
+          <a href="packages.html" class="inline-flex items-center gap-2 text-navy font-poppins font-semibold hover:text-orange transition-colors">
+            View All Packages
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </a>
         </div>
       </div>
     </section>
 
+    <!-- ── UPCOMING TRIPS CAROUSEL JS ── -->
+    <script>
+      (function() {
+        const track = document.getElementById('upcoming-track');
+        const prev = document.getElementById('upcoming-prev');
+        const next = document.getElementById('upcoming-next');
+        if (!track) return;
+        let autoTimer = null;
+        function getStep() {
+          const card = track.querySelector('.upcoming-card');
+          if (!card) return 300;
+          return card.offsetWidth + 16; // gap-4 = 16px
+        }
+        function scrollBy(dir) {
+          track.scrollBy({ left: dir * getStep(), behavior: 'smooth' });
+        }
+        function startAuto() {
+          if (autoTimer) return;
+          autoTimer = setInterval(() => {
+            // If near end, jump back to start
+            if (track.scrollLeft + track.clientWidth >= track.scrollWidth - 10) {
+              track.scrollTo({ left: 0, behavior: 'smooth' });
+            } else {
+              scrollBy(1);
+            }
+          }, 2000);
+        }
+        function stopAuto() { if (autoTimer) { clearInterval(autoTimer); autoTimer = null; } }
+        if (prev) prev.addEventListener('click', () => { stopAuto(); scrollBy(-1); startAuto(); });
+        if (next) next.addEventListener('click', () => { stopAuto(); scrollBy(1); startAuto(); });
+        track.addEventListener('mouseenter', stopAuto);
+        track.addEventListener('mouseleave', startAuto);
+        // Touch swipe is handled natively by overflow-x-auto
+        startAuto();
+      })();
+    </script>
     <!-- ── FEATURED PACKAGES ── -->
-    <section class="py-12 md:py-16 bg-light-gray">
+    <section class="py-6 md:py-8 bg-light-gray relative">
+      <div class="absolute inset-x-0 top-0 h-px bg-gray-200"></div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <p class="section-eyebrow">Our Top Picks</p>
@@ -417,229 +527,274 @@
       </div>
     </section>
 
-    <!-- ── WHY SAMYATI ── -->
-    <section class="py-16 md:py-20 bg-white">
+    <!-- ── CUSTOMIZED TRIPS TRUST BANNER ── -->
+    <section class="bg-gradient-to-r from-navy to-blue-900 py-5 relative">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <p class="section-eyebrow text-base">Why Choose Us</p>
-          <h2 class="section-title text-4xl md:text-5xl mt-3">
-            The Samyati Difference
-          </h2>
-          <p class="text-muted mt-4 max-w-2xl mx-auto text-lg">
-            We've done these routes more times than we can count, so you get the
-            benefit of all that experience.
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-center">
+          <p class="text-white font-poppins font-semibold text-sm md:text-base">
+            ✨ <span class="text-orange">Customized Trips</span> — We Plan, You Pick
+          </p>
+          <span class="hidden sm:block w-px h-5 bg-white/30"></span>
+          <p class="text-white/80 font-inter text-xs md:text-sm max-w-lg">
+            Families, corporate groups, birthday trips, weekend getaways — we craft personalized itineraries tailored exactly for you.
+          </p>
+          <span class="hidden sm:block w-px h-5 bg-white/30"></span>
+          <p class="text-white/80 font-inter text-xs md:text-sm">
+            <span class="text-orange font-semibold">500+</span> customized trips planned
           </p>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="why-card text-center">
-            <div class="why-icon mx-auto">
-              <svg
-                class="w-10 h-10 text-navy"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"
-                />
-              </svg>
-            </div>
-            <h3 class="font-poppins font-bold text-navy text-xl mb-3 mt-2">
-              Experienced Local Guides
-            </h3>
-            <p class="text-muted text-base leading-relaxed">
-              Our guides know every shortcut, every good dhaba, and every local
-              story, not just the tourist version.
-            </p>
-          </div>
-
-          <div class="why-card text-center">
-            <div class="why-icon mx-auto">
-              <svg
-                class="w-10 h-10 text-navy"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
-                />
-              </svg>
-            </div>
-            <h3 class="font-poppins font-bold text-navy text-xl mb-3 mt-2">
-              Small Group Sizes
-            </h3>
-            <p class="text-muted text-base leading-relaxed">
-              We keep our groups small on purpose. You get personal attention,
-              not a cattle drive. Everyone travels comfortably.
-            </p>
-          </div>
-
-          <div class="why-card text-center">
-            <div class="why-icon mx-auto">
-              <svg
-                class="w-10 h-10 text-navy"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </div>
-            <h3 class="font-poppins font-bold text-navy text-xl mb-3 mt-2">
-              All-Inclusive Packages
-            </h3>
-            <p class="text-muted text-base leading-relaxed">
-              Train/flight, hotels, meals, sightseeing, guides, priced upfront.
-              No surprise add-ons. What you see is what you pay.
-            </p>
-          </div>
-
-          <div class="why-card text-center">
-            <div class="why-icon mx-auto">
-              <svg
-                class="w-10 h-10 text-navy"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
-                />
-              </svg>
-            </div>
-            <h3 class="font-poppins font-bold text-navy text-xl mb-3 mt-2">
-              Flexible Installments
-            </h3>
-            <p class="text-muted text-base leading-relaxed">
-              Book your spot with just ₹7,000. Pay the rest in two easy
-              installments before departure. Travel doesn't have to wait.
-            </p>
-          </div>
-
-          <div class="why-card text-center">
-            <div class="why-icon mx-auto">
-              <svg
-                class="w-10 h-10 text-navy"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 8c-1.657 0-3 .672-3 1.5S10.343 11 12 11s3 .672 3 1.5-1.343 1.5-3 1.5m0-6c1.11 0 2.08.402 2.599 1M12 8V6.5M12 14v1.5m0-7.5v7.5m0 0c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </div>
-            <h3 class="font-poppins font-bold text-navy text-xl mb-3 mt-2">
-              Budget Friendly Tours
-            </h3>
-            <p class="text-muted text-base leading-relaxed">
-              Great trips shouldn't need a big budget. Reserve your seat with
-              flexible installments starting at just ₹2,000.
-            </p>
-          </div>
-
-          <div class="why-card text-center">
-            <div class="why-icon mx-auto">
-              <svg
-                class="w-10 h-10 text-navy"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M5 3l1.5 4.5L11 9l-4.5 1.5L5 15l-1.5-4.5L-1 9l4.5-1.5L5 3zm14 3l1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3zm-7 8l.75 2.25L15 17l-2.25.75L12 20l-.75-2.25L9 17l2.25-.75L12 14z"
-                />
-              </svg>
-            </div>
-            <h3 class="font-poppins font-bold text-navy text-xl mb-3 mt-2">
-              Premium Experience
-            </h3>
-            <p class="text-muted text-base leading-relaxed">
-              Want more comfort? Upgrade to our premium stays and services, also
-              available on the same easy installment plan.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
 
-    <!-- ── HOW IT WORKS ── -->
-    <section class="py-12 md:py-16 bg-light-gray">
+    <!-- ── CUSTOMIZED TRIPS (DEDICATED SECTION) ── -->
+    <section class="py-10 md:py-14 bg-white relative">
+      <div class="absolute inset-x-0 top-0 h-px bg-gray-200"></div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12">
-          <p class="section-eyebrow">Simple Process</p>
-          <h2 class="section-title text-3xl md:text-4xl mt-2">How It Works</h2>
+        <!-- Heading -->
+        <div class="text-center max-w-3xl mx-auto mb-8 md:mb-10">
+          <h2 class="font-poppins font-bold text-navy text-2xl md:text-4xl leading-snug">
+            We Provide<br class="hidden sm:block" /> <span class="text-orange">Customized</span> Packages.
+          </h2>
+          <p class="text-muted font-inter text-sm md:text-base mt-3 leading-relaxed">
+            Tell us your group, your dates, your mood. Our travel designers build a private itinerary just for you. Same trusted Samyati handling, fully tailored.
+          </p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
-          <div class="text-center relative z-10">
-            <div class="step-circle">1</div>
-            <h3 class="font-poppins font-bold text-navy text-lg mb-2">
-              Browse Packages
-            </h3>
-            <p class="text-muted text-sm leading-relaxed">
-              Explore our upcoming group departures, spiritual, adventure,
-              beach. Pick what calls to you.
-            </p>
+
+        <!-- Two-column: visual + 3-step process -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 items-stretch mb-8 md:mb-10">
+          <!-- LEFT: feature visual -->
+          <div class="relative rounded-2xl overflow-hidden bg-gradient-to-br from-navy to-blue-900 p-6 md:p-8 min-h-[300px] flex flex-col justify-between">
+            <div class="absolute -top-8 -right-8 w-40 h-40 bg-orange/20 rounded-full blur-2xl"></div>
+            <div class="absolute -bottom-10 -left-6 w-48 h-48 bg-blue-400/20 rounded-full blur-3xl"></div>
+            <div class="relative">
+              <!-- Trust row: logo + Google rating -->
+              <div class="flex items-center justify-between gap-3 mb-4 pb-4 border-b border-white/15">
+                <div class="flex items-center gap-2.5">
+                  <img src="assets/samyati-logo-cropped.png" alt="Samyati Holidays" class="h-10 md:h-12 w-auto rounded-md bg-white/95 px-2 py-1" onerror="this.style.display='none'"/>
+                  <span class="text-white/55 font-inter text-[10px] md:text-xs">Since 2020</span>
+                </div>
+                <!-- Google rating chip -->
+                <div class="flex items-center gap-1.5 bg-white/10 backdrop-blur rounded-full px-2.5 py-1 border border-white/10">
+                  <!-- Google G -->
+                  <svg class="w-3.5 h-3.5 md:w-4 md:h-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                  </svg>
+                  <span class="text-white font-poppins font-semibold text-xs md:text-sm">4.9</span>
+                  <!-- 5 stars -->
+                  <div class="flex gap-0.5">
+                    <svg class="w-2.5 h-2.5 md:w-3 md:h-3 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.448a1 1 0 00-.364 1.118l1.287 3.957c.3.922-.755 1.688-1.54 1.118l-3.37-2.448a1 1 0 00-1.175 0l-3.37 2.448c-.784.57-1.838-.196-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.05 9.384c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69l1.3-3.957z"/></svg>
+                    <svg class="w-2.5 h-2.5 md:w-3 md:h-3 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.448a1 1 0 00-.364 1.118l1.287 3.957c.3.922-.755 1.688-1.54 1.118l-3.37-2.448a1 1 0 00-1.175 0l-3.37 2.448c-.784.57-1.838-.196-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.05 9.384c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69l1.3-3.957z"/></svg>
+                    <svg class="w-2.5 h-2.5 md:w-3 md:h-3 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.448a1 1 0 00-.364 1.118l1.287 3.957c.3.922-.755 1.688-1.54 1.118l-3.37-2.448a1 1 0 00-1.175 0l-3.37 2.448c-.784.57-1.838-.196-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.05 9.384c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69l1.3-3.957z"/></svg>
+                    <svg class="w-2.5 h-2.5 md:w-3 md:h-3 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.448a1 1 0 00-.364 1.118l1.287 3.957c.3.922-.755 1.688-1.54 1.118l-3.37-2.448a1 1 0 00-1.175 0l-3.37 2.448c-.784.57-1.838-.196-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.05 9.384c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69l1.3-3.957z"/></svg>
+                    <svg class="w-2.5 h-2.5 md:w-3 md:h-3 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.957a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.37 2.448a1 1 0 00-.364 1.118l1.287 3.957c.3.922-.755 1.688-1.54 1.118l-3.37-2.448a1 1 0 00-1.175 0l-3.37 2.448c-.784.57-1.838-.196-1.539-1.118l1.287-3.957a1 1 0 00-.364-1.118L2.05 9.384c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.95-.69l1.3-3.957z"/></svg>
+                  </div>
+                </div>
+              </div>
+              <p class="text-orange font-poppins font-semibold text-xs md:text-sm tracking-wider uppercase mb-2">Bespoke, Not Booked</p>
+              <h3 class="text-white font-poppins font-bold text-xl md:text-2xl leading-snug mb-3">
+                Your dates. Your people. Your pace.
+              </h3>
+              <p class="text-white/80 font-inter text-sm leading-relaxed max-w-md">
+                From quiet honeymoon escapes to 40-person corporate offsites. Every customized trip is built fresh, with a single point of contact from first call to final checkout.
+              </p>
+            </div>
+            <div class="relative grid grid-cols-3 gap-3 mt-6">
+              <div class="bg-white/10 backdrop-blur rounded-xl p-3 text-center border border-white/10">
+                <p class="text-orange font-poppins font-bold text-lg md:text-xl">500+</p>
+                <p class="text-white/70 font-inter text-[10px] md:text-xs leading-tight mt-1">Trips designed</p>
+              </div>
+              <div class="bg-white/10 backdrop-blur rounded-xl p-3 text-center border border-white/10">
+                <p class="text-orange font-poppins font-bold text-lg md:text-xl">2 min</p>
+                <p class="text-white/70 font-inter text-[10px] md:text-xs leading-tight mt-1">To start</p>
+              </div>
+              <div class="bg-white/10 backdrop-blur rounded-xl p-3 text-center border border-white/10">
+                <p class="text-orange font-poppins font-bold text-lg md:text-xl">4.9★</p>
+                <p class="text-white/70 font-inter text-[10px] md:text-xs leading-tight mt-1">Traveller rating</p>
+              </div>
+            </div>
           </div>
-          <div class="text-center relative z-10">
-            <div class="step-circle">2</div>
-            <h3 class="font-poppins font-bold text-navy text-lg mb-2">
-              WhatsApp Us
-            </h3>
-            <p class="text-muted text-sm leading-relaxed">
-              Drop us a message, ask every question you have. We'll confirm
-              dates, answer doubts, and help you book in minutes.
-            </p>
-          </div>
-          <div class="text-center relative z-10">
-            <div class="step-circle">3</div>
-            <h3 class="font-poppins font-bold text-navy text-lg mb-2">
-              Travel Worry-Free
-            </h3>
-            <p class="text-muted text-sm leading-relaxed">
-              We handle the logistics. You just pack your bags and show up at
-              the station. We take care of everything else.
-            </p>
+
+          <!-- RIGHT: 3-step process -->
+          <div class="bg-light-gray rounded-2xl p-6 md:p-8">
+            <p class="font-poppins font-semibold text-navy text-base md:text-lg mb-1">How customized trips work</p>
+            <p class="text-muted font-inter text-xs md:text-sm mb-5">Three simple steps. Zero spam.</p>
+            <ol class="space-y-5">
+              <li class="flex gap-4">
+                <div class="flex-shrink-0 w-9 h-9 md:w-10 md:h-10 bg-orange text-white font-poppins font-bold rounded-full flex items-center justify-center text-sm md:text-base shadow-sm">1</div>
+                <div>
+                  <h4 class="font-poppins font-bold text-navy text-sm md:text-base">Share your wishlist</h4>
+                  <p class="text-muted font-inter text-xs md:text-sm leading-snug mt-0.5">Fill a 2-min form: destinations, dates, group size, vibe. No calling needed.</p>
+                </div>
+              </li>
+              <li class="flex gap-4">
+                <div class="flex-shrink-0 w-9 h-9 md:w-10 md:h-10 bg-orange text-white font-poppins font-bold rounded-full flex items-center justify-center text-sm md:text-base shadow-sm">2</div>
+                <div>
+                  <h4 class="font-poppins font-bold text-navy text-sm md:text-base">Get a private itinerary</h4>
+                  <p class="text-muted font-inter text-xs md:text-sm leading-snug mt-0.5">Within 24 hours, a designer drafts a day-by-day plan with pricing. Free, no commitment.</p>
+                </div>
+              </li>
+              <li class="flex gap-4">
+                <div class="flex-shrink-0 w-9 h-9 md:w-10 md:h-10 bg-orange text-white font-poppins font-bold rounded-full flex items-center justify-center text-sm md:text-base shadow-sm">3</div>
+                <div>
+                  <h4 class="font-poppins font-bold text-navy text-sm md:text-base">Tweak, book, travel</h4>
+                  <p class="text-muted font-inter text-xs md:text-sm leading-snug mt-0.5">We fine-tune together, lock in installments, and handle every booking end to end.</p>
+                </div>
+              </li>
+            </ol>
           </div>
         </div>
-        <div class="text-center mt-10">
-          <a
-            href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20enquire%20about%20your%20packages."
-            target="_blank"
-            class="btn-whatsapp inline-flex items-center gap-2 text-base py-3 px-8"
-          >
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
-              />
-            </svg>
-            Start Planning Now
+
+        <!-- 4 preset cards -->
+        <div class="text-center mb-5">
+          <p class="font-poppins font-semibold text-navy text-sm md:text-base">Or start from a popular template</p>
+          <p class="text-muted font-inter text-xs md:text-sm mt-1">Tap any card. We will customize it to your dates and group.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8 md:mb-10">
+          <!-- Card 1 -->
+          <a href="https://wa.me/919076068549?text=Hi%20Samyati!%20I%27d%20like%20to%20customize%20a%20Honeymoon%20%26%20Romance%20trip."
+             target="_blank"
+             class="group bg-white border border-gray-200 rounded-2xl p-5 hover:border-orange hover:shadow-lg transition-all flex flex-col">
+            <div class="w-11 h-11 bg-pink-50 rounded-xl flex items-center justify-center mb-3">
+              <svg class="w-6 h-6 text-pink-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </div>
+            <h4 class="font-poppins font-bold text-navy text-base mb-1">Honeymoon &amp; Romance</h4>
+            <p class="text-muted font-inter text-xs leading-snug mb-4 flex-1">Candlelit dinners, private stays, slow mornings. For newlyweds and anniversaries.</p>
+            <span class="inline-flex items-center gap-1 text-orange font-poppins font-semibold text-xs group-hover:gap-2 transition-all">
+              Tailor This
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </span>
+          </a>
+          <!-- Card 2 -->
+          <a href="https://wa.me/919076068549?text=Hi%20Samyati!%20I%27d%20like%20to%20customize%20a%20Family%20Adventure%20trip."
+             target="_blank"
+             class="group bg-white border border-gray-200 rounded-2xl p-5 hover:border-orange hover:shadow-lg transition-all flex flex-col">
+            <div class="w-11 h-11 bg-emerald-50 rounded-xl flex items-center justify-center mb-3">
+              <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+            </div>
+            <h4 class="font-poppins font-bold text-navy text-base mb-1">Family Adventure</h4>
+            <p class="text-muted font-inter text-xs leading-snug mb-4 flex-1">Multi-gen trips with kid-friendly pace, safe stays, and memories for grandparents too.</p>
+            <span class="inline-flex items-center gap-1 text-orange font-poppins font-semibold text-xs group-hover:gap-2 transition-all">
+              Tailor This
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </span>
+          </a>
+          <!-- Card 3 -->
+          <a href="https://wa.me/919076068549?text=Hi%20Samyati!%20I%27d%20like%20to%20customize%20a%20Luxury%20%26%20Wellness%20trip."
+             target="_blank"
+             class="group bg-white border border-gray-200 rounded-2xl p-5 hover:border-orange hover:shadow-lg transition-all flex flex-col">
+            <div class="w-11 h-11 bg-amber-50 rounded-xl flex items-center justify-center mb-3">
+              <svg class="w-6 h-6 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l1.5 4.5L11 9l-4.5 1.5L5 15l-1.5-4.5L-1 9l4.5-1.5L5 3zm14 3l1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3zM12 14l.94 2.82L16 18l-3.06 1.18L12 22l-.94-2.82L8 18l3.06-1.18L12 14z"/></svg>
+            </div>
+            <h4 class="font-poppins font-bold text-navy text-base mb-1">Luxury &amp; Wellness</h4>
+            <p class="text-muted font-inter text-xs leading-snug mb-4 flex-1">5-star resorts, spa days, curated tastings, zero logistics on your end.</p>
+            <span class="inline-flex items-center gap-1 text-orange font-poppins font-semibold text-xs group-hover:gap-2 transition-all">
+              Tailor This
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </span>
+          </a>
+          <!-- Card 4 -->
+          <a href="https://wa.me/919076068549?text=Hi%20Samyati!%20I%27d%20like%20to%20customize%20an%20Off-the-Beaten-Path%20Explorer%20trip."
+             target="_blank"
+             class="group bg-white border border-gray-200 rounded-2xl p-5 hover:border-orange hover:shadow-lg transition-all flex flex-col">
+            <div class="w-11 h-11 bg-indigo-50 rounded-xl flex items-center justify-center mb-3">
+              <svg class="w-6 h-6 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+            </div>
+            <h4 class="font-poppins font-bold text-navy text-base mb-1">Off-the-Beaten-Path Explorer</h4>
+            <p class="text-muted font-inter text-xs leading-snug mb-4 flex-1">Hidden villages, lesser-known treks, local guides only. For travellers who have seen it all.</p>
+            <span class="inline-flex items-center gap-1 text-orange font-poppins font-semibold text-xs group-hover:gap-2 transition-all">
+              Tailor This
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </span>
           </a>
         </div>
+
+        <!-- CTAs -->
+        <div class="text-center">
+          <a href="https://wa.me/919076068549?text=Hi%20Samyati!%20I%27d%20like%20to%20start%20customizing%20a%20trip."
+             target="_blank"
+             class="inline-flex items-center gap-2 bg-orange hover:bg-orange/90 text-white font-poppins font-semibold text-sm md:text-base py-3.5 px-7 rounded-xl transition-colors shadow-md hover:shadow-lg">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Start Customizing Your Trip
+            <span class="text-white/80 font-medium font-inter text-xs hidden sm:inline">(Takes 2 Mins)</span>
+          </a>
+          <p class="text-muted font-inter text-xs md:text-sm mt-4">
+            Prefer to talk it through?
+            <a href="https://wa.me/919076068549?text=Hi%20Samyati!%20I%27d%20like%20to%20speak%20with%20a%20travel%20designer%20about%20a%20custom%20trip."
+               target="_blank"
+               class="text-orange font-semibold hover:underline">
+              Talk to a Private Travel Designer →
+            </a>
+          </p>
+        </div>
       </div>
     </section>
+    <!-- ── WHY SAMYATI ── -->
+    <section class="py-8 md:py-10 bg-white relative">
+      <div class="absolute inset-x-0 top-0 h-px bg-gray-200"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-6">
+          <p class="section-eyebrow text-sm">Why Choose Us</p>
+          <h2 class="section-title text-2xl md:text-3xl mt-1">
+            The Samyati Difference
+          </h2>
+          <p class="text-muted mt-2 max-w-xl mx-auto text-sm">
+            We've done these routes more times than we can count, so you get the benefit of all that experience.
+          </p>
+        </div>
+        <div class="grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-5 max-w-4xl mx-auto mb-6">
+          <div class="text-center bg-white rounded-xl shadow-sm p-5 md:p-6">
+            <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
+              <svg class="w-6 h-6 md:w-7 md:h-7 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <h3 class="font-poppins font-bold text-navy text-base md:text-lg mb-1">Experienced Local Guides</h3>
+            <p class="text-muted text-sm md:text-base leading-snug">Know every shortcut, every good dhaba, and every local story.</p>
+          </div>
 
+          <div class="text-center bg-white rounded-xl shadow-sm p-5 md:p-6">
+            <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
+              <svg class="w-6 h-6 md:w-7 md:h-7 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+            </div>
+            <h3 class="font-poppins font-bold text-navy text-base md:text-lg mb-1">Small Group Sizes</h3>
+            <p class="text-muted text-sm md:text-base leading-snug">Personal attention, not a cattle drive. Everyone travels comfortably.</p>
+          </div>
+
+          <div class="text-center bg-white rounded-xl shadow-sm p-5 md:p-6">
+            <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
+              <svg class="w-6 h-6 md:w-7 md:h-7 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3 class="font-poppins font-bold text-navy text-base md:text-lg mb-1">All-Inclusive Packages</h3>
+            <p class="text-muted text-sm md:text-base leading-snug">Train/flight, hotels, meals, sightseeing, guides. No surprise add-ons.</p>
+          </div>
+
+          <div class="text-center bg-white rounded-xl shadow-sm p-5 md:p-6">
+            <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
+              <svg class="w-6 h-6 md:w-7 md:h-7 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+            </div>
+            <h3 class="font-poppins font-bold text-navy text-base md:text-lg mb-1">Flexible Installments</h3>
+            <p class="text-muted text-sm md:text-base leading-snug">Book with just ₹7,000. Pay the rest in easy installments.</p>
+          </div>
+
+          <div class="text-center bg-white rounded-xl shadow-sm p-5 md:p-6">
+            <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
+              <svg class="w-6 h-6 md:w-7 md:h-7 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .672-3 1.5S10.343 11 12 11s3 .672 3 1.5-1.343 1.5-3 1.5m0-6c1.11 0 2.08.402 2.599 1M12 8V6.5M12 14v1.5m0-7.5v7.5m0 0c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3 class="font-poppins font-bold text-navy text-base md:text-lg mb-1">Budget Friendly Tours</h3>
+            <p class="text-muted text-sm md:text-base leading-snug">Reserve your seat with installments starting at just ₹2,000.</p>
+          </div>
+
+          <div class="text-center bg-white rounded-xl shadow-sm p-5 md:p-6">
+            <div class="w-12 h-12 md:w-14 md:h-14 bg-blue-50 rounded-xl flex items-center justify-center mx-auto mb-3">
+              <svg class="w-6 h-6 md:w-7 md:h-7 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3l1.5 4.5L11 9l-4.5 1.5L5 15l-1.5-4.5L-1 9l4.5-1.5L5 3zm14 3l1 3 3 1-3 1-1 3-1-3-3-1 3-1 1-3zm-7 8l.75 2.25L15 17l-2.25.75L12 20l-.75-2.25L9 17l2.25-.75L12 14z"/></svg>
+            </div>
+            <h3 class="font-poppins font-bold text-navy text-base md:text-lg mb-1">Premium Experience</h3>
+            <p class="text-muted text-sm md:text-base leading-snug">Upgrade to premium stays on the same easy installment plan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ── TESTIMONIALS ── -->
     <style>.nav-link{position:relative;padding-bottom:6px}.nav-link::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:#F47920;transition:width 0.3s ease-out;border-radius:2px}.nav-link:hover::after,.nav-link.active::after{width:100%}
       @keyframes reviewScroll {
@@ -696,7 +851,8 @@
       }
     .tagline-hand{font-family:"Kalam",cursive}.tagline-hand .fam{color:#F47920}</style>
 
-    <section class="py-12 md:py-16 bg-white overflow-hidden">
+    <section class="py-6 md:py-8 bg-white relative overflow-hidden">
+      <div class="absolute inset-x-0 top-0 h-px bg-gray-200"></div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <p class="section-eyebrow">Real Travellers</p>
@@ -1205,8 +1361,85 @@
       </div>
     </section>
 
+
+
+    <!-- ── TRUST BAR ── -->
+    <section class="trust-bar py-6 relative">
+      <div class="absolute inset-x-0 top-0 h-px bg-gray-300"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div class="trust-stat">
+            <div class="number stat-num" data-target="6" data-suffix="+">0</div>
+            <div class="label">Years Experience</div>
+          </div>
+          <div class="trust-stat">
+            <div
+              class="number stat-num"
+              data-target="20000"
+              data-suffix="+"
+              data-format="comma"
+            >
+              0
+            </div>
+            <div class="label">Happy Travellers</div>
+          </div>
+          <div class="trust-stat">
+            <div class="number stat-num" data-target="50" data-suffix="+">
+              0
+            </div>
+            <div class="label">Destinations</div>
+          </div>
+          <div class="trust-stat">
+            <div class="number stat-num" data-target="100" data-suffix="%">
+              0
+            </div>
+            <div class="label">Group Safety Record</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ── HOW IT WORKS ── -->
+    <section class="py-8 md:py-10 bg-light-gray relative">
+      <div class="absolute inset-x-0 top-0 h-px bg-gray-200"></div>
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-6">
+          <p class="section-eyebrow text-sm">Simple Process</p>
+          <h2 class="section-title text-2xl md:text-3xl mt-1">How It Works</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          <div class="text-center">
+            <div class="step-circle">1</div>
+            <h3 class="font-poppins font-bold text-navy text-base md:text-lg mb-1">Browse Packages</h3>
+            <p class="text-muted text-sm leading-snug">Explore our upcoming group departures. Pick what calls to you.</p>
+          </div>
+          <div class="text-center">
+            <div class="step-circle">2</div>
+            <h3 class="font-poppins font-bold text-navy text-base md:text-lg mb-1">WhatsApp Us</h3>
+            <p class="text-muted text-sm leading-snug">Message us with any question. We confirm dates and help you book.</p>
+          </div>
+          <div class="text-center">
+            <div class="step-circle">3</div>
+            <h3 class="font-poppins font-bold text-navy text-base md:text-lg mb-1">Travel Worry-Free</h3>
+            <p class="text-muted text-sm leading-snug">We handle logistics. You just pack your bags and show up.</p>
+          </div>
+        </div>
+        <div class="text-center mt-6">
+          <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20know%20more%20about%20your%20packages."
+             target="_blank"
+             class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-poppins font-semibold text-sm py-3 px-6 rounded-xl transition-colors shadow-sm">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Us
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- ── INSTAGRAM FEED ── -->
-    <section class="py-12 md:py-16 bg-light-gray">
+    <section class="py-6 md:py-8 bg-light-gray relative">
+      <div class="absolute inset-x-0 top-0 h-px bg-gray-200"></div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10">
           <p class="section-eyebrow">Follow Along</p>
