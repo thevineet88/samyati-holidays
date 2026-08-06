@@ -1,19 +1,21 @@
 {
   "slug": "goa",
   "title": "Goa",
-  "subtitle": "North Goa · South Goa · Beaches & Churches",
-  "dates": "06 – 10 March 2025",
+  "subtitle": "North Goa \u00b7 South Goa \u00b7 Beaches & Churches",
+  "dates": "06 \u2013 10 March 2025",
   "duration": "5 Days / 4 Nights",
   "price": 9499,
-  "priceLabel": "₹9,499/-",
-  "priceNote": "per person (inclusive of bus) | ₹11,999/- (Double Sharing)",
+  "priceLabel": "\u20b99,499/-",
+  "priceNote": "per person (inclusive of bus) | \u20b911,999/- (Double Sharing)",
   "lastBooking": "28 Jan 2025",
   "category": [
     "beach"
   ],
-  "hero": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+  "hero": "assets/images/1200w/goa.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80"
+    "assets/images/600w/goa-1.webp",
+    "assets/images/600w/goa-2.webp",
+    "assets/images/600w/goa-3.webp"
   ],
   "highlights": [
     "Vagator & Chapora Fort",
@@ -41,7 +43,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Mumbai — 6:00 PM, 06 Mar | Pune — 9:30 PM, 06 Mar",
+    "departure": "Mumbai \u2014 6:00 PM, 06 Mar | Pune \u2014 9:30 PM, 06 Mar",
     "train": "AC Sleeper Bus",
     "arrival": "Reach Mumbai by 06:00 AM, 10 Mar | Reach Pune by 09:00 AM, 10 Mar"
   },
@@ -80,12 +82,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "₹5,499/-",
+      "amount": "\u20b95,499/-",
       "dueBy": "28 Jan 2025"
     },
     {
       "name": "2nd Installment",
-      "amount": "₹4,000/-",
+      "amount": "\u20b94,000/-",
       "dueBy": "01 Mar 2025"
     }
   ],

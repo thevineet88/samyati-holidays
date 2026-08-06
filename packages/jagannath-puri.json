@@ -1,19 +1,21 @@
 {
   "slug": "jagannath-puri",
   "title": "Jagannath Puri",
-  "subtitle": "Puri · Konark · Bhubaneshwar · Odisha Temples",
-  "dates": "05 – 11 November 2025",
+  "subtitle": "Puri \u00b7 Konark \u00b7 Bhubaneshwar \u00b7 Odisha Temples",
+  "dates": "05 \u2013 11 November 2025",
   "duration": "7 Days / 6 Nights",
   "price": 11111,
-  "priceLabel": "₹11,111/-",
-  "priceNote": "per person (Sleeper) | ₹13,666/- (3AC)",
+  "priceLabel": "\u20b911,111/-",
+  "priceNote": "per person (Sleeper) | \u20b913,666/- (3AC)",
   "lastBooking": "17 Aug 2025",
   "category": [
     "spiritual"
   ],
-  "hero": "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80",
+  "hero": "assets/images/1200w/jagannath-puri.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80"
+    "assets/images/600w/jagannath-puri-1.webp",
+    "assets/images/600w/jagannath-puri-2.webp",
+    "assets/images/600w/jagannath-puri-3.webp"
   ],
   "highlights": [
     "Jagannath Temple Puri",
@@ -40,7 +42,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "LTT Mumbai — 11:30 PM, 05 Nov 2025",
+    "departure": "LTT Mumbai \u2014 11:30 PM, 05 Nov 2025",
     "train": "Train to Puri",
     "arrival": "Reach Mumbai by 04:30 AM, 11 Nov 2025"
   },
@@ -91,12 +93,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "₹6,111/- (SL) | ₹8,666/- (3AC)",
+      "amount": "\u20b96,111/- (SL) | \u20b98,666/- (3AC)",
       "dueBy": "17 Aug 2025"
     },
     {
       "name": "2nd Installment",
-      "amount": "₹5,000/- (Both)",
+      "amount": "\u20b95,000/- (Both)",
       "dueBy": "25 Oct 2025"
     }
   ],

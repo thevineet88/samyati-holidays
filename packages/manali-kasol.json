@@ -1,20 +1,22 @@
 {
   "slug": "manali-kasol",
-  "title": "Manali – Kasol",
-  "subtitle": "Solang Valley · Parvati Valley · Kasol Campsite · Adventure",
-  "dates": "08 – 15 April 2026",
+  "title": "Manali \u2013 Kasol",
+  "subtitle": "Solang Valley \u00b7 Parvati Valley \u00b7 Kasol Campsite \u00b7 Adventure",
+  "dates": "08 \u2013 15 April 2026",
   "duration": "8 Days / 7 Nights",
   "price": 17999,
-  "priceLabel": "₹17,999/-",
-  "priceNote": "per person (Sleeper) | ₹22,999/- (3AC)",
+  "priceLabel": "\u20b917,999/-",
+  "priceNote": "per person (Sleeper) | \u20b922,999/- (3AC)",
   "lastBooking": "15 Mar 2026",
   "category": [
     "adventure",
     "nature"
   ],
-  "hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+  "hero": "assets/images/1200w/manali-kasol.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+    "assets/images/600w/manali-kasol-1.webp",
+    "assets/images/600w/manali-kasol-2.webp",
+    "assets/images/600w/manali-kasol-3.webp"
   ],
   "highlights": [
     "Solang Valley Snow Activities",
@@ -42,7 +44,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Mumbai Central (MMCT) — 5:30 PM, 08 Apr 2026",
+    "departure": "Mumbai Central (MMCT) \u2014 5:30 PM, 08 Apr 2026",
     "train": "Train to Ambala Cantt",
     "arrival": "Reach Mumbai, 15 Apr 2026"
   },

@@ -1,19 +1,21 @@
 {
   "slug": "somnath-dwarka",
-  "title": "Somnath – Dwarka",
-  "subtitle": "Dwarkadish Temple · Somnath Jyotirlinga · Girnar Darshan · Bet Dwarka",
-  "dates": "15 – 21 January 2026",
+  "title": "Somnath \u2013 Dwarka",
+  "subtitle": "Dwarkadish Temple \u00b7 Somnath Jyotirlinga \u00b7 Girnar Darshan \u00b7 Bet Dwarka",
+  "dates": "15 \u2013 21 January 2026",
   "duration": "7 Days / 6 Nights",
   "price": 13499,
-  "priceLabel": "₹13,499/-",
-  "priceNote": "per person (Sleeper) | ₹14,999/- (3AC)",
+  "priceLabel": "\u20b913,499/-",
+  "priceNote": "per person (Sleeper) | \u20b914,999/- (3AC)",
   "lastBooking": "08 November 2025",
   "category": [
     "spiritual"
   ],
-  "hero": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&q=80",
+  "hero": "assets/images/1200w/somnath-dwarka.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&q=80"
+    "assets/images/600w/somnath-dwarka-1.webp",
+    "assets/images/600w/somnath-dwarka-2.webp",
+    "assets/images/600w/somnath-dwarka-3.webp"
   ],
   "highlights": [
     "Dwarkadish Temple",
@@ -24,7 +26,7 @@
   ],
   "inclusions": [
     "Both way Train Tickets (Sleeper/3AC)",
-    "Accommodation in 3★ Hotel",
+    "Accommodation in 3\u2605 Hotel",
     "Transport for sightseeing",
     "Breakfast & Dinner",
     "Entry Fees",
@@ -41,7 +43,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Mumbai Central — 8:00 PM, 15 Jan 2026",
+    "departure": "Mumbai Central \u2014 8:00 PM, 15 Jan 2026",
     "train": "Saurashtra Mail",
     "arrival": "Reach Mumbai by 06:00 AM, 21 Jan 2026 (Saurashtra Janta Express 19218 from Junagadh)"
   },
@@ -92,12 +94,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "₹7,499/- (SL) | ₹8,999/- (3AC)",
+      "amount": "\u20b97,499/- (SL) | \u20b98,999/- (3AC)",
       "dueBy": "08 November 2025"
     },
     {
       "name": "2nd Installment",
-      "amount": "₹6,000/-",
+      "amount": "\u20b96,000/-",
       "dueBy": "28 December 2025"
     }
   ],

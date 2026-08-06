@@ -1,22 +1,22 @@
 {
   "slug": "nainital-mussoorie",
-  "title": "Nainital – Mussoorie",
-  "subtitle": "Mussoorie · Rishikesh · Nainital · Jim Corbett · Kainchi Dham",
-  "dates": "03 – 11 April 2026",
+  "title": "Nainital \u2013 Mussoorie",
+  "subtitle": "Mussoorie \u00b7 Rishikesh \u00b7 Nainital \u00b7 Jim Corbett \u00b7 Kainchi Dham",
+  "dates": "03 \u2013 11 April 2026",
   "duration": "9 Days / 8 Nights",
   "price": 19499,
-  "priceLabel": "₹19,499/-",
-  "priceNote": "per person (Sleeper Class) | ₹21,999/- (3AC)",
+  "priceLabel": "\u20b919,499/-",
+  "priceNote": "per person (Sleeper Class) | \u20b921,999/- (3AC)",
   "lastBooking": "30 Jan 2026",
   "category": [
     "adventure",
     "nature"
   ],
-  "hero": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80",
+  "hero": "assets/images/1200w/nainital-mussoorie.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?w=600&q=80",
-    "https://images.unsplash.com/photo-1569324277816-53278c3cf8bb?w=600&q=80",
-    "https://images.unsplash.com/photo-1597150566623-9ed83c01f5cc?w=600&q=80"
+    "assets/images/600w/nainital-mussoorie-1.webp",
+    "assets/images/600w/nainital-mussoorie-2.webp",
+    "assets/images/600w/nainital-mussoorie-3.webp"
   ],
   "highlights": [
     "Jim Corbett Jungle Jeep Safari",
@@ -44,7 +44,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Bandra Terminus — 11:00 PM, 03 Apr 2026",
+    "departure": "Bandra Terminus \u2014 11:00 PM, 03 Apr 2026",
     "train": "Bandra Haridwar Express (19019)",
     "arrival": "Reach Mumbai by 10:15 PM, 11 Apr 2026"
   },
@@ -63,20 +63,20 @@
     },
     {
       "day": 3,
-      "title": "Arrive Haridwar → Mussoorie",
-      "description": "Arrive Haridwar at 8:00 AM. Proceed to Mussoorie — the Queen of Hills. Visit the famous Kempty Falls and enjoy the evening at Mall Road. Dinner and overnight stay.",
+      "title": "Arrive Haridwar \u2192 Mussoorie",
+      "description": "Arrive Haridwar at 8:00 AM. Proceed to Mussoorie \u2014 the Queen of Hills. Visit the famous Kempty Falls and enjoy the evening at Mall Road. Dinner and overnight stay.",
       "meals": "Dinner"
     },
     {
       "day": 4,
       "title": "Rishikesh Adventure",
-      "description": "Head to Rishikesh — the Yoga Capital of the World. Enjoy thrilling River Rafting on the Ganges. Visit Ram Jhula. Witness the evening Ganga Aarti. Dinner and overnight stay.",
+      "description": "Head to Rishikesh \u2014 the Yoga Capital of the World. Enjoy thrilling River Rafting on the Ganges. Visit Ram Jhula. Witness the evening Ganga Aarti. Dinner and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
     {
       "day": 5,
       "title": "Journey to Nainital via Kainchi Dham",
-      "description": "Breakfast and check out. Journey to Nainital. En route visit Kainchi Dham — a serene spiritual sanctuary and haven for tranquility. Check in at hotel. Dinner and overnight stay.",
+      "description": "Breakfast and check out. Journey to Nainital. En route visit Kainchi Dham \u2014 a serene spiritual sanctuary and haven for tranquility. Check in at hotel. Dinner and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
     {
@@ -88,7 +88,7 @@
     {
       "day": 7,
       "title": "Jim Corbett Jungle Safari",
-      "description": "Breakfast and check out. Proceed to Jim Corbett National Park for an adventurous Jeep Safari through India's most renowned wildlife reserve — famed for Bengal tiger sightings and lush landscapes. Dinner and overnight stay.",
+      "description": "Breakfast and check out. Proceed to Jim Corbett National Park for an adventurous Jeep Safari through India's most renowned wildlife reserve \u2014 famed for Bengal tiger sightings and lush landscapes. Dinner and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
     {
@@ -107,17 +107,17 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "₹7,499/- (SL) | ₹9,999/- (3AC)",
+      "amount": "\u20b97,499/- (SL) | \u20b99,999/- (3AC)",
       "dueBy": "30 Jan 2026"
     },
     {
       "name": "2nd Installment",
-      "amount": "₹6,000/-",
+      "amount": "\u20b96,000/-",
       "dueBy": "27 Feb 2026"
     },
     {
       "name": "3rd Installment",
-      "amount": "₹6,000/-",
+      "amount": "\u20b96,000/-",
       "dueBy": "23 Mar 2026"
     }
   ],

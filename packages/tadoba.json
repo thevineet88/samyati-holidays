@@ -12,9 +12,11 @@
     "adventure",
     "nature"
   ],
-  "hero": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80",
+  "hero": "assets/images/1200w/tadoba.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80"
+    "assets/images/600w/tadoba-1.webp",
+    "assets/images/600w/tadoba-2.webp",
+    "assets/images/600w/tadoba-3.webp"
   ],
   "highlights": [
     "Tadoba Tiger Reserve",

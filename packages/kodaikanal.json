@@ -11,9 +11,11 @@
   "category": [
     "nature"
   ],
-  "hero": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80",
+  "hero": "assets/images/1200w/kodaikanal.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80"
+    "assets/images/600w/kodaikanal-1.webp",
+    "assets/images/600w/kodaikanal-2.webp",
+    "assets/images/600w/kodaikanal-3.webp"
   ],
   "highlights": [
     "Kodaikanal Lake",

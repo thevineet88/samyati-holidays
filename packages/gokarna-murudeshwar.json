@@ -1,22 +1,22 @@
 {
   "slug": "gokarna-murudeshwar",
-  "title": "Gokarna – Murudeshwar",
-  "subtitle": "Beaches · Waterfalls · Shiva Statue",
-  "dates": "26 – 30 August 2026",
+  "title": "Gokarna \u2013 Murudeshwar",
+  "subtitle": "Beaches \u00b7 Waterfalls \u00b7 Shiva Statue",
+  "dates": "26 \u2013 30 August 2026",
   "duration": "5 Days / 4 Nights",
   "price": 9999,
-  "priceLabel": "₹9,999/-",
+  "priceLabel": "\u20b99,999/-",
   "priceNote": "per person (inclusive of train)",
   "lastBooking": "Contact us",
   "category": [
     "spiritual",
     "beach"
   ],
-  "hero": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+  "hero": "assets/images/1200w/gokarna-murudeshwar.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1593643946890-b5b85ade6451?w=600&q=80",
-    "https://images.unsplash.com/photo-1602643954930-19a8f85a38e9?w=600&q=80",
-    "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80"
+    "assets/images/600w/gokarna-murudeshwar-1.webp",
+    "assets/images/600w/gokarna-murudeshwar-2.webp",
+    "assets/images/600w/gokarna-murudeshwar-3.webp"
   ],
   "highlights": [
     "Murudeshwar Shiva Statue (World's 2nd Tallest)",
@@ -42,7 +42,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "LTT (Mumbai) — 2:00 PM, 26 Aug 2026",
+    "departure": "LTT (Mumbai) \u2014 2:00 PM, 26 Aug 2026",
     "train": "Matsyagandha Express (12619)",
     "arrival": "Return: Matsyagandha Express (12620)"
   },
@@ -55,7 +55,7 @@
     },
     {
       "day": 2,
-      "title": "Arrive Murudeshwar → Gokarna",
+      "title": "Arrive Murudeshwar \u2192 Gokarna",
       "description": "Arrive Murudeshwar at 5:00 AM. After freshening up, visit Apsarkonda Waterfall, Mirjan Fort, Mahabaleshwara Temple, and Gokarna Beach. Check in and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
@@ -68,7 +68,7 @@
     {
       "day": 4,
       "title": "Yana Caves & Vibhuti Waterfall",
-      "description": "Morning visit to the mystical Yana Caves — unique black crystalline limestone rock formations. Visit Vibhuti Waterfall. Board the return train at 4:00 PM.",
+      "description": "Morning visit to the mystical Yana Caves \u2014 unique black crystalline limestone rock formations. Visit Vibhuti Waterfall. Board the return train at 4:00 PM.",
       "meals": "Breakfast"
     },
     {

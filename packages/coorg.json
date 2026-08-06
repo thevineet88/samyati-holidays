@@ -1,19 +1,21 @@
 {
   "slug": "coorg",
   "title": "Coorg",
-  "subtitle": "Madikeri · Abbey Falls · Talacauvery · Coffee Plantations",
-  "dates": "24 – 28 June 2026",
+  "subtitle": "Madikeri \u00b7 Abbey Falls \u00b7 Talacauvery \u00b7 Coffee Plantations",
+  "dates": "24 \u2013 28 June 2026",
   "duration": "5 Days / 4 Nights",
   "price": 10999,
-  "priceLabel": "₹10,999/-",
-  "priceNote": "per person (Sleeper) | ₹13,499/- (3AC)",
+  "priceLabel": "\u20b910,999/-",
+  "priceNote": "per person (Sleeper) | \u20b913,499/- (3AC)",
   "lastBooking": "10 Apr 2026",
   "category": [
     "nature"
   ],
-  "hero": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80",
+  "hero": "assets/images/1200w/coorg.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80"
+    "assets/images/600w/coorg-1.webp",
+    "assets/images/600w/coorg-2.webp",
+    "assets/images/600w/coorg-3.webp"
   ],
   "highlights": [
     "Abbey Falls",
@@ -41,7 +43,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Panvel Station — 10:30 AM, 24 Jun 2026",
+    "departure": "Panvel Station \u2014 10:30 AM, 24 Jun 2026",
     "train": "Train to Mangaluru",
     "arrival": "Reach Mumbai by 10:45 AM, 28 Jun 2026"
   },
@@ -80,12 +82,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "₹5,999/- (SL) | ₹8,499/- (3AC)",
+      "amount": "\u20b95,999/- (SL) | \u20b98,499/- (3AC)",
       "dueBy": "20 Apr 2026"
     },
     {
       "name": "2nd Installment",
-      "amount": "₹5,000/-",
+      "amount": "\u20b95,000/-",
       "dueBy": "05 Jun 2026"
     }
   ],

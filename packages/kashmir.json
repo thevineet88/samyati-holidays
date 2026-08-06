@@ -1,20 +1,22 @@
 {
   "slug": "kashmir",
   "title": "Kashmir",
-  "subtitle": "Amritsar · Pahalgam · Sonmarg · Gulmarg · Srinagar",
-  "dates": "06 – 14 February 2026",
+  "subtitle": "Amritsar \u00b7 Pahalgam \u00b7 Sonmarg \u00b7 Gulmarg \u00b7 Srinagar",
+  "dates": "06 \u2013 14 February 2026",
   "duration": "9 Days / 8 Nights",
   "price": 20499,
-  "priceLabel": "₹20,499/-",
+  "priceLabel": "\u20b920,499/-",
   "priceNote": "per person (inclusive of train)",
   "lastBooking": "10 Jan 2026",
   "category": [
     "adventure",
     "nature"
   ],
-  "hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+  "hero": "assets/images/1200w/kashmir.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+    "assets/images/600w/kashmir-1.webp",
+    "assets/images/600w/kashmir-2.webp",
+    "assets/images/600w/kashmir-3.webp"
   ],
   "highlights": [
     "Golden Temple Amritsar",
@@ -25,7 +27,7 @@
   ],
   "inclusions": [
     "SL Train Tickets (both ways)",
-    "3★ Hotel Stay",
+    "3\u2605 Hotel Stay",
     "Breakfast & Dinner",
     "Transport",
     "Entry Fees",
@@ -43,7 +45,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Mumbai Central — 10:30 AM, 06 Feb 2026",
+    "departure": "Mumbai Central \u2014 10:30 AM, 06 Feb 2026",
     "train": "Train to Amritsar",
     "arrival": "Reach Mumbai, 14 Feb 2026"
   },
@@ -68,7 +70,7 @@
     },
     {
       "day": 4,
-      "title": "Reach Pahalgam till 08:00 AM Check in at Hotel (as per Hotels’ standard check in",
+      "title": "Reach Pahalgam till 08:00 AM Check in at Hotel (as per Hotels\u2019 standard check in",
       "description": "Reach Pahalgam by 08:00 AM. Check in at hotel. Freshen up. After breakfast, head towards Betaab Valley, a famous Bollywood shooting location. Enjoy the scenic beauty of the valley. Dinner and overnight stay. 09 February 2026 (Monday)",
       "meals": ""
     },
@@ -81,13 +83,13 @@
     {
       "day": 6,
       "title": "Sonmarg Day Trip",
-      "description": "OVERNIGHT STAY IN SRINAGAR11 FEBRUARY 2026(Wednesday) Full day excursion to ‘The Meadows of Gold’, also the last stop of Kashmir. the sledding ride & horse ride (at your own cost). to Hotel.",
+      "description": "OVERNIGHT STAY IN SRINAGAR11 FEBRUARY 2026(Wednesday) Full day excursion to \u2018The Meadows of Gold\u2019, also the last stop of Kashmir. the sledding ride & horse ride (at your own cost). to Hotel.",
       "meals": ""
     },
     {
       "day": 7,
       "title": "Gulmarg Sightseeing",
-      "description": "OVERNIGHT STAY IN SRINAGAR12 FEBRUARY 2026(Thursday) Catch some rays at ‘The Meadows of Flowers’. Get ready to witness breathtaking views from Gondola ride. Gondola ride is the second highest cable ride in the world. This ride comprises of 2 stages : Phase 1 (Gulmarg to Kongdoori Peak) &",
+      "description": "OVERNIGHT STAY IN SRINAGAR12 FEBRUARY 2026(Thursday) Catch some rays at \u2018The Meadows of Flowers\u2019. Get ready to witness breathtaking views from Gondola ride. Gondola ride is the second highest cable ride in the world. This ride comprises of 2 stages : Phase 1 (Gulmarg to Kongdoori Peak) &",
       "meals": ""
     },
     {

@@ -14,11 +14,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "spiritual"
     ],
-    "hero": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&q=80",
+    "hero": "assets/images/1200w/ayodhya-kashi-prayagraj.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1575995872537-3793d29d972c?w=600&q=80",
-      "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=600&q=80",
-      "https://images.unsplash.com/photo-1584182773775-6027bc655dd4?w=600&q=80"
+      "assets/images/600w/ayodhya-kashi-prayagraj-1.webp",
+      "assets/images/600w/ayodhya-kashi-prayagraj-2.webp",
+      "assets/images/600w/ayodhya-kashi-prayagraj-3.webp"
     ],
     "highlights": [
       "Ram Mandir Ayodhya",
@@ -135,9 +135,11 @@ const SAMYATI_PACKAGES = [
       "adventure",
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+    "hero": "assets/images/1200w/bhutan.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+      "assets/images/600w/bhutan-1.webp",
+      "assets/images/600w/bhutan-2.webp",
+      "assets/images/600w/bhutan-3.webp"
     ],
     "highlights": [
       "Thimphu Capital City",
@@ -259,9 +261,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80",
+    "hero": "assets/images/1200w/coorg.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80"
+      "assets/images/600w/coorg-1.webp",
+      "assets/images/600w/coorg-2.webp",
+      "assets/images/600w/coorg-3.webp"
     ],
     "highlights": [
       "Abbey Falls",
@@ -365,9 +369,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "beach"
     ],
-    "hero": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+    "hero": "assets/images/1200w/goa.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80"
+      "assets/images/600w/goa-1.webp",
+      "assets/images/600w/goa-2.webp",
+      "assets/images/600w/goa-3.webp"
     ],
     "highlights": [
       "Vagator & Chapora Fort",
@@ -472,11 +478,11 @@ const SAMYATI_PACKAGES = [
       "spiritual",
       "beach"
     ],
-    "hero": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80",
+    "hero": "assets/images/1200w/gokarna-murudeshwar.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1593643946890-b5b85ade6451?w=600&q=80",
-      "https://images.unsplash.com/photo-1602643954930-19a8f85a38e9?w=600&q=80",
-      "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80"
+      "assets/images/600w/gokarna-murudeshwar-1.webp",
+      "assets/images/600w/gokarna-murudeshwar-2.webp",
+      "assets/images/600w/gokarna-murudeshwar-3.webp"
     ],
     "highlights": [
       "Murudeshwar Shiva Statue (World's 2nd Tallest)",
@@ -555,9 +561,11 @@ const SAMYATI_PACKAGES = [
       "nature",
       "adventure"
     ],
-    "hero": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=1200&q=80",
+    "hero": "assets/images/1200w/hampi.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=1200&q=80"
+      "assets/images/600w/hampi-1.webp",
+      "assets/images/600w/hampi-2.webp",
+      "assets/images/600w/hampi-3.webp"
     ],
     "highlights": [
       "Virupaksha Temple",
@@ -637,9 +645,11 @@ const SAMYATI_PACKAGES = [
       "adventure",
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1626015365107-338e1a33e918?w=1200&q=80",
+    "hero": "assets/images/1200w/himachal.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1626015365107-338e1a33e918?w=1200&q=80"
+      "assets/images/600w/himachal-1.webp",
+      "assets/images/600w/himachal-2.webp",
+      "assets/images/600w/himachal-3.webp"
     ],
     "highlights": [
       "Amritsar & Golden Temple",
@@ -773,9 +783,11 @@ const SAMYATI_PACKAGES = [
       "spiritual",
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1575995872537-3793d29d972c?w=1200&q=80",
+    "hero": "assets/images/1200w/hyderabad.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1575995872537-3793d29d972c?w=1200&q=80"
+      "assets/images/600w/hyderabad-1.webp",
+      "assets/images/600w/hyderabad-2.webp",
+      "assets/images/600w/hyderabad-3.webp"
     ],
     "highlights": [
       "Golconda Fort",
@@ -857,9 +869,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "spiritual"
     ],
-    "hero": "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80",
+    "hero": "assets/images/1200w/jagannath-puri.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80"
+      "assets/images/600w/jagannath-puri-1.webp",
+      "assets/images/600w/jagannath-puri-2.webp",
+      "assets/images/600w/jagannath-puri-3.webp"
     ],
     "highlights": [
       "Jagannath Temple Puri",
@@ -975,9 +989,11 @@ const SAMYATI_PACKAGES = [
       "spiritual",
       "adventure"
     ],
-    "hero": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80",
+    "hero": "assets/images/1200w/jaipur.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80"
+      "assets/images/600w/jaipur-1.webp",
+      "assets/images/600w/jaipur-2.webp",
+      "assets/images/600w/jaipur-3.webp"
     ],
     "highlights": [
       "Amer Fort & Nahargarh",
@@ -1083,9 +1099,11 @@ const SAMYATI_PACKAGES = [
       "adventure",
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+    "hero": "assets/images/1200w/kashmir.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+      "assets/images/600w/kashmir-1.webp",
+      "assets/images/600w/kashmir-2.webp",
+      "assets/images/600w/kashmir-3.webp"
     ],
     "highlights": [
       "Golden Temple Amritsar",
@@ -1191,11 +1209,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "spiritual"
     ],
-    "hero": "https://images.unsplash.com/photo-1591679901834-e2a5ea59c5b5?w=1200&q=80",
+    "hero": "assets/images/1200w/kedarnath-badrinath.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1626015365107-338e1a33e918?w=600&q=80",
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80",
-      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=600&q=80"
+      "assets/images/600w/kedarnath-badrinath-1.webp",
+      "assets/images/600w/kedarnath-badrinath-2.webp",
+      "assets/images/600w/kedarnath-badrinath-3.webp"
     ],
     "highlights": [
       "Kedarnath Temple (3,583m altitude)",
@@ -1348,11 +1366,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80",
+    "hero": "assets/images/1200w/kerala.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=600&q=80",
-      "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600&q=80",
-      "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80"
+      "assets/images/600w/kerala-1.webp",
+      "assets/images/600w/kerala-2.webp",
+      "assets/images/600w/kerala-3.webp"
     ],
     "highlights": [
       "Munnar Tea Gardens",
@@ -1474,9 +1492,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80",
+    "hero": "assets/images/1200w/kodaikanal.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80"
+      "assets/images/600w/kodaikanal-1.webp",
+      "assets/images/600w/kodaikanal-2.webp",
+      "assets/images/600w/kodaikanal-3.webp"
     ],
     "highlights": [
       "Kodaikanal Lake",
@@ -1568,9 +1588,11 @@ const SAMYATI_PACKAGES = [
       "adventure",
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+    "hero": "assets/images/1200w/manali-kasol.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+      "assets/images/600w/manali-kasol-1.webp",
+      "assets/images/600w/manali-kasol-2.webp",
+      "assets/images/600w/manali-kasol-3.webp"
     ],
     "highlights": [
       "Solang Valley Snow Activities",
@@ -1663,9 +1685,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "spiritual"
     ],
-    "hero": "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80",
+    "hero": "assets/images/1200w/mathura-vrindavan.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80"
+      "assets/images/600w/mathura-vrindavan-1.webp",
+      "assets/images/600w/mathura-vrindavan-2.webp",
+      "assets/images/600w/mathura-vrindavan-3.webp"
     ],
     "highlights": [
       "Banke Bihari Temple Vrindavan",
@@ -1759,11 +1783,11 @@ const SAMYATI_PACKAGES = [
       "adventure",
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80",
+    "hero": "assets/images/1200w/nainital-mussoorie.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?w=600&q=80",
-      "https://images.unsplash.com/photo-1569324277816-53278c3cf8bb?w=600&q=80",
-      "https://images.unsplash.com/photo-1597150566623-9ed83c01f5cc?w=600&q=80"
+      "assets/images/600w/nainital-mussoorie-1.webp",
+      "assets/images/600w/nainital-mussoorie-2.webp",
+      "assets/images/600w/nainital-mussoorie-3.webp"
     ],
     "highlights": [
       "Jim Corbett Jungle Jeep Safari",
@@ -1897,9 +1921,11 @@ const SAMYATI_PACKAGES = [
       "nature",
       "adventure"
     ],
-    "hero": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80",
+    "hero": "assets/images/1200w/ooty-mysore.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=80"
+      "assets/images/600w/ooty-mysore-1.webp",
+      "assets/images/600w/ooty-mysore-2.webp",
+      "assets/images/600w/ooty-mysore-3.webp"
     ],
     "highlights": [
       "Mysore Palace",
@@ -2009,9 +2035,11 @@ const SAMYATI_PACKAGES = [
       "spiritual",
       "adventure"
     ],
-    "hero": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80",
+    "hero": "assets/images/1200w/rajasthan.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80"
+      "assets/images/600w/rajasthan-1.webp",
+      "assets/images/600w/rajasthan-2.webp",
+      "assets/images/600w/rajasthan-3.webp"
     ],
     "highlights": [
       "Jaipur Amer Fort & Hawa Mahal",
@@ -2124,11 +2152,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "spiritual"
     ],
-    "hero": "https://images.unsplash.com/photo-1616136232539-4a5b0b27614a?w=1200&q=80",
+    "hero": "assets/images/1200w/rameshwaram.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1591018533941-dbb4c4ef5dc2?w=600&q=80",
-      "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=600&q=80",
-      "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&q=80"
+      "assets/images/600w/rameshwaram-1.webp",
+      "assets/images/600w/rameshwaram-2.webp",
+      "assets/images/600w/rameshwaram-3.webp"
     ],
     "highlights": [
       "Ramanathaswamy Temple — Char Dham",
@@ -2251,9 +2279,11 @@ const SAMYATI_PACKAGES = [
       "adventure",
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80",
+    "hero": "assets/images/1200w/rann-utsav.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80"
+      "assets/images/600w/rann-utsav-1.webp",
+      "assets/images/600w/rann-utsav-2.webp",
+      "assets/images/600w/rann-utsav-3.webp"
     ],
     "highlights": [
       "White Rann of Kutch",
@@ -2356,11 +2386,11 @@ const SAMYATI_PACKAGES = [
       "adventure",
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+    "hero": "assets/images/1200w/sikkim-darjeeling.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=80",
-      "https://images.unsplash.com/photo-1605649461784-bc37c5a22cc2?w=600&q=80"
+      "assets/images/600w/sikkim-darjeeling-1.webp",
+      "assets/images/600w/sikkim-darjeeling-2.webp",
+      "assets/images/600w/sikkim-darjeeling-3.webp"
     ],
     "highlights": [
       "Tsomgo Lake at 12,400 ft",
@@ -2485,9 +2515,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "spiritual"
     ],
-    "hero": "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&q=80",
+    "hero": "assets/images/1200w/somnath-dwarka.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=1200&q=80"
+      "assets/images/600w/somnath-dwarka-1.webp",
+      "assets/images/600w/somnath-dwarka-2.webp",
+      "assets/images/600w/somnath-dwarka-3.webp"
     ],
     "highlights": [
       "Dwarkadish Temple",
@@ -2605,9 +2637,11 @@ const SAMYATI_PACKAGES = [
       "adventure",
       "nature"
     ],
-    "hero": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80",
+    "hero": "assets/images/1200w/tadoba.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80"
+      "assets/images/600w/tadoba-1.webp",
+      "assets/images/600w/tadoba-2.webp",
+      "assets/images/600w/tadoba-3.webp"
     ],
     "highlights": [
       "Tadoba Tiger Reserve",
@@ -2691,11 +2725,11 @@ const SAMYATI_PACKAGES = [
     "category": [
       "spiritual"
     ],
-    "hero": "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=1200&q=80",
+    "hero": "assets/images/1200w/ujjain-indore.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1609766857952-bfb7a5e8c3fb?w=600&q=80",
-      "https://images.unsplash.com/photo-1591018533941-dbb4c4ef5dc2?w=600&q=80",
-      "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600&q=80"
+      "assets/images/600w/ujjain-indore-1.webp",
+      "assets/images/600w/ujjain-indore-2.webp",
+      "assets/images/600w/ujjain-indore-3.webp"
     ],
     "highlights": [
       "Mahakaleshwar Jyotirlinga",
@@ -2775,9 +2809,11 @@ const SAMYATI_PACKAGES = [
       "nature",
       "adventure"
     ],
-    "hero": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80",
+    "hero": "assets/images/1200w/wayanad.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80"
+      "assets/images/600w/wayanad-1.webp",
+      "assets/images/600w/wayanad-2.webp",
+      "assets/images/600w/wayanad-3.webp"
     ],
     "highlights": [
       "Pookode Lake",

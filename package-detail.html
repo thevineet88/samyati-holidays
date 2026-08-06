@@ -79,7 +79,11 @@
 
     <!-- HERO -->
     <section id="hero-section" class="relative h-[420px] md:h-[520px] bg-gray-800 overflow-hidden">
-      <img id="hero-img" src="" alt="" class="w-full h-full object-cover" />
+      <picture id="hero-picture">
+        <source type="image/webp" srcset="" media="(min-width: 1024px)" id="hero-src-lg">
+        <source type="image/webp" srcset="" media="(min-width: 640px)" id="hero-src-md">
+        <img id="hero-img" src="" alt="" class="w-full h-full object-cover" />
+      </picture>
       <div class="hero-overlay absolute inset-0"></div>
       <div class="absolute inset-0 flex flex-col justify-end pb-10 px-4">
         <div class="max-w-6xl mx-auto w-full">
@@ -385,7 +389,19 @@
 
       // ── Hero ──
       const heroImg = document.getElementById('hero-img');
-      heroImg.src = pkg.hero;
+      const heroSrcLg = document.getElementById('hero-src-lg');
+      const heroSrcMd = document.getElementById('hero-src-md');
+      // Responsive WebP srcset for local assets; fall back to pkg.hero otherwise.
+      if (pkg.hero && pkg.hero.startsWith('../assets/images/')) {
+        const base = pkg.hero.replace('/1200w/', '/{w}/').replace(/\.(webp|jpg|png)$/, '.webp');
+        heroSrcLg.srcset = base.replace('{w}', '1200w');
+        heroSrcMd.srcset = base.replace('{w}', '800w');
+        heroImg.src = base.replace('{w}', '600w');
+      } else {
+        heroSrcLg.srcset = pkg.hero || '';
+        heroSrcMd.srcset = pkg.hero || '';
+        heroImg.src = pkg.hero || '';
+      }
       heroImg.alt = pkg.title;
       document.getElementById('hero-title').textContent = pkg.title;
       document.getElementById('hero-subtitle').textContent = pkg.subtitle;

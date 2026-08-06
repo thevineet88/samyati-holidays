@@ -1,21 +1,21 @@
 {
   "slug": "kerala",
   "title": "Kerala Trip",
-  "subtitle": "Munnar · Thekkady · Alleppey Backwaters",
-  "dates": "02 – 09 October 2026",
+  "subtitle": "Munnar \u00b7 Thekkady \u00b7 Alleppey Backwaters",
+  "dates": "02 \u2013 09 October 2026",
   "duration": "8 Days / 7 Nights",
   "price": 15555,
-  "priceLabel": "₹15,555/-",
-  "priceNote": "per person (Sleeper Class) | ₹17,999/- (3AC)",
+  "priceLabel": "\u20b915,555/-",
+  "priceNote": "per person (Sleeper Class) | \u20b917,999/- (3AC)",
   "lastBooking": "25 July 2026",
   "category": [
     "nature"
   ],
-  "hero": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80",
+  "hero": "assets/images/1200w/kerala.webp",
   "gallery": [
-    "https://images.unsplash.com/photo-1585238342024-78d387f4a707?w=600&q=80",
-    "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=600&q=80",
-    "https://images.unsplash.com/photo-1548013146-72479768bada?w=600&q=80"
+    "assets/images/600w/kerala-1.webp",
+    "assets/images/600w/kerala-2.webp",
+    "assets/images/600w/kerala-3.webp"
   ],
   "highlights": [
     "Munnar Tea Gardens",
@@ -27,7 +27,7 @@
   "inclusions": [
     "Both way SL Train Tickets (3AC upgrade available)",
     "AC Tempo Traveller / Bus for local sightseeing",
-    "Accommodation in 3★ Hotel (3/4 Sharing)",
+    "Accommodation in 3\u2605 Hotel (3/4 Sharing)",
     "Houseboat Stay (3-sharing compulsory)",
     "5 Breakfasts & 4 Dinners",
     "1L Mineral Water on sightseeing days",
@@ -43,7 +43,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Panvel — 11:00 PM, 02 Oct 2026",
+    "departure": "Panvel \u2014 11:00 PM, 02 Oct 2026",
     "train": "NZM-ERS SF Express (22656)",
     "arrival": "Reach Mumbai by 05:00 PM, 09 Oct 2026"
   },
@@ -62,14 +62,14 @@
     },
     {
       "day": 3,
-      "title": "Arrive Ernakulam → Munnar",
+      "title": "Arrive Ernakulam \u2192 Munnar",
       "description": "Arrive Ernakulam at 3:00 AM. After freshening up, depart for Munnar. En route visit Cheeyapara Waterfalls and Valara Waterfalls. Check in to hotel. Dinner and overnight stay.",
       "meals": "Dinner"
     },
     {
       "day": 4,
       "title": "Munnar Sightseeing",
-      "description": "Full-day sightseeing in Munnar — Mattupetty Dam, Echo Point, Blossom Hydel Park, and Tea Museum. Return to hotel. Dinner and overnight stay.",
+      "description": "Full-day sightseeing in Munnar \u2014 Mattupetty Dam, Echo Point, Blossom Hydel Park, and Tea Museum. Return to hotel. Dinner and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
     {
@@ -100,12 +100,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "₹8,555/- (SL) | ₹8,999/- (3AC)",
+      "amount": "\u20b98,555/- (SL) | \u20b98,999/- (3AC)",
       "dueBy": "25 July 2026"
     },
     {
       "name": "2nd Installment",
-      "amount": "₹7,000/- (SL) | ₹9,000/- (3AC)",
+      "amount": "\u20b97,000/- (SL) | \u20b99,000/- (3AC)",
       "dueBy": "20 Aug 2026"
     }
   ],
