@@ -213,7 +213,7 @@ function renderPackage(pkg, allPkgs) {
           )
             .map(
               (hl) =>
-                `<div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">${h(hl)}</span></div>`
+                `<div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span><span class="text-sm">${h(hl)}</span></div>`
             )
             .join('\n          ')}</div></div>`
         : '',
