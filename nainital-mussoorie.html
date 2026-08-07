@@ -635,6 +635,11 @@
     <script>
       const yrEl = document.getElementById('current-year');
       if (yrEl) yrEl.textContent = new Date().getFullYear();
+      // Collapse all accordion items on load
+      document.querySelectorAll('.accordion-body').forEach((b) => {
+        b.style.display = 'none';
+        b.classList.remove('open');
+      });
       const menuBtn = document.getElementById('mobile-menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
       if (menuBtn && mobileMenu) {
@@ -654,11 +659,27 @@
         const btn = e.target.closest('.accordion-btn');
         if (!btn) return;
         const body = btn.nextElementSibling;
-        const isOpen = body.classList.contains('open');
-        document.querySelectorAll('.accordion-body.open').forEach((b) => {
-          if (b !== body) b.classList.remove('open');
+        if (!body) return;
+        const icon = btn.querySelector('.accordion-icon');
+        const isOpen = body.style.display !== 'none';
+        // Close all others
+        document.querySelectorAll('.accordion-body').forEach((b) => {
+          if (b !== body) {
+            b.style.display = 'none';
+            b.classList.remove('open');
+            const bi = b.previousElementSibling && b.previousElementSibling.querySelector('.accordion-icon');
+            bi && bi.classList.remove('open');
+          }
         });
-        body.classList.toggle('open', !isOpen);
+        if (isOpen) {
+          body.style.display = 'none';
+          body.classList.remove('open');
+          icon && icon.classList.remove('open');
+        } else {
+          body.style.display = 'block';
+          body.classList.add('open');
+          icon && icon.classList.add('open');
+        }
       });
       document.querySelectorAll('form[data-async]').forEach((f) => {
         f.addEventListener('submit', (e) => {
