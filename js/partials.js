@@ -61,6 +61,21 @@ function inject(marker, html) {
   return false;
 }
 
+function bindMobileMenu() {
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  if (!btn || !menu) return;
+  btn.addEventListener('click', () => {
+    menu.classList.toggle('open');
+    const icon = btn.querySelector('svg');
+    if (icon) {
+      icon.innerHTML = menu.classList.contains('open')
+        ? '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>'
+        : '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>';
+    }
+  });
+}
+
 async function init() {
   try {
     const [header, footer] = await Promise.all([
@@ -69,6 +84,8 @@ async function init() {
     ]);
     inject('PARTIAL_HEADER', header);
     inject('PARTIAL_FOOTER', footer);
+    // Header was just injected into the DOM — bind its hamburger menu
+    bindMobileMenu();
   } catch (e) {
     console.warn('Partial injection failed:', e);
   }

@@ -656,7 +656,8 @@
     </a>
 
     <script>
-      document.getElementById('current-year').textContent = new Date().getFullYear();
+      const yrEl = document.getElementById('current-year');
+      if (yrEl) yrEl.textContent = new Date().getFullYear();
       const menuBtn = document.getElementById('mobile-menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
       if (menuBtn && mobileMenu) {

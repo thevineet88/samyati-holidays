@@ -2099,7 +2099,7 @@
     </a>
     <script src="js/partials.js"></script>
     <script>
-      document.getElementById('current-year').textContent = new Date().getFullYear();
+      const yrEl = document.getElementById('current-year'); if (yrEl) yrEl.textContent = new Date().getFullYear();
     </script>
   </body>
 </html>

@@ -1,21 +1,5 @@
 // Samyati Holidays — Main JS
 
-// ── Mobile Nav Toggle ──
-const menuBtn = document.getElementById('mobile-menu-btn');
-const mobileMenu = document.getElementById('mobile-menu');
-if (menuBtn && mobileMenu) {
-  menuBtn.addEventListener('click', () => {
-    mobileMenu.classList.toggle('open');
-    const icon = menuBtn.querySelector('svg');
-    // swap hamburger ↔ X
-    if (mobileMenu.classList.contains('open')) {
-      icon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>`;
-    } else {
-      icon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>`;
-    }
-  });
-}
-
 // ── Sticky Nav Shadow ──
 window.addEventListener('scroll', () => {
   const nav = document.getElementById('main-header');
