@@ -307,6 +307,16 @@ const jsExport =
 fs.writeFileSync(path.join(ROOT, 'js', 'packages-data.js'), jsExport);
 console.log(`  js/packages-data.js synced`);
 
+// Copy generated package pages back to root for local preview and git tracking
+for (const pkg of validPackages) {
+  const src = path.join(DIST, pkg.slug + '.html');
+  const dst = path.join(ROOT, pkg.slug + '.html');
+  if (fs.existsSync(src)) {
+    fs.copyFileSync(src, dst);
+  }
+}
+console.log(`  Generated pages synced to root`);
+
 // Copy template reference
 fs.writeFileSync(
   path.join(DIST, 'BUILD_INFO.txt'),

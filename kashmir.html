@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Kalam:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/style.css?v=8" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -40,223 +41,6 @@
         }
       };
     </script>
-    <style>
-      .nav-link {
-        position: relative;
-        padding-bottom: 6px;
-      }
-      .nav-link::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 2px;
-        background: #f47920;
-        transition: width 0.3s ease-out;
-        border-radius: 2px;
-      }
-      .nav-link:hover::after,
-      .nav-link.active::after {
-        width: 100%;
-      }
-      body {
-        font-family: 'Inter', sans-serif;
-      }
-      section {
-        scroll-margin-top: 80px;
-      }
-      .accordion-btn {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        padding: 1rem 0;
-        text-align: left;
-        border-bottom: 1px solid #f0f0f0;
-        transition: background 0.2s;
-      }
-      .accordion-btn:hover {
-        background: #fafafa;
-      }
-      .accordion-body {
-        display: none;
-        padding-bottom: 1rem;
-        padding-left: 2.75rem;
-      }
-      .accordion-body.open {
-        display: block;
-      }
-      .day-badge {
-        width: 2.5rem;
-        height: 2.5rem;
-        border-radius: 50%;
-        background: #2d2e6e;
-        color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 700;
-        font-size: 0.875rem;
-        flex-shrink: 0;
-      }
-      .form-field {
-        width: 100%;
-        padding: 0.75rem 1rem;
-        border: 1px solid #e5e7eb;
-        border-radius: 0.5rem;
-        outline: none;
-        transition: border-color 0.2s;
-      }
-      .form-field:focus {
-        border-color: #f47920;
-      }
-      .hero-overlay {
-        background: linear-gradient(
-          to top,
-          rgba(45, 46, 110, 0.85),
-          rgba(45, 46, 110, 0.3),
-          transparent
-        );
-      }
-      .hero-offset {
-        padding-top: 80px;
-      }
-      @media (max-width: 768px) {
-        .hero-offset {
-          padding-top: 60px;
-        }
-      }
-      .sticky-sidebar {
-        position: sticky;
-        top: 88px;
-      }
-      .pricing-table {
-        width: 100%;
-        border-collapse: collapse;
-      }
-      .pricing-table th {
-        background: #2d2e6e;
-        color: #fff;
-        text-align: left;
-        padding: 0.75rem 1rem;
-        font-size: 0.875rem;
-      }
-      .pricing-table td {
-        padding: 0.75rem 1rem;
-        border-bottom: 1px solid #f0f0f0;
-        font-size: 0.875rem;
-      }
-      .pricing-table tr:last-child td {
-        border-bottom: none;
-      }
-      .pricing-table tr:hover td {
-        background: #fafafa;
-      }
-      .inclusion-item {
-        display: flex;
-        align-items: flex-start;
-        gap: 0.5rem;
-        padding: 0.4rem 0;
-        font-size: 0.875rem;
-        color: #374151;
-      }
-      .section-eyebrow {
-        font-size: 0.75rem;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: #f47920;
-        font-family: 'Poppins', sans-serif;
-      }
-      .section-title {
-        font-family: 'Poppins', sans-serif;
-        color: #2d2e6e;
-        font-weight: 700;
-      }
-      .section-pin-divider {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        margin-bottom: 1.5rem;
-      }
-      .pin-icon {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background: #f47920;
-        flex-shrink: 0;
-      }
-      .line {
-        flex: 1;
-        height: 1px;
-        background: linear-gradient(to right, #f47920, transparent);
-      }
-      .chip {
-        font-size: 0.7rem;
-        font-weight: 600;
-        padding: 0.2rem 0.6rem;
-        border-radius: 9999px;
-        background: #f5f6fa;
-        color: #374151;
-      }
-      .btn-orange {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 0.75rem 1.5rem;
-        background: #f47920;
-        color: #fff;
-        border-radius: 0.5rem;
-        font-weight: 600;
-        font-size: 0.875rem;
-        transition: background 0.2s;
-        text-decoration: none;
-      }
-      .btn-orange:hover {
-        background: #d96a15;
-      }
-      .btn-navy {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 0.75rem 1.5rem;
-        background: #2d2e6e;
-        color: #fff;
-        border-radius: 0.5rem;
-        font-weight: 600;
-        font-size: 0.875rem;
-        transition: background 0.2s;
-        text-decoration: none;
-      }
-      .btn-navy:hover {
-        background: #1f2060;
-      }
-      .btn-outline-navy {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 0.75rem 1.5rem;
-        background: transparent;
-        color: #2d2e6e;
-        border: 2px solid #2d2e6e;
-        border-radius: 0.5rem;
-        font-weight: 600;
-        font-size: 0.875rem;
-        transition: all 0.2s;
-        text-decoration: none;
-      }
-      .btn-outline-navy:hover {
-        background: #2d2e6e;
-        color: #fff;
-      }
-      .tagline-hand {
-        font-family: 'Kalam', cursive;
-      }
-      .tagline-hand .fam {
-        color: #f47920;
-      }
-    </style>
   </head>
   <body class="bg-white">
     <!-- Header -->
@@ -272,7 +56,8 @@
               alt="Samyati Holidays"
               class="h-12 md:h-16 w-auto"
               onerror="this.style.display = 'none'"
-            /><span
+            />
+            <span
               class="tagline-hand self-end block text-navy text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2 font-bold"
               >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
             >
@@ -352,7 +137,7 @@
     <section class="relative h-[60vh] min-h-[400px] flex items-end">
       <img
         fetchpriority="high"
-        src="../assets/images/1200w/kashmir.webp"
+        src="assets/images/1200w/kashmir.webp"
         alt="Kashmir"
         class="absolute inset-0 w-full h-full object-cover"
       />
@@ -363,15 +148,11 @@
           ><a href="packages.html" class="hover:text-white">Packages</a><span>/</span
           ><span class="text-white">Kashmir</span>
         </nav>
-        <span
-          class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block"
-          >Adventure</span
-        >
-        <span
-          class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block"
-          >Nature &amp; Hills</span
-        >
-        <h1 class="font-poppins font-bold text-white text-3xl md:text-5xl mb-4">Kashmir</h1>
+        <span class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block">Adventure</span>
+      <span class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block">Nature &amp; Hills</span>
+        <h1 class="font-poppins font-bold text-white text-3xl md:text-5xl mb-4">
+          Kashmir
+        </h1>
         <div class="flex flex-wrap gap-4">
           <span
             class="bg-white/20 text-white text-sm font-semibold px-4 py-2 rounded-full backdrop-blur-sm"
@@ -381,9 +162,9 @@
             class="bg-white/20 text-white text-sm font-semibold px-4 py-2 rounded-full backdrop-blur-sm"
             >06 – 14 February 2026</span
           >
-
+          
           <span class="bg-orange text-white text-sm font-semibold px-4 py-2 rounded-full"
-            >&#x20B9;20,499/-</span
+            >₹20,499/-</span
           >
         </div>
       </div>
@@ -394,309 +175,109 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div class="lg:col-span-2 space-y-12">
-            <div>
-              <p class="section-eyebrow">Package Overview</p>
-              <h2 class="section-title text-2xl md:text-3xl mt-1 mb-4">
-                Amritsar · Pahalgam · Sonmarg · Gulmarg · Srinagar
-              </h2>
-            </div>
+            <div><p class="section-eyebrow">Package Overview</p><h2 class="section-title text-2xl md:text-3xl mt-1 mb-4">Amritsar · Pahalgam · Sonmarg · Gulmarg · Srinagar</h2></div>
 
             <!-- Trip Highlights -->
-            <div>
-              <div class="section-pin-divider mb-6">
-                <div class="pin-icon"></div>
-                <div class="line"></div>
-                <span class="section-eyebrow">Trip Highlights</span>
-              </div>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
-                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
-                  ><span class="text-sm">Golden Temple Amritsar</span>
-                </div>
-                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
-                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
-                  ><span class="text-sm">Wagha Border</span>
-                </div>
-                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
-                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
-                  ><span class="text-sm">Betaab Valley Pahalgam</span>
-                </div>
-                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
-                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
-                  ><span class="text-sm">Sonmarg Glacier</span>
-                </div>
-                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
-                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
-                  ><span class="text-sm">Gulmarg &amp; Srinagar Houseboat</span>
-                </div>
-              </div>
-            </div>
+            <div><div class="section-pin-divider mb-6"><div class="pin-icon"></div><div class="line"></div><span class="section-eyebrow">Trip Highlights</span></div><div class="grid grid-cols-1 md:grid-cols-2 gap-3"><div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Golden Temple Amritsar</span></div>
+          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Wagha Border</span></div>
+          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Betaab Valley Pahalgam</span></div>
+          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Sonmarg Glacier</span></div>
+          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Gulmarg &amp; Srinagar Houseboat</span></div></div></div>
 
             <!-- Itinerary -->
             <div id="itinerary-section">
               <p class="section-eyebrow">Day by Day</p>
               <h2 class="section-title text-2xl mt-1 mb-6">Detailed Itinerary</h2>
-
-              <div class="space-y-0" id="itinerary-list">
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">1</div>
-                      <span>Day 1, Board Train from Mumbai</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Board Train from Mumbaiyour train journey. Here begins our journey to the
-                      amazing North. Have a deep sleep to get refreshed for next day and start the
-                      fun-trip. Reporting Station: Mumbai Central Railway Station. Board train for
-                      Amritsar. Overnight journey. 06 February 2026 (Friday)
-                    </p>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">2</div>
-                      <span>Day 2, Train Journey to Amritsar</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Enjoy the train journey with scenic views of the countryside. Reach Amritsar
-                      by morning. Check in at hotel. Freshen up. Evening visit to Golden Temple.
-                      Dinner and overnight stay at Amritsar. 07 February 2026 (Saturday)
-                    </p>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">3</div>
-                      <span>Day 3, Amritsar Sightseeing &amp; Journey to Pahalgam</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      After breakfast, visit Golden Temple and Jallianwala Bagh. After lunch, visit
-                      Attari-Wagha Border for the flag ceremony. Evening board bus for Pahalgam.
-                      Overnight journey. 08 February 2026 (Sunday)
-                    </p>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">4</div>
-                      <span
-                        >Day 4, Reach Pahalgam till 08:00 AM Check in at Hotel (as per Hotels’
-                        standard check in</span
-                      >
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Reach Pahalgam by 08:00 AM. Check in at hotel. Freshen up. After breakfast,
-                      head towards Betaab Valley, a famous Bollywood shooting location. Enjoy the
-                      scenic beauty of the valley. Dinner and overnight stay. 09 February 2026
-                      (Monday)
-                    </p>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">5</div>
-                      <span>Day 5, Pahalgam to Srinagar</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      After breakfast, check out and head towards Srinagar (3 hrs). Check in at
-                      houseboat on Dal Lake. After lunch, proceed for Srinagar sightseeing. Visit
-                      Mughal Gardens and local markets. Dinner and overnight stay in houseboat. 10
-                      February 2026 (Tuesday)
-                    </p>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">6</div>
-                      <span>Day 6, Sonmarg Day Trip</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      OVERNIGHT STAY IN SRINAGAR11 FEBRUARY 2026(Wednesday) Full day excursion to
-                      ‘The Meadows of Gold’, also the last stop of Kashmir. the sledding ride &amp;
-                      horse ride (at your own cost). to Hotel.
-                    </p>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">7</div>
-                      <span>Day 7, Gulmarg Sightseeing</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      OVERNIGHT STAY IN SRINAGAR12 FEBRUARY 2026(Thursday) Catch some rays at ‘The
-                      Meadows of Flowers’. Get ready to witness breathtaking views from Gondola
-                      ride. Gondola ride is the second highest cable ride in the world. This ride
-                      comprises of 2 stages : Phase 1 (Gulmarg to Kongdoori Peak) &amp;
-                    </p>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">8</div>
-                      <span>Day 8, Return Journey to Mumbai</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Early morning (04:00 AM) check out from hotel. Start journey to Amritsar (10
-                      hrs). Enroute breakfast at local dhaba. Reach Amritsar by afternoon. Board
-                      train for Mumbai. Overnight journey. 13 February 2026 (Friday)
-                    </p>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">9</div>
-                      <span>Day 9, Reach Mumbai</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Return train journey to Mumbai. Reach Mumbai by approximately 11:55 PM on 14
-                      February 2026. Return home with sweet memories!
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <div class="space-y-0" id="itinerary-list"><div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">1</div><span>Day 1, Board Train from Mumbai</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Board Train from Mumbaiyour train journey. Here begins our journey to the amazing North. Have a deep sleep to get refreshed for next day and start the fun-trip. Reporting Station: Mumbai Central Railway Station. Board train for Amritsar. Overnight journey. 06 February 2026 (Friday)</p>
+        
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">2</div><span>Day 2, Train Journey to Amritsar</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Enjoy the train journey with scenic views of the countryside. Reach Amritsar by morning. Check in at hotel. Freshen up. Evening visit to Golden Temple. Dinner and overnight stay at Amritsar. 07 February 2026 (Saturday)</p>
+        
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">3</div><span>Day 3, Amritsar Sightseeing &amp; Journey to Pahalgam</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">After breakfast, visit Golden Temple and Jallianwala Bagh. After lunch, visit Attari-Wagha Border for the flag ceremony. Evening board bus for Pahalgam. Overnight journey. 08 February 2026 (Sunday)</p>
+        
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">4</div><span>Day 4, Reach Pahalgam till 08:00 AM Check in at Hotel (as per Hotels’ standard check in</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Reach Pahalgam by 08:00 AM. Check in at hotel. Freshen up. After breakfast, head towards Betaab Valley, a famous Bollywood shooting location. Enjoy the scenic beauty of the valley. Dinner and overnight stay. 09 February 2026 (Monday)</p>
+        
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">5</div><span>Day 5, Pahalgam to Srinagar</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">After breakfast, check out and head towards Srinagar (3 hrs). Check in at houseboat on Dal Lake. After lunch, proceed for Srinagar sightseeing. Visit Mughal Gardens and local markets. Dinner and overnight stay in houseboat. 10 February 2026 (Tuesday)</p>
+        
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">6</div><span>Day 6, Sonmarg Day Trip</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">OVERNIGHT STAY IN SRINAGAR11 FEBRUARY 2026(Wednesday) Full day excursion to ‘The Meadows of Gold’, also the last stop of Kashmir. the sledding ride &amp; horse ride (at your own cost). to Hotel.</p>
+        
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">7</div><span>Day 7, Gulmarg Sightseeing</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">OVERNIGHT STAY IN SRINAGAR12 FEBRUARY 2026(Thursday) Catch some rays at ‘The Meadows of Flowers’. Get ready to witness breathtaking views from Gondola ride. Gondola ride is the second highest cable ride in the world. This ride comprises of 2 stages : Phase 1 (Gulmarg to Kongdoori Peak) &amp;</p>
+        
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">8</div><span>Day 8, Return Journey to Mumbai</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Early morning (04:00 AM) check out from hotel. Start journey to Amritsar (10 hrs). Enroute breakfast at local dhaba. Reach Amritsar by afternoon. Board train for Mumbai. Overnight journey. 13 February 2026 (Friday)</p>
+        
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">9</div><span>Day 9, Reach Mumbai</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Return train journey to Mumbai. Reach Mumbai by approximately 11:55 PM on 14 February 2026. Return home with sweet memories!</p>
+        
+      </div>
+    </div></div>
             </div>
 
             <!-- Inclusions & Exclusions -->
@@ -711,40 +292,14 @@
                       >&#10003;</span
                     >What's Included
                   </h3>
-                  <div class="space-y-2">
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>SL Train Tickets (both ways)</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>3★ Hotel Stay</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Breakfast &amp; Dinner</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Transport</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Entry Fees</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Houseboat Stay</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Shikara Ride</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Tour Buddy</span>
-                    </div>
-                  </div>
+                  <div class="space-y-2"><div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>SL Train Tickets (both ways)</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>3★ Hotel Stay</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Breakfast &amp; Dinner</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Transport</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Entry Fees</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Houseboat Stay</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Shikara Ride</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Tour Buddy</span></div></div>
                 </div>
                 <div>
                   <h3 class="font-poppins font-semibold text-navy mb-4 flex items-center gap-2">
@@ -753,93 +308,31 @@
                       >&#10005;</span
                     >Not Included
                   </h3>
-                  <div class="space-y-2">
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
-                      ><span>Flights to Amritsar (if not by train)</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>5% GST</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Lunch</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
-                      ><span>Personal expenses</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
-                      ><span>Camera fees</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
-                      ><span>Pony rides</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
-                      ><span>Anything not mentioned in inclusions</span>
-                    </div>
-                  </div>
+                  <div class="space-y-2"><div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Flights to Amritsar (if not by train)</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>5% GST</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Lunch</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Personal expenses</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Camera fees</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Pony rides</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Anything not mentioned in inclusions</span></div></div>
                 </div>
               </div>
             </div>
 
             <!-- Advisory -->
-            <div class="bg-orange/10 border-l-4 border-orange rounded-r-xl p-4">
-              <div class="flex gap-3 items-start">
-                <svg
-                  class="w-5 h-5 text-orange flex-shrink-0 mt-0.5"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <div>
-                  <p class="font-poppins font-semibold text-navy text-sm mb-1">
-                    Important Advisory
-                  </p>
-                  <p class="text-gray-700 text-sm">
-                    Carry warm woolen clothing. Snow activities at own cost. Good walking shoes
-                    essential. Stay hydrated at high altitudes.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <div class="bg-orange/10 border-l-4 border-orange rounded-r-xl p-4"><div class="flex gap-3 items-start"><svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg><div><p class="font-poppins font-semibold text-navy text-sm mb-1">Important Advisory</p><p class="text-gray-700 text-sm">Carry warm woolen clothing. Snow activities at own cost. Good walking shoes essential. Stay hydrated at high altitudes.</p></div></div></div>
 
             <!-- Travel Details -->
-            <div>
-              <p class="section-eyebrow">Travel Details</p>
-              <h2 class="section-title text-2xl mt-1 mb-6">Travel Details</h2>
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div class="bg-light-gray rounded-lg p-4">
-                  <p class="text-xs text-muted mb-1">Departure Point</p>
-                  <p class="font-poppins font-semibold text-navy text-sm">
-                    Mumbai Central — 10:30 AM, 06 Feb 2026
-                  </p>
-                </div>
-                <div class="bg-light-gray rounded-lg p-4">
-                  <p class="text-xs text-muted mb-1">Travel Mode</p>
-                  <p class="font-poppins font-semibold text-navy text-sm">Train to Amritsar</p>
-                </div>
-                <div class="bg-light-gray rounded-lg p-4">
-                  <p class="text-xs text-muted mb-1">Return</p>
-                  <p class="font-poppins font-semibold text-navy text-sm">
-                    Reach Mumbai, 14 Feb 2026
-                  </p>
-                </div>
-              </div>
-            </div>
+            <div><p class="section-eyebrow">Travel Details</p><h2 class="section-title text-2xl mt-1 mb-6">Travel Details</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-4"><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Departure Point</p><p class="font-poppins font-semibold text-navy text-sm">Mumbai Central — 10:30 AM, 06 Feb 2026</p></div><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Travel Mode</p><p class="font-poppins font-semibold text-navy text-sm">Train to Amritsar</p></div><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Return</p><p class="font-poppins font-semibold text-navy text-sm">Reach Mumbai, 14 Feb 2026</p></div></div></div>
 
             <!-- Payment Schedule -->
+            
 
             <!-- Cancellation Policy -->
+            
 
             <!-- Points to Note -->
+            
           </div>
 
           <!-- Sidebar -->
@@ -847,20 +340,18 @@
             <div class="sticky-sidebar">
               <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 mb-4">
                 <p class="text-muted text-sm mb-1">Starting from</p>
-                <p class="font-poppins font-bold text-orange text-4xl mb-1">
-                  &#x20B9;20,499/-<span class="text-lg text-muted font-semibold">/-</span>
-                </p>
+                <p class="font-poppins font-bold text-orange text-4xl mb-1">₹20,499/-</p>
                 <p class="text-muted text-xs mb-4">per person (inclusive of train)</p>
                 <div class="space-y-3 mb-5 text-sm">
                   <div class="flex items-center gap-2">
-                    <span class="text-navy">&#128197;</span
-                    ><span>06 – 14 February 2026 Departure</span>
+                    <span class="text-navy">&#128197;</span><span>06 – 14 February 2026 Departure</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <span class="text-navy">&#128205;</span><span>Mumbai</span>
                   </div>
                   <div class="flex items-center gap-2">
-                    <span class="text-navy">&#128642;</span><span>Train</span>
+                    <span class="text-navy">&#128642;</span
+                    ><span>Train</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <span class="text-navy">&#128101;</span><span>9 Days / 8 Nights</span>
@@ -883,10 +374,12 @@
                 >
               </div>
               <div class="bg-navy rounded-2xl p-4">
-                <h3 class="font-poppins font-bold text-white text-lg mb-1">Quick Enquiry</h3>
-                <p class="text-white/60 text-sm mb-4">We'll WhatsApp you within 2 hours</p>
+                <h3 class="font-poppins font-bold text-white text-lg mb-1">Contact Us</h3>
+                <p class="text-white/60 text-sm mb-4">
+                  Fill the form below and we'll get back to you shortly
+                </p>
                 <div class="form-success mb-3" style="display: none">
-                  Message sent! We'll reach out shortly.
+                  Thank you! We will get back to you shortly.
                 </div>
                 <div class="form-error mb-3" style="display: none">
                   Something went wrong. Please WhatsApp us directly.
@@ -895,10 +388,10 @@
                   action="https://formspree.io/f/xnjelqae"
                   method="POST"
                   data-async
-                  class="space-y-2"
+                  class="space-y-3"
                 >
                   <input type="hidden" name="package" value="Kashmir" />
-                  <div class="grid grid-cols-2 gap-2">
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <input
                       type="text"
                       name="name"
@@ -919,6 +412,7 @@
                       type="email"
                       name="email"
                       placeholder="Email Address"
+                      required
                       class="form-field text-sm"
                     />
                   </div>
@@ -950,107 +444,9 @@
     </main>
 
     <!-- Related Packages -->
-    <section class="py-12 bg-light-gray">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="package-card">
-            <div class="relative">
-              <img
-                loading="lazy"
-                decoding="async"
-                src="../assets/images/1200w/kedarnath-badrinath.webp"
-                alt="Kedarnath – Badrinath"
-                class="w-full h-48 object-cover"
-              /><span
-                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
-                >Spiritual</span
-              >
-            </div>
-            <div class="p-5">
-              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Kedarnath – Badrinath</h3>
-              <div class="flex gap-2 mb-3">
-                <span class="chip">11 Days / 10 Nights</span
-                ><span class="chip">26 Sep – 06 Oct 2026</span>
-              </div>
-              <p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;21,111/-</p>
-              <div class="flex gap-2">
-                <a href="kedarnath-badrinath.html" class="btn-navy flex-1 text-sm py-2"
-                  >View Details</a
-                ><a
-                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Kedarnath%20%E2%80%93%20Badrinath.%20Please%20share%20details."
-                  target="_blank"
-                  class="btn-orange flex-1 text-sm py-2"
-                  >WhatsApp Now</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="package-card">
-            <div class="relative">
-              <img
-                loading="lazy"
-                decoding="async"
-                src="../assets/images/1200w/goa.webp"
-                alt="Goa"
-                class="w-full h-48 object-cover"
-              /><span
-                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
-                >Beach</span
-              >
-            </div>
-            <div class="p-5">
-              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Goa</h3>
-              <div class="flex gap-2 mb-3">
-                <span class="chip">5 Days / 4 Nights</span
-                ><span class="chip">06 – 10 March 2025</span>
-              </div>
-              <p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;9,499/-</p>
-              <div class="flex gap-2">
-                <a href="goa.html" class="btn-navy flex-1 text-sm py-2">View Details</a
-                ><a
-                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Goa.%20Please%20share%20details."
-                  target="_blank"
-                  class="btn-orange flex-1 text-sm py-2"
-                  >WhatsApp Now</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="package-card">
-            <div class="relative">
-              <img
-                loading="lazy"
-                decoding="async"
-                src="../assets/images/1200w/tadoba.webp"
-                alt="Tadoba"
-                class="w-full h-48 object-cover"
-              /><span
-                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
-                >Adventure</span
-              >
-            </div>
-            <div class="p-5">
-              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Tadoba</h3>
-              <div class="flex gap-2 mb-3">
-                <span class="chip">5 Days / 4 Nights</span
-                ><span class="chip">01 – 05 May 2026</span>
-              </div>
-              <p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;16,999/-</p>
-              <div class="flex gap-2">
-                <a href="tadoba.html" class="btn-navy flex-1 text-sm py-2">View Details</a
-                ><a
-                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Tadoba.%20Please%20share%20details."
-                  target="_blank"
-                  class="btn-orange flex-1 text-sm py-2"
-                  >WhatsApp Now</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="py-12 bg-light-gray"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-6"><div class="package-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/kerala.webp" alt="Kerala Trip" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Nature &amp; Hills</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Kerala Trip</h3><div class="flex gap-2 mb-3"><span class="chip">8 Days / 7 Nights</span><span class="chip">02 – 09 October 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹15,555/-</p><div class="flex gap-2"><a href="kerala.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Kerala%20Trip.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
+      <div class="package-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/himachal.webp" alt="Himachal Pradesh" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Himachal Pradesh</h3><div class="flex gap-2 mb-3"><span class="chip">9 Days / 8 Nights</span><span class="chip">22 – 30 January 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹16,499/-</p><div class="flex gap-2"><a href="himachal.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Himachal%20Pradesh.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
+      <div class="package-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/hampi.webp" alt="Hampi" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Nature &amp; Hills</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Hampi</h3><div class="flex gap-2 mb-3"><span class="chip">5 Days / 4 Nights</span><span class="chip">05 – 09 November 2025</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹7,999/-</p><div class="flex gap-2"><a href="hampi.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Hampi.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div></div></div></section>
 
     <!-- Footer -->
     <footer class="bg-navy text-white">
@@ -1065,8 +461,9 @@
                 alt="Samyati Holidays"
                 class="h-12 md:h-16 w-auto rounded-lg"
                 onerror="this.style.display = 'none'"
-              /><span
-                class="tagline-hand self-end block text-white text-[11px] font-bold sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2"
+              />
+              <span
+                class="tagline-hand self-end block text-white text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2"
                 >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
               >
             </a>

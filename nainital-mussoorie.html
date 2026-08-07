@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Mussoorie · Rishikesh · Nainital · Jim Corbett · Kainchi Dham"
-    />
+    <meta name="description" content="Mussoorie · Rishikesh · Nainital · Jim Corbett · Kainchi Dham" />
     <title>Nainital – Mussoorie</title>
     <link rel="icon" type="image/png" sizes="any" href="assets/favicon/favicon-512x512.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
@@ -23,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Kalam:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/style.css?v=8" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -43,223 +41,6 @@
         }
       };
     </script>
-    <style>
-      .nav-link {
-        position: relative;
-        padding-bottom: 6px;
-      }
-      .nav-link::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0;
-        height: 2px;
-        background: #f47920;
-        transition: width 0.3s ease-out;
-        border-radius: 2px;
-      }
-      .nav-link:hover::after,
-      .nav-link.active::after {
-        width: 100%;
-      }
-      body {
-        font-family: 'Inter', sans-serif;
-      }
-      section {
-        scroll-margin-top: 80px;
-      }
-      .accordion-btn {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        padding: 1rem 0;
-        text-align: left;
-        border-bottom: 1px solid #f0f0f0;
-        transition: background 0.2s;
-      }
-      .accordion-btn:hover {
-        background: #fafafa;
-      }
-      .accordion-body {
-        display: none;
-        padding-bottom: 1rem;
-        padding-left: 2.75rem;
-      }
-      .accordion-body.open {
-        display: block;
-      }
-      .day-badge {
-        width: 2.5rem;
-        height: 2.5rem;
-        border-radius: 50%;
-        background: #2d2e6e;
-        color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 700;
-        font-size: 0.875rem;
-        flex-shrink: 0;
-      }
-      .form-field {
-        width: 100%;
-        padding: 0.75rem 1rem;
-        border: 1px solid #e5e7eb;
-        border-radius: 0.5rem;
-        outline: none;
-        transition: border-color 0.2s;
-      }
-      .form-field:focus {
-        border-color: #f47920;
-      }
-      .hero-overlay {
-        background: linear-gradient(
-          to top,
-          rgba(45, 46, 110, 0.85),
-          rgba(45, 46, 110, 0.3),
-          transparent
-        );
-      }
-      .hero-offset {
-        padding-top: 80px;
-      }
-      @media (max-width: 768px) {
-        .hero-offset {
-          padding-top: 60px;
-        }
-      }
-      .sticky-sidebar {
-        position: sticky;
-        top: 88px;
-      }
-      .pricing-table {
-        width: 100%;
-        border-collapse: collapse;
-      }
-      .pricing-table th {
-        background: #2d2e6e;
-        color: #fff;
-        text-align: left;
-        padding: 0.75rem 1rem;
-        font-size: 0.875rem;
-      }
-      .pricing-table td {
-        padding: 0.75rem 1rem;
-        border-bottom: 1px solid #f0f0f0;
-        font-size: 0.875rem;
-      }
-      .pricing-table tr:last-child td {
-        border-bottom: none;
-      }
-      .pricing-table tr:hover td {
-        background: #fafafa;
-      }
-      .inclusion-item {
-        display: flex;
-        align-items: flex-start;
-        gap: 0.5rem;
-        padding: 0.4rem 0;
-        font-size: 0.875rem;
-        color: #374151;
-      }
-      .section-eyebrow {
-        font-size: 0.75rem;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        color: #f47920;
-        font-family: 'Poppins', sans-serif;
-      }
-      .section-title {
-        font-family: 'Poppins', sans-serif;
-        color: #2d2e6e;
-        font-weight: 700;
-      }
-      .section-pin-divider {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        margin-bottom: 1.5rem;
-      }
-      .pin-icon {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background: #f47920;
-        flex-shrink: 0;
-      }
-      .line {
-        flex: 1;
-        height: 1px;
-        background: linear-gradient(to right, #f47920, transparent);
-      }
-      .chip {
-        font-size: 0.7rem;
-        font-weight: 600;
-        padding: 0.2rem 0.6rem;
-        border-radius: 9999px;
-        background: #f5f6fa;
-        color: #374151;
-      }
-      .btn-orange {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 0.75rem 1.5rem;
-        background: #f47920;
-        color: #fff;
-        border-radius: 0.5rem;
-        font-weight: 600;
-        font-size: 0.875rem;
-        transition: background 0.2s;
-        text-decoration: none;
-      }
-      .btn-orange:hover {
-        background: #d96a15;
-      }
-      .btn-navy {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 0.75rem 1.5rem;
-        background: #2d2e6e;
-        color: #fff;
-        border-radius: 0.5rem;
-        font-weight: 600;
-        font-size: 0.875rem;
-        transition: background 0.2s;
-        text-decoration: none;
-      }
-      .btn-navy:hover {
-        background: #1f2060;
-      }
-      .btn-outline-navy {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 0.75rem 1.5rem;
-        background: transparent;
-        color: #2d2e6e;
-        border: 2px solid #2d2e6e;
-        border-radius: 0.5rem;
-        font-weight: 600;
-        font-size: 0.875rem;
-        transition: all 0.2s;
-        text-decoration: none;
-      }
-      .btn-outline-navy:hover {
-        background: #2d2e6e;
-        color: #fff;
-      }
-      .tagline-hand {
-        font-family: 'Kalam', cursive;
-      }
-      .tagline-hand .fam {
-        color: #f47920;
-      }
-    </style>
   </head>
   <body class="bg-white">
     <!-- Header -->
@@ -275,7 +56,8 @@
               alt="Samyati Holidays"
               class="h-12 md:h-16 w-auto"
               onerror="this.style.display = 'none'"
-            /><span
+            />
+            <span
               class="tagline-hand self-end block text-navy text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2 font-bold"
               >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
             >
@@ -355,7 +137,7 @@
     <section class="relative h-[60vh] min-h-[400px] flex items-end">
       <img
         fetchpriority="high"
-        src="../assets/images/1200w/nainital-mussoorie.webp"
+        src="assets/images/1200w/nainital-mussoorie.webp"
         alt="Nainital – Mussoorie"
         class="absolute inset-0 w-full h-full object-cover"
       />
@@ -366,14 +148,8 @@
           ><a href="packages.html" class="hover:text-white">Packages</a><span>/</span
           ><span class="text-white">Nainital – Mussoorie</span>
         </nav>
-        <span
-          class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block"
-          >Adventure</span
-        >
-        <span
-          class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block"
-          >Nature &amp; Hills</span
-        >
+        <span class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block">Adventure</span>
+      <span class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block">Nature &amp; Hills</span>
         <h1 class="font-poppins font-bold text-white text-3xl md:text-5xl mb-4">
           Nainital – Mussoorie
         </h1>
@@ -386,9 +162,9 @@
             class="bg-white/20 text-white text-sm font-semibold px-4 py-2 rounded-full backdrop-blur-sm"
             >03 – 11 April 2026</span
           >
-
+          
           <span class="bg-orange text-white text-sm font-semibold px-4 py-2 rounded-full"
-            >&#x20B9;19,499/-</span
+            >₹19,499/-</span
           >
         </div>
       </div>
@@ -399,323 +175,109 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div class="lg:col-span-2 space-y-12">
-            <div>
-              <p class="section-eyebrow">Package Overview</p>
-              <h2 class="section-title text-2xl md:text-3xl mt-1 mb-4">
-                Mussoorie · Rishikesh · Nainital · Jim Corbett · Kainchi Dham
-              </h2>
-            </div>
+            <div><p class="section-eyebrow">Package Overview</p><h2 class="section-title text-2xl md:text-3xl mt-1 mb-4">Mussoorie · Rishikesh · Nainital · Jim Corbett · Kainchi Dham</h2></div>
 
             <!-- Trip Highlights -->
-            <div>
-              <div class="section-pin-divider mb-6">
-                <div class="pin-icon"></div>
-                <div class="line"></div>
-                <span class="section-eyebrow">Trip Highlights</span>
-              </div>
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
-                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
-                  ><span class="text-sm">Jim Corbett Jungle Jeep Safari</span>
-                </div>
-                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
-                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
-                  ><span class="text-sm">Nainital Naini Lake</span>
-                </div>
-                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
-                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
-                  ><span class="text-sm">Kempty Falls Mussoorie</span>
-                </div>
-                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
-                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
-                  ><span class="text-sm">River Rafting Rishikesh</span>
-                </div>
-                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
-                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
-                  ><span class="text-sm">Kainchi Dham</span>
-                </div>
-              </div>
-            </div>
+            <div><div class="section-pin-divider mb-6"><div class="pin-icon"></div><div class="line"></div><span class="section-eyebrow">Trip Highlights</span></div><div class="grid grid-cols-1 md:grid-cols-2 gap-3"><div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Jim Corbett Jungle Jeep Safari</span></div>
+          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Nainital Naini Lake</span></div>
+          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Kempty Falls Mussoorie</span></div>
+          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">River Rafting Rishikesh</span></div>
+          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Kainchi Dham</span></div></div></div>
 
             <!-- Itinerary -->
             <div id="itinerary-section">
               <p class="section-eyebrow">Day by Day</p>
               <h2 class="section-title text-2xl mt-1 mb-6">Detailed Itinerary</h2>
-              <div class="space-y-0" id="itinerary-list">
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">1</div>
-                      <span>Day 1, Board Train at Bandra</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Board Bandra Haridwar Express (19019) at Bandra Terminus at 11:00 PM.
-                      Overnight journey to Haridwar.
-                    </p>
-                    <span class="text-xs font-poppins font-semibold text-orange"
-                      >&#127858; No Meals</span
-                    >
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">2</div>
-                      <span>Day 2, Train Journey</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Continue train journey. Rest and bond with your travel group.
-                    </p>
-                    <span class="text-xs font-poppins font-semibold text-orange"
-                      >&#127858; No Meals (train food at own cost)</span
-                    >
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">3</div>
-                      <span>Day 3, Arrive Haridwar → Mussoorie</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Arrive Haridwar at 8:00 AM. Proceed to Mussoorie — the Queen of Hills. Visit
-                      the famous Kempty Falls and enjoy the evening at Mall Road. Dinner and
-                      overnight stay.
-                    </p>
-                    <span class="text-xs font-poppins font-semibold text-orange"
-                      >&#127858; Dinner</span
-                    >
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">4</div>
-                      <span>Day 4, Rishikesh Adventure</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Head to Rishikesh — the Yoga Capital of the World. Enjoy thrilling River
-                      Rafting on the Ganges. Visit Ram Jhula. Witness the evening Ganga Aarti.
-                      Dinner and overnight stay.
-                    </p>
-                    <span class="text-xs font-poppins font-semibold text-orange"
-                      >&#127858; Breakfast &amp; Dinner</span
-                    >
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">5</div>
-                      <span>Day 5, Journey to Nainital via Kainchi Dham</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Breakfast and check out. Journey to Nainital. En route visit Kainchi Dham — a
-                      serene spiritual sanctuary and haven for tranquility. Check in at hotel.
-                      Dinner and overnight stay.
-                    </p>
-                    <span class="text-xs font-poppins font-semibold text-orange"
-                      >&#127858; Breakfast &amp; Dinner</span
-                    >
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">6</div>
-                      <span>Day 6, Nainital Sightseeing</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Breakfast and sightseeing in Nainital. Seek blessings at Naina Devi Temple.
-                      Enjoy boating at Naini Lake (at own cost). Visit Eco Cave Garden. Evening
-                      shopping at Mall Road. Dinner and overnight stay.
-                    </p>
-                    <span class="text-xs font-poppins font-semibold text-orange"
-                      >&#127858; Breakfast &amp; Dinner</span
-                    >
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">7</div>
-                      <span>Day 7, Jim Corbett Jungle Safari</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Breakfast and check out. Proceed to Jim Corbett National Park for an
-                      adventurous Jeep Safari through India's most renowned wildlife reserve — famed
-                      for Bengal tiger sightings and lush landscapes. Dinner and overnight stay.
-                    </p>
-                    <span class="text-xs font-poppins font-semibold text-orange"
-                      >&#127858; Breakfast &amp; Dinner</span
-                    >
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">8</div>
-                      <span>Day 8, Travel to Delhi &amp; Board Train</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Breakfast and check out. Catch the return train from Haridwar Junction by
-                      12:00 PM. Board the overnight train back to Mumbai.
-                    </p>
-                    <span class="text-xs font-poppins font-semibold text-orange"
-                      >&#127858; Breakfast</span
-                    >
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <button class="accordion-btn">
-                    <div class="flex items-center gap-3">
-                      <div class="day-badge">9</div>
-                      <span>Day 9, Reach Mumbai</span>
-                    </div>
-                    <svg
-                      class="accordion-icon w-5 h-5 text-navy"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-                  <div class="accordion-body pb-4 pl-11">
-                    <p class="text-gray-600 text-sm mb-2">
-                      Reach Mumbai by 10:15 PM. Return Home with Sweet Memories!
-                    </p>
-                    <span class="text-xs font-poppins font-semibold text-orange"
-                      >&#127858; No Meals</span
-                    >
-                  </div>
-                </div>
-              </div>
+              <div class="space-y-0" id="itinerary-list"><div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">1</div><span>Day 1, Board Train at Bandra</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Board Bandra Haridwar Express (19019) at Bandra Terminus at 11:00 PM. Overnight journey to Haridwar.</p>
+        <span class="text-xs font-poppins font-semibold text-orange">&#127858; No Meals</span>
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">2</div><span>Day 2, Train Journey</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Continue train journey. Rest and bond with your travel group.</p>
+        <span class="text-xs font-poppins font-semibold text-orange">&#127858; No Meals (train food at own cost)</span>
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">3</div><span>Day 3, Arrive Haridwar → Mussoorie</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Arrive Haridwar at 8:00 AM. Proceed to Mussoorie — the Queen of Hills. Visit the famous Kempty Falls and enjoy the evening at Mall Road. Dinner and overnight stay.</p>
+        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Dinner</span>
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">4</div><span>Day 4, Rishikesh Adventure</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Head to Rishikesh — the Yoga Capital of the World. Enjoy thrilling River Rafting on the Ganges. Visit Ram Jhula. Witness the evening Ganga Aarti. Dinner and overnight stay.</p>
+        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Breakfast &amp; Dinner</span>
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">5</div><span>Day 5, Journey to Nainital via Kainchi Dham</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Breakfast and check out. Journey to Nainital. En route visit Kainchi Dham — a serene spiritual sanctuary and haven for tranquility. Check in at hotel. Dinner and overnight stay.</p>
+        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Breakfast &amp; Dinner</span>
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">6</div><span>Day 6, Nainital Sightseeing</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Breakfast and sightseeing in Nainital. Seek blessings at Naina Devi Temple. Enjoy boating at Naini Lake (at own cost). Visit Eco Cave Garden. Evening shopping at Mall Road. Dinner and overnight stay.</p>
+        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Breakfast &amp; Dinner</span>
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">7</div><span>Day 7, Jim Corbett Jungle Safari</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Breakfast and check out. Proceed to Jim Corbett National Park for an adventurous Jeep Safari through India's most renowned wildlife reserve — famed for Bengal tiger sightings and lush landscapes. Dinner and overnight stay.</p>
+        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Breakfast &amp; Dinner</span>
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">8</div><span>Day 8, Travel to Delhi &amp; Board Train</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Breakfast and check out. Catch the return train from Haridwar Junction by 12:00 PM. Board the overnight train back to Mumbai.</p>
+        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Breakfast</span>
+      </div>
+    </div>
+<div class="accordion-item">
+      <button class="accordion-btn">
+        <div class="flex items-center gap-3"><div class="day-badge">9</div><span>Day 9, Reach Mumbai</span></div>
+        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+      </button>
+      <div class="accordion-body pb-4 pl-11">
+        <p class="text-gray-600 text-sm mb-2">Reach Mumbai by 10:15 PM. Return Home with Sweet Memories!</p>
+        <span class="text-xs font-poppins font-semibold text-orange">&#127858; No Meals</span>
+      </div>
+    </div></div>
             </div>
 
             <!-- Inclusions & Exclusions -->
@@ -730,40 +292,14 @@
                       >&#10003;</span
                     >What's Included
                   </h3>
-                  <div class="space-y-2">
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Mumbai to Mumbai SL Train Tickets (3AC upgrade available)</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Non-AC Tempo Traveller for local sightseeing</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Deluxe Hotel Accommodation (2-3 Sharing)</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Jungle Safari (Jim Corbett)</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Breakfast &amp; Dinner</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Entry Fees</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>First Aid</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
-                      ><span>Tour Manager</span>
-                    </div>
-                  </div>
+                  <div class="space-y-2"><div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Mumbai to Mumbai SL Train Tickets (3AC upgrade available)</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Non-AC Tempo Traveller for local sightseeing</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Deluxe Hotel Accommodation (2-3 Sharing)</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Jungle Safari (Jim Corbett)</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Breakfast &amp; Dinner</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Entry Fees</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>First Aid</span></div>
+            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Tour Manager</span></div></div>
                 </div>
                 <div>
                   <h3 class="font-poppins font-semibold text-navy mb-4 flex items-center gap-2">
@@ -772,136 +308,34 @@
                       >&#10005;</span
                     >Not Included
                   </h3>
-                  <div class="space-y-2">
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>5% GST</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
-                      ><span>Meals during train journey</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
-                      ><span>All day Lunch</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
-                      ><span>Mineral Water</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
-                      ><span>Personal expenses</span>
-                    </div>
-                    <div class="inclusion-item">
-                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
-                      ><span>Anything not mentioned in inclusions</span>
-                    </div>
-                  </div>
+                  <div class="space-y-2"><div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>5% GST</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Meals during train journey</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>All day Lunch</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Mineral Water</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Personal expenses</span></div>
+            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Anything not mentioned in inclusions</span></div></div>
                 </div>
               </div>
             </div>
 
             <!-- Advisory -->
+            
 
             <!-- Travel Details -->
-            <div>
-              <p class="section-eyebrow">Travel Details</p>
-              <h2 class="section-title text-2xl mt-1 mb-6">Travel Details</h2>
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div class="bg-light-gray rounded-lg p-4">
-                  <p class="text-xs text-muted mb-1">Departure Point</p>
-                  <p class="font-poppins font-semibold text-navy text-sm">
-                    Bandra Terminus — 11:00 PM, 03 Apr 2026
-                  </p>
-                </div>
-                <div class="bg-light-gray rounded-lg p-4">
-                  <p class="text-xs text-muted mb-1">Travel Mode</p>
-                  <p class="font-poppins font-semibold text-navy text-sm">
-                    Bandra Haridwar Express (19019)
-                  </p>
-                </div>
-                <div class="bg-light-gray rounded-lg p-4">
-                  <p class="text-xs text-muted mb-1">Return</p>
-                  <p class="font-poppins font-semibold text-navy text-sm">
-                    Reach Mumbai by 10:15 PM, 11 Apr 2026
-                  </p>
-                </div>
-              </div>
-            </div>
+            <div><p class="section-eyebrow">Travel Details</p><h2 class="section-title text-2xl mt-1 mb-6">Travel Details</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-4"><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Departure Point</p><p class="font-poppins font-semibold text-navy text-sm">Bandra Terminus — 11:00 PM, 03 Apr 2026</p></div><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Travel Mode</p><p class="font-poppins font-semibold text-navy text-sm">Bandra Haridwar Express (19019)</p></div><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Return</p><p class="font-poppins font-semibold text-navy text-sm">Reach Mumbai by 10:15 PM, 11 Apr 2026</p></div></div></div>
 
             <!-- Payment Schedule -->
-            <section class="mb-10">
-              <div class="section-pin-divider mb-6">
-                <div class="pin-icon"></div>
-                <div class="line"></div>
-                <span class="section-eyebrow">Payment Schedule</span>
-              </div>
-              <div class="overflow-x-auto rounded-xl border border-gray-200">
-                <table class="pricing-table">
-                  <thead>
-                    <tr>
-                      <th>Installment</th>
-                      <th>Amount</th>
-                      <th>Due By</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td class="font-semibold">1st Installment (Non-Refundable)</td>
-                      <td>&#x20B9;7,499/- (SL) | ₹9,999/- (3AC)/-</td>
-                      <td class="text-orange font-semibold">30 Jan 2026</td>
-                    </tr>
-                    <tr>
-                      <td class="font-semibold">2nd Installment</td>
-                      <td>&#x20B9;6,000/-/-</td>
-                      <td class="text-orange font-semibold">27 Feb 2026</td>
-                    </tr>
-                    <tr>
-                      <td class="font-semibold">3rd Installment</td>
-                      <td>&#x20B9;6,000/-/-</td>
-                      <td class="text-orange font-semibold">23 Mar 2026</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </section>
+            <section class="mb-10"><div class="section-pin-divider mb-6"><div class="pin-icon"></div><div class="line"></div><span class="section-eyebrow">Payment Schedule</span></div><div class="overflow-x-auto rounded-xl border border-gray-200"><table class="pricing-table"><thead><tr><th>Installment</th><th>Amount</th><th>Due By</th></tr></thead><tbody><tr><td class="font-semibold">1st Installment (Non-Refundable)</td><td>&#x20B9;₹7,499/- (SL) | ₹9,999/- (3AC)/-</td><td class="text-orange font-semibold">30 Jan 2026</td></tr>
+                <tr><td class="font-semibold">2nd Installment</td><td>&#x20B9;₹6,000/-/-</td><td class="text-orange font-semibold">27 Feb 2026</td></tr>
+                <tr><td class="font-semibold">3rd Installment</td><td>&#x20B9;₹6,000/-/-</td><td class="text-orange font-semibold">23 Mar 2026</td></tr></tbody></table></div></section>
 
             <!-- Cancellation Policy -->
-            <section class="mb-10">
-              <div class="section-pin-divider mb-6">
-                <div class="pin-icon"></div>
-                <div class="line"></div>
-                <span class="section-eyebrow">Refund &amp; Cancellation Policy</span>
-              </div>
-              <div class="overflow-x-auto rounded-xl border border-gray-200">
-                <table class="pricing-table">
-                  <thead>
-                    <tr>
-                      <th>Cancellation Date</th>
-                      <th>Amount Deducted</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>On/Before 20 Feb 2026</td>
-                      <td class="font-semibold text-red-600">50%</td>
-                    </tr>
-                    <tr>
-                      <td>On/Before 25 Mar 2026</td>
-                      <td class="font-semibold text-red-600">90%</td>
-                    </tr>
-                    <tr>
-                      <td>After that</td>
-                      <td class="font-semibold text-red-600">No Refund</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <p class="text-xs text-gray-500 mt-3">
-                * First installment is non-refundable in all cases.
-              </p>
-            </section>
+            <section class="mb-10"><div class="section-pin-divider mb-6"><div class="pin-icon"></div><div class="line"></div><span class="section-eyebrow">Refund &amp; Cancellation Policy</span></div><div class="overflow-x-auto rounded-xl border border-gray-200"><table class="pricing-table"><thead><tr><th>Cancellation Date</th><th>Amount Deducted</th></tr></thead><tbody><tr><td>On/Before 20 Feb 2026</td><td class="font-semibold text-red-600">50%</td></tr>
+                <tr><td>On/Before 25 Mar 2026</td><td class="font-semibold text-red-600">90%</td></tr>
+                <tr><td>After that</td><td class="font-semibold text-red-600">No Refund</td></tr></tbody></table></div><p class="text-xs text-gray-500 mt-3">* First installment is non-refundable in all cases.</p></section>
+
             <!-- Points to Note -->
+            
           </div>
 
           <!-- Sidebar -->
@@ -909,20 +343,18 @@
             <div class="sticky-sidebar">
               <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 mb-4">
                 <p class="text-muted text-sm mb-1">Starting from</p>
-                <p class="font-poppins font-bold text-orange text-4xl mb-1">
-                  &#x20B9;19,499/-<span class="text-lg text-muted font-semibold">/-</span>
-                </p>
+                <p class="font-poppins font-bold text-orange text-4xl mb-1">₹19,499/-</p>
                 <p class="text-muted text-xs mb-4">per person (Sleeper Class) | ₹21,999/- (3AC)</p>
                 <div class="space-y-3 mb-5 text-sm">
                   <div class="flex items-center gap-2">
-                    <span class="text-navy">&#128197;</span
-                    ><span>03 – 11 April 2026 Departure</span>
+                    <span class="text-navy">&#128197;</span><span>03 – 11 April 2026 Departure</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <span class="text-navy">&#128205;</span><span>Mumbai</span>
                   </div>
                   <div class="flex items-center gap-2">
-                    <span class="text-navy">&#128642;</span><span>Train</span>
+                    <span class="text-navy">&#128642;</span
+                    ><span>Train</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <span class="text-navy">&#128101;</span><span>9 Days / 8 Nights</span>
@@ -946,7 +378,7 @@
               </div>
               <div class="bg-navy rounded-2xl p-4">
                 <h3 class="font-poppins font-bold text-white text-lg mb-1">Contact Us</h3>
-                <p class="text-white/60 text-sm mb-3">
+                <p class="text-white/60 text-sm mb-4">
                   Fill the form below and we'll get back to you shortly
                 </p>
                 <div class="form-success mb-3" style="display: none">
@@ -959,10 +391,10 @@
                   action="https://formspree.io/f/xnjelqae"
                   method="POST"
                   data-async
-                  class="space-y-2"
+                  class="space-y-3"
                 >
                   <input type="hidden" name="package" value="Nainital – Mussoorie" />
-                  <div class="grid grid-cols-2 gap-2">
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <input
                       type="text"
                       name="name"
@@ -1015,107 +447,9 @@
     </main>
 
     <!-- Related Packages -->
-    <section class="py-12 bg-light-gray">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="package-card">
-            <div class="relative">
-              <img
-                loading="lazy"
-                decoding="async"
-                src="../assets/images/1200w/coorg.webp"
-                alt="Coorg"
-                class="w-full h-48 object-cover"
-              /><span
-                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
-                >Nature &amp; Hills</span
-              >
-            </div>
-            <div class="p-5">
-              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Coorg</h3>
-              <div class="flex gap-2 mb-3">
-                <span class="chip">5 Days / 4 Nights</span
-                ><span class="chip">24 – 28 June 2026</span>
-              </div>
-              <p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;10,999/-</p>
-              <div class="flex gap-2">
-                <a href="coorg.html" class="btn-navy flex-1 text-sm py-2">View Details</a
-                ><a
-                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Coorg.%20Please%20share%20details."
-                  target="_blank"
-                  class="btn-orange flex-1 text-sm py-2"
-                  >WhatsApp Now</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="package-card">
-            <div class="relative">
-              <img
-                loading="lazy"
-                decoding="async"
-                src="../assets/images/1200w/ooty-mysore.webp"
-                alt="Ooty – Mysore – Adiyogi"
-                class="w-full h-48 object-cover"
-              /><span
-                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
-                >Nature &amp; Hills</span
-              >
-            </div>
-            <div class="p-5">
-              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Ooty – Mysore – Adiyogi</h3>
-              <div class="flex gap-2 mb-3">
-                <span class="chip">6 Days / 5 Nights</span
-                ><span class="chip">16 – 21 April 2026</span>
-              </div>
-              <p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;14,499/-</p>
-              <div class="flex gap-2">
-                <a href="ooty-mysore.html" class="btn-navy flex-1 text-sm py-2">View Details</a
-                ><a
-                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Ooty%20%E2%80%93%20Mysore%20%E2%80%93%20Adiyogi.%20Please%20share%20details."
-                  target="_blank"
-                  class="btn-orange flex-1 text-sm py-2"
-                  >WhatsApp Now</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="package-card">
-            <div class="relative">
-              <img
-                loading="lazy"
-                decoding="async"
-                src="../assets/images/1200w/kedarnath-badrinath.webp"
-                alt="Kedarnath – Badrinath"
-                class="w-full h-48 object-cover"
-              /><span
-                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
-                >Spiritual</span
-              >
-            </div>
-            <div class="p-5">
-              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Kedarnath – Badrinath</h3>
-              <div class="flex gap-2 mb-3">
-                <span class="chip">11 Days / 10 Nights</span
-                ><span class="chip">26 Sep – 06 Oct 2026</span>
-              </div>
-              <p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;21,111/-</p>
-              <div class="flex gap-2">
-                <a href="kedarnath-badrinath.html" class="btn-navy flex-1 text-sm py-2"
-                  >View Details</a
-                ><a
-                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Kedarnath%20%E2%80%93%20Badrinath.%20Please%20share%20details."
-                  target="_blank"
-                  class="btn-orange flex-1 text-sm py-2"
-                  >WhatsApp Now</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="py-12 bg-light-gray"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-6"><div class="package-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/mathura-vrindavan.webp" alt="Mathura – Vrindavan" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Spiritual</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Mathura – Vrindavan</h3><div class="flex gap-2 mb-3"><span class="chip">5 Days / 4 Nights</span><span class="chip">26 – 30 March 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹11,111/-</p><div class="flex gap-2"><a href="mathura-vrindavan.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Mathura%20%E2%80%93%20Vrindavan.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
+      <div class="package-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/ayodhya-kashi-prayagraj.webp" alt="Ayodhya – Kashi – Prayagraj" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Spiritual</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Ayodhya – Kashi – Prayagraj</h3><div class="flex gap-2 mb-3"><span class="chip">6 Days / 5 Nights</span><span class="chip">26 Sep – 01 Oct 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹14,444/-</p><div class="flex gap-2"><a href="ayodhya-kashi-prayagraj.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Ayodhya%20%E2%80%93%20Kashi%20%E2%80%93%20Prayagraj.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
+      <div class="package-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/tadoba.webp" alt="Tadoba" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Tadoba</h3><div class="flex gap-2 mb-3"><span class="chip">5 Days / 4 Nights</span><span class="chip">01 – 05 May 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹16,999/-</p><div class="flex gap-2"><a href="tadoba.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Tadoba.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div></div></div></section>
 
     <!-- Footer -->
     <footer class="bg-navy text-white">
@@ -1130,8 +464,9 @@
                 alt="Samyati Holidays"
                 class="h-12 md:h-16 w-auto rounded-lg"
                 onerror="this.style.display = 'none'"
-              /><span
-                class="tagline-hand self-end block text-white text-[11px] font-bold sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2"
+              />
+              <span
+                class="tagline-hand self-end block text-white text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2"
                 >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
               >
             </a>
