@@ -18,6 +18,7 @@ const ROOT = path.resolve(__dirname);
 const PACKAGES_DIR = path.join(ROOT, 'packages');
 const TEMPLATE = path.join(ROOT, 'template.html');
 const DIST = path.join(ROOT, 'dist');
+const PARTIALS_DIR = path.join(ROOT, '_partials');
 
 // Load all package data files from packages/*.json
 function loadPackages() {
@@ -26,6 +27,24 @@ function loadPackages() {
     .filter((f) => f.endsWith('.json'))
     .sort();
   return files.map((f) => JSON.parse(fs.readFileSync(path.join(PACKAGES_DIR, f), 'utf8')));
+}
+
+function loadPartial(name) {
+  const file = path.join(PARTIALS_DIR, name + '.html');
+  if (!fs.existsSync(file)) throw new Error(`partial ${name}.html not found`);
+  return fs.readFileSync(file, 'utf8');
+}
+
+function resolvePartialTokens(html, ctx) {
+  const page = (ctx && ctx.page) || 'home';
+  const activeMap = { home: 'HOME', packages: 'PACKAGES', about: 'ABOUT', contact: 'CONTACT' };
+  const target = activeMap[page] || 'HOME';
+  html = html.replace(/\{\{ACTIVE_(\w+)\}\}/g, (_, key) =>
+    key === target ? ' active' : ''
+  );
+  html = html.replace(/\{\{\s*WA_LINK_GENERAL\s*\}\}/g, ctx.waLink);
+  html = html.replace(/\{\{\s*CURRENT_YEAR\s*\}\}/g, '2026');
+  return html;
 }
 
 // ── helpers ───────────────────────────────────────────────────────────
@@ -232,6 +251,16 @@ function renderPackage(pkg, allPkgs) {
     const regex = new RegExp('\\{\\{\\s*' + key + '\\s*\\}\\}', 'g');
     html = html.replace(regex, value);
   }
+
+  // Substitute header/footer partials (template uses <!-- PARTIAL_HEADER / FOOTER --> markers)
+  const ctx = {
+    page: 'packages',
+    waLink: waBase + waGeneral
+  };
+  const headerHtml = resolvePartialTokens(loadPartial('header'), ctx);
+  const footerHtml = resolvePartialTokens(loadPartial('footer'), ctx);
+  html = html.replace('<!-- PARTIAL_HEADER -->', headerHtml);
+  html = html.replace('<!-- PARTIAL_FOOTER -->', footerHtml);
 
   // Clean up any remaining {{ ... }} (shouldn't be any)
   html = html.replace(/\{\{.*?\}\}/g, 'MISSING');
