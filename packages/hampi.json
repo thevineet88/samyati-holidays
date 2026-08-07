@@ -8,10 +8,7 @@
   "priceLabel": "\u20b97,999/-",
   "priceNote": "per person (inclusive of bus)",
   "lastBooking": "25 Oct 2025",
-  "category": [
-    "nature",
-    "adventure"
-  ],
+  "category": ["nature", "adventure"],
   "hero": "assets/images/1200w/hampi.webp",
   "gallery": [
     "assets/images/600w/hampi.webp",

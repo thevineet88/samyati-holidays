@@ -8,10 +8,7 @@
   "priceLabel": "\u20b916,499/-",
   "priceNote": "per person (Sleeper) | \u20b918,999/- (3AC)",
   "lastBooking": "10 November 2025",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/himachal.webp",
   "gallery": [
     "assets/images/600w/himachal.webp",

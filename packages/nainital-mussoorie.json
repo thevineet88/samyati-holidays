@@ -8,10 +8,7 @@
   "priceLabel": "\u20b919,499/-",
   "priceNote": "per person (Sleeper Class) | \u20b921,999/- (3AC)",
   "lastBooking": "30 Jan 2026",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/nainital-mussoorie.webp",
   "gallery": [
     "assets/images/600w/nainital-mussoorie.webp",

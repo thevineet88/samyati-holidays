@@ -1,447 +1,653 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Package Details, Samyati Holidays</title>
-  <link rel="icon" type="image/png" sizes="any" href="assets/favicon/favicon-512x512.png"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"/>
-  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon/favicon-48x48.png"/>
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/favicon-192x192.png"/>
-  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/favicon-512x512.png"/>
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png"/>
-  <meta name="theme-color" content="#2D2E6E"/>
-  <link rel="manifest" href="assets/favicon/site.webmanifest"/>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&family=Kalam:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css?v=6" />
-<style>.nav-link{position:relative;padding-bottom:6px}.nav-link::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:#F47920;transition:width 0.3s ease-out;border-radius:2px}.nav-link:hover::after,.nav-link.active::after{width:100%}.tagline-hand{font-family:"Kalam",cursive}.tagline-hand .fam{color:#F47920}</style></head>
-<body data-page="packages" class="font-inter text-dark-gray">
-<script>
-  // Redirect old ?slug= URLs to the new static pages
-  (function() {
-    var params = new URLSearchParams(window.location.search);
-    var slug = params.get('slug');
-    if (slug) {
-      var dest = slug + '.html';
-      if (window.location.search) {
-        dest += window.location.search.replace('?slug=' + slug, '');
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Package Details, Samyati Holidays</title>
+    <link rel="icon" type="image/png" sizes="any" href="assets/favicon/favicon-512x512.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/favicon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/favicon-512x512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <meta name="theme-color" content="#2D2E6E" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&family=Kalam:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css?v=6" />
+    <style>
+      .nav-link {
+        position: relative;
+        padding-bottom: 6px;
       }
-      window.location.replace(dest);
-    }
-  })();
-</script>
+      .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #f47920;
+        transition: width 0.3s ease-out;
+        border-radius: 2px;
+      }
+      .nav-link:hover::after,
+      .nav-link.active::after {
+        width: 100%;
+      }
+      .tagline-hand {
+        font-family: 'Kalam', cursive;
+      }
+      .tagline-hand .fam {
+        color: #f47920;
+      }
+    </style>
+  </head>
+  <body data-page="packages" class="font-inter text-dark-gray">
+    <script>
+      // Redirect old ?slug= URLs to the new static pages
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var slug = params.get('slug');
+        if (slug) {
+          var dest = slug + '.html';
+          if (window.location.search) {
+            dest += window.location.search.replace('?slug=' + slug, '');
+          }
+          window.location.replace(dest);
+        }
+      })();
+    </script>
 
-    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-sm shadow-sm">
+    <header
+      id="main-header"
+      class="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-sm shadow-sm"
+    >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-[78px]">
           <a href="index.html" class="flex items-center gap-2">
-            <img src="assets/samyati-logo-cropped.png" alt="Samyati Holidays" class="h-12 md:h-16 w-auto" onerror="this.style.display='none'"/>
-            <span class="tagline-hand self-end block text-navy text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2 font-bold">Feeling <span class="fam">"फॅमिली"</span> वाली!</span>
+            <img
+              src="assets/samyati-logo-cropped.png"
+              alt="Samyati Holidays"
+              class="h-12 md:h-16 w-auto"
+              onerror="this.style.display = 'none'"
+            />
+            <span
+              class="tagline-hand self-end block text-navy text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2 font-bold"
+              >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
+            >
           </a>
-          <nav class="hidden md:flex items-center gap-8"><a href="index.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Home</a><a href="packages.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link active">Packages</a><a href="about.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">About Us</a><a href="contact.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Contact</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20enquire%20about%20your%20packages." target="_blank" class="bg-green-500 hover:bg-green-600 text-white !w-auto !py-2 !px-4 !text-sm flex items-center gap-2 rounded-lg transition-colors"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-.005 0"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"/></svg>WhatsApp Us</a></nav>
-          <button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Toggle menu"><svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+          <nav class="hidden md:flex items-center gap-8">
+            <a
+              href="index.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Home</a
+            ><a
+              href="packages.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link active"
+              >Packages</a
+            ><a
+              href="about.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >About Us</a
+            ><a
+              href="contact.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Contact</a
+            ><a
+              href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20enquire%20about%20your%20packages."
+              target="_blank"
+              class="bg-green-500 hover:bg-green-600 text-white !w-auto !py-2 !px-4 !text-sm flex items-center gap-2 rounded-lg transition-colors"
+              ><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-.005 0"
+                />
+                <path
+                  d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"
+                /></svg
+              >WhatsApp Us</a
+            >
+          </nav>
+          <button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Toggle menu">
+            <svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </div>
-        <nav id="mobile-menu" class="hidden md:hidden pb-4"><div class="flex flex-col gap-3"><a href="index.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Home</a><a href="packages.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Packages</a><a href="about.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">About Us</a><a href="contact.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Contact</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20enquire%20about%20your%20packages." target="_blank" class="bg-green-500 hover:bg-green-600 text-white !w-auto !py-2 !px-5 !text-sm text-center rounded-lg transition-colors">WhatsApp Us</a></div></nav>
+        <nav id="mobile-menu" class="hidden md:hidden pb-4">
+          <div class="flex flex-col gap-3">
+            <a
+              href="index.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Home</a
+            ><a
+              href="packages.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Packages</a
+            ><a
+              href="about.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >About Us</a
+            ><a
+              href="contact.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Contact</a
+            ><a
+              href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20enquire%20about%20your%20packages."
+              target="_blank"
+              class="bg-green-500 hover:bg-green-600 text-white !w-auto !py-2 !px-5 !text-sm text-center rounded-lg transition-colors"
+              >WhatsApp Us</a
+            >
+          </div>
+        </nav>
       </div>
     </header>
-<!-- LOADING STATE -->
-  <div id="loading-state" class="min-h-screen flex items-center justify-center">
-    <div class="text-center">
-      <div class="w-12 h-12 border-4 border-navy border-t-orange rounded-full animate-spin mx-auto mb-4"></div>
-      <p class="font-poppins text-navy font-semibold">Loading package details…</p>
+    <!-- LOADING STATE -->
+    <div id="loading-state" class="min-h-screen flex items-center justify-center">
+      <div class="text-center">
+        <div
+          class="w-12 h-12 border-4 border-navy border-t-orange rounded-full animate-spin mx-auto mb-4"
+        ></div>
+        <p class="font-poppins text-navy font-semibold">Loading package details…</p>
+      </div>
     </div>
-  </div>
 
-  <!-- ERROR STATE -->
-  <div id="error-state" class="min-h-screen flex items-center justify-center hidden">
-    <div class="text-center px-4">
-      <div class="text-6xl mb-4">🗺️</div>
-      <h2 class="font-poppins text-2xl font-bold text-navy mb-2">Package not found</h2>
-      <p class="text-gray-500 mb-6">The package you're looking for doesn't exist or may have been updated.</p>
-      <a href="packages.html" class="btn-navy">Browse All Packages</a>
+    <!-- ERROR STATE -->
+    <div id="error-state" class="min-h-screen flex items-center justify-center hidden">
+      <div class="text-center px-4">
+        <div class="text-6xl mb-4">🗺️</div>
+        <h2 class="font-poppins text-2xl font-bold text-navy mb-2">Package not found</h2>
+        <p class="text-gray-500 mb-6">
+          The package you're looking for doesn't exist or may have been updated.
+        </p>
+        <a href="packages.html" class="btn-navy">Browse All Packages</a>
+      </div>
     </div>
-  </div>
 
-  <!-- MAIN CONTENT (hidden until loaded) -->
-  <div id="main-content" class="hidden">
+    <!-- MAIN CONTENT (hidden until loaded) -->
+    <div id="main-content" class="hidden">
+      <!-- HERO -->
+      <section
+        id="hero-section"
+        class="relative h-[420px] md:h-[520px] bg-gray-800 overflow-hidden"
+      >
+        <picture id="hero-picture">
+          <source type="image/webp" srcset="" media="(min-width: 1024px)" id="hero-src-lg" />
+          <source type="image/webp" srcset="" media="(min-width: 640px)" id="hero-src-md" />
+          <img id="hero-img" src="" alt="" class="w-full h-full object-cover" />
+        </picture>
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="absolute inset-0 flex flex-col justify-end pb-10 px-4">
+          <div class="max-w-6xl mx-auto w-full">
+            <div class="flex flex-wrap gap-2 mb-3" id="hero-chips"></div>
+            <h1
+              id="hero-title"
+              class="font-poppins text-4xl md:text-5xl font-bold text-white leading-tight mb-2"
+            ></h1>
+            <p id="hero-subtitle" class="text-white/80 text-lg mb-4"></p>
+            <div class="flex flex-wrap gap-4 items-center">
+              <span
+                id="hero-dates"
+                class="text-white font-semibold text-sm bg-white/20 px-3 py-1 rounded-full"
+              ></span>
+              <span
+                id="hero-duration"
+                class="text-white font-semibold text-sm bg-white/20 px-3 py-1 rounded-full"
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <!-- HERO -->
-    <section id="hero-section" class="relative h-[420px] md:h-[520px] bg-gray-800 overflow-hidden">
-      <picture id="hero-picture">
-        <source type="image/webp" srcset="" media="(min-width: 1024px)" id="hero-src-lg">
-        <source type="image/webp" srcset="" media="(min-width: 640px)" id="hero-src-md">
-        <img id="hero-img" src="" alt="" class="w-full h-full object-cover" />
-      </picture>
-      <div class="hero-overlay absolute inset-0"></div>
-      <div class="absolute inset-0 flex flex-col justify-end pb-10 px-4">
-        <div class="max-w-6xl mx-auto w-full">
-          <div class="flex flex-wrap gap-2 mb-3" id="hero-chips"></div>
-          <h1 id="hero-title" class="font-poppins text-4xl md:text-5xl font-bold text-white leading-tight mb-2"></h1>
-          <p id="hero-subtitle" class="text-white/80 text-lg mb-4"></p>
-          <div class="flex flex-wrap gap-4 items-center">
-            <span id="hero-dates" class="text-white font-semibold text-sm bg-white/20 px-3 py-1 rounded-full"></span>
-            <span id="hero-duration" class="text-white font-semibold text-sm bg-white/20 px-3 py-1 rounded-full"></span>
+      <!-- BREADCRUMB -->
+      <div class="bg-gray-50 border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-4 py-2 flex items-center gap-2 text-sm text-gray-500">
+          <a href="index.html" class="hover:text-navy">Home</a>
+          <span>›</span>
+          <a href="packages.html" class="hover:text-navy">Packages</a>
+          <span>›</span>
+          <span id="breadcrumb-title" class="text-navy font-semibold"></span>
+        </div>
+      </div>
+
+      <!-- CONTENT -->
+      <div class="max-w-6xl mx-auto px-4 py-10 lg:py-14">
+        <div class="flex flex-col lg:flex-row gap-10">
+          <!-- LEFT: Main Details -->
+          <div class="flex-1 min-w-0">
+            <!-- Highlights -->
+            <section class="mb-10">
+              <div class="section-pin-divider mb-4">
+                <div class="pin-icon"></div>
+                <div class="line"></div>
+                <span class="section-eyebrow">Trip Highlights</span>
+              </div>
+              <ul id="highlights-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></ul>
+            </section>
+
+            <!-- Advisory (only if present) -->
+            <section id="advisory-section" class="mb-10 hidden">
+              <div class="bg-orange/10 border-l-4 border-orange rounded-r-xl p-4">
+                <div class="flex gap-3 items-start">
+                  <svg
+                    class="w-5 h-5 text-orange flex-shrink-0 mt-0.5"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <div>
+                    <p class="font-poppins font-semibold text-navy text-sm mb-1">
+                      Important Advisory
+                    </p>
+                    <p id="advisory-text" class="text-gray-700 text-sm"></p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Flight Note (only if present) -->
+            <section id="flight-section" class="mb-10 hidden">
+              <div class="bg-blue-50 border-l-4 border-blue-400 rounded-r-xl p-4">
+                <div class="flex gap-3 items-start">
+                  <svg
+                    class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+                    />
+                  </svg>
+                  <div>
+                    <p class="font-poppins font-semibold text-navy text-sm mb-1">
+                      Flight Information
+                    </p>
+                    <p id="flight-text" class="text-gray-700 text-sm"></p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Travel Details -->
+            <section class="mb-10">
+              <div class="section-pin-divider mb-4">
+                <div class="pin-icon"></div>
+                <div class="line"></div>
+                <span class="section-eyebrow">Travel Details</span>
+              </div>
+              <div class="bg-navy/5 rounded-xl p-5 grid sm:grid-cols-3 gap-4">
+                <div>
+                  <p
+                    class="text-xs font-poppins font-semibold text-navy uppercase tracking-wide mb-1"
+                  >
+                    Departure
+                  </p>
+                  <p id="travel-departure" class="text-sm text-gray-700"></p>
+                </div>
+                <div>
+                  <p
+                    class="text-xs font-poppins font-semibold text-navy uppercase tracking-wide mb-1"
+                  >
+                    Train / Mode
+                  </p>
+                  <p id="travel-train" class="text-sm text-gray-700"></p>
+                </div>
+                <div>
+                  <p
+                    class="text-xs font-poppins font-semibold text-navy uppercase tracking-wide mb-1"
+                  >
+                    Return
+                  </p>
+                  <p id="travel-arrival" class="text-sm text-gray-700"></p>
+                </div>
+              </div>
+            </section>
+
+            <!-- Itinerary -->
+            <section class="mb-10">
+              <div class="section-pin-divider mb-6">
+                <div class="pin-icon"></div>
+                <div class="line"></div>
+                <span class="section-eyebrow">Day-by-Day Itinerary</span>
+              </div>
+              <div id="itinerary-list" class="space-y-4"></div>
+            </section>
+
+            <!-- Inclusions / Exclusions -->
+            <section class="mb-10">
+              <div class="section-pin-divider mb-6">
+                <div class="pin-icon"></div>
+                <div class="line"></div>
+                <span class="section-eyebrow">Inclusions & Exclusions</span>
+              </div>
+              <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-green-50 rounded-xl p-5">
+                  <h3 class="font-poppins font-bold text-green-800 mb-4 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    Inclusions
+                  </h3>
+                  <ul id="inclusions-list" class="space-y-2"></ul>
+                </div>
+                <div class="bg-red-50 rounded-xl p-5">
+                  <h3 class="font-poppins font-bold text-red-800 mb-4 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    Exclusions
+                  </h3>
+                  <ul id="exclusions-list" class="space-y-2"></ul>
+                </div>
+              </div>
+            </section>
+
+            <!-- Installments -->
+            <section id="installments-section" class="mb-10 hidden">
+              <div class="section-pin-divider mb-6">
+                <div class="pin-icon"></div>
+                <div class="line"></div>
+                <span class="section-eyebrow">Payment Schedule</span>
+              </div>
+              <div class="overflow-x-auto rounded-xl border border-gray-200">
+                <table class="pricing-table">
+                  <thead>
+                    <tr>
+                      <th>Installment</th>
+                      <th>Amount</th>
+                      <th>Due By</th>
+                    </tr>
+                  </thead>
+                  <tbody id="installments-body"></tbody>
+                </table>
+              </div>
+            </section>
+
+            <!-- Cancellation Policy -->
+            <section id="cancellation-section" class="mb-10 hidden">
+              <div class="section-pin-divider mb-6">
+                <div class="pin-icon"></div>
+                <div class="line"></div>
+                <span class="section-eyebrow">Refund & Cancellation Policy</span>
+              </div>
+              <div class="overflow-x-auto rounded-xl border border-gray-200">
+                <table class="pricing-table">
+                  <thead>
+                    <tr>
+                      <th>Cancellation Date</th>
+                      <th>Amount Deducted</th>
+                    </tr>
+                  </thead>
+                  <tbody id="cancellation-body"></tbody>
+                </table>
+              </div>
+              <p class="text-xs text-gray-500 mt-3">
+                * First installment is non-refundable in all cases.
+              </p>
+            </section>
+
+            <!-- Points to Note -->
+            <section class="mb-10">
+              <div class="section-pin-divider mb-4">
+                <div class="pin-icon"></div>
+                <div class="line"></div>
+                <span class="section-eyebrow">Points to Note</span>
+              </div>
+              <div class="bg-gray-50 rounded-xl p-5">
+                <ul class="space-y-2 text-sm text-gray-700">
+                  <li class="flex gap-2">
+                    <span class="text-orange flex-shrink-0">•</span> Smoking and drinking is
+                    strictly prohibited during travel and at sightseeing places.
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-orange flex-shrink-0">•</span> Sightseeing schedule is subject
+                    to change as per on-day circumstances and availability of time.
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-orange flex-shrink-0">•</span> Company won't be responsible
+                    for expenses caused due to unforeseen events (accidents, vehicle breakdown,
+                    delays, climatic conditions, etc.).
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-orange flex-shrink-0">•</span> Participants should sit as per
+                    seating arrangement allotted during travel.
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-orange flex-shrink-0">•</span> Participants have to pay on
+                    their own for extra rides/activities at sightseeing spots.
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-orange flex-shrink-0">•</span> Tour operators have the right
+                    to make on-spot changes in the program for unforeseen events.
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+
+          <!-- RIGHT: Sticky Sidebar -->
+          <div class="lg:w-80 flex-shrink-0">
+            <div class="sticky-sidebar space-y-5">
+              <!-- Price Card -->
+              <div class="bg-navy rounded-2xl p-6 text-white">
+                <p class="text-white/70 text-sm mb-1">Starting from</p>
+                <p id="sidebar-price" class="font-poppins text-4xl font-bold text-orange"></p>
+                <p id="sidebar-price-note" class="text-white/70 text-xs mt-1 mb-4"></p>
+                <div class="border-t border-white/20 pt-4 space-y-2 text-sm">
+                  <div class="flex justify-between">
+                    <span class="text-white/70">Dates</span>
+                    <span id="sidebar-dates" class="font-semibold text-right max-w-[160px]"></span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="text-white/70">Duration</span>
+                    <span id="sidebar-duration" class="font-semibold"></span>
+                  </div>
+                  <div class="flex justify-between" id="sidebar-booking-row">
+                    <span class="text-white/70">Last Booking</span>
+                    <span id="sidebar-last-booking" class="font-semibold text-orange"></span>
+                  </div>
+                </div>
+                <a
+                  id="sidebar-whatsapp"
+                  href="#"
+                  target="_blank"
+                  class="mt-5 w-full flex items-center justify-center gap-2 bg-[#25D366] text-white font-poppins font-bold py-3 rounded-xl hover:bg-[#1ebe5a] transition-colors"
+                >
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                    />
+                  </svg>
+                  Book on WhatsApp
+                </a>
+                <a
+                  id="sidebar-enquire"
+                  href="contact.html"
+                  class="mt-3 w-full flex items-center justify-center gap-2 border-2 border-white/40 text-white font-poppins font-semibold py-3 rounded-xl hover:bg-white/10 transition-colors"
+                >
+                  Send Enquiry
+                </a>
+              </div>
+
+              <!-- Quick Inclusions -->
+              <div class="bg-white rounded-2xl border border-gray-200 p-5">
+                <h3 class="font-poppins font-bold text-navy mb-3 text-sm">What's Included</h3>
+                <ul id="sidebar-inclusions" class="space-y-2"></ul>
+              </div>
+
+              <!-- Need Help -->
+              <div class="bg-orange/10 rounded-2xl p-5">
+                <h3 class="font-poppins font-bold text-navy mb-2 text-sm">Need Help?</h3>
+                <p class="text-xs text-gray-600 mb-3">Call or WhatsApp our travel experts</p>
+                <div class="space-y-1 text-xs font-semibold text-navy">
+                  <p>Rohit: <a href="tel:+919076068549" class="text-orange">+91 90760 68549</a></p>
+                  <p>
+                    Tejashree: <a href="tel:+918104226001" class="text-orange">+91 81042 26001</a>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- BREADCRUMB -->
-    <div class="bg-gray-50 border-b border-gray-200">
-      <div class="max-w-6xl mx-auto px-4 py-2 flex items-center gap-2 text-sm text-gray-500">
-        <a href="index.html" class="hover:text-navy">Home</a>
-        <span>›</span>
-        <a href="packages.html" class="hover:text-navy">Packages</a>
-        <span>›</span>
-        <span id="breadcrumb-title" class="text-navy font-semibold"></span>
-      </div>
+      <!-- OTHER PACKAGES CTA -->
+      <section class="bg-navy py-14 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+          <p class="section-eyebrow text-orange mb-2">Explore More</p>
+          <h2 class="font-poppins text-3xl font-bold text-white mb-4">Not the right trip?</h2>
+          <p class="text-white/70 mb-8">
+            Browse all our group tour packages and find your perfect journey.
+          </p>
+          <a
+            href="packages.html"
+            class="bg-green-500 hover:bg-green-600 text-white rounded-lg text-lg px-8 py-3 transition-colors"
+            >View All Packages</a
+          >
+        </div>
+      </section>
     </div>
 
-    <!-- CONTENT -->
-    <div class="max-w-6xl mx-auto px-4 py-10 lg:py-14">
-      <div class="flex flex-col lg:flex-row gap-10">
+    <!-- FOOTER -->
+    <!-- WHATSAPP FLOAT -->
 
-        <!-- LEFT: Main Details -->
-        <div class="flex-1 min-w-0">
+    <script src="js/preloader.js"></script>
+    <script src="js/main.js?v=3"></script>
+    <script src="js/packages-data.js"></script>
+    <script>
+      // ── Package Detail Page Logic ──
+      (async function () {
+        const params = new URLSearchParams(window.location.search);
+        const slug = params.get('slug');
 
-          <!-- Highlights -->
-          <section class="mb-10">
-            <div class="section-pin-divider mb-4">
-              <div class="pin-icon"></div>
-              <div class="line"></div>
-              <span class="section-eyebrow">Trip Highlights</span>
-            </div>
-            <ul id="highlights-list" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></ul>
-          </section>
-
-          <!-- Advisory (only if present) -->
-          <section id="advisory-section" class="mb-10 hidden">
-            <div class="bg-orange/10 border-l-4 border-orange rounded-r-xl p-4">
-              <div class="flex gap-3 items-start">
-                <svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
-                </svg>
-                <div>
-                  <p class="font-poppins font-semibold text-navy text-sm mb-1">Important Advisory</p>
-                  <p id="advisory-text" class="text-gray-700 text-sm"></p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!-- Flight Note (only if present) -->
-          <section id="flight-section" class="mb-10 hidden">
-            <div class="bg-blue-50 border-l-4 border-blue-400 rounded-r-xl p-4">
-              <div class="flex gap-3 items-start">
-                <svg class="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
-                </svg>
-                <div>
-                  <p class="font-poppins font-semibold text-navy text-sm mb-1">Flight Information</p>
-                  <p id="flight-text" class="text-gray-700 text-sm"></p>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!-- Travel Details -->
-          <section class="mb-10">
-            <div class="section-pin-divider mb-4">
-              <div class="pin-icon"></div>
-              <div class="line"></div>
-              <span class="section-eyebrow">Travel Details</span>
-            </div>
-            <div class="bg-navy/5 rounded-xl p-5 grid sm:grid-cols-3 gap-4">
-              <div>
-                <p class="text-xs font-poppins font-semibold text-navy uppercase tracking-wide mb-1">Departure</p>
-                <p id="travel-departure" class="text-sm text-gray-700"></p>
-              </div>
-              <div>
-                <p class="text-xs font-poppins font-semibold text-navy uppercase tracking-wide mb-1">Train / Mode</p>
-                <p id="travel-train" class="text-sm text-gray-700"></p>
-              </div>
-              <div>
-                <p class="text-xs font-poppins font-semibold text-navy uppercase tracking-wide mb-1">Return</p>
-                <p id="travel-arrival" class="text-sm text-gray-700"></p>
-              </div>
-            </div>
-          </section>
-
-          <!-- Itinerary -->
-          <section class="mb-10">
-            <div class="section-pin-divider mb-6">
-              <div class="pin-icon"></div>
-              <div class="line"></div>
-              <span class="section-eyebrow">Day-by-Day Itinerary</span>
-            </div>
-            <div id="itinerary-list" class="space-y-4"></div>
-          </section>
-
-          <!-- Inclusions / Exclusions -->
-          <section class="mb-10">
-            <div class="section-pin-divider mb-6">
-              <div class="pin-icon"></div>
-              <div class="line"></div>
-              <span class="section-eyebrow">Inclusions & Exclusions</span>
-            </div>
-            <div class="grid md:grid-cols-2 gap-6">
-              <div class="bg-green-50 rounded-xl p-5">
-                <h3 class="font-poppins font-bold text-green-800 mb-4 flex items-center gap-2">
-                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-                  Inclusions
-                </h3>
-                <ul id="inclusions-list" class="space-y-2"></ul>
-              </div>
-              <div class="bg-red-50 rounded-xl p-5">
-                <h3 class="font-poppins font-bold text-red-800 mb-4 flex items-center gap-2">
-                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/></svg>
-                  Exclusions
-                </h3>
-                <ul id="exclusions-list" class="space-y-2"></ul>
-              </div>
-            </div>
-          </section>
-
-          <!-- Installments -->
-          <section id="installments-section" class="mb-10 hidden">
-            <div class="section-pin-divider mb-6">
-              <div class="pin-icon"></div>
-              <div class="line"></div>
-              <span class="section-eyebrow">Payment Schedule</span>
-            </div>
-            <div class="overflow-x-auto rounded-xl border border-gray-200">
-              <table class="pricing-table">
-                <thead>
-                  <tr>
-                    <th>Installment</th>
-                    <th>Amount</th>
-                    <th>Due By</th>
-                  </tr>
-                </thead>
-                <tbody id="installments-body"></tbody>
-              </table>
-            </div>
-          </section>
-
-          <!-- Cancellation Policy -->
-          <section id="cancellation-section" class="mb-10 hidden">
-            <div class="section-pin-divider mb-6">
-              <div class="pin-icon"></div>
-              <div class="line"></div>
-              <span class="section-eyebrow">Refund & Cancellation Policy</span>
-            </div>
-            <div class="overflow-x-auto rounded-xl border border-gray-200">
-              <table class="pricing-table">
-                <thead>
-                  <tr>
-                    <th>Cancellation Date</th>
-                    <th>Amount Deducted</th>
-                  </tr>
-                </thead>
-                <tbody id="cancellation-body"></tbody>
-              </table>
-            </div>
-            <p class="text-xs text-gray-500 mt-3">* First installment is non-refundable in all cases.</p>
-          </section>
-
-          <!-- Points to Note -->
-          <section class="mb-10">
-            <div class="section-pin-divider mb-4">
-              <div class="pin-icon"></div>
-              <div class="line"></div>
-              <span class="section-eyebrow">Points to Note</span>
-            </div>
-            <div class="bg-gray-50 rounded-xl p-5">
-              <ul class="space-y-2 text-sm text-gray-700">
-                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Smoking and drinking is strictly prohibited during travel and at sightseeing places.</li>
-                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Sightseeing schedule is subject to change as per on-day circumstances and availability of time.</li>
-                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Company won't be responsible for expenses caused due to unforeseen events (accidents, vehicle breakdown, delays, climatic conditions, etc.).</li>
-                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Participants should sit as per seating arrangement allotted during travel.</li>
-                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Participants have to pay on their own for extra rides/activities at sightseeing spots.</li>
-                <li class="flex gap-2"><span class="text-orange flex-shrink-0">•</span> Tour operators have the right to make on-spot changes in the program for unforeseen events.</li>
-              </ul>
-            </div>
-          </section>
-
-        </div>
-
-        <!-- RIGHT: Sticky Sidebar -->
-        <div class="lg:w-80 flex-shrink-0">
-          <div class="sticky-sidebar space-y-5">
-
-            <!-- Price Card -->
-            <div class="bg-navy rounded-2xl p-6 text-white">
-              <p class="text-white/70 text-sm mb-1">Starting from</p>
-              <p id="sidebar-price" class="font-poppins text-4xl font-bold text-orange"></p>
-              <p id="sidebar-price-note" class="text-white/70 text-xs mt-1 mb-4"></p>
-              <div class="border-t border-white/20 pt-4 space-y-2 text-sm">
-                <div class="flex justify-between">
-                  <span class="text-white/70">Dates</span>
-                  <span id="sidebar-dates" class="font-semibold text-right max-w-[160px]"></span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-white/70">Duration</span>
-                  <span id="sidebar-duration" class="font-semibold"></span>
-                </div>
-                <div class="flex justify-between" id="sidebar-booking-row">
-                  <span class="text-white/70">Last Booking</span>
-                  <span id="sidebar-last-booking" class="font-semibold text-orange"></span>
-                </div>
-              </div>
-              <a id="sidebar-whatsapp" href="#" target="_blank" class="mt-5 w-full flex items-center justify-center gap-2 bg-[#25D366] text-white font-poppins font-bold py-3 rounded-xl hover:bg-[#1ebe5a] transition-colors">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                Book on WhatsApp
-              </a>
-              <a id="sidebar-enquire" href="contact.html" class="mt-3 w-full flex items-center justify-center gap-2 border-2 border-white/40 text-white font-poppins font-semibold py-3 rounded-xl hover:bg-white/10 transition-colors">
-                Send Enquiry
-              </a>
-            </div>
-
-            <!-- Quick Inclusions -->
-            <div class="bg-white rounded-2xl border border-gray-200 p-5">
-              <h3 class="font-poppins font-bold text-navy mb-3 text-sm">What's Included</h3>
-              <ul id="sidebar-inclusions" class="space-y-2"></ul>
-            </div>
-
-            <!-- Need Help -->
-            <div class="bg-orange/10 rounded-2xl p-5">
-              <h3 class="font-poppins font-bold text-navy mb-2 text-sm">Need Help?</h3>
-              <p class="text-xs text-gray-600 mb-3">Call or WhatsApp our travel experts</p>
-              <div class="space-y-1 text-xs font-semibold text-navy">
-                <p>Rohit: <a href="tel:+919076068549" class="text-orange">+91 90760 68549</a></p>
-                <p>Tejashree: <a href="tel:+918104226001" class="text-orange">+91 81042 26001</a></p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- OTHER PACKAGES CTA -->
-    <section class="bg-navy py-14 px-4">
-      <div class="max-w-4xl mx-auto text-center">
-        <p class="section-eyebrow text-orange mb-2">Explore More</p>
-        <h2 class="font-poppins text-3xl font-bold text-white mb-4">Not the right trip?</h2>
-        <p class="text-white/70 mb-8">Browse all our group tour packages and find your perfect journey.</p>
-        <a href="packages.html" class="bg-green-500 hover:bg-green-600 text-white rounded-lg text-lg px-8 py-3 transition-colors">View All Packages</a>
-      </div>
-    </section>
-
-  </div>
-
-  <!-- FOOTER -->
-  <!-- WHATSAPP FLOAT -->
-
-<script src="js/preloader.js"></script>
-<script src="js/main.js?v=3"></script>
-  <script src="js/packages-data.js"></script>
-  <script>
-    // ── Package Detail Page Logic ──
-    (async function () {
-      const params = new URLSearchParams(window.location.search);
-      const slug = params.get('slug');
-
-      if (!slug) {
-        showError();
-        return;
-      }
-
-      let packages;
-      // Try inline data first (works on file://) then fall back to fetch
-      if (typeof SAMYATI_PACKAGES !== 'undefined') {
-        packages = SAMYATI_PACKAGES;
-      } else {
-        try {
-          const jsonUrl = new URL('packages.json', window.location.href).href;
-          const res = await fetch(jsonUrl);
-          if (!res.ok) throw new Error('HTTP ' + res.status);
-          packages = await res.json();
-        } catch (e) {
-          console.error('Failed to load packages.json:', e);
-          showError('Could not load package data. Please open this site through a local server.');
+        if (!slug) {
+          showError();
           return;
         }
-      }
 
-      const pkg = packages.find(p => p.slug === slug);
-      if (!pkg) {
-        console.error('No package found for slug:', slug);
-        showError('Package "' + slug + '" not found.');
-        return;
-      }
+        let packages;
+        // Try inline data first (works on file://) then fall back to fetch
+        if (typeof SAMYATI_PACKAGES !== 'undefined') {
+          packages = SAMYATI_PACKAGES;
+        } else {
+          try {
+            const jsonUrl = new URL('packages.json', window.location.href).href;
+            const res = await fetch(jsonUrl);
+            if (!res.ok) throw new Error('HTTP ' + res.status);
+            packages = await res.json();
+          } catch (e) {
+            console.error('Failed to load packages.json:', e);
+            showError('Could not load package data. Please open this site through a local server.');
+            return;
+          }
+        }
 
-      // Update page title
-      document.title = `${pkg.title}, Samyati Holidays`;
+        const pkg = packages.find((p) => p.slug === slug);
+        if (!pkg) {
+          console.error('No package found for slug:', slug);
+          showError('Package "' + slug + '" not found.');
+          return;
+        }
 
-      // ── Hero ──
-      const heroImg = document.getElementById('hero-img');
-      const heroSrcLg = document.getElementById('hero-src-lg');
-      const heroSrcMd = document.getElementById('hero-src-md');
-      // Responsive WebP srcset for local assets; fall back to pkg.hero otherwise.
-      if (pkg.hero && pkg.hero.startsWith('../assets/images/')) {
-        const base = pkg.hero.replace('/1200w/', '/{w}/').replace(/\.(webp|jpg|png)$/, '.webp');
-        heroSrcLg.srcset = base.replace('{w}', '1200w');
-        heroSrcMd.srcset = base.replace('{w}', '800w');
-        heroImg.src = base.replace('{w}', '600w');
-      } else {
-        heroSrcLg.srcset = pkg.hero || '';
-        heroSrcMd.srcset = pkg.hero || '';
-        heroImg.src = pkg.hero || '';
-      }
-      heroImg.alt = pkg.title;
-      document.getElementById('hero-title').textContent = pkg.title;
-      document.getElementById('hero-subtitle').textContent = pkg.subtitle;
-      document.getElementById('hero-dates').textContent = '📅 ' + pkg.dates;
-      document.getElementById('hero-duration').textContent = '⏱ ' + pkg.duration;
-      document.getElementById('breadcrumb-title').textContent = pkg.title;
+        // Update page title
+        document.title = `${pkg.title}, Samyati Holidays`;
 
-      // Category chips in hero
-      const chipsEl = document.getElementById('hero-chips');
-      const catLabels = { nature: 'Nature', adventure: 'Adventure', spiritual: 'Spiritual', beach: 'Beach' };
-      (pkg.category || []).forEach(c => {
-        const chip = document.createElement('span');
-        chip.className = 'chip';
-        chip.textContent = catLabels[c] || c;
-        chipsEl.appendChild(chip);
-      });
+        // ── Hero ──
+        const heroImg = document.getElementById('hero-img');
+        const heroSrcLg = document.getElementById('hero-src-lg');
+        const heroSrcMd = document.getElementById('hero-src-md');
+        // Responsive WebP srcset for local assets; fall back to pkg.hero otherwise.
+        if (pkg.hero && pkg.hero.startsWith('../assets/images/')) {
+          const base = pkg.hero.replace('/1200w/', '/{w}/').replace(/\.(webp|jpg|png)$/, '.webp');
+          heroSrcLg.srcset = base.replace('{w}', '1200w');
+          heroSrcMd.srcset = base.replace('{w}', '800w');
+          heroImg.src = base.replace('{w}', '600w');
+        } else {
+          heroSrcLg.srcset = pkg.hero || '';
+          heroSrcMd.srcset = pkg.hero || '';
+          heroImg.src = pkg.hero || '';
+        }
+        heroImg.alt = pkg.title;
+        document.getElementById('hero-title').textContent = pkg.title;
+        document.getElementById('hero-subtitle').textContent = pkg.subtitle;
+        document.getElementById('hero-dates').textContent = '📅 ' + pkg.dates;
+        document.getElementById('hero-duration').textContent = '⏱ ' + pkg.duration;
+        document.getElementById('breadcrumb-title').textContent = pkg.title;
 
-      // ── Highlights ──
-      const hlList = document.getElementById('highlights-list');
-      (pkg.highlights || []).forEach(h => {
-        const li = document.createElement('li');
-        li.className = 'flex items-start gap-2 text-gray-700 text-sm';
-        li.innerHTML = `<span class="pin-bullet flex-shrink-0" style="margin-top:5px"></span><span>${h}</span>`;
-        hlList.appendChild(li);
-      });
+        // Category chips in hero
+        const chipsEl = document.getElementById('hero-chips');
+        const catLabels = {
+          nature: 'Nature',
+          adventure: 'Adventure',
+          spiritual: 'Spiritual',
+          beach: 'Beach'
+        };
+        (pkg.category || []).forEach((c) => {
+          const chip = document.createElement('span');
+          chip.className = 'chip';
+          chip.textContent = catLabels[c] || c;
+          chipsEl.appendChild(chip);
+        });
 
-      // ── Advisory ──
-      if (pkg.advisory) {
-        document.getElementById('advisory-section').classList.remove('hidden');
-        document.getElementById('advisory-text').textContent = pkg.advisory;
-      }
+        // ── Highlights ──
+        const hlList = document.getElementById('highlights-list');
+        (pkg.highlights || []).forEach((h) => {
+          const li = document.createElement('li');
+          li.className = 'flex items-start gap-2 text-gray-700 text-sm';
+          li.innerHTML = `<span class="pin-bullet flex-shrink-0" style="margin-top:5px"></span><span>${h}</span>`;
+          hlList.appendChild(li);
+        });
 
-      // ── Flight Note ──
-      if (pkg.flightNote) {
-        document.getElementById('flight-section').classList.remove('hidden');
-        document.getElementById('flight-text').textContent = pkg.flightNote;
-      }
+        // ── Advisory ──
+        if (pkg.advisory) {
+          document.getElementById('advisory-section').classList.remove('hidden');
+          document.getElementById('advisory-text').textContent = pkg.advisory;
+        }
 
-      // ── Travel ──
-      document.getElementById('travel-departure').textContent = pkg.travel.departure;
-      document.getElementById('travel-train').textContent = pkg.travel.train;
-      document.getElementById('travel-arrival').textContent = pkg.travel.arrival;
+        // ── Flight Note ──
+        if (pkg.flightNote) {
+          document.getElementById('flight-section').classList.remove('hidden');
+          document.getElementById('flight-text').textContent = pkg.flightNote;
+        }
 
-      // ── Itinerary ──
-      const itiList = document.getElementById('itinerary-list');
-      (pkg.itinerary || []).forEach(day => {
-        const item = document.createElement('div');
-        item.className = 'accordion-item';
-        item.innerHTML = `
+        // ── Travel ──
+        document.getElementById('travel-departure').textContent = pkg.travel.departure;
+        document.getElementById('travel-train').textContent = pkg.travel.train;
+        document.getElementById('travel-arrival').textContent = pkg.travel.arrival;
+
+        // ── Itinerary ──
+        const itiList = document.getElementById('itinerary-list');
+        (pkg.itinerary || []).forEach((day) => {
+          const item = document.createElement('div');
+          item.className = 'accordion-item';
+          item.innerHTML = `
           <button class="accordion-btn">
             <div class="flex items-center gap-3">
               <span class="day-badge">${day.day}</span>
@@ -457,112 +663,145 @@
             <p class="text-gray-600 text-sm mb-2">${day.description}</p>
             <span class="text-xs font-poppins font-semibold text-orange">🍽 ${day.meals}</span>
           </div>`;
-        itiList.appendChild(item);
-      });
-
-      // ── Inclusions ──
-      const incList = document.getElementById('inclusions-list');
-      (pkg.inclusions || []).forEach(inc => {
-        const li = document.createElement('li');
-        li.className = 'flex items-start gap-2 text-sm text-green-800';
-        li.innerHTML = `<svg class="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>${inc}</span>`;
-        incList.appendChild(li);
-      });
-
-      const excList = document.getElementById('exclusions-list');
-      (pkg.exclusions || []).forEach(exc => {
-        const li = document.createElement('li');
-        li.className = 'flex items-start gap-2 text-sm text-red-800';
-        li.innerHTML = `<svg class="w-4 h-4 text-red-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg><span>${exc}</span>`;
-        excList.appendChild(li);
-      });
-
-      // ── Installments ──
-      if (pkg.installments && pkg.installments.length > 0) {
-        document.getElementById('installments-section').classList.remove('hidden');
-        const tbody = document.getElementById('installments-body');
-        pkg.installments.forEach(inst => {
-          const tr = document.createElement('tr');
-          tr.innerHTML = `<td class="font-semibold">${inst.name}</td><td>${inst.amount}</td><td class="text-orange font-semibold">${inst.dueBy}</td>`;
-          tbody.appendChild(tr);
+          itiList.appendChild(item);
         });
-      }
 
-      // ── Cancellation ──
-      if (pkg.cancellation && pkg.cancellation.length > 0) {
-        document.getElementById('cancellation-section').classList.remove('hidden');
-        const tbody = document.getElementById('cancellation-body');
-        pkg.cancellation.forEach(row => {
-          const tr = document.createElement('tr');
-          tr.innerHTML = `<td>${row.deadline}</td><td class="font-semibold text-red-600">${row.deduction}</td>`;
-          tbody.appendChild(tr);
+        // ── Inclusions ──
+        const incList = document.getElementById('inclusions-list');
+        (pkg.inclusions || []).forEach((inc) => {
+          const li = document.createElement('li');
+          li.className = 'flex items-start gap-2 text-sm text-green-800';
+          li.innerHTML = `<svg class="w-4 h-4 text-green-600 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>${inc}</span>`;
+          incList.appendChild(li);
         });
+
+        const excList = document.getElementById('exclusions-list');
+        (pkg.exclusions || []).forEach((exc) => {
+          const li = document.createElement('li');
+          li.className = 'flex items-start gap-2 text-sm text-red-800';
+          li.innerHTML = `<svg class="w-4 h-4 text-red-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg><span>${exc}</span>`;
+          excList.appendChild(li);
+        });
+
+        // ── Installments ──
+        if (pkg.installments && pkg.installments.length > 0) {
+          document.getElementById('installments-section').classList.remove('hidden');
+          const tbody = document.getElementById('installments-body');
+          pkg.installments.forEach((inst) => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td class="font-semibold">${inst.name}</td><td>${inst.amount}</td><td class="text-orange font-semibold">${inst.dueBy}</td>`;
+            tbody.appendChild(tr);
+          });
+        }
+
+        // ── Cancellation ──
+        if (pkg.cancellation && pkg.cancellation.length > 0) {
+          document.getElementById('cancellation-section').classList.remove('hidden');
+          const tbody = document.getElementById('cancellation-body');
+          pkg.cancellation.forEach((row) => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `<td>${row.deadline}</td><td class="font-semibold text-red-600">${row.deduction}</td>`;
+            tbody.appendChild(tr);
+          });
+        }
+
+        // ── Sidebar ──
+        document.getElementById('sidebar-price').textContent = pkg.priceLabel;
+        document.getElementById('sidebar-price-note').textContent = pkg.priceNote;
+        document.getElementById('sidebar-dates').textContent = pkg.dates;
+        document.getElementById('sidebar-duration').textContent = pkg.duration;
+        document.getElementById('sidebar-last-booking').textContent = pkg.lastBooking;
+
+        // WhatsApp pre-filled message
+        const waMsg = encodeURIComponent(
+          `Hi! I'm interested in the *${pkg.title}* (${pkg.dates}) package. Please share more details.`
+        );
+        const sideWa = document.getElementById('sidebar-whatsapp');
+        if (sideWa) sideWa.href = `https://wa.me/919076068549?text=${waMsg}`;
+        // .wa-float is now inline — set its href directly
+        const waFloat = document.querySelector('.wa-float');
+        if (waFloat) {
+          waFloat.href = `https://wa.me/919076068549?text=${waMsg}`;
+        }
+
+        // Sidebar inclusions (first 5)
+        const sideInc = document.getElementById('sidebar-inclusions');
+        (pkg.inclusions || []).slice(0, 5).forEach((inc) => {
+          const li = document.createElement('li');
+          li.className = 'flex items-start gap-2 text-xs text-gray-700';
+          li.innerHTML = `<svg class="w-3.5 h-3.5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>${inc}</span>`;
+          sideInc.appendChild(li);
+        });
+        if ((pkg.inclusions || []).length > 5) {
+          const more = document.createElement('li');
+          more.className = 'text-xs text-navy font-semibold mt-1';
+          more.textContent = `+ ${pkg.inclusions.length - 5} more…`;
+          sideInc.appendChild(more);
+        }
+
+        // Show content
+        document.getElementById('loading-state').classList.add('hidden');
+        document.getElementById('main-content').classList.remove('hidden');
+      })();
+
+      function showError(msg) {
+        document.getElementById('loading-state').classList.add('hidden');
+        const el = document.getElementById('error-state');
+        el.classList.remove('hidden');
+        if (msg) {
+          const p = el.querySelector('p');
+          if (p) p.textContent = msg;
+        }
       }
-
-      // ── Sidebar ──
-      document.getElementById('sidebar-price').textContent = pkg.priceLabel;
-      document.getElementById('sidebar-price-note').textContent = pkg.priceNote;
-      document.getElementById('sidebar-dates').textContent = pkg.dates;
-      document.getElementById('sidebar-duration').textContent = pkg.duration;
-      document.getElementById('sidebar-last-booking').textContent = pkg.lastBooking;
-
-      // WhatsApp pre-filled message
-      const waMsg = encodeURIComponent(`Hi! I'm interested in the *${pkg.title}* (${pkg.dates}) package. Please share more details.`);
-      const sideWa = document.getElementById('sidebar-whatsapp');
-      if (sideWa) sideWa.href = `https://wa.me/919076068549?text=${waMsg}`;
-      // .wa-float is now inline — set its href directly
-      const waFloat = document.querySelector('.wa-float');
-      if (waFloat) { waFloat.href = `https://wa.me/919076068549?text=${waMsg}`; }
-
-      // Sidebar inclusions (first 5)
-      const sideInc = document.getElementById('sidebar-inclusions');
-      (pkg.inclusions || []).slice(0, 5).forEach(inc => {
-        const li = document.createElement('li');
-        li.className = 'flex items-start gap-2 text-xs text-gray-700';
-        li.innerHTML = `<svg class="w-3.5 h-3.5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg><span>${inc}</span>`;
-        sideInc.appendChild(li);
-      });
-      if ((pkg.inclusions || []).length > 5) {
-        const more = document.createElement('li');
-        more.className = 'text-xs text-navy font-semibold mt-1';
-        more.textContent = `+ ${pkg.inclusions.length - 5} more…`;
-        sideInc.appendChild(more);
-      }
-
-      // Show content
-      document.getElementById('loading-state').classList.add('hidden');
-      document.getElementById('main-content').classList.remove('hidden');
-    })();
-
-    function showError(msg) {
-      document.getElementById('loading-state').classList.add('hidden');
-      const el = document.getElementById('error-state');
-      el.classList.remove('hidden');
-      if (msg) {
-        const p = el.querySelector('p');
-        if (p) p.textContent = msg;
-      }
-    }
-
-  </script>
-<footer class="bg-navy text-white">
+    </script>
+    <footer class="bg-navy text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Main Footer Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-10">
-
           <!-- Col 1: Logo & About -->
           <div>
             <a href="index.html" class="inline-flex items-center gap-2">
-              <img src="assets/samyati-logo-cropped.png" alt="Samyati Holidays" class="h-12 md:h-16 w-auto" onerror="this.style.display='none'"/>
-              <span class="tagline-hand self-end block text-white text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2">Feeling <span class="fam">"फॅमिली"</span> वाली!</span>
+              <img
+                src="assets/samyati-logo-cropped.png"
+                alt="Samyati Holidays"
+                class="h-12 md:h-16 w-auto"
+                onerror="this.style.display = 'none'"
+              />
+              <span
+                class="tagline-hand self-end block text-white text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2"
+                >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
+              >
             </a>
-            <p class="text-white/60 text-sm mt-3 leading-relaxed">Your journey. Our expertise. Mumbai &amp; Pune-based group tour specialists with 6+ years of experience and 20,000+ happy travellers.</p>
+            <p class="text-white/60 text-sm mt-3 leading-relaxed">
+              Your journey. Our expertise. Mumbai &amp; Pune-based group tour specialists with 6+
+              years of experience and 20,000+ happy travellers.
+            </p>
             <div class="flex items-center gap-3 mt-4">
-              <a href="https://wa.me/919076068549" target="_blank" rel="noopener" aria-label="WhatsApp" class="w-9 h-9 rounded-full bg-white/10 hover:bg-green-500 flex items-center justify-center transition-colors">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"/></svg>
+              <a
+                href="https://wa.me/919076068549"
+                target="_blank"
+                rel="noopener"
+                aria-label="WhatsApp"
+                class="w-9 h-9 rounded-full bg-white/10 hover:bg-green-500 flex items-center justify-center transition-colors"
+              >
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"
+                  />
+                </svg>
               </a>
-              <a href="https://www.instagram.com/samyatiholidays" target="_blank" rel="noopener" aria-label="Instagram" class="w-9 h-9 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition-colors">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              <a
+                href="https://www.instagram.com/samyatiholidays"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram"
+                class="w-9 h-9 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition-colors"
+              >
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+                  />
+                </svg>
               </a>
             </div>
           </div>
@@ -572,9 +811,13 @@
             <h4 class="font-poppins font-semibold text-white mb-3">Quick Links</h4>
             <ul class="space-y-2 text-sm text-white/60">
               <li><a href="index.html" class="hover:text-orange transition-colors">Home</a></li>
-              <li><a href="packages.html" class="hover:text-orange transition-colors">All Packages</a></li>
+              <li>
+                <a href="packages.html" class="hover:text-orange transition-colors">All Packages</a>
+              </li>
               <li><a href="about.html" class="hover:text-orange transition-colors">About Us</a></li>
-              <li><a href="contact.html" class="hover:text-orange transition-colors">Contact</a></li>
+              <li>
+                <a href="contact.html" class="hover:text-orange transition-colors">Contact</a>
+              </li>
             </ul>
           </div>
 
@@ -582,14 +825,42 @@
           <div>
             <h4 class="font-poppins font-semibold text-white mb-3">Our Tours</h4>
             <ul class="space-y-2 text-sm text-white/60">
-              <li><a href="kerala.html" class="hover:text-orange transition-colors">Best Kerala Trip</a></li>
-              <li><a href="rameshwaram.html" class="hover:text-orange transition-colors">Rameshwaram &amp; Kanyakumari</a></li>
-              <li><a href="ujjain-indore.html" class="hover:text-orange transition-colors">Ujjain – Indore – Omkareshwar</a></li>
-              <li><a href="himachal.html" class="hover:text-orange transition-colors">Himachal</a></li>
-              <li><a href="kedarnath-badrinath.html" class="hover:text-orange transition-colors">Kedarnath &amp; Badrinath</a></li>
-              <li><a href="sikkim-darjeeling.html" class="hover:text-orange transition-colors">Sikkim &amp; Darjeeling</a></li>
-              <li><a href="somnath-dwarka.html" class="hover:text-orange transition-colors">Somnath &amp; Dwarka</a></li>
-              <li><a href="packages.html" class="hover:text-orange transition-colors">View All →</a></li>
+              <li>
+                <a href="kerala.html" class="hover:text-orange transition-colors"
+                  >Best Kerala Trip</a
+                >
+              </li>
+              <li>
+                <a href="rameshwaram.html" class="hover:text-orange transition-colors"
+                  >Rameshwaram &amp; Kanyakumari</a
+                >
+              </li>
+              <li>
+                <a href="ujjain-indore.html" class="hover:text-orange transition-colors"
+                  >Ujjain – Indore – Omkareshwar</a
+                >
+              </li>
+              <li>
+                <a href="himachal.html" class="hover:text-orange transition-colors">Himachal</a>
+              </li>
+              <li>
+                <a href="kedarnath-badrinath.html" class="hover:text-orange transition-colors"
+                  >Kedarnath &amp; Badrinath</a
+                >
+              </li>
+              <li>
+                <a href="sikkim-darjeeling.html" class="hover:text-orange transition-colors"
+                  >Sikkim &amp; Darjeeling</a
+                >
+              </li>
+              <li>
+                <a href="somnath-dwarka.html" class="hover:text-orange transition-colors"
+                  >Somnath &amp; Dwarka</a
+                >
+              </li>
+              <li>
+                <a href="packages.html" class="hover:text-orange transition-colors">View All →</a>
+              </li>
             </ul>
           </div>
 
@@ -599,27 +870,62 @@
             <div class="space-y-2 text-sm text-white/60">
               <p>Mumbai &amp; Pune, Maharashtra</p>
               <p class="text-white/40 text-xs">WhatsApp</p>
-              <a href="https://wa.me/919076068549" target="_blank" rel="noopener" class="block text-orange font-semibold hover:text-orange-400 transition-colors">+91 90760 68549</a>
-              <a href="mailto:hello@samyatiholidays.com" class="block hover:text-orange transition-colors">hello@samyatiholidays.com</a>
+              <a
+                href="https://wa.me/919076068549"
+                target="_blank"
+                rel="noopener"
+                class="block text-orange font-semibold hover:text-orange-400 transition-colors"
+                >+91 90760 68549</a
+              >
+              <a
+                href="mailto:hello@samyatiholidays.com"
+                class="block hover:text-orange transition-colors"
+                >hello@samyatiholidays.com</a
+              >
             </div>
           </div>
         </div>
 
         <!-- Brand Bar -->
-        <div class="border-t border-white/10 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p class="text-white/40 text-xs">&copy; <span id="current-year"></span> Samyati Holidays. All rights reserved. Airoli, Mumbai.</p>
-          <a href="https://kubertechsolutions.in/" target="_blank" rel="noopener" class="flex items-center gap-2 group">
-            <span class="text-white/30 group-hover:text-white/60 text-xs transition-colors">Designed & Engineered by Kuber Tech Solutions</span>
-            <img src="assets/KuberTechLogo.png" alt="Kuber Tech" class="h-10 w-auto opacity-80 group-hover:opacity-100 transition-opacity"/>
+        <div
+          class="border-t border-white/10 py-5 flex flex-col sm:flex-row items-center justify-between gap-3"
+        >
+          <p class="text-white/40 text-xs">
+            &copy; <span id="current-year"></span> Samyati Holidays. All rights reserved. Airoli,
+            Mumbai.
+          </p>
+          <a
+            href="https://kubertechsolutions.in/"
+            target="_blank"
+            rel="noopener"
+            class="flex items-center gap-2 group"
+          >
+            <span class="text-white/30 group-hover:text-white/60 text-xs transition-colors"
+              >Designed & Engineered by Kuber Tech Solutions</span
+            >
+            <img
+              src="assets/KuberTechLogo.png"
+              alt="Kuber Tech"
+              class="h-10 w-auto opacity-80 group-hover:opacity-100 transition-opacity"
+            />
+          </a>
         </div>
       </div>
     </footer>
-    <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20enquire%20about%20your%20packages." target="_blank" class="wa-float">
-      <svg class="w-6 h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <a
+      href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20enquire%20about%20your%20packages."
+      target="_blank"
+      class="wa-float"
+    >
+      <svg class="w-6 h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+        />
+      </svg>
       <span class="hidden md:inline">Chat with us</span>
     </a>
-    <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
-</body>
-</html>
-</body>
+    <script>
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>

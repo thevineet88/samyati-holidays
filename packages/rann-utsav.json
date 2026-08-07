@@ -8,10 +8,7 @@
   "priceLabel": "\u20b912,999/-",
   "priceNote": "per person (Sleeper) | \u20b914,499/- (3AC)",
   "lastBooking": "27 Nov 2025",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/rann-utsav.webp",
   "gallery": [
     "assets/images/600w/rann-utsav.webp",

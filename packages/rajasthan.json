@@ -8,10 +8,7 @@
   "priceLabel": "\u20b922,999/-",
   "priceNote": "per person (Sleeper) | \u20b925,499/- (3AC)",
   "lastBooking": "15 Aug 2025",
-  "category": [
-    "spiritual",
-    "adventure"
-  ],
+  "category": ["spiritual", "adventure"],
   "hero": "assets/images/1200w/rajasthan.webp",
   "gallery": [
     "assets/images/600w/rajasthan.webp",

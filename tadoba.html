@@ -1,236 +1,1019 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Jungle Safari · Wildlife · Tiger Reserve"/>
-  <title>Tadoba</title>
-  <link rel="icon" type="image/png" sizes="any" href="assets/favicon/favicon-512x512.png"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"/>
-  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon/favicon-48x48.png"/>
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/favicon-192x192.png"/>
-  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/favicon-512x512.png"/>
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png"/>
-  <meta name="theme-color" content="#2D2E6E"/>
-  <link rel="manifest" href="assets/favicon/site.webmanifest"/>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Kalam:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>tailwind.config={theme:{extend:{colors:{navy:'#2D2E6E',orange:'#F47920','light-gray':'#F5F6FA','muted':'#6B7280'},fontFamily:{poppins:['Poppins','sans-serif'],inter:['Inter','sans-serif'],kalam:['Kalam','cursive']}}}}</script>
-  <style>.nav-link{position:relative;padding-bottom:6px}.nav-link::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:#F47920;transition:width 0.3s ease-out;border-radius:2px}.nav-link:hover::after,.nav-link.active::after{width:100%}body{font-family:'Inter',sans-serif}section{scroll-margin-top:80px}.accordion-btn{display:flex;align-items:center;justify-content:space-between;width:100%;padding:1rem 0;text-align:left;border-bottom:1px solid #f0f0f0;transition:background 0.2s}.accordion-btn:hover{background:#fafafa}.accordion-body{display:none;padding-bottom:1rem;padding-left:2.75rem}.accordion-body.open{display:block}.day-badge{width:2.5rem;height:2.5rem;border-radius:50%;background:#2D2E6E;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.875rem;flex-shrink:0}.form-field{width:100%;padding:0.75rem 1rem;border:1px solid #e5e7eb;border-radius:0.5rem;outline:none;transition:border-color 0.2s}.form-field:focus{border-color:#F47920}.hero-overlay{background:linear-gradient(to top,rgba(45,46,110,0.85),rgba(45,46,110,0.3),transparent)}.hero-offset{padding-top:80px}@media(max-width:768px){.hero-offset{padding-top:60px}}.sticky-sidebar{position:sticky;top:88px}.pricing-table{width:100%;border-collapse:collapse}.pricing-table th{background:#2D2E6E;color:#fff;text-align:left;padding:0.75rem 1rem;font-size:0.875rem}.pricing-table td{padding:0.75rem 1rem;border-bottom:1px solid #f0f0f0;font-size:0.875rem}.pricing-table tr:last-child td{border-bottom:none}.pricing-table tr:hover td{background:#fafafa}.inclusion-item{display:flex;align-items:flex-start;gap:0.5rem;padding:0.4rem 0;font-size:0.875rem;color:#374151}.section-eyebrow{font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#F47920;font-family:'Poppins',sans-serif}.section-title{font-family:'Poppins',sans-serif;color:#2D2E6E;font-weight:700}.section-pin-divider{display:flex;align-items:center;gap:0.75rem;margin-bottom:1.5rem}.pin-icon{width:12px;height:12px;border-radius:50%;background:#F47920;flex-shrink:0}.line{flex:1;height:1px;background:linear-gradient(to right,#F47920,transparent)}.chip{font-size:0.7rem;font-weight:600;padding:0.2rem 0.6rem;border-radius:9999px;background:#F5F6FA;color:#374151}.btn-orange{display:block;width:100%;text-align:center;padding:0.75rem 1.5rem;background:#F47920;color:#fff;border-radius:0.5rem;font-weight:600;font-size:0.875rem;transition:background 0.2s;text-decoration:none}.btn-orange:hover{background:#d96a15}.btn-navy{display:block;width:100%;text-align:center;padding:0.75rem 1.5rem;background:#2D2E6E;color:#fff;border-radius:0.5rem;font-weight:600;font-size:0.875rem;transition:background 0.2s;text-decoration:none}.btn-navy:hover{background:#1f2060}.btn-outline-navy{display:block;width:100%;text-align:center;padding:0.75rem 1.5rem;background:transparent;color:#2D2E6E;border:2px solid #2D2E6E;border-radius:0.5rem;font-weight:600;font-size:0.875rem;transition:all 0.2s;text-decoration:none}.btn-outline-navy:hover{background:#2D2E6E;color:#fff}.tagline-hand{font-family:"Kalam",cursive}.tagline-hand .fam{color:#F47920}</style>
-</head>
-<body class="bg-white">
-  <!-- Header -->
-  <header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-sm shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-[78px]">
-        <a href="index.html" class="flex items-center gap-2">
-            <img src="assets/samyati-logo-cropped.png" alt="Samyati Holidays" class="h-12 md:h-16 w-auto" onerror="this.style.display='none'"/><span class="tagline-hand self-end block text-navy text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2 font-bold">Feeling <span class="fam">"फॅमिली"</span> वाली!</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Jungle Safari · Wildlife · Tiger Reserve" />
+    <title>Tadoba</title>
+    <link rel="icon" type="image/png" sizes="any" href="assets/favicon/favicon-512x512.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/favicon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/favicon-512x512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <meta name="theme-color" content="#2D2E6E" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Kalam:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: '#2D2E6E',
+              orange: '#F47920',
+              'light-gray': '#F5F6FA',
+              muted: '#6B7280'
+            },
+            fontFamily: {
+              poppins: ['Poppins', 'sans-serif'],
+              inter: ['Inter', 'sans-serif'],
+              kalam: ['Kalam', 'cursive']
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      .nav-link {
+        position: relative;
+        padding-bottom: 6px;
+      }
+      .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #f47920;
+        transition: width 0.3s ease-out;
+        border-radius: 2px;
+      }
+      .nav-link:hover::after,
+      .nav-link.active::after {
+        width: 100%;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      section {
+        scroll-margin-top: 80px;
+      }
+      .accordion-btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1rem 0;
+        text-align: left;
+        border-bottom: 1px solid #f0f0f0;
+        transition: background 0.2s;
+      }
+      .accordion-btn:hover {
+        background: #fafafa;
+      }
+      .accordion-body {
+        display: none;
+        padding-bottom: 1rem;
+        padding-left: 2.75rem;
+      }
+      .accordion-body.open {
+        display: block;
+      }
+      .day-badge {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        background: #2d2e6e;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 0.875rem;
+        flex-shrink: 0;
+      }
+      .form-field {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.5rem;
+        outline: none;
+        transition: border-color 0.2s;
+      }
+      .form-field:focus {
+        border-color: #f47920;
+      }
+      .hero-overlay {
+        background: linear-gradient(
+          to top,
+          rgba(45, 46, 110, 0.85),
+          rgba(45, 46, 110, 0.3),
+          transparent
+        );
+      }
+      .hero-offset {
+        padding-top: 80px;
+      }
+      @media (max-width: 768px) {
+        .hero-offset {
+          padding-top: 60px;
+        }
+      }
+      .sticky-sidebar {
+        position: sticky;
+        top: 88px;
+      }
+      .pricing-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .pricing-table th {
+        background: #2d2e6e;
+        color: #fff;
+        text-align: left;
+        padding: 0.75rem 1rem;
+        font-size: 0.875rem;
+      }
+      .pricing-table td {
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid #f0f0f0;
+        font-size: 0.875rem;
+      }
+      .pricing-table tr:last-child td {
+        border-bottom: none;
+      }
+      .pricing-table tr:hover td {
+        background: #fafafa;
+      }
+      .inclusion-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.5rem;
+        padding: 0.4rem 0;
+        font-size: 0.875rem;
+        color: #374151;
+      }
+      .section-eyebrow {
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #f47920;
+        font-family: 'Poppins', sans-serif;
+      }
+      .section-title {
+        font-family: 'Poppins', sans-serif;
+        color: #2d2e6e;
+        font-weight: 700;
+      }
+      .section-pin-divider {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 1.5rem;
+      }
+      .pin-icon {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #f47920;
+        flex-shrink: 0;
+      }
+      .line {
+        flex: 1;
+        height: 1px;
+        background: linear-gradient(to right, #f47920, transparent);
+      }
+      .chip {
+        font-size: 0.7rem;
+        font-weight: 600;
+        padding: 0.2rem 0.6rem;
+        border-radius: 9999px;
+        background: #f5f6fa;
+        color: #374151;
+      }
+      .btn-orange {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0.75rem 1.5rem;
+        background: #f47920;
+        color: #fff;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        font-size: 0.875rem;
+        transition: background 0.2s;
+        text-decoration: none;
+      }
+      .btn-orange:hover {
+        background: #d96a15;
+      }
+      .btn-navy {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0.75rem 1.5rem;
+        background: #2d2e6e;
+        color: #fff;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        font-size: 0.875rem;
+        transition: background 0.2s;
+        text-decoration: none;
+      }
+      .btn-navy:hover {
+        background: #1f2060;
+      }
+      .btn-outline-navy {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0.75rem 1.5rem;
+        background: transparent;
+        color: #2d2e6e;
+        border: 2px solid #2d2e6e;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        font-size: 0.875rem;
+        transition: all 0.2s;
+        text-decoration: none;
+      }
+      .btn-outline-navy:hover {
+        background: #2d2e6e;
+        color: #fff;
+      }
+      .tagline-hand {
+        font-family: 'Kalam', cursive;
+      }
+      .tagline-hand .fam {
+        color: #f47920;
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <!-- Header -->
+    <header
+      id="main-header"
+      class="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-sm shadow-sm"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-[78px]">
+          <a href="index.html" class="flex items-center gap-2">
+            <img
+              src="assets/samyati-logo-cropped.png"
+              alt="Samyati Holidays"
+              class="h-12 md:h-16 w-auto"
+              onerror="this.style.display = 'none'"
+            /><span
+              class="tagline-hand self-end block text-navy text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2 font-bold"
+              >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
+            >
           </a>
-        <nav class="hidden md:flex items-center gap-8"><a href="index.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Home</a><a href="packages.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Packages</a><a href="about.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">About Us</a><a href="contact.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Contact</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages." target="_blank" class="bg-green-500 hover:bg-green-600 text-white !w-auto !py-2 !px-4 !text-sm flex items-center gap-2 rounded-lg transition-colors"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-.005 0"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"/></svg>WhatsApp Us</a></nav>
-        <button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Toggle menu"><svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
-      </div>
-      <nav id="mobile-menu" class="hidden md:hidden pb-4"><div class="flex flex-col gap-3"><a href="index.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Home</a><a href="packages.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Packages</a><a href="about.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">About Us</a><a href="contact.html" class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link">Contact</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages." target="_blank" class="bg-green-500 hover:bg-green-600 text-white !w-auto !py-2 !px-5 !text-sm text-center rounded-lg transition-colors">WhatsApp Us</a></div></nav>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section class="relative h-[60vh] min-h-[400px] flex items-end">
-    <img fetchpriority="high" src="../assets/images/1200w/tadoba.webp" alt="Tadoba" class="absolute inset-0 w-full h-full object-cover"/>
-    <div class="hero-overlay absolute inset-0"></div>
-    <div class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 hero-offset">
-      <nav class="flex items-center gap-2 text-white/60 text-sm mb-4"><a href="index.html" class="hover:text-white">Home</a><span>/</span><a href="packages.html" class="hover:text-white">Packages</a><span>/</span><span class="text-white">Tadoba</span></nav>
-      <span class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block">Adventure</span>
-      <span class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block">Nature &amp; Hills</span>
-      <h1 class="font-poppins font-bold text-white text-3xl md:text-5xl mb-4">Tadoba</h1>
-      <div class="flex flex-wrap gap-4">
-        <span class="bg-white/20 text-white text-sm font-semibold px-4 py-2 rounded-full backdrop-blur-sm">5 Days / 4 Nights</span>
-        <span class="bg-white/20 text-white text-sm font-semibold px-4 py-2 rounded-full backdrop-blur-sm">01 – 05 May 2026</span>
-        
-        <span class="bg-orange text-white text-sm font-semibold px-4 py-2 rounded-full">&#x20B9;16,999/-</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Main Content -->
-  <main>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
-        <div class="lg:col-span-2 space-y-12">
-          <div><p class="section-eyebrow">Package Overview</p><h2 class="section-title text-2xl md:text-3xl mt-1 mb-4">Jungle Safari · Wildlife · Tiger Reserve</h2></div>
-
-          <!-- Trip Highlights -->
-          <div><div class="section-pin-divider mb-6"><div class="pin-icon"></div><div class="line"></div><span class="section-eyebrow">Trip Highlights</span></div><div class="grid grid-cols-1 md:grid-cols-2 gap-3"><div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Tadoba Tiger Reserve</span></div>
-          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Jungle Safari (3 Gypsy Safaris)</span></div>
-          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Wildlife Spotting</span></div>
-          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Resort Stay in Nature</span></div>
-          <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange font-bold text-lg mt-0.5">&#9733;</span><span class="text-sm">Nagpur Excursion</span></div></div></div>
-
-          <!-- Itinerary -->
-          <div id="itinerary-section">
-            <p class="section-eyebrow">Day by Day</p>
-            <h2 class="section-title text-2xl mt-1 mb-6">Detailed Itinerary</h2>
-            
-            <div class="space-y-0" id="itinerary-list">
-              <div class="accordion-item">
-      <button class="accordion-btn">
-        <div class="flex items-center gap-3"><div class="day-badge">1</div><span>Day 1, Report at 06:00 PM &amp; board the train from Chhatrapati Shivaji Maharaj Terminus (</span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">01 MAY 2026 (Friday) B O A R D  T R A I N  F R O M  M U M B A I T R A I N  T R A V E L L I N G journey.</p>
-        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Breakfast &amp; Dinner</span>
-      </div>
-    </div>
-              <div class="accordion-item">
-      <button class="accordion-btn">
-        <div class="flex items-center gap-3"><div class="day-badge">2</div><span>Day 2, Your jungle adventure starts with a comfortable pickup from Nagpur, followed by </span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">02 MAY 2026 (Saturday) R E A C H  N A G P U R  &amp; E N J O Y  A F T E R N O O N  S A F A R I After some relaxation, get ready for an exciting afternoon</p>
-        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Breakfast &amp; Dinner</span>
-      </div>
-    </div>
-              <div class="accordion-item">
-      <button class="accordion-btn">
-        <div class="flex items-center gap-3"><div class="day-badge">3</div><span>Day 3, Wake up early to the calls of the wild, have breakfast and Return to the resort </span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">03 MAY 2026 (Sunday) F U L L  W I L D L I F E I M M E R S I O N head out for a morning jungle safari,the best time to</p>
-        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Breakfast &amp; Dinner</span>
-      </div>
-    </div>
-              <div class="accordion-item">
-      <button class="accordion-btn">
-        <div class="flex items-center gap-3"><div class="day-badge">4</div><span>Day 4, After breakfast, check out from the resort and begin your return journey to Nagp</span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">04 MAY 2026 (Monday) C A T C H  T R A I N  F O R  R E T U R N J O U R N E Y TADOBA TRIP</p>
-        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Breakfast &amp; Dinner</span>
-      </div>
-    </div>
-              <div class="accordion-item">
-      <button class="accordion-btn">
-        <div class="flex items-center gap-3"><div class="day-badge">5</div><span>Day 5, Reach Mumbai till 06:45 AM. “Return Home with Sweet Memories !” (SL Train Ticket</span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">05 MAY 2026 (Tuesday) R E A C H  M U M B A I TADOBA TRIP 01 - 05 MAY 2026</p>
-        <span class="text-xs font-poppins font-semibold text-orange">&#127858; Breakfast &amp; Dinner</span>
-      </div>
-    </div>
-            </div>
-               </div>
-
-          <!-- Inclusions & Exclusions -->
-          <div>
-            <p class="section-eyebrow">What's Covered</p>
-            <h2 class="section-title text-2xl mt-1 mb-6">Inclusions &amp; Exclusions</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div><h3 class="font-poppins font-semibold text-navy mb-4 flex items-center gap-2"><span class="w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-xs">&#10003;</span>What's Included</h3><div class="space-y-2"><div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>To &amp; Fro SL Train Tickets (3AC upgrade available)</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>AC Tempo Traveller transfers</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Deluxe AC Accommodation (2-3 Sharing)</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>2 Breakfasts, 1 Lunch &amp; 2 Dinners</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>3 Gypsy Jungle Safaris</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Safari &amp; Guide Charges</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>AC Transfers to Safari Gates</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Mineral Water</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>First Aid</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Tour Buddy</span></div></div></div>
-              <div><h3 class="font-poppins font-semibold text-navy mb-4 flex items-center gap-2"><span class="w-6 h-6 bg-red-100 text-red-500 rounded-full flex items-center justify-center text-xs">&#10005;</span>Not Included</h3><div class="space-y-2"><div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Meals during train travel</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Lunch (some days)</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Gondola Ride charges</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Adventure activities</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Chain Vehicles</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Beverages</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Anything not mentioned in inclusions</span></div></div></div>
-            </div>
-          </div>
-
-          <!-- Advisory -->
-          <div class="bg-orange/10 border-l-4 border-orange rounded-r-xl p-4"><div class="flex gap-3 items-start"><svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg><div><p class="font-poppins font-semibold text-navy text-sm mb-1">Important Advisory</p><p class="text-gray-700 text-sm">Carry binoculars for wildlife viewing. Wear neutral-colored clothing. Follow all jungle safari rules strictly.</p></div></div></div>
-
-          <!-- Travel Details -->
-          <div><p class="section-eyebrow">Travel Details</p><h2 class="section-title text-2xl mt-1 mb-6">Travel Details</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-4"><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Departure Point</p><p class="font-poppins font-semibold text-navy text-sm">CSMT Mumbai — 6:00 PM, 01 May 2026</p></div><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Travel Mode</p><p class="font-poppins font-semibold text-navy text-sm">Vidarbha Express</p></div><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Return</p><p class="font-poppins font-semibold text-navy text-sm">Reach Mumbai by 06:45 AM, 05 May 2026</p></div></div></div>
-
-          <!-- Payment Schedule -->
-          
-
-          <!-- Cancellation Policy -->
-          
-
-          <!-- Points to Note -->
+          <nav class="hidden md:flex items-center gap-8">
+            <a
+              href="index.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Home</a
+            ><a
+              href="packages.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Packages</a
+            ><a
+              href="about.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >About Us</a
+            ><a
+              href="contact.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Contact</a
+            ><a
+              href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages."
+              target="_blank"
+              class="bg-green-500 hover:bg-green-600 text-white !w-auto !py-2 !px-4 !text-sm flex items-center gap-2 rounded-lg transition-colors"
+              ><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-.005 0"
+                />
+                <path
+                  d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"
+                /></svg
+              >WhatsApp Us</a
+            >
+          </nav>
+          <button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Toggle menu">
+            <svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </div>
+        <nav id="mobile-menu" class="hidden md:hidden pb-4">
+          <div class="flex flex-col gap-3">
+            <a
+              href="index.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Home</a
+            ><a
+              href="packages.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Packages</a
+            ><a
+              href="about.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >About Us</a
+            ><a
+              href="contact.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Contact</a
+            ><a
+              href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages."
+              target="_blank"
+              class="bg-green-500 hover:bg-green-600 text-white !w-auto !py-2 !px-5 !text-sm text-center rounded-lg transition-colors"
+              >WhatsApp Us</a
+            >
+          </div>
+        </nav>
+      </div>
+    </header>
 
-        <!-- Sidebar -->
-        <div class="lg:col-span-1">
-          <div class="sticky-sidebar">
-            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 mb-4">
-              <p class="text-muted text-sm mb-1">Starting from</p>
-              <p class="font-poppins font-bold text-orange text-4xl mb-1">&#x20B9;16,999/-<span class="text-lg text-muted font-semibold">/-</span></p>
-              <p class="text-muted text-xs mb-4">per person (Sleeper) | ₹19,499/- (3AC)</p>
-              <div class="space-y-3 mb-5 text-sm">
-                <div class="flex items-center gap-2"><span class="text-navy">&#128197;</span><span>01 – 05 May 2026 Departure</span></div>
-                <div class="flex items-center gap-2"><span class="text-navy">&#128205;</span><span>Mumbai</span></div>
-                <div class="flex items-center gap-2"><span class="text-navy">&#128642;</span><span>Train</span></div>
-                <div class="flex items-center gap-2"><span class="text-navy">&#128101;</span><span>5 Days / 4 Nights</span></div>
-                <div class="flex items-center gap-2 text-green-600 font-semibold"><span>&#10003;</span><span>Seats available</span></div>
+    <!-- Hero -->
+    <section class="relative h-[60vh] min-h-[400px] flex items-end">
+      <img
+        fetchpriority="high"
+        src="../assets/images/1200w/tadoba.webp"
+        alt="Tadoba"
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+      <div class="hero-overlay absolute inset-0"></div>
+      <div class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 hero-offset">
+        <nav class="flex items-center gap-2 text-white/60 text-sm mb-4">
+          <a href="index.html" class="hover:text-white">Home</a><span>/</span
+          ><a href="packages.html" class="hover:text-white">Packages</a><span>/</span
+          ><span class="text-white">Tadoba</span>
+        </nav>
+        <span
+          class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block"
+          >Adventure</span
+        >
+        <span
+          class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block"
+          >Nature &amp; Hills</span
+        >
+        <h1 class="font-poppins font-bold text-white text-3xl md:text-5xl mb-4">Tadoba</h1>
+        <div class="flex flex-wrap gap-4">
+          <span
+            class="bg-white/20 text-white text-sm font-semibold px-4 py-2 rounded-full backdrop-blur-sm"
+            >5 Days / 4 Nights</span
+          >
+          <span
+            class="bg-white/20 text-white text-sm font-semibold px-4 py-2 rounded-full backdrop-blur-sm"
+            >01 – 05 May 2026</span
+          >
+
+          <span class="bg-orange text-white text-sm font-semibold px-4 py-2 rounded-full"
+            >&#x20B9;16,999/-</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          <div class="lg:col-span-2 space-y-12">
+            <div>
+              <p class="section-eyebrow">Package Overview</p>
+              <h2 class="section-title text-2xl md:text-3xl mt-1 mb-4">
+                Jungle Safari · Wildlife · Tiger Reserve
+              </h2>
+            </div>
+
+            <!-- Trip Highlights -->
+            <div>
+              <div class="section-pin-divider mb-6">
+                <div class="pin-icon"></div>
+                <div class="line"></div>
+                <span class="section-eyebrow">Trip Highlights</span>
               </div>
-              <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Tadoba.%20Please%20share%20details%20and%20booking%20process." target="_blank" class="btn-orange w-full text-center block mb-3 py-3">Book Now via WhatsApp</a>
-              <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20have%20a%20question%20about%20Tadoba.%20Can%20you%20help%3F" target="_blank" class="btn-outline-navy w-full text-center block text-sm py-2">Ask a Question</a>
-            </div>
-            <div class="bg-navy rounded-2xl p-4">
-              <h3 class="font-poppins font-bold text-white text-lg mb-1">Quick Enquiry</h3>
-              <p class="text-white/60 text-sm mb-4">We'll WhatsApp you within 2 hours</p>
-              <div class="form-success mb-3" style="display:none">Message sent! We'll reach out shortly.</div>
-              <div class="form-error mb-3" style="display:none">Something went wrong. Please WhatsApp us directly.</div>
-              <form action="https://formspree.io/f/xnjelqae" method="POST" data-async class="space-y-2">
-                <input type="hidden" name="package" value="Tadoba"/>
-                <div class="grid grid-cols-2 gap-2">
-                  <input type="text" name="name" placeholder="Your Name" required class="form-field text-sm"/>
-                  <input type="tel" name="phone" placeholder="Phone / WhatsApp Number" required class="form-field text-sm"/>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
+                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
+                  ><span class="text-sm">Tadoba Tiger Reserve</span>
                 </div>
-                <div><input type="email" name="email" placeholder="Email Address" class="form-field text-sm"/></div>
-                <div><select name="travellers" class="form-field text-sm"><option value="">No. of Travellers</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option></select></div>
-                <div><textarea name="message" placeholder="Any questions?" rows="3" class="form-field text-sm resize-none"></textarea></div>
-                <button type="submit" class="btn-orange w-full py-3 text-sm">Send Enquiry</button>
-              </form>
+                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
+                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
+                  ><span class="text-sm">Jungle Safari (3 Gypsy Safaris)</span>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
+                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
+                  ><span class="text-sm">Wildlife Spotting</span>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
+                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
+                  ><span class="text-sm">Resort Stay in Nature</span>
+                </div>
+                <div class="flex items-start gap-3 p-4 bg-light-gray rounded-lg">
+                  <span class="text-orange font-bold text-lg mt-0.5">&#9733;</span
+                  ><span class="text-sm">Nagpur Excursion</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Itinerary -->
+            <div id="itinerary-section">
+              <p class="section-eyebrow">Day by Day</p>
+              <h2 class="section-title text-2xl mt-1 mb-6">Detailed Itinerary</h2>
+
+              <div class="space-y-0" id="itinerary-list">
+                <div class="accordion-item">
+                  <button class="accordion-btn">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">1</div>
+                      <span
+                        >Day 1, Report at 06:00 PM &amp; board the train from Chhatrapati Shivaji
+                        Maharaj Terminus (</span
+                      >
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      01 MAY 2026 (Friday) B O A R D T R A I N F R O M M U M B A I T R A I N T R A V
+                      E L L I N G journey.
+                    </p>
+                    <span class="text-xs font-poppins font-semibold text-orange"
+                      >&#127858; Breakfast &amp; Dinner</span
+                    >
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-btn">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">2</div>
+                      <span
+                        >Day 2, Your jungle adventure starts with a comfortable pickup from Nagpur,
+                        followed by
+                      </span>
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      02 MAY 2026 (Saturday) R E A C H N A G P U R &amp; E N J O Y A F T E R N O O N
+                      S A F A R I After some relaxation, get ready for an exciting afternoon
+                    </p>
+                    <span class="text-xs font-poppins font-semibold text-orange"
+                      >&#127858; Breakfast &amp; Dinner</span
+                    >
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-btn">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">3</div>
+                      <span
+                        >Day 3, Wake up early to the calls of the wild, have breakfast and Return to
+                        the resort
+                      </span>
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      03 MAY 2026 (Sunday) F U L L W I L D L I F E I M M E R S I O N head out for a
+                      morning jungle safari,the best time to
+                    </p>
+                    <span class="text-xs font-poppins font-semibold text-orange"
+                      >&#127858; Breakfast &amp; Dinner</span
+                    >
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-btn">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">4</div>
+                      <span
+                        >Day 4, After breakfast, check out from the resort and begin your return
+                        journey to Nagp</span
+                      >
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      04 MAY 2026 (Monday) C A T C H T R A I N F O R R E T U R N J O U R N E Y
+                      TADOBA TRIP
+                    </p>
+                    <span class="text-xs font-poppins font-semibold text-orange"
+                      >&#127858; Breakfast &amp; Dinner</span
+                    >
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-btn">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">5</div>
+                      <span
+                        >Day 5, Reach Mumbai till 06:45 AM. “Return Home with Sweet Memories !” (SL
+                        Train Ticket</span
+                      >
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      05 MAY 2026 (Tuesday) R E A C H M U M B A I TADOBA TRIP 01 - 05 MAY 2026
+                    </p>
+                    <span class="text-xs font-poppins font-semibold text-orange"
+                      >&#127858; Breakfast &amp; Dinner</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Inclusions & Exclusions -->
+            <div>
+              <p class="section-eyebrow">What's Covered</p>
+              <h2 class="section-title text-2xl mt-1 mb-6">Inclusions &amp; Exclusions</h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 class="font-poppins font-semibold text-navy mb-4 flex items-center gap-2">
+                    <span
+                      class="w-6 h-6 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-xs"
+                      >&#10003;</span
+                    >What's Included
+                  </h3>
+                  <div class="space-y-2">
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>To &amp; Fro SL Train Tickets (3AC upgrade available)</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>AC Tempo Traveller transfers</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Deluxe AC Accommodation (2-3 Sharing)</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>2 Breakfasts, 1 Lunch &amp; 2 Dinners</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>3 Gypsy Jungle Safaris</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Safari &amp; Guide Charges</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>AC Transfers to Safari Gates</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Mineral Water</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>First Aid</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Tour Buddy</span>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h3 class="font-poppins font-semibold text-navy mb-4 flex items-center gap-2">
+                    <span
+                      class="w-6 h-6 bg-red-100 text-red-500 rounded-full flex items-center justify-center text-xs"
+                      >&#10005;</span
+                    >Not Included
+                  </h3>
+                  <div class="space-y-2">
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Meals during train travel</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Lunch (some days)</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Gondola Ride charges</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Adventure activities</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Chain Vehicles</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Beverages</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Anything not mentioned in inclusions</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Advisory -->
+            <div class="bg-orange/10 border-l-4 border-orange rounded-r-xl p-4">
+              <div class="flex gap-3 items-start">
+                <svg
+                  class="w-5 h-5 text-orange flex-shrink-0 mt-0.5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <div>
+                  <p class="font-poppins font-semibold text-navy text-sm mb-1">
+                    Important Advisory
+                  </p>
+                  <p class="text-gray-700 text-sm">
+                    Carry binoculars for wildlife viewing. Wear neutral-colored clothing. Follow all
+                    jungle safari rules strictly.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Travel Details -->
+            <div>
+              <p class="section-eyebrow">Travel Details</p>
+              <h2 class="section-title text-2xl mt-1 mb-6">Travel Details</h2>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-light-gray rounded-lg p-4">
+                  <p class="text-xs text-muted mb-1">Departure Point</p>
+                  <p class="font-poppins font-semibold text-navy text-sm">
+                    CSMT Mumbai — 6:00 PM, 01 May 2026
+                  </p>
+                </div>
+                <div class="bg-light-gray rounded-lg p-4">
+                  <p class="text-xs text-muted mb-1">Travel Mode</p>
+                  <p class="font-poppins font-semibold text-navy text-sm">Vidarbha Express</p>
+                </div>
+                <div class="bg-light-gray rounded-lg p-4">
+                  <p class="text-xs text-muted mb-1">Return</p>
+                  <p class="font-poppins font-semibold text-navy text-sm">
+                    Reach Mumbai by 06:45 AM, 05 May 2026
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Payment Schedule -->
+
+            <!-- Cancellation Policy -->
+
+            <!-- Points to Note -->
+          </div>
+
+          <!-- Sidebar -->
+          <div class="lg:col-span-1">
+            <div class="sticky-sidebar">
+              <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 mb-4">
+                <p class="text-muted text-sm mb-1">Starting from</p>
+                <p class="font-poppins font-bold text-orange text-4xl mb-1">
+                  &#x20B9;16,999/-<span class="text-lg text-muted font-semibold">/-</span>
+                </p>
+                <p class="text-muted text-xs mb-4">per person (Sleeper) | ₹19,499/- (3AC)</p>
+                <div class="space-y-3 mb-5 text-sm">
+                  <div class="flex items-center gap-2">
+                    <span class="text-navy">&#128197;</span><span>01 – 05 May 2026 Departure</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="text-navy">&#128205;</span><span>Mumbai</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="text-navy">&#128642;</span><span>Train</span>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="text-navy">&#128101;</span><span>5 Days / 4 Nights</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-green-600 font-semibold">
+                    <span>&#10003;</span><span>Seats available</span>
+                  </div>
+                </div>
+                <a
+                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Tadoba.%20Please%20share%20details%20and%20booking%20process."
+                  target="_blank"
+                  class="btn-orange w-full text-center block mb-3 py-3"
+                  >Book Now via WhatsApp</a
+                >
+                <a
+                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20have%20a%20question%20about%20Tadoba.%20Can%20you%20help%3F"
+                  target="_blank"
+                  class="btn-outline-navy w-full text-center block text-sm py-2"
+                  >Ask a Question</a
+                >
+              </div>
+              <div class="bg-navy rounded-2xl p-4">
+                <h3 class="font-poppins font-bold text-white text-lg mb-1">Quick Enquiry</h3>
+                <p class="text-white/60 text-sm mb-4">We'll WhatsApp you within 2 hours</p>
+                <div class="form-success mb-3" style="display: none">
+                  Message sent! We'll reach out shortly.
+                </div>
+                <div class="form-error mb-3" style="display: none">
+                  Something went wrong. Please WhatsApp us directly.
+                </div>
+                <form
+                  action="https://formspree.io/f/xnjelqae"
+                  method="POST"
+                  data-async
+                  class="space-y-2"
+                >
+                  <input type="hidden" name="package" value="Tadoba" />
+                  <div class="grid grid-cols-2 gap-2">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your Name"
+                      required
+                      class="form-field text-sm"
+                    />
+                    <input
+                      type="tel"
+                      name="phone"
+                      placeholder="Phone / WhatsApp Number"
+                      required
+                      class="form-field text-sm"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Email Address"
+                      class="form-field text-sm"
+                    />
+                  </div>
+                  <div>
+                    <select name="travellers" class="form-field text-sm">
+                      <option value="">No. of Travellers</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5+</option>
+                    </select>
+                  </div>
+                  <div>
+                    <textarea
+                      name="message"
+                      placeholder="Any questions?"
+                      rows="3"
+                      class="form-field text-sm resize-none"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn-orange w-full py-3 text-sm">Send Enquiry</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <!-- Related Packages -->
-  <section class="py-12 bg-light-gray"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-6"><div class="package-card"><div class="relative"><img loading="lazy" decoding="async" src="../assets/images/1200w/rann-utsav.webp" alt="Rann Utsav" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Rann Utsav</h3><div class="flex gap-2 mb-3"><span class="chip">5 Days / 4 Nights</span><span class="chip">04 – 08 February 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;12,999/-</p><div class="flex gap-2"><a href="rann-utsav.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Rann%20Utsav.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
-      <div class="package-card"><div class="relative"><img loading="lazy" decoding="async" src="../assets/images/1200w/hampi.webp" alt="Hampi" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Nature &amp; Hills</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Hampi</h3><div class="flex gap-2 mb-3"><span class="chip">5 Days / 4 Nights</span><span class="chip">05 – 09 November 2025</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;7,999/-</p><div class="flex gap-2"><a href="hampi.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Hampi.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
-      <div class="package-card"><div class="relative"><img loading="lazy" decoding="async" src="../assets/images/1200w/coorg.webp" alt="Coorg" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Nature &amp; Hills</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Coorg</h3><div class="flex gap-2 mb-3"><span class="chip">5 Days / 4 Nights</span><span class="chip">24 – 28 June 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;10,999/-</p><div class="flex gap-2"><a href="coorg.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Coorg.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div></div></div></section>
+    <!-- Related Packages -->
+    <section class="py-12 bg-light-gray">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="package-card">
+            <div class="relative">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="../assets/images/1200w/rann-utsav.webp"
+                alt="Rann Utsav"
+                class="w-full h-48 object-cover"
+              /><span
+                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
+                >Adventure</span
+              >
+            </div>
+            <div class="p-5">
+              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Rann Utsav</h3>
+              <div class="flex gap-2 mb-3">
+                <span class="chip">5 Days / 4 Nights</span
+                ><span class="chip">04 – 08 February 2026</span>
+              </div>
+              <p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;12,999/-</p>
+              <div class="flex gap-2">
+                <a href="rann-utsav.html" class="btn-navy flex-1 text-sm py-2">View Details</a
+                ><a
+                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Rann%20Utsav.%20Please%20share%20details."
+                  target="_blank"
+                  class="btn-orange flex-1 text-sm py-2"
+                  >WhatsApp Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="package-card">
+            <div class="relative">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="../assets/images/1200w/hampi.webp"
+                alt="Hampi"
+                class="w-full h-48 object-cover"
+              /><span
+                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
+                >Nature &amp; Hills</span
+              >
+            </div>
+            <div class="p-5">
+              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Hampi</h3>
+              <div class="flex gap-2 mb-3">
+                <span class="chip">5 Days / 4 Nights</span
+                ><span class="chip">05 – 09 November 2025</span>
+              </div>
+              <p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;7,999/-</p>
+              <div class="flex gap-2">
+                <a href="hampi.html" class="btn-navy flex-1 text-sm py-2">View Details</a
+                ><a
+                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Hampi.%20Please%20share%20details."
+                  target="_blank"
+                  class="btn-orange flex-1 text-sm py-2"
+                  >WhatsApp Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="package-card">
+            <div class="relative">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="../assets/images/1200w/coorg.webp"
+                alt="Coorg"
+                class="w-full h-48 object-cover"
+              /><span
+                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
+                >Nature &amp; Hills</span
+              >
+            </div>
+            <div class="p-5">
+              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Coorg</h3>
+              <div class="flex gap-2 mb-3">
+                <span class="chip">5 Days / 4 Nights</span
+                ><span class="chip">24 – 28 June 2026</span>
+              </div>
+              <p class="font-poppins font-bold text-orange text-xl mb-3">&#x20B9;10,999/-</p>
+              <div class="flex gap-2">
+                <a href="coorg.html" class="btn-navy flex-1 text-sm py-2">View Details</a
+                ><a
+                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Coorg.%20Please%20share%20details."
+                  target="_blank"
+                  class="btn-orange flex-1 text-sm py-2"
+                  >WhatsApp Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-navy text-white">
+    <!-- Footer -->
+    <footer class="bg-navy text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Main Footer Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-10">
-
           <!-- Col 1: Logo & About -->
           <div>
             <a href="index.html" class="inline-flex items-center gap-2">
-              
-              <img src="assets/samyati-logo-cropped.png" alt="Samyati Holidays" class="h-12 md:h-16 w-auto rounded-lg" onerror="this.style.display='none'"/><span class="tagline-hand self-end block text-white text-[11px] font-bold sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2">Feeling <span class="fam">"फॅमिली"</span> वाली!</span>
+              <img
+                src="assets/samyati-logo-cropped.png"
+                alt="Samyati Holidays"
+                class="h-12 md:h-16 w-auto rounded-lg"
+                onerror="this.style.display = 'none'"
+              /><span
+                class="tagline-hand self-end block text-white text-[11px] font-bold sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2"
+                >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
+              >
             </a>
-            <p class="text-white/60 text-sm mt-3 leading-relaxed">Your journey. Our expertise. Mumbai &amp; Pune-based group tour specialists with 6+ years of experience and 20,000+ happy travellers.</p>
+            <p class="text-white/60 text-sm mt-3 leading-relaxed">
+              Your journey. Our expertise. Mumbai &amp; Pune-based group tour specialists with 6+
+              years of experience and 20,000+ happy travellers.
+            </p>
             <div class="flex items-center gap-3 mt-4">
-              <a href="https://wa.me/919076068549" target="_blank" rel="noopener" aria-label="WhatsApp" class="w-9 h-9 rounded-full bg-white/10 hover:bg-green-500 flex items-center justify-center transition-colors">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"/></svg>
+              <a
+                href="https://wa.me/919076068549"
+                target="_blank"
+                rel="noopener"
+                aria-label="WhatsApp"
+                class="w-9 h-9 rounded-full bg-white/10 hover:bg-green-500 flex items-center justify-center transition-colors"
+              >
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"
+                  />
+                </svg>
               </a>
-              <a href="https://www.instagram.com/samyatiholidays" target="_blank" rel="noopener" aria-label="Instagram" class="w-9 h-9 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition-colors">
-                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              <a
+                href="https://www.instagram.com/samyatiholidays"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram"
+                class="w-9 h-9 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition-colors"
+              >
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+                  />
+                </svg>
               </a>
             </div>
           </div>
@@ -240,9 +1023,13 @@
             <h4 class="font-poppins font-semibold text-white mb-3">Quick Links</h4>
             <ul class="space-y-2 text-sm text-white/60">
               <li><a href="index.html" class="hover:text-orange transition-colors">Home</a></li>
-              <li><a href="packages.html" class="hover:text-orange transition-colors">All Packages</a></li>
+              <li>
+                <a href="packages.html" class="hover:text-orange transition-colors">All Packages</a>
+              </li>
               <li><a href="about.html" class="hover:text-orange transition-colors">About Us</a></li>
-              <li><a href="contact.html" class="hover:text-orange transition-colors">Contact</a></li>
+              <li>
+                <a href="contact.html" class="hover:text-orange transition-colors">Contact</a>
+              </li>
             </ul>
           </div>
 
@@ -250,14 +1037,42 @@
           <div>
             <h4 class="font-poppins font-semibold text-white mb-3">Our Tours</h4>
             <ul class="space-y-2 text-sm text-white/60">
-              <li><a href="kerala.html" class="hover:text-orange transition-colors">Best Kerala Trip</a></li>
-              <li><a href="rameshwaram.html" class="hover:text-orange transition-colors">Rameshwaram &amp; Kanyakumari</a></li>
-              <li><a href="ujjain-indore.html" class="hover:text-orange transition-colors">Ujjain – Indore – Omkareshwar</a></li>
-              <li><a href="himachal.html" class="hover:text-orange transition-colors">Himachal</a></li>
-              <li><a href="kedarnath-badrinath.html" class="hover:text-orange transition-colors">Kedarnath &amp; Badrinath</a></li>
-              <li><a href="sikkim-darjeeling.html" class="hover:text-orange transition-colors">Sikkim &amp; Darjeeling</a></li>
-              <li><a href="somnath-dwarka.html" class="hover:text-orange transition-colors">Somnath &amp; Dwarka</a></li>
-              <li><a href="packages.html" class="hover:text-orange transition-colors">View All →</a></li>
+              <li>
+                <a href="kerala.html" class="hover:text-orange transition-colors"
+                  >Best Kerala Trip</a
+                >
+              </li>
+              <li>
+                <a href="rameshwaram.html" class="hover:text-orange transition-colors"
+                  >Rameshwaram &amp; Kanyakumari</a
+                >
+              </li>
+              <li>
+                <a href="ujjain-indore.html" class="hover:text-orange transition-colors"
+                  >Ujjain – Indore – Omkareshwar</a
+                >
+              </li>
+              <li>
+                <a href="himachal.html" class="hover:text-orange transition-colors">Himachal</a>
+              </li>
+              <li>
+                <a href="kedarnath-badrinath.html" class="hover:text-orange transition-colors"
+                  >Kedarnath &amp; Badrinath</a
+                >
+              </li>
+              <li>
+                <a href="sikkim-darjeeling.html" class="hover:text-orange transition-colors"
+                  >Sikkim &amp; Darjeeling</a
+                >
+              </li>
+              <li>
+                <a href="somnath-dwarka.html" class="hover:text-orange transition-colors"
+                  >Somnath &amp; Dwarka</a
+                >
+              </li>
+              <li>
+                <a href="packages.html" class="hover:text-orange transition-colors">View All →</a>
+              </li>
             </ul>
           </div>
 
@@ -267,34 +1082,109 @@
             <div class="space-y-2 text-sm text-white/60">
               <p>Mumbai &amp; Pune, Maharashtra</p>
               <p class="text-white/40 text-xs">WhatsApp</p>
-              <a href="https://wa.me/919076068549" target="_blank" rel="noopener" class="block text-orange font-semibold hover:text-orange-400 transition-colors">+91 90760 68549</a>
-              <a href="mailto:hello@samyatiholidays.com" class="block hover:text-orange transition-colors">hello@samyatiholidays.com</a>
+              <a
+                href="https://wa.me/919076068549"
+                target="_blank"
+                rel="noopener"
+                class="block text-orange font-semibold hover:text-orange-400 transition-colors"
+                >+91 90760 68549</a
+              >
+              <a
+                href="mailto:hello@samyatiholidays.com"
+                class="block hover:text-orange transition-colors"
+                >hello@samyatiholidays.com</a
+              >
             </div>
           </div>
         </div>
 
         <!-- Brand Bar -->
-        <div class="border-t border-white/10 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p class="text-white/40 text-xs">&copy; <span id="current-year"></span> Samyati Holidays. All rights reserved. Airoli, Mumbai.</p>
-          <a href="https://kubertechsolutions.in/" target="_blank" rel="noopener" class="flex items-center gap-2 group">
-            <span class="text-white/30 group-hover:text-white/60 text-xs transition-colors">Designed & Engineered by Kuber Tech Solutions</span>
-            <img src="assets/KuberTechLogo.png" alt="Kuber Tech" class="h-10 w-auto opacity-80 group-hover:opacity-100 transition-opacity"/>
+        <div
+          class="border-t border-white/10 py-5 flex flex-col sm:flex-row items-center justify-between gap-3"
+        >
+          <p class="text-white/40 text-xs">
+            &copy; <span id="current-year"></span> Samyati Holidays. All rights reserved. Airoli,
+            Mumbai.
+          </p>
+          <a
+            href="https://kubertechsolutions.in/"
+            target="_blank"
+            rel="noopener"
+            class="flex items-center gap-2 group"
+          >
+            <span class="text-white/30 group-hover:text-white/60 text-xs transition-colors"
+              >Designed & Engineered by Kuber Tech Solutions</span
+            >
+            <img
+              src="assets/KuberTechLogo.png"
+              alt="Kuber Tech"
+              class="h-10 w-auto opacity-80 group-hover:opacity-100 transition-opacity"
+            />
+          </a>
         </div>
       </div>
     </footer>
 
-  <!-- Floating WhatsApp -->
-  <a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages." target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white rounded-full p-4 shadow-2xl hover:bg-green-600 hover:scale-110 transition-all" aria-label="Chat on WhatsApp">
-    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-.005 0"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"/></svg>
-  </a>
+    <!-- Floating WhatsApp -->
+    <a
+      href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages."
+      target="_blank"
+      class="fixed bottom-6 right-6 z-50 bg-green-500 text-white rounded-full p-4 shadow-2xl hover:bg-green-600 hover:scale-110 transition-all"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-.005 0"
+        />
+        <path
+          d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"
+        />
+      </svg>
+    </a>
 
-  <script>
-    document.getElementById('current-year').textContent = new Date().getFullYear();
-    const menuBtn = document.getElementById('mobile-menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
-    if (menuBtn && mobileMenu) { menuBtn.addEventListener('click', () => { mobileMenu.classList.toggle("open"); const ic=menuBtn.querySelector("svg"); if(mobileMenu.classList.contains("open")){ic.innerHTML="<path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 18L18 6M6 6l12 12\"/>";}else{ic.innerHTML="<path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h16\"/>";}; }); }
-    document.addEventListener('click', (e) => { const btn = e.target.closest('.accordion-btn'); if (!btn) return; const body = btn.nextElementSibling; const isOpen = body.classList.contains('open'); document.querySelectorAll('.accordion-body.open').forEach(b => { if (b !== body) b.classList.remove('open'); }); body.classList.toggle('open', !isOpen); });
-    document.querySelectorAll('form[data-async]').forEach(f => { f.addEventListener('submit', (e) => { e.preventDefault(); const fd = new FormData(f); fetch(f.action, { method:'POST', body:fd, headers:{Accept:'application/json'} }).then(() => { f.querySelector('.form-success').style.display='block'; f.querySelector('.form-error').style.display='none'; f.reset(); }).catch(() => { f.querySelector('.form-error').style.display='block'; f.querySelector('.form-success').style.display='none'; }); }); });
-  </script>
-</body>
+    <script>
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+      const menuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      if (menuBtn && mobileMenu) {
+        menuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('open');
+          const ic = menuBtn.querySelector('svg');
+          if (mobileMenu.classList.contains('open')) {
+            ic.innerHTML =
+              '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>';
+          } else {
+            ic.innerHTML =
+              '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>';
+          }
+        });
+      }
+      document.addEventListener('click', (e) => {
+        const btn = e.target.closest('.accordion-btn');
+        if (!btn) return;
+        const body = btn.nextElementSibling;
+        const isOpen = body.classList.contains('open');
+        document.querySelectorAll('.accordion-body.open').forEach((b) => {
+          if (b !== body) b.classList.remove('open');
+        });
+        body.classList.toggle('open', !isOpen);
+      });
+      document.querySelectorAll('form[data-async]').forEach((f) => {
+        f.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const fd = new FormData(f);
+          fetch(f.action, { method: 'POST', body: fd, headers: { Accept: 'application/json' } })
+            .then(() => {
+              f.querySelector('.form-success').style.display = 'block';
+              f.querySelector('.form-error').style.display = 'none';
+              f.reset();
+            })
+            .catch(() => {
+              f.querySelector('.form-error').style.display = 'block';
+              f.querySelector('.form-success').style.display = 'none';
+            });
+        });
+      });
+    </script>
+  </body>
 </html>

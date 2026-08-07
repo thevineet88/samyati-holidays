@@ -8,10 +8,7 @@
   "priceLabel": "\u20b99,999/-",
   "priceNote": "per person (inclusive of train)",
   "lastBooking": "Contact us",
-  "category": [
-    "spiritual",
-    "beach"
-  ],
+  "category": ["spiritual", "beach"],
   "hero": "assets/images/1200w/gokarna-murudeshwar.webp",
   "gallery": [
     "assets/images/600w/gokarna-murudeshwar.webp",
@@ -35,12 +32,7 @@
     "First Aid",
     "Tour Buddy"
   ],
-  "exclusions": [
-    "5% GST",
-    "Lunch",
-    "Personal expenses",
-    "Anything not mentioned in inclusions"
-  ],
+  "exclusions": ["5% GST", "Lunch", "Personal expenses", "Anything not mentioned in inclusions"],
   "travel": {
     "departure": "LTT (Mumbai) \u2014 2:00 PM, 26 Aug 2026",
     "train": "Matsyagandha Express (12619)",

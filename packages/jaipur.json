@@ -8,10 +8,7 @@
   "priceLabel": "\u20b99,999/-",
   "priceNote": "per person (Sleeper) | \u20b912,499/- (3AC)",
   "lastBooking": "20 Feb 2026",
-  "category": [
-    "spiritual",
-    "adventure"
-  ],
+  "category": ["spiritual", "adventure"],
   "hero": "assets/images/1200w/jaipur.webp",
   "gallery": [
     "assets/images/600w/jaipur.webp",

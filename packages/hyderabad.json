@@ -8,10 +8,7 @@
   "priceLabel": "\u20b99,999/-",
   "priceNote": "per person",
   "lastBooking": "10 Jan 2026",
-  "category": [
-    "spiritual",
-    "nature"
-  ],
+  "category": ["spiritual", "nature"],
   "hero": "assets/images/1200w/hyderabad.webp",
   "gallery": [
     "assets/images/600w/hyderabad.webp",

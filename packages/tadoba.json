@@ -8,10 +8,7 @@
   "priceLabel": "\u20b916,999/-",
   "priceNote": "per person (Sleeper) | \u20b919,499/- (3AC)",
   "lastBooking": "25 Feb 2026",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/tadoba.webp",
   "gallery": [
     "assets/images/600w/tadoba.webp",

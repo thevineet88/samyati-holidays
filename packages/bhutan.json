@@ -8,10 +8,7 @@
   "priceLabel": "\u20b933,333/-",
   "priceNote": "per person",
   "lastBooking": "05 April 2026",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/bhutan.webp",
   "gallery": [
     "assets/images/600w/bhutan.webp",

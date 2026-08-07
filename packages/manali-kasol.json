@@ -8,10 +8,7 @@
   "priceLabel": "\u20b917,999/-",
   "priceNote": "per person (Sleeper) | \u20b922,999/- (3AC)",
   "lastBooking": "15 Mar 2026",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/manali-kasol.webp",
   "gallery": [
     "assets/images/600w/manali-kasol.webp",
