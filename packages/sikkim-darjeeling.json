@@ -1,14 +1,17 @@
 {
   "slug": "sikkim-darjeeling",
-  "title": "Sikkim \u2013 Darjeeling",
-  "subtitle": "Gangtok \u00b7 Pelling \u00b7 Darjeeling \u00b7 Toy Train",
-  "dates": "03 \u2013 09 September 2026",
+  "title": "Sikkim – Darjeeling",
+  "subtitle": "Gangtok · Pelling · Darjeeling · Toy Train",
+  "dates": "03 – 09 September 2026",
   "duration": "7 Days / 6 Nights",
   "price": 27777,
-  "priceLabel": "\u20b927,777/-",
-  "priceNote": "per person (flight not included \u2014 book separately)",
+  "priceLabel": "₹27,777/-",
+  "priceNote": "per person (flight not included — book separately)",
   "lastBooking": "20 June 2026",
-  "category": ["adventure", "nature"],
+  "category": [
+    "adventure",
+    "nature"
+  ],
   "hero": "assets/images/1200w/sikkim-darjeeling.webp",
   "gallery": [
     "assets/images/600w/sikkim-darjeeling.webp",
@@ -22,10 +25,10 @@
     "Tiger Hill Sunrise at 2,590m",
     "Pemayangtse Monastery"
   ],
-  "flightNote": "Suggested flight: Indigo 6E 5305 (BOM 7:50 AM \u2192 IXB 10:50 AM) on 03 Sep 2026. Return: Akasa Air QP 1132 (IXB 1:55 PM \u2192 BOM 5:05 PM) on 09 Sep 2026. Flights to be booked independently.",
+  "flightNote": "Suggested flight: Indigo 6E 5305 (BOM 7:50 AM → IXB 10:50 AM) on 03 Sep 2026. Return: Akasa Air QP 1132 (IXB 1:55 PM → BOM 5:05 PM) on 09 Sep 2026. Flights to be booked independently.",
   "inclusions": [
     "Xylo/Ertiga/Innova for local sightseeing (AC inactive in hilly areas)",
-    "3\u2605 Accommodation (2-3 Sharing)",
+    "3★ Accommodation (2-3 Sharing)",
     "Entry Fees",
     "Breakfast & Dinner",
     "Pelling Ropeway Tickets",
@@ -45,27 +48,27 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Mumbai (BOM) \u2192 Bagdogra (IXB) \u2014 03 Sep 2026",
-    "train": "Fly to Bagdogra \u2014 pickup at airport",
-    "arrival": "Return: Bagdogra (IXB) \u2192 Mumbai (BOM) \u2014 09 Sep 2026"
+    "departure": "Mumbai (BOM) → Bagdogra (IXB) — 03 Sep 2026",
+    "train": "Fly to Bagdogra — pickup at airport",
+    "arrival": "Return: Bagdogra (IXB) → Mumbai (BOM) — 09 Sep 2026"
   },
   "itinerary": [
     {
       "day": 1,
-      "title": "Arrive Bagdogra \u2192 Gangtok",
-      "description": "Fly to Bagdogra (IXB). Pickup at airport. Drive to Gangtok \u2014 120 km (approx. 4.5 hrs). Check in at hotel. Evening at leisure to explore MG Marg. Dinner and overnight stay.",
+      "title": "Arrive Bagdogra → Gangtok",
+      "description": "Fly to Bagdogra (IXB). Pickup at airport. Drive to Gangtok — 120 km (approx. 4.5 hrs). Check in at hotel. Evening at leisure to explore MG Marg. Dinner and overnight stay.",
       "meals": "Dinner"
     },
     {
       "day": 2,
       "title": "Tsomgo Lake & Baba Mandir",
-      "description": "Visit Tsomgo Lake at 12,400 ft \u2014 a glacial lake of stunning beauty. Proceed to New Baba Mandir at 13,200 ft. Optional visit to Nathula Pass at 14,500 ft (India-China border; own cost). Dinner and overnight stay.",
+      "description": "Visit Tsomgo Lake at 12,400 ft — a glacial lake of stunning beauty. Proceed to New Baba Mandir at 13,200 ft. Optional visit to Nathula Pass at 14,500 ft (India-China border; own cost). Dinner and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
     {
       "day": 3,
-      "title": "Gangtok \u2192 Pelling via Namchi",
-      "description": "Check out and drive to Pelling. En route visit Siddheswar Dham at Namchi \u2014 a grand pilgrimage complex. Check in at hotel. Dinner and overnight stay in Pelling.",
+      "title": "Gangtok → Pelling via Namchi",
+      "description": "Check out and drive to Pelling. En route visit Siddheswar Dham at Namchi — a grand pilgrimage complex. Check in at hotel. Dinner and overnight stay in Pelling.",
       "meals": "Breakfast & Dinner"
     },
     {
@@ -76,8 +79,8 @@
     },
     {
       "day": 5,
-      "title": "Pelling \u2192 Darjeeling",
-      "description": "Breakfast and check out. Drive to Darjeeling \u2014 80 km (approx. 4 hrs). Check in at hotel. Enjoy the famous Toy Train ride: Darjeeling\u2013Ghum\u2013Darjeeling (at own cost; prior booking mandatory). Dinner and overnight stay.",
+      "title": "Pelling → Darjeeling",
+      "description": "Breakfast and check out. Drive to Darjeeling — 80 km (approx. 4 hrs). Check in at hotel. Enjoy the famous Toy Train ride: Darjeeling–Ghum–Darjeeling (at own cost; prior booking mandatory). Dinner and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
     {
@@ -96,17 +99,17 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "\u20b99,777/-",
+      "amount": "₹9,777/-",
       "dueBy": "20 June 2026"
     },
     {
       "name": "2nd Installment",
-      "amount": "\u20b99,000/-",
+      "amount": "₹9,000/-",
       "dueBy": "30 July 2026"
     },
     {
       "name": "3rd Installment",
-      "amount": "\u20b99,000/-",
+      "amount": "₹9,000/-",
       "dueBy": "20 Aug 2026"
     }
   ],
@@ -123,5 +126,10 @@
       "deadline": "After that",
       "deduction": "No Refund"
     }
+  ],
+  "related": [
+    "bhutan",
+    "kashmir",
+    "manali-kasol"
   ]
 }

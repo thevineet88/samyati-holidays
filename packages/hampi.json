@@ -1,14 +1,17 @@
 {
   "slug": "hampi",
   "title": "Hampi",
-  "subtitle": "Vijayanagara Ruins \u00b7 Temple Architecture \u00b7 Heritage",
-  "dates": "05 \u2013 09 November 2025",
+  "subtitle": "Vijayanagara Ruins · Temple Architecture · Heritage",
+  "dates": "05 – 09 November 2025",
   "duration": "5 Days / 4 Nights",
   "price": 7999,
-  "priceLabel": "\u20b97,999/-",
+  "priceLabel": "₹7,999/-",
   "priceNote": "per person (inclusive of bus)",
   "lastBooking": "25 Oct 2025",
-  "category": ["nature", "adventure"],
+  "category": [
+    "nature",
+    "adventure"
+  ],
   "hero": "assets/images/1200w/hampi.webp",
   "gallery": [
     "assets/images/600w/hampi.webp",
@@ -40,7 +43,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Borivali \u2014 2:00 PM, 05 Nov | Multiple pickup points across Mumbai",
+    "departure": "Borivali — 2:00 PM, 05 Nov | Multiple pickup points across Mumbai",
     "train": "AC Bus to Hampi",
     "arrival": "Reach Mumbai, 09 Nov 2025"
   },
@@ -77,5 +80,10 @@
     }
   ],
   "installments": [],
-  "cancellation": []
+  "cancellation": [],
+  "related": [
+    "goa",
+    "gokarna-murudeshwar",
+    "coorg"
+  ]
 }

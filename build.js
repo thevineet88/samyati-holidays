@@ -135,10 +135,17 @@ function renderPackage(pkg, allPkgs) {
     'Hi Samyati Holidays! I would like to know more about your tour packages.'
   );
 
-  const related = (allPkgs || [])
-    .filter((p) => p.slug !== pkg.slug)
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 3);
+  const allMap = new Map((allPkgs || []).map((p) => [p.slug, p]));
+  let related = (pkg.related || [])
+    .map((slug) => allMap.get(slug))
+    .filter((p) => p && p.slug !== pkg.slug);
+  if (related.length < 3) {
+    const fallback = (allPkgs || [])
+      .filter((p) => p.slug !== pkg.slug && !related.includes(p))
+      .slice(0, 3 - related.length);
+    related = related.concat(fallback);
+  }
+  related = related.slice(0, 3);
   const relatedCards = related
     .map((rp) => {
       const rImg = (rp.gallery && rp.gallery[0]) || rp.hero || '';
@@ -245,7 +252,7 @@ if (validPackages.length === 0) {
 if (!fs.existsSync(DIST)) fs.mkdirSync(DIST, { recursive: true });
 
 // Copy static assets
-const staticDirs = ['assets', 'css', 'js', 'images'];
+const staticDirs = ['assets', 'css', 'js', 'images', '_partials'];
 for (const dir of staticDirs) {
   const srcDir = path.join(ROOT, dir);
   const dstDir = path.join(DIST, dir);

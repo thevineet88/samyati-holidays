@@ -1,14 +1,16 @@
 {
   "slug": "rameshwaram",
   "title": "Rameshwaram Trip",
-  "subtitle": "Madurai \u00b7 Rameshwaram \u00b7 Kanyakumari \u00b7 Trivandrum",
-  "dates": "28 Oct \u2013 04 Nov 2026",
+  "subtitle": "Madurai · Rameshwaram · Kanyakumari · Trivandrum",
+  "dates": "28 Oct – 04 Nov 2026",
   "duration": "8 Days / 7 Nights",
   "price": 15999,
-  "priceLabel": "\u20b915,999/-",
-  "priceNote": "per person (Sleeper Class) | \u20b918,666/- (3AC)",
+  "priceLabel": "₹15,999/-",
+  "priceNote": "per person (Sleeper Class) | ₹18,666/- (3AC)",
   "lastBooking": "30 July 2026",
-  "category": ["spiritual"],
+  "category": [
+    "spiritual"
+  ],
   "hero": "assets/images/1200w/rameshwaram.webp",
   "gallery": [
     "assets/images/600w/rameshwaram.webp",
@@ -16,7 +18,7 @@
     "assets/images/600w/rameshwaram.webp"
   ],
   "highlights": [
-    "Ramanathaswamy Temple \u2014 Char Dham",
+    "Ramanathaswamy Temple — Char Dham",
     "Meenakshi Amman Temple Madurai",
     "Dhanushkodi Beach",
     "Kanyakumari Sunrise/Sunset",
@@ -25,7 +27,7 @@
   "inclusions": [
     "Both way SL Train Tickets (3AC upgrade available)",
     "Non-AC Tempo Traveller / Bus for local sightseeing",
-    "Accommodation in 3\u2605 Hotel (3/4 Sharing)",
+    "Accommodation in 3★ Hotel (3/4 Sharing)",
     "5 Breakfasts & 4 Dinners",
     "Entry Fees",
     "1L Mineral Water on sightseeing days",
@@ -41,7 +43,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "LTT Mumbai \u2014 8:00 PM, 28 Oct | Pune \u2014 11:30 PM, 28 Oct 2026",
+    "departure": "LTT Mumbai — 8:00 PM, 28 Oct | Pune — 11:30 PM, 28 Oct 2026",
     "train": "Nagarcoil Express (16339)",
     "arrival": "Return: Netravati Exp (16346) for Mumbai | Cape Pune Exp (16382) for Pune"
   },
@@ -67,7 +69,7 @@
     {
       "day": 4,
       "title": "Rameshwaram Sightseeing",
-      "description": "Visit Dhanushkodi Beach \u2014 the meeting point of Bay of Bengal and Indian Ocean. See the APJ Abdul Kalam Memorial House. Seek blessings at Ramanathaswamy Temple (one of the 12 Jyotirlingas & Char Dham). Dinner and overnight stay.",
+      "description": "Visit Dhanushkodi Beach — the meeting point of Bay of Bengal and Indian Ocean. See the APJ Abdul Kalam Memorial House. Seek blessings at Ramanathaswamy Temple (one of the 12 Jyotirlingas & Char Dham). Dinner and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
     {
@@ -79,7 +81,7 @@
     {
       "day": 6,
       "title": "Trivandrum Sightseeing",
-      "description": "Morning breakfast and head to Thiruvananthapuram. En route enjoy Poovar Backwaters (boating at own expense). Visit Sree Anantha Padmanabhaswamy Temple \u2014 one of the oldest and richest temples in India. Dinner and overnight stay.",
+      "description": "Morning breakfast and head to Thiruvananthapuram. En route enjoy Poovar Backwaters (boating at own expense). Visit Sree Anantha Padmanabhaswamy Temple — one of the oldest and richest temples in India. Dinner and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
     {
@@ -98,12 +100,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "\u20b97,999/- (SL) | \u20b99,666/- (3AC)",
+      "amount": "₹7,999/- (SL) | ₹9,666/- (3AC)",
       "dueBy": "30 July 2026"
     },
     {
       "name": "2nd Installment",
-      "amount": "\u20b98,000/- (SL) | \u20b99,000/- (3AC)",
+      "amount": "₹8,000/- (SL) | ₹9,000/- (3AC)",
       "dueBy": "15 Sep 2026"
     }
   ],
@@ -120,5 +122,10 @@
       "deadline": "After that",
       "deduction": "No Refund"
     }
+  ],
+  "related": [
+    "jagannath-puri",
+    "ayodhya-kashi-prayagraj",
+    "somnath-dwarka"
   ]
 }

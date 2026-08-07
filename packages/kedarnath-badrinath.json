@@ -1,14 +1,16 @@
 {
   "slug": "kedarnath-badrinath",
-  "title": "Kedarnath \u2013 Badrinath",
-  "subtitle": "Haridwar \u00b7 Kedarnath Trek \u00b7 Badrinath \u00b7 Rishikesh",
-  "dates": "26 Sep \u2013 06 Oct 2026",
+  "title": "Kedarnath – Badrinath",
+  "subtitle": "Haridwar · Kedarnath Trek · Badrinath · Rishikesh",
+  "dates": "26 Sep – 06 Oct 2026",
   "duration": "11 Days / 10 Nights",
   "price": 21111,
-  "priceLabel": "\u20b921,111/-",
-  "priceNote": "per person (Sleeper Class) | \u20b923,777/- (3AC)",
+  "priceLabel": "₹21,111/-",
+  "priceNote": "per person (Sleeper Class) | ₹23,777/- (3AC)",
   "lastBooking": "10 May 2026",
-  "category": ["spiritual"],
+  "category": [
+    "spiritual"
+  ],
   "hero": "assets/images/1200w/kedarnath-badrinath.webp",
   "gallery": [
     "assets/images/600w/kedarnath-badrinath.webp",
@@ -43,9 +45,9 @@
     "Personal expenses",
     "Anything not mentioned in inclusions"
   ],
-  "advisory": "Age 16\u201350 required. Physical fitness mandatory for 21km Kedarnath trek. Dham Yatra rules apply. Alternative options (Horse/Helicopter/Doli) available at own cost.",
+  "advisory": "Age 16–50 required. Physical fitness mandatory for 21km Kedarnath trek. Dham Yatra rules apply. Alternative options (Horse/Helicopter/Doli) available at own cost.",
   "travel": {
-    "departure": "Bandra Terminus \u2014 11:00 PM, 26 Sep 2026",
+    "departure": "Bandra Terminus — 11:00 PM, 26 Sep 2026",
     "train": "Bandra Haridwar Express (19019)",
     "arrival": "Reach Mumbai at 08:00 AM, 06 Oct 2026 (Punjab Mail 12138)"
   },
@@ -70,31 +72,31 @@
     },
     {
       "day": 4,
-      "title": "Haridwar \u2192 Sonprayag",
-      "description": "Early morning check out at 5:00 AM. Start the 12-hour bus journey to Sonprayag. En route visit Devprayag \u2014 the sacred confluence of Alaknanda and Bhagirathi rivers. Dinner and overnight stay in Sonprayag.",
+      "title": "Haridwar → Sonprayag",
+      "description": "Early morning check out at 5:00 AM. Start the 12-hour bus journey to Sonprayag. En route visit Devprayag — the sacred confluence of Alaknanda and Bhagirathi rivers. Dinner and overnight stay in Sonprayag.",
       "meals": "Breakfast & Dinner"
     },
     {
       "day": 5,
-      "title": "Sonprayag \u2192 Kedarnath Trek",
+      "title": "Sonprayag → Kedarnath Trek",
       "description": "Check out at 4:00 AM. Local Jeep to Gauri-Kund (base of trek). Begin the 21km trek to Kedarnath on foot. Alternatives: Horse/Helicopter/Doli at own cost. Dinner and overnight stay near Kedarnath Temple.",
       "meals": "Dinner"
     },
     {
       "day": 6,
-      "title": "Kedarnath Darshan \u2192 Sonprayag",
-      "description": "Early morning darshan at Kedarnath Temple & Bhairavnath Temple (4:00\u20137:00 AM). After breakfast, begin the 21km descent to Gauri-Kund. Return to Sonprayag by Jeep. Dinner and overnight stay.",
+      "title": "Kedarnath Darshan → Sonprayag",
+      "description": "Early morning darshan at Kedarnath Temple & Bhairavnath Temple (4:00–7:00 AM). After breakfast, begin the 21km descent to Gauri-Kund. Return to Sonprayag by Jeep. Dinner and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
     {
       "day": 7,
-      "title": "Sonprayag \u2192 Badrinath",
+      "title": "Sonprayag → Badrinath",
       "description": "Check out at 5:00 AM. 10-hour bus journey to Badrinath. Visit Shri Badrinath Temple. Dinner at nearby hotel. Overnight stay in Joshimath.",
       "meals": "Breakfast & Dinner"
     },
     {
       "day": 8,
-      "title": "Badrinath \u2192 Rishikesh",
+      "title": "Badrinath → Rishikesh",
       "description": "Check out at 5:00 AM. 10-hour journey to Rishikesh. Check in at hotel. Dinner and overnight stay in Rishikesh.",
       "meals": "Breakfast & Dinner"
     },
@@ -106,7 +108,7 @@
     },
     {
       "day": 10,
-      "title": "Delhi \u2192 Board Return Train",
+      "title": "Delhi → Board Return Train",
       "description": "Arrive Delhi at 4:00 AM. Board Punjab Mail (12138) for Mumbai. Rest in train.",
       "meals": "No Meals"
     },
@@ -120,17 +122,17 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "\u20b97,111/- (SL) | \u20b99,499/- (3AC)",
+      "amount": "₹7,111/- (SL) | ₹9,499/- (3AC)",
       "dueBy": "10 May 2026"
     },
     {
       "name": "2nd Installment",
-      "amount": "\u20b97,000/-",
+      "amount": "₹7,000/-",
       "dueBy": "30 June 2026"
     },
     {
       "name": "3rd Installment",
-      "amount": "\u20b97,000/-",
+      "amount": "₹7,000/-",
       "dueBy": "10 Sep 2026"
     }
   ],
@@ -140,16 +142,21 @@
       "deduction": "Railway & hotel cancellation policies"
     },
     {
-      "deadline": "44\u201330 days before departure",
+      "deadline": "44–30 days before departure",
       "deduction": "40%"
     },
     {
-      "deadline": "29\u20138 days before departure",
+      "deadline": "29–8 days before departure",
       "deduction": "80%"
     },
     {
       "deadline": "After that",
       "deduction": "No Refund"
     }
+  ],
+  "related": [
+    "ayodhya-kashi-prayagraj",
+    "mathura-vrindavan",
+    "somnath-dwarka"
   ]
 }

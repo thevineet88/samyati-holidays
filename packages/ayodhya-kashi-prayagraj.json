@@ -1,14 +1,16 @@
 {
   "slug": "ayodhya-kashi-prayagraj",
-  "title": "Ayodhya \u2013 Kashi \u2013 Prayagraj",
-  "subtitle": "Varanasi \u00b7 Ayodhya \u00b7 Prayagraj Triveni Sangam",
-  "dates": "26 Sep \u2013 01 Oct 2026",
+  "title": "Ayodhya – Kashi – Prayagraj",
+  "subtitle": "Varanasi · Ayodhya · Prayagraj Triveni Sangam",
+  "dates": "26 Sep – 01 Oct 2026",
   "duration": "6 Days / 5 Nights",
   "price": 14444,
-  "priceLabel": "\u20b914,444/-",
-  "priceNote": "per person (SL) | \u20b916,999/- (3AC) | \u20b918,666/- (2AC)",
+  "priceLabel": "₹14,444/-",
+  "priceNote": "per person (SL) | ₹16,999/- (3AC) | ₹18,666/- (2AC)",
   "lastBooking": "10 July 2026",
-  "category": ["spiritual"],
+  "category": [
+    "spiritual"
+  ],
   "hero": "assets/images/1200w/ayodhya-kashi-prayagraj.webp",
   "gallery": [
     "assets/images/600w/ayodhya-kashi-prayagraj.webp",
@@ -42,7 +44,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "LTT Mumbai \u2014 10:00 AM, 26 Sep 2026",
+    "departure": "LTT Mumbai — 10:00 AM, 26 Sep 2026",
     "train": "Jaynagar Pawan Express (11061)",
     "arrival": "Return: Patliputra-Mumbai LTT SF Express (12142), Arrive Mumbai 3:00 PM, 01 Oct 2026"
   },
@@ -55,8 +57,8 @@
     },
     {
       "day": 2,
-      "title": "Arrive Varanasi \u2014 Ganga Aarti",
-      "description": "Arrive Varanasi at 1:00 PM. Check in and freshen up. Evening: witness the grand Ganga Aarti at Dashashwamedh Ghat \u2014 one of the most spectacular spiritual experiences in India. Dinner and overnight stay.",
+      "title": "Arrive Varanasi — Ganga Aarti",
+      "description": "Arrive Varanasi at 1:00 PM. Check in and freshen up. Evening: witness the grand Ganga Aarti at Dashashwamedh Ghat — one of the most spectacular spiritual experiences in India. Dinner and overnight stay.",
       "meals": "Dinner"
     },
     {
@@ -73,8 +75,8 @@
     },
     {
       "day": 5,
-      "title": "Prayagraj \u2014 Triveni Sangam",
-      "description": "Head to Prayagraj. Visit Triveni Sangam \u2014 the sacred confluence of Ganga, Yamuna, and the invisible Saraswati. Seek blessings at Bade Hanumanji Temple. Board the return train to Mumbai.",
+      "title": "Prayagraj — Triveni Sangam",
+      "description": "Head to Prayagraj. Visit Triveni Sangam — the sacred confluence of Ganga, Yamuna, and the invisible Saraswati. Seek blessings at Bade Hanumanji Temple. Board the return train to Mumbai.",
       "meals": "Breakfast"
     },
     {
@@ -92,12 +94,12 @@
     },
     {
       "name": "2nd Installment",
-      "amount": "\u20b94,000/-",
+      "amount": "₹4,000/-",
       "dueBy": "15 Aug 2026"
     },
     {
       "name": "3rd Installment",
-      "amount": "\u20b94,000/-",
+      "amount": "₹4,000/-",
       "dueBy": "15 Sep 2026"
     }
   ],
@@ -114,5 +116,10 @@
       "deadline": "After that",
       "deduction": "No Refund"
     }
+  ],
+  "related": [
+    "kedarnath-badrinath",
+    "mathura-vrindavan",
+    "somnath-dwarka"
   ]
 }

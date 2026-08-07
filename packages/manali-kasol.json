@@ -1,14 +1,17 @@
 {
   "slug": "manali-kasol",
-  "title": "Manali \u2013 Kasol",
-  "subtitle": "Solang Valley \u00b7 Parvati Valley \u00b7 Kasol Campsite \u00b7 Adventure",
-  "dates": "08 \u2013 15 April 2026",
+  "title": "Manali – Kasol",
+  "subtitle": "Solang Valley · Parvati Valley · Kasol Campsite · Adventure",
+  "dates": "08 – 15 April 2026",
   "duration": "8 Days / 7 Nights",
   "price": 17999,
-  "priceLabel": "\u20b917,999/-",
-  "priceNote": "per person (Sleeper) | \u20b922,999/- (3AC)",
+  "priceLabel": "₹17,999/-",
+  "priceNote": "per person (Sleeper) | ₹22,999/- (3AC)",
   "lastBooking": "15 Mar 2026",
-  "category": ["adventure", "nature"],
+  "category": [
+    "adventure",
+    "nature"
+  ],
   "hero": "assets/images/1200w/manali-kasol.webp",
   "gallery": [
     "assets/images/600w/manali-kasol.webp",
@@ -41,7 +44,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Mumbai Central (MMCT) \u2014 5:30 PM, 08 Apr 2026",
+    "departure": "Mumbai Central (MMCT) — 5:30 PM, 08 Apr 2026",
     "train": "Train to Ambala Cantt",
     "arrival": "Reach Mumbai, 15 Apr 2026"
   },
@@ -91,5 +94,10 @@
   ],
   "installments": [],
   "cancellation": [],
-  "advisory": "Snow activities and snow clothes at own cost. Carry warm jackets. Good physical fitness recommended for valley treks."
+  "advisory": "Snow activities and snow clothes at own cost. Carry warm jackets. Good physical fitness recommended for valley treks.",
+  "related": [
+    "himachal",
+    "kashmir",
+    "sikkim-darjeeling"
+  ]
 }

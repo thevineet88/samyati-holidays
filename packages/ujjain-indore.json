@@ -1,14 +1,16 @@
 {
   "slug": "ujjain-indore",
-  "title": "Ujjain \u2013 Indore \u2013 Omkareshwar",
-  "subtitle": "Indore \u00b7 Omkareshwar Jyotirlinga \u00b7 Mahakaleshwar \u00b7 Mahakal Corridor",
-  "dates": "25 \u2013 29 June 2026",
+  "title": "Ujjain – Indore – Omkareshwar",
+  "subtitle": "Indore · Omkareshwar Jyotirlinga · Mahakaleshwar · Mahakal Corridor",
+  "dates": "25 – 29 June 2026",
   "duration": "5 Days / 4 Nights",
   "price": 8999,
-  "priceLabel": "\u20b98,999/-",
+  "priceLabel": "₹8,999/-",
   "priceNote": "per person (inclusive of train)",
   "lastBooking": "Contact us",
-  "category": ["spiritual"],
+  "category": [
+    "spiritual"
+  ],
   "hero": "assets/images/1200w/ujjain-indore.webp",
   "gallery": [
     "assets/images/600w/ujjain-indore.webp",
@@ -25,7 +27,7 @@
   "inclusions": [
     "SL Train Tickets (both ways)",
     "Tempo Traveller for local sightseeing",
-    "3\u2605 Accommodation",
+    "3★ Accommodation",
     "Breakfast & Dinner",
     "Mineral Water",
     "Entry Fees",
@@ -40,7 +42,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Pune Jn. \u2014 2:45 PM, 25 Jun 2026 | Kalyan Jn. \u2014 5:30 PM, 25 Jun 2026",
+    "departure": "Pune Jn. — 2:45 PM, 25 Jun 2026 | Kalyan Jn. — 5:30 PM, 25 Jun 2026",
     "train": "Train to Indore",
     "arrival": "Return: 28 Jun evening, Arrive home 29 Jun"
   },
@@ -60,13 +62,13 @@
     {
       "day": 3,
       "title": "Omkareshwar & Mahakal Corridor",
-      "description": "Morning visit to Omkareshwar Jyotirlinga \u2014 one of the 12 sacred Jyotirlingas located on an island shaped like the OM symbol. Evening: stroll through the magnificent Mahakal Corridor in Ujjain. Check in at hotel in Ujjain. Dinner and overnight stay.",
+      "description": "Morning visit to Omkareshwar Jyotirlinga — one of the 12 sacred Jyotirlingas located on an island shaped like the OM symbol. Evening: stroll through the magnificent Mahakal Corridor in Ujjain. Check in at hotel in Ujjain. Dinner and overnight stay.",
       "meals": "Breakfast & Dinner"
     },
     {
       "day": 4,
       "title": "Ujjain Sightseeing & Depart",
-      "description": "Visit Mahakaleshwar Jyotirlinga \u2014 one of the 12 Jyotirlingas with the famous Bhasma Aarti. Visit Kalbhairav Temple, Harsiddhi Mata Temple, Maharishi Sandipani Ashram, and Mangalnath Temple. Board the return train in the evening.",
+      "description": "Visit Mahakaleshwar Jyotirlinga — one of the 12 Jyotirlingas with the famous Bhasma Aarti. Visit Kalbhairav Temple, Harsiddhi Mata Temple, Maharishi Sandipani Ashram, and Mangalnath Temple. Board the return train in the evening.",
       "meals": "Breakfast"
     },
     {
@@ -77,5 +79,10 @@
     }
   ],
   "installments": [],
-  "cancellation": []
+  "cancellation": [],
+  "related": [
+    "ayodhya-kashi-prayagraj",
+    "mathura-vrindavan",
+    "kedarnath-badrinath"
+  ]
 }

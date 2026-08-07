@@ -1,14 +1,17 @@
 {
   "slug": "jaipur",
   "title": "Jaipur",
-  "subtitle": "Amber Fort \u00b7 Hawa Mahal \u00b7 Khatu Shyam Ji \u00b7 City Palace",
-  "dates": "12 \u2013 16 March 2026",
+  "subtitle": "Amber Fort · Hawa Mahal · Khatu Shyam Ji · City Palace",
+  "dates": "12 – 16 March 2026",
   "duration": "5 Days / 4 Nights",
   "price": 9999,
-  "priceLabel": "\u20b99,999/-",
-  "priceNote": "per person (Sleeper) | \u20b912,499/- (3AC)",
+  "priceLabel": "₹9,999/-",
+  "priceNote": "per person (Sleeper) | ₹12,499/- (3AC)",
   "lastBooking": "20 Feb 2026",
-  "category": ["spiritual", "adventure"],
+  "category": [
+    "spiritual",
+    "adventure"
+  ],
   "hero": "assets/images/1200w/jaipur.webp",
   "gallery": [
     "assets/images/600w/jaipur.webp",
@@ -23,8 +26,8 @@
     "Jal Mahal"
   ],
   "inclusions": [
-    "Both way Sleeper Train Tickets (3AC upgrade, \u20b92,500 extra)",
-    "3\u2605 Accommodation (3/4 Sharing)",
+    "Both way Sleeper Train Tickets (3AC upgrade, ₹2,500 extra)",
+    "3★ Accommodation (3/4 Sharing)",
     "AC Tempo Traveller for Sightseeing",
     "3 Breakfasts & 2 Dinners",
     "1L Mineral Water on sightseeing days",
@@ -42,7 +45,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Bandra Terminus \u2014 8:30 AM, 12 Mar 2026",
+    "departure": "Bandra Terminus — 8:30 AM, 12 Mar 2026",
     "train": "BDTS JP SPL Express",
     "arrival": "Reach Mumbai by 11:20 AM, 16 Mar 2026 (09705 BDTS Nonstop SF Exp)"
   },
@@ -81,12 +84,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "\u20b94,999/- (SL) | \u20b97,499/- (3AC)",
+      "amount": "₹4,999/- (SL) | ₹7,499/- (3AC)",
       "dueBy": "20 Feb 2026"
     },
     {
       "name": "2nd Installment",
-      "amount": "\u20b95,000/- (Both)",
+      "amount": "₹5,000/- (Both)",
       "dueBy": "02 Mar 2026"
     }
   ],
@@ -103,5 +106,10 @@
       "deadline": "48 hrs till departure",
       "deduction": "No Refund"
     }
+  ],
+  "related": [
+    "rajasthan",
+    "hyderabad",
+    "mathura-vrindavan"
   ]
 }

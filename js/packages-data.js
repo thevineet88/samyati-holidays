@@ -119,6 +119,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "kedarnath-badrinath",
+      "mathura-vrindavan",
+      "somnath-dwarka"
     ]
   },
   {
@@ -246,7 +251,12 @@ const SAMYATI_PACKAGES = [
       }
     ],
     "advisory": "Original Voter ID or Passport (valid 6+ months) mandatory. Aadhaar NOT accepted. PVC cards downloaded online NOT accepted. Carry warm clothing for high altitude.",
-    "flightNote": "Fly to Bagdogra (IXB). Meet at airport by 11:00 AM. Return flight from Bagdogra on 02 Oct 2026. Flights to be booked independently."
+    "flightNote": "Fly to Bagdogra (IXB). Meet at airport by 11:00 AM. Return flight from Bagdogra on 02 Oct 2026. Flights to be booked independently.",
+    "related": [
+      "sikkim-darjeeling",
+      "kashmir",
+      "manali-kasol"
+    ]
   },
   {
     "slug": "coorg",
@@ -354,6 +364,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "wayanad",
+      "kerala",
+      "ooty-mysore"
     ]
   },
   {
@@ -462,6 +477,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "gokarna-murudeshwar",
+      "kerala",
+      "hampi"
     ]
   },
   {
@@ -545,7 +565,12 @@ const SAMYATI_PACKAGES = [
       }
     ],
     "installments": [],
-    "cancellation": []
+    "cancellation": [],
+    "related": [
+      "goa",
+      "kerala",
+      "hampi"
+    ]
   },
   {
     "slug": "hampi",
@@ -629,7 +654,12 @@ const SAMYATI_PACKAGES = [
       }
     ],
     "installments": [],
-    "cancellation": []
+    "cancellation": [],
+    "related": [
+      "goa",
+      "gokarna-murudeshwar",
+      "coorg"
+    ]
   },
   {
     "slug": "himachal",
@@ -767,7 +797,12 @@ const SAMYATI_PACKAGES = [
         "deduction": "No Refund"
       }
     ],
-    "advisory": "Carry warm clothing. High altitude areas may have cold weather. Good physical fitness recommended for trekking activities."
+    "advisory": "Carry warm clothing. High altitude areas may have cold weather. Good physical fitness recommended for trekking activities.",
+    "related": [
+      "manali-kasol",
+      "kashmir",
+      "nainital-mussoorie"
+    ]
   },
   {
     "slug": "hyderabad",
@@ -854,7 +889,12 @@ const SAMYATI_PACKAGES = [
     ],
     "installments": [],
     "cancellation": [],
-    "advisory": "Participants can buy Srisailam darshan passes online before the trip. SPARSH: ₹500, ATHISEEGHRA: ₹300, SEEGHRA: ₹150."
+    "advisory": "Participants can buy Srisailam darshan passes online before the trip. SPARSH: ₹500, ATHISEEGHRA: ₹300, SEEGHRA: ₹150.",
+    "related": [
+      "jaipur",
+      "rajasthan",
+      "somnath-dwarka"
+    ]
   },
   {
     "slug": "jagannath-puri",
@@ -973,6 +1013,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "48 hrs till departure",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "rameshwaram",
+      "ayodhya-kashi-prayagraj",
+      "somnath-dwarka"
     ]
   },
   {
@@ -1083,6 +1128,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "48 hrs till departure",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "rajasthan",
+      "hyderabad",
+      "mathura-vrindavan"
     ]
   },
   {
@@ -1194,7 +1244,12 @@ const SAMYATI_PACKAGES = [
     ],
     "installments": [],
     "cancellation": [],
-    "advisory": "Carry warm woolen clothing. Snow activities at own cost. Good walking shoes essential. Stay hydrated at high altitudes."
+    "advisory": "Carry warm woolen clothing. Snow activities at own cost. Good walking shoes essential. Stay hydrated at high altitudes.",
+    "related": [
+      "manali-kasol",
+      "himachal",
+      "sikkim-darjeeling"
+    ]
   },
   {
     "slug": "kedarnath-badrinath",
@@ -1351,6 +1406,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "ayodhya-kashi-prayagraj",
+      "mathura-vrindavan",
+      "somnath-dwarka"
     ]
   },
   {
@@ -1477,6 +1537,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "coorg",
+      "wayanad",
+      "ooty-mysore"
     ]
   },
   {
@@ -1572,7 +1637,12 @@ const SAMYATI_PACKAGES = [
       }
     ],
     "installments": [],
-    "cancellation": []
+    "cancellation": [],
+    "related": [
+      "ooty-mysore",
+      "coorg",
+      "wayanad"
+    ]
   },
   {
     "slug": "manali-kasol",
@@ -1670,7 +1740,12 @@ const SAMYATI_PACKAGES = [
     ],
     "installments": [],
     "cancellation": [],
-    "advisory": "Snow activities and snow clothes at own cost. Carry warm jackets. Good physical fitness recommended for valley treks."
+    "advisory": "Snow activities and snow clothes at own cost. Carry warm jackets. Good physical fitness recommended for valley treks.",
+    "related": [
+      "himachal",
+      "kashmir",
+      "sikkim-darjeeling"
+    ]
   },
   {
     "slug": "mathura-vrindavan",
@@ -1767,7 +1842,12 @@ const SAMYATI_PACKAGES = [
         "dueBy": "02 Mar 2026"
       }
     ],
-    "cancellation": []
+    "cancellation": [],
+    "related": [
+      "ayodhya-kashi-prayagraj",
+      "jagannath-puri",
+      "kedarnath-badrinath"
+    ]
   },
   {
     "slug": "nainital-mussoorie",
@@ -1905,6 +1985,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "himachal",
+      "manali-kasol",
+      "kashmir"
     ]
   },
   {
@@ -2019,6 +2104,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "kodaikanal",
+      "coorg",
+      "wayanad"
     ]
   },
   {
@@ -2137,7 +2227,12 @@ const SAMYATI_PACKAGES = [
       }
     ],
     "installments": [],
-    "cancellation": []
+    "cancellation": [],
+    "related": [
+      "jaipur",
+      "hyderabad",
+      "somnath-dwarka"
+    ]
   },
   {
     "slug": "rameshwaram",
@@ -2263,6 +2358,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "jagannath-puri",
+      "ayodhya-kashi-prayagraj",
+      "somnath-dwarka"
     ]
   },
   {
@@ -2370,6 +2470,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "jaipur",
+      "rajasthan",
+      "hyderabad"
     ]
   },
   {
@@ -2500,6 +2605,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "bhutan",
+      "kashmir",
+      "manali-kasol"
     ]
   },
   {
@@ -2621,7 +2731,12 @@ const SAMYATI_PACKAGES = [
         "deduction": "No Refund"
       }
     ],
-    "advisory": "Girnar ropedway tickets must be booked online at udankhatola.com. Time slot: 7 AM - 8 AM. Carry valid ID proof."
+    "advisory": "Girnar ropedway tickets must be booked online at udankhatola.com. Time slot: 7 AM - 8 AM. Carry valid ID proof.",
+    "related": [
+      "ayodhya-kashi-prayagraj",
+      "rameshwaram",
+      "jagannath-puri"
+    ]
   },
   {
     "slug": "tadoba",
@@ -2710,7 +2825,12 @@ const SAMYATI_PACKAGES = [
     ],
     "installments": [],
     "cancellation": [],
-    "advisory": "Carry binoculars for wildlife viewing. Wear neutral-colored clothing. Follow all jungle safari rules strictly."
+    "advisory": "Carry binoculars for wildlife viewing. Wear neutral-colored clothing. Follow all jungle safari rules strictly.",
+    "related": [
+      "rann-utsav",
+      "jaipur",
+      "hampi"
+    ]
   },
   {
     "slug": "ujjain-indore",
@@ -2793,7 +2913,12 @@ const SAMYATI_PACKAGES = [
       }
     ],
     "installments": [],
-    "cancellation": []
+    "cancellation": [],
+    "related": [
+      "ayodhya-kashi-prayagraj",
+      "mathura-vrindavan",
+      "kedarnath-badrinath"
+    ]
   },
   {
     "slug": "wayanad",
@@ -2902,6 +3027,11 @@ const SAMYATI_PACKAGES = [
         "deadline": "After that",
         "deduction": "No Refund"
       }
+    ],
+    "related": [
+      "coorg",
+      "kerala",
+      "kodaikanal"
     ]
   }
 ];

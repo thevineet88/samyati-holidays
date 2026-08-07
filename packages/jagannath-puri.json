@@ -1,14 +1,16 @@
 {
   "slug": "jagannath-puri",
   "title": "Jagannath Puri",
-  "subtitle": "Puri \u00b7 Konark \u00b7 Bhubaneshwar \u00b7 Odisha Temples",
-  "dates": "05 \u2013 11 November 2025",
+  "subtitle": "Puri · Konark · Bhubaneshwar · Odisha Temples",
+  "dates": "05 – 11 November 2025",
   "duration": "7 Days / 6 Nights",
   "price": 11111,
-  "priceLabel": "\u20b911,111/-",
-  "priceNote": "per person (Sleeper) | \u20b913,666/- (3AC)",
+  "priceLabel": "₹11,111/-",
+  "priceNote": "per person (Sleeper) | ₹13,666/- (3AC)",
   "lastBooking": "17 Aug 2025",
-  "category": ["spiritual"],
+  "category": [
+    "spiritual"
+  ],
   "hero": "assets/images/1200w/jagannath-puri.webp",
   "gallery": [
     "assets/images/600w/jagannath-puri.webp",
@@ -40,7 +42,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "LTT Mumbai \u2014 11:30 PM, 05 Nov 2025",
+    "departure": "LTT Mumbai — 11:30 PM, 05 Nov 2025",
     "train": "Train to Puri",
     "arrival": "Reach Mumbai by 04:30 AM, 11 Nov 2025"
   },
@@ -91,12 +93,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "\u20b96,111/- (SL) | \u20b98,666/- (3AC)",
+      "amount": "₹6,111/- (SL) | ₹8,666/- (3AC)",
       "dueBy": "17 Aug 2025"
     },
     {
       "name": "2nd Installment",
-      "amount": "\u20b95,000/- (Both)",
+      "amount": "₹5,000/- (Both)",
       "dueBy": "25 Oct 2025"
     }
   ],
@@ -113,5 +115,10 @@
       "deadline": "48 hrs till departure",
       "deduction": "No Refund"
     }
+  ],
+  "related": [
+    "rameshwaram",
+    "ayodhya-kashi-prayagraj",
+    "somnath-dwarka"
   ]
 }

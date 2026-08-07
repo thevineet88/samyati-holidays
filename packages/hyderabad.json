@@ -1,14 +1,17 @@
 {
   "slug": "hyderabad",
   "title": "Hyderabad",
-  "subtitle": "Golconda Fort \u00b7 Charminar \u00b7 Ramoji Film City \u00b7 Srisailam",
-  "dates": "17 \u2013 21 January 2026",
+  "subtitle": "Golconda Fort · Charminar · Ramoji Film City · Srisailam",
+  "dates": "17 – 21 January 2026",
   "duration": "5 Days / 4 Nights",
   "price": 13333,
-  "priceLabel": "\u20b99,999/-",
+  "priceLabel": "₹9,999/-",
   "priceNote": "per person",
   "lastBooking": "10 Jan 2026",
-  "category": ["spiritual", "nature"],
+  "category": [
+    "spiritual",
+    "nature"
+  ],
   "hero": "assets/images/1200w/hyderabad.webp",
   "gallery": [
     "assets/images/600w/hyderabad.webp",
@@ -25,7 +28,7 @@
   "inclusions": [
     "Both way SL Train Tickets (3AC upgrade available)",
     "Non-AC Tempo Traveller/Bus for local sightseeing",
-    "Accommodation in 3\u2605 Hotel (3/4 Sharing)",
+    "Accommodation in 3★ Hotel (3/4 Sharing)",
     "2 Breakfasts & 3 Dinners",
     "Ramoji Film City Ticket",
     "Mineral Water",
@@ -42,7 +45,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "CSMT Mumbai \u2014 8:30 PM, 17 Jan | Pune Jn. \u2014 1:15 AM, 18 Jan",
+    "departure": "CSMT Mumbai — 8:30 PM, 17 Jan | Pune Jn. — 1:15 AM, 18 Jan",
     "train": "Train to Hyderabad",
     "arrival": "Reach Pune by 09:00 AM, 21 Jan | Reach Mumbai by 1:15 PM, 21 Jan"
   },
@@ -80,5 +83,10 @@
   ],
   "installments": [],
   "cancellation": [],
-  "advisory": "Participants can buy Srisailam darshan passes online before the trip. SPARSH: \u20b9500, ATHISEEGHRA: \u20b9300, SEEGHRA: \u20b9150."
+  "advisory": "Participants can buy Srisailam darshan passes online before the trip. SPARSH: ₹500, ATHISEEGHRA: ₹300, SEEGHRA: ₹150.",
+  "related": [
+    "jaipur",
+    "rajasthan",
+    "somnath-dwarka"
+  ]
 }

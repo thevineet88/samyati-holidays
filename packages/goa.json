@@ -1,14 +1,16 @@
 {
   "slug": "goa",
   "title": "Goa",
-  "subtitle": "North Goa \u00b7 South Goa \u00b7 Beaches & Churches",
-  "dates": "06 \u2013 10 March 2025",
+  "subtitle": "North Goa · South Goa · Beaches & Churches",
+  "dates": "06 – 10 March 2025",
   "duration": "5 Days / 4 Nights",
   "price": 9499,
-  "priceLabel": "\u20b99,499/-",
-  "priceNote": "per person (inclusive of bus) | \u20b911,999/- (Double Sharing)",
+  "priceLabel": "₹9,499/-",
+  "priceNote": "per person (inclusive of bus) | ₹11,999/- (Double Sharing)",
   "lastBooking": "28 Jan 2025",
-  "category": ["beach"],
+  "category": [
+    "beach"
+  ],
   "hero": "assets/images/1200w/goa.webp",
   "gallery": [
     "assets/images/600w/goa.webp",
@@ -41,7 +43,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Mumbai \u2014 6:00 PM, 06 Mar | Pune \u2014 9:30 PM, 06 Mar",
+    "departure": "Mumbai — 6:00 PM, 06 Mar | Pune — 9:30 PM, 06 Mar",
     "train": "AC Sleeper Bus",
     "arrival": "Reach Mumbai by 06:00 AM, 10 Mar | Reach Pune by 09:00 AM, 10 Mar"
   },
@@ -80,12 +82,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "\u20b95,499/-",
+      "amount": "₹5,499/-",
       "dueBy": "28 Jan 2025"
     },
     {
       "name": "2nd Installment",
-      "amount": "\u20b94,000/-",
+      "amount": "₹4,000/-",
       "dueBy": "01 Mar 2025"
     }
   ],
@@ -102,5 +104,10 @@
       "deadline": "After that",
       "deduction": "No Refund"
     }
+  ],
+  "related": [
+    "gokarna-murudeshwar",
+    "kerala",
+    "hampi"
   ]
 }

@@ -1,14 +1,17 @@
 {
   "slug": "bhutan",
   "title": "Bhutan",
-  "subtitle": "Phuntsholing \u00b7 Thimphu \u00b7 Paro",
-  "dates": "26 September \u2013 02 October 2026",
+  "subtitle": "Phuntsholing · Thimphu · Paro",
+  "dates": "26 September – 02 October 2026",
   "duration": "7 Days / 6 Nights",
   "price": 33333,
-  "priceLabel": "\u20b933,333/-",
+  "priceLabel": "₹33,333/-",
   "priceNote": "per person",
   "lastBooking": "05 April 2026",
-  "category": ["adventure", "nature"],
+  "category": [
+    "adventure",
+    "nature"
+  ],
   "hero": "assets/images/1200w/bhutan.webp",
   "gallery": [
     "assets/images/600w/bhutan.webp",
@@ -24,7 +27,7 @@
   ],
   "inclusions": [
     "Pickup & Drop from Bagdogra Airport",
-    "3\u2605 Accommodation",
+    "3★ Accommodation",
     "All Transportation",
     "Breakfast & Dinner",
     "All Sightseeing",
@@ -40,8 +43,8 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Bagdogra Airport (IXB) \u2014 11:00 AM, 26 Sep 2026",
-    "train": "Fly to Bagdogra \u2014 drive to Phuntsholing",
+    "departure": "Bagdogra Airport (IXB) — 11:00 AM, 26 Sep 2026",
+    "train": "Fly to Bagdogra — drive to Phuntsholing",
     "arrival": "Return: Bagdogra Airport, 02 Oct 2026"
   },
   "itinerary": [
@@ -72,7 +75,7 @@
     {
       "day": 5,
       "title": "Tiger's Nest Trek",
-      "description": "Breakfast. Visit Taktsang Monastery (Tiger's Nest) \u2014 perched on a cliff at approximately 3,120 metres. The trek is approximately 12 km total from Paro town. After return, visit Drukgyel Dzong Viewpoint. Free time for shopping at local market. Dinner and overnight stay in Paro.",
+      "description": "Breakfast. Visit Taktsang Monastery (Tiger's Nest) — perched on a cliff at approximately 3,120 metres. The trek is approximately 12 km total from Paro town. After return, visit Drukgyel Dzong Viewpoint. Free time for shopping at local market. Dinner and overnight stay in Paro.",
       "meals": "Breakfast, Dinner"
     },
     {
@@ -91,17 +94,17 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "\u20b913,333/-",
+      "amount": "₹13,333/-",
       "dueBy": "05 April 2026"
     },
     {
       "name": "2nd Installment",
-      "amount": "\u20b910,000/-",
+      "amount": "₹10,000/-",
       "dueBy": "05 June 2026"
     },
     {
       "name": "3rd Installment",
-      "amount": "\u20b910,000/-",
+      "amount": "₹10,000/-",
       "dueBy": "15 August 2026"
     }
   ],
@@ -120,5 +123,10 @@
     }
   ],
   "advisory": "Original Voter ID or Passport (valid 6+ months) mandatory. Aadhaar NOT accepted. PVC cards downloaded online NOT accepted. Carry warm clothing for high altitude.",
-  "flightNote": "Fly to Bagdogra (IXB). Meet at airport by 11:00 AM. Return flight from Bagdogra on 02 Oct 2026. Flights to be booked independently."
+  "flightNote": "Fly to Bagdogra (IXB). Meet at airport by 11:00 AM. Return flight from Bagdogra on 02 Oct 2026. Flights to be booked independently.",
+  "related": [
+    "sikkim-darjeeling",
+    "kashmir",
+    "manali-kasol"
+  ]
 }

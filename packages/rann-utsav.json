@@ -1,14 +1,17 @@
 {
   "slug": "rann-utsav",
   "title": "Rann Utsav",
-  "subtitle": "White Rann \u00b7 Kutch Desert \u00b7 Cultural Festival",
-  "dates": "04 \u2013 08 February 2026",
+  "subtitle": "White Rann · Kutch Desert · Cultural Festival",
+  "dates": "04 – 08 February 2026",
   "duration": "5 Days / 4 Nights",
   "price": 12999,
-  "priceLabel": "\u20b912,999/-",
-  "priceNote": "per person (Sleeper) | \u20b914,499/- (3AC)",
+  "priceLabel": "₹12,999/-",
+  "priceNote": "per person (Sleeper) | ₹14,499/- (3AC)",
   "lastBooking": "27 Nov 2025",
-  "category": ["adventure", "nature"],
+  "category": [
+    "adventure",
+    "nature"
+  ],
   "hero": "assets/images/1200w/rann-utsav.webp",
   "gallery": [
     "assets/images/600w/rann-utsav.webp",
@@ -39,7 +42,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Dadar Western \u2014 2:30 PM, 04 Feb 2026",
+    "departure": "Dadar Western — 2:30 PM, 04 Feb 2026",
     "train": "Train to Bhuj",
     "arrival": "Reach Mumbai by 02:00 PM, 08 Feb 2026"
   },
@@ -78,12 +81,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "\u20b96,999/- (SL) | \u20b98,499/- (3AC)",
+      "amount": "₹6,999/- (SL) | ₹8,499/- (3AC)",
       "dueBy": "27 Nov 2025"
     },
     {
       "name": "2nd Installment",
-      "amount": "\u20b96,000/-",
+      "amount": "₹6,000/-",
       "dueBy": "28 Jan 2026"
     }
   ],
@@ -100,5 +103,10 @@
       "deadline": "After that",
       "deduction": "No Refund"
     }
+  ],
+  "related": [
+    "jaipur",
+    "rajasthan",
+    "hyderabad"
   ]
 }

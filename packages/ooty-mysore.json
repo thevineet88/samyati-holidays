@@ -1,14 +1,17 @@
 {
   "slug": "ooty-mysore",
-  "title": "Ooty \u2013 Mysore \u2013 Adiyogi",
-  "subtitle": "Mysore Palace \u00b7 Ooty Lake \u00b7 Adiyogi Shiva \u00b7 Brindavan Gardens",
-  "dates": "16 \u2013 21 April 2026",
+  "title": "Ooty – Mysore – Adiyogi",
+  "subtitle": "Mysore Palace · Ooty Lake · Adiyogi Shiva · Brindavan Gardens",
+  "dates": "16 – 21 April 2026",
   "duration": "6 Days / 5 Nights",
   "price": 14499,
-  "priceLabel": "\u20b914,499/-",
-  "priceNote": "per person (Sleeper) | \u20b916,999/- (3AC)",
+  "priceLabel": "₹14,499/-",
+  "priceNote": "per person (Sleeper) | ₹16,999/- (3AC)",
   "lastBooking": "05 Feb 2026",
-  "category": ["nature", "adventure"],
+  "category": [
+    "nature",
+    "adventure"
+  ],
   "hero": "assets/images/1200w/ooty-mysore.webp",
   "gallery": [
     "assets/images/600w/ooty-mysore.webp",
@@ -25,7 +28,7 @@
   "inclusions": [
     "Mumbai to Mumbai SL Train Tickets (3AC upgrade available)",
     "Non-AC Bus for local sightseeing",
-    "Accommodation in 3\u2605 Hotel (3-4 Sharing)",
+    "Accommodation in 3★ Hotel (3-4 Sharing)",
     "Breakfast & Dinner",
     "Entry Fees",
     "Tour Buddy"
@@ -40,7 +43,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "CSMT Mumbai \u2014 7:00 AM, 16 Apr 2026",
+    "departure": "CSMT Mumbai — 7:00 AM, 16 Apr 2026",
     "train": "Train to Bangalore",
     "arrival": "Reach Mumbai (Panvel) by 05:00 PM, 21 Apr 2026"
   },
@@ -66,7 +69,7 @@
     {
       "day": 4,
       "title": "Ooty Sightseeing",
-      "description": "Breakfast Dinner & rest 19 April 2026 (Sunday) 1.Dolphin\u2019s Nose 2.Sim\u2019s Park",
+      "description": "Breakfast Dinner & rest 19 April 2026 (Sunday) 1.Dolphin’s Nose 2.Sim’s Park",
       "meals": ""
     },
     {
@@ -85,12 +88,12 @@
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "\u20b97,499/- (SL) | \u20b99,999/- (3AC)",
+      "amount": "₹7,499/- (SL) | ₹9,999/- (3AC)",
       "dueBy": "05 Feb 2026"
     },
     {
       "name": "2nd Installment",
-      "amount": "\u20b97,000/-",
+      "amount": "₹7,000/-",
       "dueBy": "30 Mar 2026"
     }
   ],
@@ -107,5 +110,10 @@
       "deadline": "After that",
       "deduction": "No Refund"
     }
+  ],
+  "related": [
+    "kodaikanal",
+    "coorg",
+    "wayanad"
   ]
 }

@@ -1,14 +1,17 @@
 {
   "slug": "rajasthan",
   "title": "Rajasthan",
-  "subtitle": "Jaipur \u00b7 Pushkar \u00b7 Udaipur \u00b7 Jaisalmer \u00b7 Jodhpur",
-  "dates": "13 \u2013 22 November 2025",
+  "subtitle": "Jaipur · Pushkar · Udaipur · Jaisalmer · Jodhpur",
+  "dates": "13 – 22 November 2025",
   "duration": "10 Days / 9 Nights",
   "price": 22999,
-  "priceLabel": "\u20b922,999/-",
-  "priceNote": "per person (Sleeper) | \u20b925,499/- (3AC)",
+  "priceLabel": "₹22,999/-",
+  "priceNote": "per person (Sleeper) | ₹25,499/- (3AC)",
   "lastBooking": "15 Aug 2025",
-  "category": ["spiritual", "adventure"],
+  "category": [
+    "spiritual",
+    "adventure"
+  ],
   "hero": "assets/images/1200w/rajasthan.webp",
   "gallery": [
     "assets/images/600w/rajasthan.webp",
@@ -44,7 +47,7 @@
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Bandra Terminus \u2014 4:00 PM, 13 Nov 2025",
+    "departure": "Bandra Terminus — 4:00 PM, 13 Nov 2025",
     "train": "Train to Jaipur",
     "arrival": "Reach Mumbai by 01:00 PM, 22 Nov 2025"
   },
@@ -111,5 +114,10 @@
     }
   ],
   "installments": [],
-  "cancellation": []
+  "cancellation": [],
+  "related": [
+    "jaipur",
+    "hyderabad",
+    "somnath-dwarka"
+  ]
 }
