@@ -1,5 +1,30 @@
 // Samyati Holidays — Main JS
 
+// ── Scroll Reveal ──
+window.initReveal = function () {
+  const observer = new window.IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+  setTimeout(() => {
+    document.querySelectorAll('.reveal:not(.revealed)').forEach((el) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight) el.classList.add('revealed');
+    });
+  }, 100);
+};
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', window.initReveal);
+} else {
+  window.initReveal();
+}
+
 // ── Sticky Nav Shadow ──
 window.addEventListener('scroll', () => {
   const nav = document.getElementById('main-header');

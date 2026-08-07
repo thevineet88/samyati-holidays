@@ -135,7 +135,7 @@
 
 
     <!-- Hero -->
-    <section class="relative h-[60vh] min-h-[400px] flex items-end">
+    <section class="reveal relative h-[60vh] min-h-[400px] flex items-end">
       <img
         fetchpriority="high"
         src="assets/images/1200w/kashmir.webp"
@@ -445,11 +445,11 @@
     </main>
 
     <!-- Related Packages -->
-    <section class="py-12 bg-light-gray"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-6"><div class="related-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/manali-kasol.webp" alt="Manali – Kasol" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Manali – Kasol</h3><div class="flex gap-2 mb-3"><span class="chip">8 Days / 7 Nights</span><span class="chip">08 – 15 April 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹17,999/-</p><div class="flex gap-2"><a href="manali-kasol.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Manali%20%E2%80%93%20Kasol.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
+    <section class="reveal py-12 bg-light-gray"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-6"><div class="related-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/manali-kasol.webp" alt="Manali – Kasol" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Manali – Kasol</h3><div class="flex gap-2 mb-3"><span class="chip">8 Days / 7 Nights</span><span class="chip">08 – 15 April 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹17,999/-</p><div class="flex gap-2"><a href="manali-kasol.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Manali%20%E2%80%93%20Kasol.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
       <div class="related-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/himachal.webp" alt="Himachal Pradesh" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Himachal Pradesh</h3><div class="flex gap-2 mb-3"><span class="chip">9 Days / 8 Nights</span><span class="chip">22 – 30 January 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹16,499/-</p><div class="flex gap-2"><a href="himachal.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Himachal%20Pradesh.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
       <div class="related-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/sikkim-darjeeling.webp" alt="Sikkim – Darjeeling" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Sikkim – Darjeeling</h3><div class="flex gap-2 mb-3"><span class="chip">7 Days / 6 Nights</span><span class="chip">03 – 09 September 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹27,777/-</p><div class="flex gap-2"><a href="sikkim-darjeeling.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Sikkim%20%E2%80%93%20Darjeeling.%20Please%20share%20details." target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div></div></div></section>
 
-    <footer class="bg-navy text-white">
+    <footer class="bg-navy text-white reveal">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Main Footer Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-8">
@@ -694,6 +694,28 @@
             });
         });
       });
+      // Scroll reveal
+      function initReveal() {
+        var obs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+              obs.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); });
+        setTimeout(function () {
+          document.querySelectorAll('.reveal:not(.revealed)').forEach(function (el) {
+            if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add('revealed');
+          });
+        }, 100);
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initReveal);
+      } else {
+        initReveal();
+      }
     </script>
   </body>
 </html>

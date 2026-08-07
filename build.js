@@ -228,11 +228,11 @@ function renderPackage(pkg, allPkgs) {
       : '',
     PAYMENT_SECTION:
       (pkg.installments || []).length > 0
-        ? `<section class="mb-10"><div class="section-pin-divider mb-6"><div class="pin-icon"></div><div class="line"></div><span class="section-eyebrow">Payment Schedule</span></div><div class="overflow-x-auto rounded-xl border border-gray-200"><table class="pricing-table"><thead><tr><th>Installment</th><th>Amount</th><th>Due By</th></tr></thead><tbody>${installRows}</tbody></table></div></section>`
+        ? `<section class="reveal mb-10"><div class="section-pin-divider mb-6"><div class="pin-icon"></div><div class="line"></div><span class="section-eyebrow">Payment Schedule</span></div><div class="overflow-x-auto rounded-xl border border-gray-200"><table class="pricing-table"><thead><tr><th>Installment</th><th>Amount</th><th>Due By</th></tr></thead><tbody>${installRows}</tbody></table></div></section>`
         : '',
     CANCELLATION_SECTION:
       (pkg.cancellation || []).length > 0
-        ? `<section class="mb-10"><div class="section-pin-divider mb-6"><div class="pin-icon"></div><div class="line"></div><span class="section-eyebrow">Refund &amp; Cancellation Policy</span></div><div class="overflow-x-auto rounded-xl border border-gray-200"><table class="pricing-table"><thead><tr><th>Cancellation Date</th><th>Amount Deducted</th></tr></thead><tbody>${cancelRows}</tbody></table></div><p class="text-xs text-gray-500 mt-3">* First installment is non-refundable in all cases.</p></section>`
+        ? `<section class="reveal mb-10"><div class="section-pin-divider mb-6"><div class="pin-icon"></div><div class="line"></div><span class="section-eyebrow">Refund &amp; Cancellation Policy</span></div><div class="overflow-x-auto rounded-xl border border-gray-200"><table class="pricing-table"><thead><tr><th>Cancellation Date</th><th>Amount Deducted</th></tr></thead><tbody>${cancelRows}</tbody></table></div><p class="text-xs text-gray-500 mt-3">* First installment is non-refundable in all cases.</p></section>`
         : '',
     NOTES_SECTION:
       (pkg.notes || []).length > 0
@@ -240,7 +240,7 @@ function renderPackage(pkg, allPkgs) {
         : '',
     RELATED_SECTION:
       related.length > 0
-        ? `<section class="py-12 bg-light-gray"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-6">${relatedCards}</div></div></section>`
+        ? `<section class="reveal py-12 bg-light-gray"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-6">${relatedCards}</div></div></section>`
         : ''
   };
 

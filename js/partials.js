@@ -86,6 +86,8 @@ async function init() {
     inject('PARTIAL_FOOTER', footer);
     // Header was just injected into the DOM — bind its hamburger menu
     bindMobileMenu();
+    // Footer is now in the DOM — trigger scroll reveal
+    if (typeof window.initReveal === 'function') window.initReveal();
   } catch (e) {
     console.warn('Partial injection failed:', e);
   }
