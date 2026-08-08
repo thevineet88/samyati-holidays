@@ -41,7 +41,7 @@ function resolvePartialTokens(html, ctx) {
   const target = activeMap[page] || 'HOME';
   html = html.replace(/\{\{ACTIVE_(\w+)\}\}/g, (_, key) => (key === target ? ' active' : ''));
   html = html.replace(/\{\{\s*WA_LINK_GENERAL\s*\}\}/g, ctx.waLink);
-  html = html.replace(/\{\{\s*CURRENT_YEAR\s*\}\}/g, '2026');
+  html = html.replace(/\{\{\s*CURRENT_YEAR\s*\}\}/g, new Date().getFullYear().toString());
   return html;
 }
 
