@@ -171,7 +171,21 @@ function renderPackage(pkg, allPkgs) {
     })
     .join('\n      ');
 
-  // Build template variables map
+  // Build <picture> hero with responsive srcset
+  function buildHeroPicture(heroPath, alt) {
+    if (!heroPath) {
+      return `<img fetchpriority="high" src="" alt="${h(alt)}" class="absolute inset-0 w-full h-full object-cover" />`;
+    }
+    const src600 = heroPath.replace(/\/1200w\//, '/600w/');
+    const src800 = heroPath.replace(/\/1200w\//, '/800w/');
+    const src1200 = heroPath.replace(/\/1200w\//, '/1200w/');
+    return `<picture>
+      <source media="(max-width: 640px)" srcset="${h(src600)}" />
+      <source media="(max-width: 1023px)" srcset="${h(src800)}" />
+      <img fetchpriority="high" src="${h(src1200)}" alt="${h(alt)}" class="absolute inset-0 w-full h-full object-cover" />
+    </picture>`;
+  }
+
   const vars = {
     PAGE_TITLE: h(pkg.title),
     META_DESCRIPTION: h(
@@ -187,6 +201,7 @@ function renderPackage(pkg, allPkgs) {
     ),
     HERO_IMAGE: h(pkg.hero || ''),
     HERO_ALT: h(pkg.title),
+    HERO_PICTURE: buildHeroPicture(pkg.hero, pkg.title),
     PRICE_LABEL: h(pkg.priceLabel || '0'),
     PRICE_NOTE: h(pkg.priceNote || 'per person'),
     DURATION: h(pkg.duration || ''),
@@ -365,6 +380,26 @@ console.log(
   `\nDone: ${validPackages.length} pages built${errors > 0 ? ` (${errors} errors)` : ''} -> dist/`
 );
 
+// Image compression via ImageMagick
+function compressImage(srcPath, dstPath) {
+  const ext = path.extname(srcPath).toLowerCase();
+  const imageExts = ['.webp', '.jpg', '.jpeg', '.png'];
+  if (!imageExts.includes(ext)) {
+    fs.copyFileSync(srcPath, dstPath);
+    return;
+  }
+  try {
+    // Resize to max 2000px on longest side, re-encode at quality 82
+    require('child_process').execSync(
+      `magick "${srcPath}" -strip -resize "2000x2000>" -quality 82 "${dstPath}"`,
+      { stdio: ['pipe', 'pipe', 'pipe'] }
+    );
+  } catch {
+    // Fallback: copy original if compression fails
+    fs.copyFileSync(srcPath, dstPath);
+  }
+}
+
 function copyDirSync(src, dst) {
   if (!fs.existsSync(dst)) fs.mkdirSync(dst, { recursive: true });
   const entries = fs.readdirSync(src, { withFileTypes: true });
@@ -374,7 +409,7 @@ function copyDirSync(src, dst) {
     if (entry.isDirectory()) {
       copyDirSync(srcPath, dstPath);
     } else {
-      fs.copyFileSync(srcPath, dstPath);
+      compressImage(srcPath, dstPath);
     }
   }
 }

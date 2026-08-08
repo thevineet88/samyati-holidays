@@ -118,12 +118,16 @@
 
     <!-- Hero -->
     <section class="reveal relative h-[60vh] min-h-[400px] flex items-end">
-      <img
-        fetchpriority="high"
-        src="assets/images/1200w/wayanad.webp"
-        alt="Wayanad"
-        class="absolute inset-0 w-full h-full object-cover"
-      />
+      <picture>
+        <source media="(max-width: 640px)" srcset="assets/images/600w/wayanad.webp" />
+        <source media="(max-width: 1023px)" srcset="assets/images/800w/wayanad.webp" />
+        <img
+          fetchpriority="high"
+          src="assets/images/1200w/wayanad.webp"
+          alt="Wayanad"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+      </picture>
       <div class="hero-overlay absolute inset-0"></div>
       <div class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 hero-offset">
         <nav class="flex items-center gap-2 text-white/60 text-sm mb-4">
