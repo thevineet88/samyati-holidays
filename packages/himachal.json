@@ -8,10 +8,7 @@
   "priceLabel": "₹16,499/-",
   "priceNote": "per person (Sleeper) | ₹18,999/- (3AC)",
   "lastBooking": "10 November 2025",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/himachal.webp",
   "gallery": [
     "assets/images/600w/himachal.webp",
@@ -135,9 +132,5 @@
     }
   ],
   "advisory": "Carry warm clothing. High altitude areas may have cold weather. Good physical fitness recommended for trekking activities.",
-  "related": [
-    "manali-kasol",
-    "kashmir",
-    "nainital-mussoorie"
-  ]
+  "related": ["manali-kasol", "kashmir", "nainital-mussoorie"]
 }

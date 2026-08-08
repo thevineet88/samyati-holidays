@@ -8,10 +8,7 @@
   "priceLabel": "₹9,999/-",
   "priceNote": "per person (Sleeper) | ₹12,499/- (3AC)",
   "lastBooking": "20 Feb 2026",
-  "category": [
-    "spiritual",
-    "adventure"
-  ],
+  "category": ["spiritual", "adventure"],
   "hero": "assets/images/1200w/jaipur.webp",
   "gallery": [
     "assets/images/600w/jaipur.webp",
@@ -107,9 +104,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "rajasthan",
-    "hyderabad",
-    "mathura-vrindavan"
-  ]
+  "related": ["rajasthan", "hyderabad", "mathura-vrindavan"]
 }

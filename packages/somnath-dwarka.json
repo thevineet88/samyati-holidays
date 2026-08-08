@@ -8,9 +8,7 @@
   "priceLabel": "₹13,499/-",
   "priceNote": "per person (Sleeper) | ₹14,999/- (3AC)",
   "lastBooking": "08 November 2025",
-  "category": [
-    "spiritual"
-  ],
+  "category": ["spiritual"],
   "hero": "assets/images/1200w/somnath-dwarka.webp",
   "gallery": [
     "assets/images/600w/somnath-dwarka.webp",
@@ -118,9 +116,5 @@
     }
   ],
   "advisory": "Girnar ropedway tickets must be booked online at udankhatola.com. Time slot: 7 AM - 8 AM. Carry valid ID proof.",
-  "related": [
-    "ayodhya-kashi-prayagraj",
-    "rameshwaram",
-    "jagannath-puri"
-  ]
+  "related": ["ayodhya-kashi-prayagraj", "rameshwaram", "jagannath-puri"]
 }

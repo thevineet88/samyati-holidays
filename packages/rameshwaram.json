@@ -8,9 +8,7 @@
   "priceLabel": "₹15,999/-",
   "priceNote": "per person (Sleeper Class) | ₹18,666/- (3AC)",
   "lastBooking": "30 July 2026",
-  "category": [
-    "spiritual"
-  ],
+  "category": ["spiritual"],
   "hero": "assets/images/1200w/rameshwaram.webp",
   "gallery": [
     "assets/images/600w/rameshwaram.webp",
@@ -123,9 +121,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "jagannath-puri",
-    "ayodhya-kashi-prayagraj",
-    "somnath-dwarka"
-  ]
+  "related": ["jagannath-puri", "ayodhya-kashi-prayagraj", "somnath-dwarka"]
 }

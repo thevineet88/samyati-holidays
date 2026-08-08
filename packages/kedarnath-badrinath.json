@@ -8,9 +8,7 @@
   "priceLabel": "₹21,111/-",
   "priceNote": "per person (Sleeper Class) | ₹23,777/- (3AC)",
   "lastBooking": "10 May 2026",
-  "category": [
-    "spiritual"
-  ],
+  "category": ["spiritual"],
   "hero": "assets/images/1200w/kedarnath-badrinath.webp",
   "gallery": [
     "assets/images/600w/kedarnath-badrinath.webp",
@@ -154,9 +152,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "ayodhya-kashi-prayagraj",
-    "mathura-vrindavan",
-    "somnath-dwarka"
-  ]
+  "related": ["ayodhya-kashi-prayagraj", "mathura-vrindavan", "somnath-dwarka"]
 }

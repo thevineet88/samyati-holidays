@@ -8,10 +8,7 @@
   "priceLabel": "₹12,999/-",
   "priceNote": "per person (Sleeper) | ₹14,499/- (3AC)",
   "lastBooking": "27 Nov 2025",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/rann-utsav.webp",
   "gallery": [
     "assets/images/600w/rann-utsav.webp",
@@ -104,9 +101,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "jaipur",
-    "rajasthan",
-    "hyderabad"
-  ]
+  "related": ["jaipur", "rajasthan", "hyderabad"]
 }

@@ -2,14 +2,17 @@
 
 // ── Scroll Reveal ──
 window.initReveal = function () {
-  const observer = new window.IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('revealed');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
+  const observer = new window.IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.12 }
+  );
   document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
   setTimeout(() => {
     document.querySelectorAll('.reveal:not(.revealed)').forEach((el) => {
@@ -138,7 +141,9 @@ function renderPackageCard(pkg) {
     (isComingSoon
       ? actionButtons
       : '<div><p class="text-muted text-xs mb-1">Starting from</p>' +
-        '<p class="font-poppins font-bold text-orange text-xl">' + pkg.priceLabel + '</p></div>' +
+        '<p class="font-poppins font-bold text-orange text-xl">' +
+        pkg.priceLabel +
+        '</p></div>' +
         actionButtons) +
     '</div>' +
     '</div>' +
@@ -150,57 +155,103 @@ function renderPackageCard(pkg) {
 // ── Carousel Sections ──
 // One config array drives section creation + card rendering. No duplicated HTML.
 var CAROUSEL_SECTIONS = [
-  { cat: 'spiritual', label: 'Spiritual Yatras', bg: 'bg-white',       order: 1 },
-  { cat: 'adventure', label: 'Adventures',       bg: 'bg-light-gray',   order: 2 },
-  { cat: 'nature',    label: 'Nature & Hills',   bg: 'bg-white',        order: 3 },
-  { cat: 'beach',     label: 'Beach Getaways',   bg: 'bg-light-gray',   order: 4 }
+  { cat: 'spiritual', label: 'Spiritual Yatras', bg: 'bg-white', order: 1 },
+  { cat: 'adventure', label: 'Adventures', bg: 'bg-light-gray', order: 2 },
+  { cat: 'nature', label: 'Nature & Hills', bg: 'bg-white', order: 3 },
+  { cat: 'beach', label: 'Beach Getaways', bg: 'bg-light-gray', order: 4 }
 ];
 
 var COMING_SOON_CARDS = [
-  { title: 'Ladakh - Pangong Lake', cat: 'Adventure', img: 'kashmir', dur: '8D / 7N',
+  {
+    title: 'Ladakh - Pangong Lake',
+    cat: 'Adventure',
+    img: 'kashmir',
+    dur: '8D / 7N',
     desc: 'The roof of the world, Magnetic Hill, Pangong Lake, Khardung La and monasteries in the sky.',
-    wa: 'Ladakh' },
-  { title: 'Meghalaya - Cherrapunji', cat: 'Nature', img: 'rann-utsav', dur: '7D / 6N',
+    wa: 'Ladakh'
+  },
+  {
+    title: 'Meghalaya - Cherrapunji',
+    cat: 'Nature',
+    img: 'rann-utsav',
+    dur: '7D / 6N',
     desc: 'Living root bridges, Nohkalikai Falls, Dawki river, the abode of clouds is like nowhere else on earth.',
-    wa: 'Meghalaya' },
-  { title: 'Andaman Islands', cat: 'Adventure', img: 'goa', dur: '6D / 5N',
+    wa: 'Meghalaya'
+  },
+  {
+    title: 'Andaman Islands',
+    cat: 'Adventure',
+    img: 'goa',
+    dur: '6D / 5N',
     desc: 'Radhanagar Beach, Cellular Jail, glass-bottom kayaking, scuba diving, paradise with a history.',
-    wa: 'Andaman' },
-  { title: 'Bhutan', cat: 'Adventure', img: 'bhutan', dur: '7D / 6N',
+    wa: 'Andaman'
+  },
+  {
+    title: 'Bhutan',
+    cat: 'Adventure',
+    img: 'bhutan',
+    dur: '7D / 6N',
     desc: 'Thimphu, Paro, and the Himalayan kingdom of happiness -- monasteries, mountains, and untouched nature.',
-    wa: 'Bhutan' }
+    wa: 'Bhutan'
+  }
 ];
 
 function carouselSectionHTML(s) {
-  return '<section class="reveal py-10 ' + s.bg + ' carousel-section">' +
+  return (
+    '<section class="reveal py-10 ' +
+    s.bg +
+    ' carousel-section">' +
     '<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">' +
-      '<div class="flex items-center gap-3 mb-2">' +
-        '<div class="pin-icon"></div><div class="line"></div>' +
-        '<p class="section-eyebrow">' + s.label + '</p>' +
-      '</div>' +
-      '<h3 class="font-poppins font-bold text-navy text-xl md:text-2xl mb-6">' + s.label + '</h3>' +
+    '<div class="flex items-center gap-3 mb-2">' +
+    '<div class="pin-icon"></div><div class="line"></div>' +
+    '<p class="section-eyebrow">' +
+    s.label +
+    '</p>' +
+    '</div>' +
+    '<h3 class="font-poppins font-bold text-navy text-xl md:text-2xl mb-6">' +
+    s.label +
+    '</h3>' +
     '</div>' +
     '<div class="max-w-7xl mx-auto relative px-4 sm:px-6 lg:px-8">' +
-      '<div class="carousel-scroll" data-cat="' + s.cat + '"></div>' +
-      '<button class="carousel-chevron carousel-chevron-left" aria-label="Scroll left">&#8249;</button>' +
-      '<button class="carousel-chevron carousel-chevron-right" aria-label="Scroll right">&#8250;</button>' +
+    '<div class="carousel-scroll" data-cat="' +
+    s.cat +
+    '"></div>' +
+    '<button class="carousel-chevron carousel-chevron-left" aria-label="Scroll left">&#8249;</button>' +
+    '<button class="carousel-chevron carousel-chevron-right" aria-label="Scroll right">&#8250;</button>' +
     '</div>' +
-  '</section>';
+    '</section>'
+  );
 }
 
 function comingSoonCardHTML(c) {
-  return '<div class="pkg-card-wrap"><div class="package-card opacity-90"><div class="relative">' +
-    '<img loading="lazy" decoding="async" src="../assets/images/1200w/' + c.img + '.webp" alt="' + c.title + '" />' +
-    '<span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">' + c.cat + '</span>' +
+  return (
+    '<div class="pkg-card-wrap"><div class="package-card opacity-90"><div class="relative">' +
+    '<img loading="lazy" decoding="async" src="../assets/images/1200w/' +
+    c.img +
+    '.webp" alt="' +
+    c.title +
+    '" />' +
+    '<span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">' +
+    c.cat +
+    '</span>' +
     '<span class="coming-soon-badge">Coming Soon</span></div>' +
     '<div class="p-5 flex flex-col flex-1">' +
-      '<h3 class="font-poppins font-bold text-navy text-lg mb-2">' + c.title + '</h3>' +
-      '<div class="flex flex-wrap gap-2 mb-3"><span class="chip">' + c.dur + '</span><span class="chip">TBA</span></div>' +
-      '<p class="text-muted text-sm leading-relaxed mb-3">' + c.desc + '</p>' +
-      '<div class="card-actions">' +
-        '<a href="https://wa.me/919076068549?text=Hi!%20I%20want%20to%20know%20more%20about%20the%20upcoming%20' + c.wa + '%20tour." target="_blank" class="btn-outline-navy w-full text-sm py-2">Notify Me</a>' +
-      '</div>' +
-    '</div></div></div>';
+    '<h3 class="font-poppins font-bold text-navy text-lg mb-2">' +
+    c.title +
+    '</h3>' +
+    '<div class="flex flex-wrap gap-2 mb-3"><span class="chip">' +
+    c.dur +
+    '</span><span class="chip">TBA</span></div>' +
+    '<p class="text-muted text-sm leading-relaxed mb-3">' +
+    c.desc +
+    '</p>' +
+    '<div class="card-actions">' +
+    '<a href="https://wa.me/919076068549?text=Hi!%20I%20want%20to%20know%20more%20about%20the%20upcoming%20' +
+    c.wa +
+    '%20tour." target="_blank" class="btn-outline-navy w-full text-sm py-2">Notify Me</a>' +
+    '</div>' +
+    '</div></div></div>'
+  );
 }
 
 function initCarousels() {
@@ -208,31 +259,36 @@ function initCarousels() {
   var container = document.getElementById('carousel-sections');
   if (!container) return;
 
-  var sorted = SAMYATI_PACKAGES.slice().sort(function (a, b) { return a.price - b.price; });
+  var sorted = SAMYATI_PACKAGES.slice().sort(function (a, b) {
+    return a.price - b.price;
+  });
 
   // Sort sections by explicit order (no count-based sorting)
-  var sortedSections = CAROUSEL_SECTIONS.slice().sort(function (a, b) { return a.order - b.order; });
+  var sortedSections = CAROUSEL_SECTIONS.slice().sort(function (a, b) {
+    return a.order - b.order;
+  });
 
   // Build category sections in order
   var html = sortedSections.map(carouselSectionHTML).join('');
 
   // Coming Soon section at the very end
-  html += '<section class="reveal py-10 bg-white carousel-section">' +
+  html +=
+    '<section class="reveal py-10 bg-white carousel-section">' +
     '<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">' +
-      '<div class="flex items-center gap-3 mb-2">' +
-        '<div class="pin-icon"></div><div class="line"></div>' +
-        '<p class="section-eyebrow">Coming Soon</p>' +
-      '</div>' +
-      '<h3 class="font-poppins font-bold text-navy text-xl md:text-2xl mb-6">Coming Soon</h3>' +
+    '<div class="flex items-center gap-3 mb-2">' +
+    '<div class="pin-icon"></div><div class="line"></div>' +
+    '<p class="section-eyebrow">Coming Soon</p>' +
+    '</div>' +
+    '<h3 class="font-poppins font-bold text-navy text-xl md:text-2xl mb-6">Coming Soon</h3>' +
     '</div>' +
     '<div class="max-w-7xl mx-auto relative px-4 sm:px-6 lg:px-8">' +
-      '<div class="carousel-scroll" data-cat="coming-soon">' +
-        COMING_SOON_CARDS.map(comingSoonCardHTML).join('') +
-      '</div>' +
-      '<button class="carousel-chevron carousel-chevron-left" aria-label="Scroll left">&#8249;</button>' +
-      '<button class="carousel-chevron carousel-chevron-right" aria-label="Scroll right">&#8250;</button>' +
+    '<div class="carousel-scroll" data-cat="coming-soon">' +
+    COMING_SOON_CARDS.map(comingSoonCardHTML).join('') +
     '</div>' +
-  '</section>';
+    '<button class="carousel-chevron carousel-chevron-left" aria-label="Scroll left">&#8249;</button>' +
+    '<button class="carousel-chevron carousel-chevron-right" aria-label="Scroll right">&#8250;</button>' +
+    '</div>' +
+    '</section>';
   container.innerHTML = html;
 
   // Render package cards into each carousel scroll container
@@ -241,7 +297,9 @@ function initCarousels() {
     var cat = scrolls[i].dataset.cat;
     if (cat === 'coming-soon') continue;
     var cards = sorted
-      .filter(function (p) { return (p.category || []).indexOf(cat) !== -1; })
+      .filter(function (p) {
+        return (p.category || []).indexOf(cat) !== -1;
+      })
       .map(renderPackageCard)
       .join('');
     scrolls[i].insertAdjacentHTML('beforeend', cards);
@@ -271,18 +329,36 @@ function initCarousels() {
         scrollEl.scrollBy({ left: dir * cardWidth, behavior: 'smooth' });
       }
 
-      leftBtn && leftBtn.addEventListener('click', function () { scrollByOne(-1); resetAuto(); });
-      rightBtn && rightBtn.addEventListener('click', function () { scrollByOne(1); resetAuto(); });
+      leftBtn &&
+        leftBtn.addEventListener('click', function () {
+          scrollByOne(-1);
+          resetAuto();
+        });
+      rightBtn &&
+        rightBtn.addEventListener('click', function () {
+          scrollByOne(1);
+          resetAuto();
+        });
 
-      parent.addEventListener('mouseenter', function () { clearInterval(autoTimer); });
-      parent.addEventListener('mouseleave', function () { startAuto(); });
+      parent.addEventListener('mouseenter', function () {
+        clearInterval(autoTimer);
+      });
+      parent.addEventListener('mouseleave', function () {
+        startAuto();
+      });
 
       function updateChevronVisibility() {
         var maxS = getMaxScroll();
         var atStart = scrollEl.scrollLeft <= 2;
         var atEnd = scrollEl.scrollLeft >= maxS - 2;
-        if (leftBtn) { leftBtn.style.opacity = atStart ? '0' : '1'; leftBtn.style.pointerEvents = atStart ? 'none' : 'auto'; }
-        if (rightBtn) { rightBtn.style.opacity = atEnd ? '0' : '1'; rightBtn.style.pointerEvents = atEnd ? 'none' : 'auto'; }
+        if (leftBtn) {
+          leftBtn.style.opacity = atStart ? '0' : '1';
+          leftBtn.style.pointerEvents = atStart ? 'none' : 'auto';
+        }
+        if (rightBtn) {
+          rightBtn.style.opacity = atEnd ? '0' : '1';
+          rightBtn.style.pointerEvents = atEnd ? 'none' : 'auto';
+        }
       }
 
       scrollEl.addEventListener('scroll', updateChevronVisibility);
@@ -315,7 +391,9 @@ function initPackages() {
   var grid = document.getElementById('packages-grid');
   if (!grid) return;
   if (typeof SAMYATI_PACKAGES === 'undefined') return;
-  var sorted = SAMYATI_PACKAGES.slice().sort(function (a, b) { return a.price - b.price; });
+  var sorted = SAMYATI_PACKAGES.slice().sort(function (a, b) {
+    return a.price - b.price;
+  });
   sorted.forEach(function (pkg) {
     grid.insertAdjacentHTML('beforeend', renderPackageCard(pkg));
   });
@@ -323,12 +401,17 @@ function initPackages() {
   var packageCards = document.querySelectorAll('.pkg-card-wrap');
   filterTabs.forEach(function (tab) {
     tab.addEventListener('click', function () {
-      filterTabs.forEach(function (t) { t.classList.remove('active'); });
+      filterTabs.forEach(function (t) {
+        t.classList.remove('active');
+      });
       tab.classList.add('active');
       var cat = tab.dataset.cat;
       packageCards.forEach(function (card) {
-        if (cat === 'all' || card.dataset.cat.indexOf(cat) !== -1) { card.style.display = ''; }
-        else { card.style.display = 'none'; }
+        if (cat === 'all' || card.dataset.cat.indexOf(cat) !== -1) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
       });
     });
   });

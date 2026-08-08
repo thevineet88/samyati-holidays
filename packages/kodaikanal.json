@@ -8,9 +8,7 @@
   "priceLabel": "₹10,499/-",
   "priceNote": "per person (Sleeper) | ₹12,999/- (3AC)",
   "lastBooking": "20 Jan 2026",
-  "category": [
-    "nature"
-  ],
+  "category": ["nature"],
   "hero": "assets/images/1200w/kodaikanal.webp",
   "gallery": [
     "assets/images/600w/kodaikanal.webp",
@@ -92,9 +90,5 @@
   ],
   "installments": [],
   "cancellation": [],
-  "related": [
-    "ooty-mysore",
-    "coorg",
-    "wayanad"
-  ]
+  "related": ["ooty-mysore", "coorg", "wayanad"]
 }

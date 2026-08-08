@@ -8,10 +8,7 @@
   "priceLabel": "₹20,499/-",
   "priceNote": "per person (inclusive of train)",
   "lastBooking": "10 Jan 2026",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/kashmir.webp",
   "gallery": [
     "assets/images/600w/kashmir.webp",
@@ -108,9 +105,5 @@
   "installments": [],
   "cancellation": [],
   "advisory": "Carry warm woolen clothing. Snow activities at own cost. Good walking shoes essential. Stay hydrated at high altitudes.",
-  "related": [
-    "manali-kasol",
-    "himachal",
-    "sikkim-darjeeling"
-  ]
+  "related": ["manali-kasol", "himachal", "sikkim-darjeeling"]
 }

@@ -8,9 +8,7 @@
   "priceLabel": "₹8,999/-",
   "priceNote": "per person (inclusive of train)",
   "lastBooking": "Contact us",
-  "category": [
-    "spiritual"
-  ],
+  "category": ["spiritual"],
   "hero": "assets/images/1200w/ujjain-indore.webp",
   "gallery": [
     "assets/images/600w/ujjain-indore.webp",
@@ -80,9 +78,5 @@
   ],
   "installments": [],
   "cancellation": [],
-  "related": [
-    "ayodhya-kashi-prayagraj",
-    "mathura-vrindavan",
-    "kedarnath-badrinath"
-  ]
+  "related": ["ayodhya-kashi-prayagraj", "mathura-vrindavan", "kedarnath-badrinath"]
 }

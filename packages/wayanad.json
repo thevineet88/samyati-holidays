@@ -8,10 +8,7 @@
   "priceLabel": "₹11,111/-",
   "priceNote": "per person (Sleeper) | ₹13,600/- (3AC)",
   "lastBooking": "22 Oct 2025",
-  "category": [
-    "nature",
-    "adventure"
-  ],
+  "category": ["nature", "adventure"],
   "hero": "assets/images/1200w/wayanad.webp",
   "gallery": [
     "assets/images/600w/wayanad.webp",
@@ -106,9 +103,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "coorg",
-    "kerala",
-    "kodaikanal"
-  ]
+  "related": ["coorg", "kerala", "kodaikanal"]
 }

@@ -8,10 +8,7 @@
   "priceLabel": "₹19,499/-",
   "priceNote": "per person (Sleeper Class) | ₹21,999/- (3AC)",
   "lastBooking": "30 Jan 2026",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/nainital-mussoorie.webp",
   "gallery": [
     "assets/images/600w/nainital-mussoorie.webp",
@@ -135,9 +132,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "himachal",
-    "manali-kasol",
-    "kashmir"
-  ]
+  "related": ["himachal", "manali-kasol", "kashmir"]
 }

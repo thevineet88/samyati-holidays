@@ -8,10 +8,7 @@
   "priceLabel": "₹16,999/-",
   "priceNote": "per person (Sleeper) | ₹19,499/- (3AC)",
   "lastBooking": "25 Feb 2026",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/tadoba.webp",
   "gallery": [
     "assets/images/600w/tadoba.webp",
@@ -86,9 +83,5 @@
   "installments": [],
   "cancellation": [],
   "advisory": "Carry binoculars for wildlife viewing. Wear neutral-colored clothing. Follow all jungle safari rules strictly.",
-  "related": [
-    "rann-utsav",
-    "jaipur",
-    "hampi"
-  ]
+  "related": ["rann-utsav", "jaipur", "hampi"]
 }

@@ -8,9 +8,7 @@
   "priceLabel": "₹15,555/-",
   "priceNote": "per person (Sleeper Class) | ₹17,999/- (3AC)",
   "lastBooking": "25 July 2026",
-  "category": [
-    "nature"
-  ],
+  "category": ["nature"],
   "hero": "assets/images/1200w/kerala.webp",
   "gallery": [
     "assets/images/600w/kerala.webp",
@@ -123,9 +121,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "coorg",
-    "wayanad",
-    "ooty-mysore"
-  ]
+  "related": ["coorg", "wayanad", "ooty-mysore"]
 }

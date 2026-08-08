@@ -8,10 +8,7 @@
   "priceLabel": "₹27,777/-",
   "priceNote": "per person (flight not included — book separately)",
   "lastBooking": "20 June 2026",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/sikkim-darjeeling.webp",
   "gallery": [
     "assets/images/600w/sikkim-darjeeling.webp",
@@ -127,9 +124,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "bhutan",
-    "kashmir",
-    "manali-kasol"
-  ]
+  "related": ["bhutan", "kashmir", "manali-kasol"]
 }

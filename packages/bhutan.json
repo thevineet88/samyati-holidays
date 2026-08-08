@@ -8,10 +8,7 @@
   "priceLabel": "₹33,333/-",
   "priceNote": "per person",
   "lastBooking": "05 April 2026",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/bhutan.webp",
   "gallery": [
     "assets/images/600w/bhutan.webp",
@@ -124,9 +121,5 @@
   ],
   "advisory": "Original Voter ID or Passport (valid 6+ months) mandatory. Aadhaar NOT accepted. PVC cards downloaded online NOT accepted. Carry warm clothing for high altitude.",
   "flightNote": "Fly to Bagdogra (IXB). Meet at airport by 11:00 AM. Return flight from Bagdogra on 02 Oct 2026. Flights to be booked independently.",
-  "related": [
-    "sikkim-darjeeling",
-    "kashmir",
-    "manali-kasol"
-  ]
+  "related": ["sikkim-darjeeling", "kashmir", "manali-kasol"]
 }

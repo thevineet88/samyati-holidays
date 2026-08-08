@@ -8,9 +8,7 @@
   "priceLabel": "₹14,444/-",
   "priceNote": "per person (SL) | ₹16,999/- (3AC) | ₹18,666/- (2AC)",
   "lastBooking": "10 July 2026",
-  "category": [
-    "spiritual"
-  ],
+  "category": ["spiritual"],
   "hero": "assets/images/1200w/ayodhya-kashi-prayagraj.webp",
   "gallery": [
     "assets/images/600w/ayodhya-kashi-prayagraj.webp",
@@ -117,9 +115,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "kedarnath-badrinath",
-    "mathura-vrindavan",
-    "somnath-dwarka"
-  ]
+  "related": ["kedarnath-badrinath", "mathura-vrindavan", "somnath-dwarka"]
 }

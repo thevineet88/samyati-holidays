@@ -26,9 +26,7 @@ function resolveTemplates(html) {
   const page = document.body.dataset.page || 'home';
   const activeMap = { home: 'HOME', packages: 'PACKAGES', about: 'ABOUT', contact: 'CONTACT' };
   const target = activeMap[page] || 'HOME';
-  html = html.replace(/\{\{ACTIVE_(\w+)\}\}/g, (_, key) =>
-    key === target ? ' active' : ''
-  );
+  html = html.replace(/\{\{ACTIVE_(\w+)\}\}/g, (_, key) => (key === target ? ' active' : ''));
 
   // Resolve WA link: {{WA_LINK_GENERAL}} -> actual URL from body data attribute
   const waLink = document.body.dataset.waLink || '';
@@ -42,11 +40,7 @@ function resolveTemplates(html) {
 
 function inject(marker, html) {
   const resolved = resolveTemplates(html);
-  const walker = document.createTreeWalker(
-    document.body,
-    window.NodeFilter.SHOW_COMMENT,
-    null
-  );
+  const walker = document.createTreeWalker(document.body, window.NodeFilter.SHOW_COMMENT, null);
   let node;
   while ((node = walker.nextNode())) {
     if (node.textContent.trim() === marker) {
@@ -78,10 +72,7 @@ function bindMobileMenu() {
 
 async function init() {
   try {
-    const [header, footer] = await Promise.all([
-      loadPartial('header'),
-      loadPartial('footer'),
-    ]);
+    const [header, footer] = await Promise.all([loadPartial('header'), loadPartial('footer')]);
     inject('PARTIAL_HEADER', header);
     inject('PARTIAL_FOOTER', footer);
     // Header was just injected into the DOM — bind its hamburger menu
@@ -93,6 +84,4 @@ async function init() {
   }
 }
 
-document.readyState === 'loading'
-  ? document.addEventListener('DOMContentLoaded', init)
-  : init();
+document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', init) : init();

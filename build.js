@@ -39,9 +39,7 @@ function resolvePartialTokens(html, ctx) {
   const page = (ctx && ctx.page) || 'home';
   const activeMap = { home: 'HOME', packages: 'PACKAGES', about: 'ABOUT', contact: 'CONTACT' };
   const target = activeMap[page] || 'HOME';
-  html = html.replace(/\{\{ACTIVE_(\w+)\}\}/g, (_, key) =>
-    key === target ? ' active' : ''
-  );
+  html = html.replace(/\{\{ACTIVE_(\w+)\}\}/g, (_, key) => (key === target ? ' active' : ''));
   html = html.replace(/\{\{\s*WA_LINK_GENERAL\s*\}\}/g, ctx.waLink);
   html = html.replace(/\{\{\s*CURRENT_YEAR\s*\}\}/g, '2026');
   return html;

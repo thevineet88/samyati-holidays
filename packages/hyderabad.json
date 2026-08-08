@@ -8,10 +8,7 @@
   "priceLabel": "₹9,999/-",
   "priceNote": "per person",
   "lastBooking": "10 Jan 2026",
-  "category": [
-    "spiritual",
-    "nature"
-  ],
+  "category": ["spiritual", "nature"],
   "hero": "assets/images/1200w/hyderabad.webp",
   "gallery": [
     "assets/images/600w/hyderabad.webp",
@@ -84,9 +81,5 @@
   "installments": [],
   "cancellation": [],
   "advisory": "Participants can buy Srisailam darshan passes online before the trip. SPARSH: ₹500, ATHISEEGHRA: ₹300, SEEGHRA: ₹150.",
-  "related": [
-    "jaipur",
-    "rajasthan",
-    "somnath-dwarka"
-  ]
+  "related": ["jaipur", "rajasthan", "somnath-dwarka"]
 }

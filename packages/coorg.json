@@ -8,9 +8,7 @@
   "priceLabel": "₹10,999/-",
   "priceNote": "per person (Sleeper) | ₹13,499/- (3AC)",
   "lastBooking": "10 Apr 2026",
-  "category": [
-    "nature"
-  ],
+  "category": ["nature"],
   "hero": "assets/images/1200w/coorg.webp",
   "gallery": [
     "assets/images/600w/coorg.webp",
@@ -105,9 +103,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "wayanad",
-    "kerala",
-    "ooty-mysore"
-  ]
+  "related": ["wayanad", "kerala", "ooty-mysore"]
 }

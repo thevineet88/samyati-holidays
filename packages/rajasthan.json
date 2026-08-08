@@ -8,10 +8,7 @@
   "priceLabel": "₹22,999/-",
   "priceNote": "per person (Sleeper) | ₹25,499/- (3AC)",
   "lastBooking": "15 Aug 2025",
-  "category": [
-    "spiritual",
-    "adventure"
-  ],
+  "category": ["spiritual", "adventure"],
   "hero": "assets/images/1200w/rajasthan.webp",
   "gallery": [
     "assets/images/600w/rajasthan.webp",
@@ -115,9 +112,5 @@
   ],
   "installments": [],
   "cancellation": [],
-  "related": [
-    "jaipur",
-    "hyderabad",
-    "somnath-dwarka"
-  ]
+  "related": ["jaipur", "hyderabad", "somnath-dwarka"]
 }

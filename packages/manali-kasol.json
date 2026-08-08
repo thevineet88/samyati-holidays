@@ -8,10 +8,7 @@
   "priceLabel": "₹17,999/-",
   "priceNote": "per person (Sleeper) | ₹22,999/- (3AC)",
   "lastBooking": "15 Mar 2026",
-  "category": [
-    "adventure",
-    "nature"
-  ],
+  "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/manali-kasol.webp",
   "gallery": [
     "assets/images/600w/manali-kasol.webp",
@@ -95,9 +92,5 @@
   "installments": [],
   "cancellation": [],
   "advisory": "Snow activities and snow clothes at own cost. Carry warm jackets. Good physical fitness recommended for valley treks.",
-  "related": [
-    "himachal",
-    "kashmir",
-    "sikkim-darjeeling"
-  ]
+  "related": ["himachal", "kashmir", "sikkim-darjeeling"]
 }

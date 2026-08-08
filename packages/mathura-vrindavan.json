@@ -8,9 +8,7 @@
   "priceLabel": "₹11,111/-",
   "priceNote": "per person (Sleeper) | ₹13,666/- (3AC)",
   "lastBooking": "23 Jan 2026",
-  "category": [
-    "spiritual"
-  ],
+  "category": ["spiritual"],
   "hero": "assets/images/1200w/mathura-vrindavan.webp",
   "gallery": [
     "assets/images/600w/mathura-vrindavan.webp",
@@ -94,9 +92,5 @@
     }
   ],
   "cancellation": [],
-  "related": [
-    "ayodhya-kashi-prayagraj",
-    "jagannath-puri",
-    "kedarnath-badrinath"
-  ]
+  "related": ["ayodhya-kashi-prayagraj", "jagannath-puri", "kedarnath-badrinath"]
 }

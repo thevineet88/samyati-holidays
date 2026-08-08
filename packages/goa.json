@@ -8,9 +8,7 @@
   "priceLabel": "₹9,499/-",
   "priceNote": "per person (inclusive of bus) | ₹11,999/- (Double Sharing)",
   "lastBooking": "28 Jan 2025",
-  "category": [
-    "beach"
-  ],
+  "category": ["beach"],
   "hero": "assets/images/1200w/goa.webp",
   "gallery": [
     "assets/images/600w/goa.webp",
@@ -105,9 +103,5 @@
       "deduction": "No Refund"
     }
   ],
-  "related": [
-    "gokarna-murudeshwar",
-    "kerala",
-    "hampi"
-  ]
+  "related": ["gokarna-murudeshwar", "kerala", "hampi"]
 }
