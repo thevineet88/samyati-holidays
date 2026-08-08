@@ -2042,7 +2042,9 @@
     <script>
       // Lazy-load Instagram embed only when the section is near viewport
       (function () {
-        var instaSection = document.querySelector('section.bg-light-gray .section-title a[href*="instagram"]');
+        var instaSection = document.querySelector(
+          'section.bg-light-gray .section-title a[href*="instagram"]'
+        );
         if (!instaSection) return;
         var section = instaSection.closest('section');
         if (!section) return;
@@ -2052,18 +2054,25 @@
           if (s) s.src = s.getAttribute('data-src');
           return;
         }
-        var obs = new IntersectionObserver(function (entries) {
-          entries.forEach(function (entry) {
-            if (entry.isIntersecting) {
-              var s = document.querySelector('script[data-src*="instagram"]');
-              if (s) { s.src = s.getAttribute('data-src'); s.removeAttribute('data-src'); }
-              obs.unobserve(section);
-            }
-          });
-        }, { rootMargin: '200px' });
+        var obs = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                var s = document.querySelector('script[data-src*="instagram"]');
+                if (s) {
+                  s.src = s.getAttribute('data-src');
+                  s.removeAttribute('data-src');
+                }
+                obs.unobserve(section);
+              }
+            });
+          },
+          { rootMargin: '200px' }
+        );
         obs.observe(section);
       })();
     </script>
+    <script>
       (function () {
         var animated = false;
         function runCounters() {
