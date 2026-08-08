@@ -6,7 +6,7 @@
 
 [build]
   publish = "dist"
-  command = "node build.js"
+  command = "npm run build:all"
 
 [[headers]]
   for = "/*"
