@@ -532,9 +532,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .\!w-auto {
-    width: auto !important;
-  }
   .w-2\.5 {
     width: calc(var(--spacing) * 2.5);
   }
@@ -638,9 +635,6 @@
   .-translate-y-1\/2 {
     --tw-translate-y: calc(calc(1 / 2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .transform {
-    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
   .animate-bounce {
     animation: var(--animate-bounce);
@@ -874,6 +868,9 @@
   .bg-\[\#25D366\] {
     background-color: #25D366;
   }
+  .bg-\[var\(--whatsapp\)\] {
+    background-color: var(--whatsapp);
+  }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
   }
@@ -1054,12 +1051,6 @@
   .p-8 {
     padding: calc(var(--spacing) * 8);
   }
-  .\!px-4 {
-    padding-inline: calc(var(--spacing) * 4) !important;
-  }
-  .\!px-5 {
-    padding-inline: calc(var(--spacing) * 5) !important;
-  }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
@@ -1072,6 +1063,9 @@
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
   }
@@ -1080,9 +1074,6 @@
   }
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
-  }
-  .\!py-2 {
-    padding-block: calc(var(--spacing) * 2) !important;
   }
   .py-1 {
     padding-block: var(--spacing);
@@ -1164,10 +1155,6 @@
   }
   .font-poppins {
     font-family: var(--font-poppins);
-  }
-  .\!text-sm {
-    font-size: var(--text-sm) !important;
-    line-height: var(--tw-leading, var(--text-sm--line-height)) !important;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -1515,11 +1502,8 @@
     .hover\:bg-\[\#1ebe5a\]:hover {
       background-color: #1ebe5a;
     }
-    .hover\:bg-green-500:hover {
-      background-color: var(--color-green-500);
-    }
-    .hover\:bg-green-600:hover {
-      background-color: var(--color-green-600);
+    .hover\:bg-\[var\(--whatsapp-hover\)\]:hover {
+      background-color: var(--whatsapp-hover);
     }
     .hover\:bg-navy:hover {
       background-color: var(--color-navy);
@@ -1928,6 +1912,13 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(-45deg);
   flex-shrink: 0;
 }
+.hero-pin-icon {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--orange);
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+}
 .section-pin-divider .line {
   height: 2px;
   width: 40px;
@@ -2068,7 +2059,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
   cursor: pointer;
   text-decoration: none;
-  display: inline-block;
   transition: background 0.2s, transform 0.15s;
   text-align: center;
 }
@@ -2104,7 +2094,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
   cursor: pointer;
   text-decoration: none;
-  display: inline-block;
   transition: background 0.2s, transform 0.15s;
   text-align: center;
   white-space: nowrap;
@@ -2123,7 +2112,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 18px;
   cursor: pointer;
   text-decoration: none;
-  display: inline-block;
   transition: all 0.2s;
   text-align: center;
 }
@@ -2617,6 +2605,23 @@ footer img[src*="samyati-logo"] {
   justify-content: space-between;
   margin-bottom: 10px;
 }
+.live-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--orange);
+  animation: livePulse 2s ease-in-out infinite;
+}
+@keyframes livePulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(0.7);
+  }
+}
 @property --tw-translate-x {
   syntax: "*";
   inherits: false;
@@ -2631,26 +2636,6 @@ footer img[src*="samyati-logo"] {
   syntax: "*";
   inherits: false;
   initial-value: 0;
-}
-@property --tw-rotate-x {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-rotate-y {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-rotate-z {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-skew-x {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-skew-y {
-  syntax: "*";
-  inherits: false;
 }
 @property --tw-scroll-snap-strictness {
   syntax: "*";
@@ -2919,11 +2904,6 @@ footer img[src*="samyati-logo"] {
       --tw-translate-x: 0;
       --tw-translate-y: 0;
       --tw-translate-z: 0;
-      --tw-rotate-x: initial;
-      --tw-rotate-y: initial;
-      --tw-rotate-z: initial;
-      --tw-skew-x: initial;
-      --tw-skew-y: initial;
       --tw-scroll-snap-strictness: proximity;
       --tw-space-y-reverse: 0;
       --tw-border-style: solid;
