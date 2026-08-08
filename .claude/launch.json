@@ -4,7 +4,7 @@
     {
       "name": "samyati-holidays",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "3456", "--directory", "dist"],
+      "runtimeArgs": ["-m", "http.server", "3456", "--directory", "/Users/vinitbrahmankar/Documents/Kuber Projects/samyati-holidays"],
       "port": 3456
     }
   ]

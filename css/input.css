@@ -1,0 +1,22 @@
+@source ".";
+
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #2D2E6E;
+  --color-orange: #F47920;
+  --color-light-gray: #F5F6FA;
+  --color-dark-gray: #2C2C2C;
+  --color-muted: #6B7280;
+  --font-poppins: Poppins, sans-serif;
+  --font-inter: Inter, sans-serif;
+  --font-kalam: Kalam, cursive;
+}
+
+:root {
+  --navy: var(--color-navy);
+  --orange: var(--color-orange);
+  --light-gray: var(--color-light-gray);
+  --dark-gray: var(--color-dark-gray);
+  --muted: var(--color-muted);
+}

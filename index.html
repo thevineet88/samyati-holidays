@@ -19,27 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&family=Kalam:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              navy: '#2D2E6E',
-              orange: '#F47920',
-              'light-gray': '#F5F6FA',
-              'dark-gray': '#2C2C2C',
-              muted: '#6B7280'
-            },
-            fontFamily: {
-              poppins: ['Poppins', 'sans-serif'],
-              inter: ['Inter', 'sans-serif']
-            }
-          }
-        }
-      };
-    </script>
-    <link rel="stylesheet" href="css/style.css?v=8" />
+    <link rel="stylesheet" href="css/style.css?v=9" />
   </head>
   <body
     data-page="home"
@@ -52,8 +32,15 @@
     <!-- PARTIAL_HEADER -->
     <!-- ── HERO ── -->
     <section class="reveal relative min-h-screen flex items-end hero-offset">
-      <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
-        <source src="../assets/kasmir-motion-v2.webm" type="video/webm" />
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        poster="../assets/kashmir-homepage.webp"
+        class="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="../assets/kasmir-motion-v2.mp4" type="video/mp4" />
       </video>
       <div class="hero-overlay absolute inset-0"></div>
 
