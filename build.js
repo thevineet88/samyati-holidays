@@ -114,7 +114,7 @@ function renderPackage(pkg, allPkgs) {
   const installRows = (pkg.installments || [])
     .map(
       (inst) =>
-        `<tr><td class="font-semibold">${h(inst.name)}</td><td>&#x20B9;${h(inst.amount)}/-</td><td class="text-orange font-semibold">${h(inst.dueBy)}</td></tr>`
+        `<tr><td class="font-semibold">${h(inst.name)}</td><td>${h(inst.amount)}</td><td class="text-orange font-semibold">${h(inst.dueBy)}</td></tr>`
     )
     .join('\n                ');
 
