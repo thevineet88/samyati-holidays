@@ -85,7 +85,7 @@ function renderPackage(pkg, allPkgs) {
         ? `<span class="text-xs font-poppins font-semibold text-orange">&#127858; ${h(day.meals)}</span>`
         : '';
       return `<div class="accordion-item">
-      <button class="accordion-btn">
+      <button class="accordion-btn" aria-expanded="false" aria-controls="day-${day.day}">
         <div class="flex items-center gap-3"><div class="day-badge">${day.day}</div><span>Day ${day.day}, ${h(day.title)}</span></div>
         <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
       </button>
@@ -167,7 +167,7 @@ function renderPackage(pkg, allPkgs) {
     .map((rp) => {
       const rImg = (rp.gallery && rp.gallery[0]) || rp.hero || '';
       const rCat = rp.category && rp.category[0] ? catLabels[rp.category[0]] || 'Nature' : 'Nature';
-      return `<div class="related-card"><div class="relative"><img loading="lazy" decoding="async" src="${h(rImg)}" alt="${h(rp.title)}" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">${h(rCat)}</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">${h(rp.title)}</h3><div class="flex gap-2 mb-3"><span class="chip">${h(rp.duration)}</span><span class="chip">${h(rp.dates)}</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">${h(rp.priceLabel)}</p><div class="flex gap-2"><a href="${rp.slug}.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="${waBase}${encodeURIComponent('Hi Samyati Holidays! I am interested in ' + rp.title + '. Please share details.')}" target="_blank" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>`;
+      return `<div class="related-card"><div class="relative"><img loading="lazy" decoding="async" src="${h(rImg)}" alt="${h(rp.title)}" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">${h(rCat)}</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">${h(rp.title)}</h3><div class="flex gap-2 mb-3"><span class="chip">${h(rp.duration)}</span><span class="chip">${h(rp.dates)}</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">${h(rp.priceLabel)}</p><div class="flex gap-2"><a href="${rp.slug}.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="${waBase}${encodeURIComponent('Hi Samyati Holidays! I am interested in ' + rp.title + '. Please share details.')}" target="_blank" rel="noopener" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>`;
     })
     .join('\n      ');
 
@@ -180,8 +180,8 @@ function renderPackage(pkg, allPkgs) {
     const src800 = heroPath.replace(/\/1200w\//, '/800w/');
     const src1200 = heroPath.replace(/\/1200w\//, '/1200w/');
     return `<picture>
-      <source media="(max-width: 640px)" srcset="${h(src600)}" />
-      <source media="(max-width: 1023px)" srcset="${h(src800)}" />
+      <source media="(max-width: 640px)" srcset="${h(src600)}" type="image/webp" />
+      <source media="(max-width: 1023px)" srcset="${h(src800)}" type="image/webp" />
       <img fetchpriority="high" src="${h(src1200)}" alt="${h(alt)}" class="absolute inset-0 w-full h-full object-cover" />
     </picture>`;
   }

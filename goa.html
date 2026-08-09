@@ -62,6 +62,7 @@
             ><a
               href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages."
               target="_blank"
+              rel="noopener"
               class="btn-whatsapp text-sm py-2 px-4 flex items-center gap-2 rounded-lg transition-colors"
               ><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -105,6 +106,7 @@
             ><a
               href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages."
               target="_blank"
+              rel="noopener"
               class="btn-whatsapp text-sm py-2 px-5 text-center rounded-lg transition-colors"
               >WhatsApp Us</a
             >
@@ -116,8 +118,12 @@
     <!-- Hero -->
     <section class="reveal relative h-[60vh] min-h-[400px] flex items-end">
       <picture>
-        <source media="(max-width: 640px)" srcset="assets/images/600w/goa.webp" />
-        <source media="(max-width: 1023px)" srcset="assets/images/800w/goa.webp" />
+        <source media="(max-width: 640px)" srcset="assets/images/600w/goa.webp" type="image/webp" />
+        <source
+          media="(max-width: 1023px)"
+          srcset="assets/images/800w/goa.webp"
+          type="image/webp"
+        />
         <img
           fetchpriority="high"
           src="assets/images/1200w/goa.webp"
@@ -203,7 +209,7 @@
               <h2 class="section-title text-2xl mt-1 mb-6">Detailed Itinerary</h2>
               <div class="space-y-0" id="itinerary-list">
                 <div class="accordion-item">
-                  <button class="accordion-btn">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-1">
                     <div class="flex items-center gap-3">
                       <div class="day-badge">1</div>
                       <span>Day 1, Reach Goa &amp; Check In</span>
@@ -231,7 +237,7 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <button class="accordion-btn">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-2">
                     <div class="flex items-center gap-3">
                       <div class="day-badge">2</div>
                       <span>Day 2, North Goa Sightseeing</span>
@@ -259,7 +265,7 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <button class="accordion-btn">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-3">
                     <div class="flex items-center gap-3">
                       <div class="day-badge">3</div>
                       <span>Day 3, Old Goa &amp; South Goa Sightseeing</span>
@@ -287,7 +293,7 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <button class="accordion-btn">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-4">
                     <div class="flex items-center gap-3">
                       <div class="day-badge">4</div>
                       <span>Day 4, South Goa Sightseeing &amp; Leisure</span>
@@ -314,7 +320,7 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <button class="accordion-btn">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-5">
                     <div class="flex items-center gap-3">
                       <div class="day-badge">5</div>
                       <span>Day 5, Reach Mumbai</span>
@@ -552,12 +558,14 @@
                 <a
                   href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Goa.%20Please%20share%20details%20and%20booking%20process."
                   target="_blank"
+                  rel="noopener"
                   class="btn-orange w-full text-center block mb-3 py-3"
                   >Book Now via WhatsApp</a
                 >
                 <a
                   href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20have%20a%20question%20about%20Goa.%20Can%20you%20help%3F"
                   target="_blank"
+                  rel="noopener"
                   class="btn-outline-navy w-full text-center block text-sm py-2"
                   >Ask a Question</a
                 >
@@ -663,6 +671,7 @@
                 ><a
                   href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Gokarna%20%E2%80%93%20Murudeshwar.%20Please%20share%20details."
                   target="_blank"
+                  rel="noopener"
                   class="btn-orange flex-1 text-sm py-2"
                   >WhatsApp Now</a
                 >
@@ -694,6 +703,7 @@
                 ><a
                   href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Kerala%20Trip.%20Please%20share%20details."
                   target="_blank"
+                  rel="noopener"
                   class="btn-orange flex-1 text-sm py-2"
                   >WhatsApp Now</a
                 >
@@ -725,6 +735,7 @@
                 ><a
                   href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Hampi.%20Please%20share%20details."
                   target="_blank"
+                  rel="noopener"
                   class="btn-orange flex-1 text-sm py-2"
                   >WhatsApp Now</a
                 >
@@ -941,6 +952,7 @@
     <a
       href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages."
       target="_blank"
+      rel="noopener"
       class="fixed bottom-6 right-6 z-50 bg-[var(--whatsapp)] text-white rounded-full p-4 shadow-2xl hover:bg-[var(--whatsapp-hover)] hover:scale-110 transition-all"
       aria-label="Chat on WhatsApp"
     >
