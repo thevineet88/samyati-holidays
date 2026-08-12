@@ -117,10 +117,6 @@
               '<span>' +
               pkg.duration +
               '</span>' +
-              '<span>' +
-              pkg.dates +
-              '</span>' +
-              (cats ? '<span>' + cats + '</span>' : '') +
               '</p>' +
               '<p class="search-result-price">' +
               pkg.priceLabel +
