@@ -78,7 +78,7 @@ async function init() {
     // Header was just injected into the DOM — bind its hamburger menu
     bindMobileMenu();
     // Notify other scripts (search.js, etc.) that the header is ready
-    window.dispatchEvent(new CustomEvent('header-injected'));
+    window.dispatchEvent(new window.CustomEvent('header-injected'));
     // Footer is now in the DOM — trigger scroll reveal
     if (typeof window.initReveal === 'function') window.initReveal();
   } catch (e) {

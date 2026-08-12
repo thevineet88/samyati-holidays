@@ -94,12 +94,6 @@
         results.innerHTML = matches
           .map(function (pkg) {
             var img = pkg.hero ? pkg.hero.replace('/1200w/', '/600w/') : '';
-            var cats = (pkg.category || [])
-              .slice(0, 2)
-              .map(function (c) {
-                return c.charAt(0).toUpperCase() + c.slice(1);
-              })
-              .join(', ');
             var thumbStyle = img ? 'background-image:url(' + img + ');' : '';
 
             return (
