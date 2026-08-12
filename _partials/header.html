@@ -16,7 +16,7 @@
           >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
         >
       </a>
-      <nav class="hidden md:flex items-center gap-8">
+      <nav class="hidden md:flex items-center gap-6">
         <a
           href="index.html"
           class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link{{ACTIVE_HOME}}"
@@ -33,7 +33,21 @@
           href="contact.html"
           class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link {{ACTIVE_CONTACT}}"
           >Contact</a
-        ><a
+        >
+        <button
+          id="search-toggle-btn"
+          class="p-2 text-navy hover:text-orange transition-colors"
+          aria-label="Search packages"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </button><a
           href="{{ WA_LINK_GENERAL }}"
           target="_blank"
           rel="noopener"
@@ -43,21 +57,37 @@
               d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-.005 0"
             />
             <path
-              d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"
+              d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10 10 10"
             /></svg
           >WhatsApp Us</a
         >
       </nav>
-      <button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Toggle menu">
-        <svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
-      </button>
+      <div class="flex items-center gap-1 md:hidden">
+        <button
+          id="search-toggle-btn-mobile"
+          class="p-2 text-navy hover:text-orange transition-colors"
+          aria-label="Search packages"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </button>
+        <button id="mobile-menu-btn" class="p-2" aria-label="Toggle menu">
+          <svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
     </div>
     <nav id="mobile-menu" class="hidden md:hidden pb-4">
       <div class="flex flex-col gap-3">
@@ -86,5 +116,29 @@
         >
       </div>
     </nav>
+  </div>
+
+  <!-- Search Dropdown -->
+  <div id="search-panel" class="hidden absolute top-full left-0 right-0 md:left-auto md:right-0 md:max-w-[380px] z-[100] mt-0">
+    <div class="bg-white rounded-b-2xl md:rounded-2xl shadow-2xl border border-t-0 md:border-t border-gray-100 mx-4 md:mx-0 overflow-hidden">
+      <div class="flex items-center gap-3 px-4 py-3 border-b border-gray-100">
+        <svg class="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+        </svg>
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Search packages..."
+          class="flex-1 text-base font-poppins text-navy placeholder-gray-400 outline-none"
+          autocomplete="off"
+        />
+        <button id="search-close-btn" class="p-1 text-gray-400 hover:text-navy transition-colors flex-shrink-0" aria-label="Close search">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <div id="search-results" class="overflow-y-auto max-h-[50vh] md:max-h-[60vh]"></div>
+    </div>
   </div>
 </header>

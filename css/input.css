@@ -778,3 +778,78 @@ footer img[src*="samyati-logo"] {
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.4; transform: scale(0.7); }
 }
+
+/* ── SEARCH RESULTS ── */
+#search-panel {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #search-panel {
+    width: auto;
+    max-width: 380px;
+    left: auto;
+    right: 0;
+  }
+}
+.search-result-item {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.search-result-item:hover {
+  background: #f9fafb;
+}
+.search-result-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 0.5rem;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  background-color: #e5e7eb;
+}
+.search-result-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25rem;
+}
+.search-result-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #2d2e6e;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.search-result-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin: 0;
+}
+.search-result-meta span {
+  white-space: nowrap;
+}
+.search-result-price {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #f97b22;
+  font-size: 0.9rem;
+  margin: 0;
+}
+.search-no-results {
+  text-align: center;
+  color: #9ca3af;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+}
