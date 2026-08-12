@@ -785,10 +785,7 @@ footer img[src*="samyati-logo"] {
 }
 @media (min-width: 768px) {
   #search-panel {
-    width: auto;
-    max-width: 380px;
-    left: auto;
-    right: 0;
+    width: 380px;
   }
 }
 .search-result-item {

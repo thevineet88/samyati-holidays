@@ -296,6 +296,9 @@
   .top-3 {
     top: calc(var(--spacing) * 3);
   }
+  .top-\[64px\] {
+    top: 64px;
+  }
   .top-full {
     top: 100%;
   }
@@ -365,9 +368,6 @@
       max-width: 96rem;
     }
   }
-  .mx-4 {
-    margin-inline: calc(var(--spacing) * 4);
-  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -376,9 +376,6 @@
   }
   .-mt-1 {
     margin-top: calc(var(--spacing) * -1);
-  }
-  .mt-0 {
-    margin-top: 0px;
   }
   .mt-0\.5 {
     margin-top: calc(var(--spacing) * 0.5);
@@ -1634,14 +1631,17 @@
     }
   }
   @media (width >= 48rem) {
+    .md\:absolute {
+      position: absolute;
+    }
+    .md\:top-full {
+      top: 100%;
+    }
     .md\:right-0 {
       right: 0px;
     }
     .md\:left-auto {
       left: auto;
-    }
-    .md\:mx-0 {
-      margin-inline: 0px;
     }
     .md\:mb-2 {
       margin-bottom: calc(var(--spacing) * 2);
@@ -1706,8 +1706,8 @@
     .md\:w-\[30\%\] {
       width: 30%;
     }
-    .md\:max-w-\[380px\] {
-      max-width: 380px;
+    .md\:w-\[380px\] {
+      width: 380px;
     }
     .md\:snap-none {
       scroll-snap-type: none;
@@ -2689,10 +2689,7 @@ footer img[src*="samyati-logo"] {
 }
 @media (min-width: 768px) {
   #search-panel {
-    width: auto;
-    max-width: 380px;
-    left: auto;
-    right: 0;
+    width: 380px;
   }
 }
 .search-result-item {
