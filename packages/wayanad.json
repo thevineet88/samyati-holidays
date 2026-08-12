@@ -2,12 +2,12 @@
   "slug": "wayanad",
   "title": "Wayanad",
   "subtitle": "Pookode Lake · Meenmutty Falls · Banasura Dam · Kerala Hills",
-  "dates": "25 – 29 December 2025",
+  "dates": "12 – 16 November 2026",
   "duration": "5 Days / 4 Nights",
-  "price": 11111,
-  "priceLabel": "₹11,111/-",
-  "priceNote": "per person (Sleeper) | ₹13,600/- (3AC)",
-  "lastBooking": "22 Oct 2025",
+  "price": 10999,
+  "priceLabel": "₹10,999/-",
+  "priceNote": "per person (Sleeper) | ₹13,499/- (3AC)",
+  "lastBooking": "30 August 2026",
   "category": ["nature", "adventure"],
   "hero": "assets/images/1200w/wayanad.webp",
   "gallery": [
@@ -23,8 +23,8 @@
     "Karapuzha Dam & 900 Kandi Bridge"
   ],
   "inclusions": [
-    "Mumbai to Mumbai SL Train Tickets (3AC upgrade available)",
-    "Non-AC Bus for sightseeing",
+    "Mumbai to Mumbai SL Class Train Tickets (3AC upgrade available)",
+    "Local sightseeing by Non-AC Bus",
     "Accommodation in 3★ Hotel (3-4 Sharing)",
     "Breakfast & Dinner",
     "Entry Fees",
@@ -36,72 +36,83 @@
     "Jeep Charges",
     "Lunch",
     "Meals during train journey",
-    "Boating/Ride Charges",
-    "Personal expenses",
+    "Any kind of Boating/Ride Charges",
+    "Any personal expense",
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Panvel — 6:00 AM, 25 Dec 2025",
+    "departure": "Panvel — 6:00 AM, 12 Nov 2026",
     "train": "Train to Kozhikode",
-    "arrival": "Reach Mumbai by 05:00 PM, 29 Dec 2025"
+    "arrival": "Reach Mumbai by 5:00 PM, 16 Nov 2026"
   },
   "itinerary": [
     {
       "day": 1,
-      "title": "Day 1",
-      "description": "Reporting Station : Panvel : 06:00 AM 25th Dec 2025 (Thursday) Mumbai to Kozhikode",
-      "meals": "Breakfast & Dinner"
+      "title": "Train Journey — Mumbai to Kozhikode",
+      "description": "Reporting Station: Panvel. Reporting Time: 6:00 AM. Board train for Kozhikode. Overnight train journey.",
+      "meals": ""
     },
     {
       "day": 2,
-      "title": "Sightseeing Reach Kozhikode station Sightseeing places",
-      "description": "till 04:30 AM Fresh-up at Railway Station Kozhikode to Wayanad Enroute Breakfast",
-      "meals": "Breakfast & Dinner"
+      "title": "Reach Kozhikode & Travel to Wayanad",
+      "description": "Reach Kozhikode station by 4:30 AM. Fresh-up at railway station. Travel to Wayanad by bus (3 hrs). En-route breakfast. Check in at hotel. Leisure time. Dinner at hotel.\n\nSightseeing places: Pookode Lake, Meenmutty Waterfall, Banasura Sagar Dam.",
+      "meals": ""
     },
     {
       "day": 3,
-      "title": "Sightseeing Out for Sightseeing Sightseeing places:-",
-      "description": "Breakfast Dinner at hotel 27th Dec 2025 (Saturday) 1.Soochipara Waterfall",
-      "meals": "Breakfast & Dinner"
+      "title": "Wayanad Sightseeing",
+      "description": "Breakfast. Out for sightseeing. Dinner at hotel.\n\nSightseeing places: Soochipara Waterfall, Karapuzha Dam, 900 Kandi Bridge.\n\nNote: Sightseeing sequence may vary as per on-time situations.",
+      "meals": ""
     },
     {
       "day": 4,
-      "title": "Sightseeing & Return Journey Check - Out from",
-      "description": "Hotel Breakfast Half Day in Mumbai by 04:30 28th Dec 2025 (Sunday)",
-      "meals": "Breakfast & Dinner"
+      "title": "Half Day Sightseeing & Return Journey",
+      "description": "Check-out from hotel. Breakfast. Half day sightseeing. Return journey for Mumbai by 4:30 PM.\n\nSightseeing places: Tribal village, Lakkidi View Point.\n\nNote: Sightseeing sequence may vary as per on-time situations.",
+      "meals": ""
     },
     {
       "day": 5,
-      "title": "Return Journey to Mumbai",
-      "description": "15 November 2025 (Saturday) — After breakfast, check out from the resort. Begin return journey to Mumbai. Reach Mumbai by approximately 8:00 PM. Return home with sweet memories!",
-      "meals": "Breakfast & Dinner"
+      "title": "Reach Mumbai",
+      "description": "Reach Mumbai by 5:00 PM. Return home with sweet memories!",
+      "meals": ""
     }
   ],
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "₹5,111/- (SL) | ₹7,600/- (3AC)",
-      "dueBy": "22 Oct 2025"
+      "amount": "₹5,999/- (SL Coach) | ₹8,299/- (3AC Coach)",
+      "dueBy": "30 August 2026"
     },
     {
       "name": "2nd Installment",
-      "amount": "₹6,000/-",
-      "dueBy": "05 Dec 2025"
+      "amount": "₹5,000/-",
+      "dueBy": "10 October 2026"
     }
   ],
   "cancellation": [
     {
-      "deadline": "On/Before 20 Nov 2025",
+      "deadline": "On/Before 20 September 2026",
       "deduction": "50%"
     },
     {
-      "deadline": "On/Before 10 Dec 2025",
+      "deadline": "On/Before 20 October 2026",
       "deduction": "90%"
     },
     {
-      "deadline": "After that",
+      "deadline": "Further till the time of departure",
       "deduction": "No Refund"
     }
+  ],
+  "notes": [
+    "Smoking and drinking is strictly prohibited during travel and sightseeing and at any other sightseeing places.",
+    "If you commit any illegal act or your behavior is found to be abusive, causing unnecessary inconvenience or any damage to the property or put other travelers or our staff in any risk/danger we may terminate your travel arrangements without any liability on our part.",
+    "Participants should sit as per the seating arrangement allotted to you in bus/train during the travel/journey, seats are allotted as per your booking.",
+    "Company won't be responsible for any additional expense caused due to any unforeseen events like Accidents, Vehicle Breakdowns, Riots, Delay in Train, Climatic conditions etc.",
+    "Company won't be responsible for any unconfirmed booking.",
+    "First Installment amount is Non-Refundable.",
+    "Sightseeing schedule is subject to change as per the on-day circumstances and availability of time.",
+    "Participants have to pay on their own for any extra rides and events at the sightseeing spots i.e coracle ride / safari etc.",
+    "Tour Operators have the right to make any On-Spot Changes in the Tour Program for any unforeseen events occurred."
   ],
   "related": ["coorg", "kerala", "kodaikanal"]
 }

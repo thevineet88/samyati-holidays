@@ -1,0 +1,122 @@
+{
+  "slug": "hampi-womens-special",
+  "title": "Hampi (Women's Special)",
+  "subtitle": "History, Culture & Heritage",
+  "dates": "03 – 07 September 2026",
+  "duration": "5 Days / 4 Nights",
+  "price": 9999,
+  "priceLabel": "₹9,999/-",
+  "priceNote": "per person",
+  "lastBooking": "10 August 2026",
+  "category": ["ladies-special"],
+  "transport": "AC Sleeper Bus",
+  "hero": "assets/images/1200w/hampi.webp",
+  "gallery": [
+    "assets/images/600w/hampi.webp",
+    "assets/images/600w/hampi.webp",
+    "assets/images/600w/hampi.webp"
+  ],
+  "highlights": [
+    "Virupaksha Temple",
+    "Vittala Temple & Stone Chariot",
+    "Lotus Mahal",
+    "Elephant Stables",
+    "Queen's Bath Complex",
+    "Underground Shiva Temple"
+  ],
+  "inclusions": [
+    "Mumbai to Hosapete AC Sleeper Bus Tickets",
+    "Hosapete to Mumbai AC Sleeper Bus Tickets",
+    "Sharing Autos for local sightseeing",
+    "Accommodation in Deluxe AC Hotel (3-4 Sharing)",
+    "3 Breakfasts & 2 Dinners (Pure Veg)",
+    "Entry fees",
+    "Mineral Water (1L on sightseeing days)",
+    "Tour Manager",
+    "First Aid"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Meals during bus journey",
+    "Day 4 Dinner",
+    "Any kind of Boating/Rides Charges",
+    "Any personal expense",
+    "Anything not mentioned in inclusions"
+  ],
+  "advisory": "Women's Special Trip — designed exclusively for women travellers. All-female group with a women tour manager. Safe, comfortable, and fun!",
+  "travel": {
+    "departure": "Borivali — 2:00 PM, 03 Sep 2026 | Sion — 3:00 PM | Nerul LP — 4:00 PM | Kalamboli MCD — 5:00 PM | Wakad Bridge (Pune) — 7:30 PM | Navale Bridge (Pune) — 9:00 PM",
+    "train": "AC Sleeper Bus to Hosapete (Return included)",
+    "arrival": "Reach Mumbai by 06:00 AM & Pune by 09:00 AM, 07 Sep 2026"
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Travelling by Bus — Mumbai to Hosapete",
+      "description": "Board AC Sleeper Bus from your nearest pickup point. Overnight journey towards Hosapete. Reach Hosapete by approximately 6:00 AM. Freshen up at common dormitory rooms, have breakfast and proceed to the day's sightseeing.",
+      "meals": "No Meals"
+    },
+    {
+      "day": 2,
+      "title": "Hampi Sightseeing — Day 1",
+      "description": "Begin with the majestic Underground Shiva Temple. Then witness the marvelous Lotus Mahal, the gigantic Elephant Stable, the Queen's Bath Complex, and end with the monolithic Nandi. Check in at hotel. Dinner and overnight stay.\n\nNote: Sequence of sightseeing places may vary depending on any unavoidable situations or crowd.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Hampi Sightseeing — Day 2",
+      "description": "Start with Kondaram Temple, then Sugreev Caves, King's Balance, the iconic Stone Chariot, and Vijay Vitthal Temple. Evening: Coracle Ride (at your own expense) and shopping at Hampi streets. Return to hotel for dinner and overnight stay.\n\nNote: Sequence of sightseeing places may vary depending on any unavoidable situations or crowd.",
+      "meals": "Breakfast, Dinner"
+    },
+    {
+      "day": 4,
+      "title": "Hampi Sightseeing — Day 3 & Return Journey",
+      "description": "Visit Virupaksha Temple, Kadalekalu Ganesha, Sasivekalu Ganesha, Badavalinga Temple (Hampi's Largest Lingam), and Ugra Narasimha Temple. After sightseeing, board the bus for return journey to Mumbai.\n\nNote: Sequence of sightseeing places may vary depending on any unavoidable situations or crowd.",
+      "meals": "Breakfast"
+    },
+    {
+      "day": 5,
+      "title": "Reach Mumbai & Pune",
+      "description": "Reach Mumbai by approximately 6:00 AM and Pune by approximately 9:00 AM. Return home with sweet memories!",
+      "meals": "No Meals"
+    }
+  ],
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹4,999/-",
+      "dueBy": "10 August 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹5,000/-",
+      "dueBy": "28 August 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 15 August 2026",
+      "deduction": "50%"
+    },
+    {
+      "deadline": "On/Before 30 August 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "Further till the time of departure",
+      "deduction": "No Refund"
+    }
+  ],
+  "notes": [
+    "Smoking and drinking is strictly prohibited during travel and sightseeing and at any other sightseeing places.",
+    "If you commit any illegal act or your behavior is found to be abusive, causing unnecessary inconvenience or any damage to the property or put other travelers or our staff in any risk/danger we may terminate your travel arrangements without any liability on our part.",
+    "Participants should sit as per the seating arrangement allotted to you in bus/train during the travel/journey.",
+    "Company won't be responsible for any additional expense caused due to any unforeseen events like Accidents, Vehicle Breakdown, Riots, Delay in Train, Climatic conditions etc.",
+    "Company won't be responsible for any unconfirmed booking.",
+    "First Installment amount is Non-Refundable.",
+    "Sightseeing schedule is subject to change as per the on-day circumstances and availability of time.",
+    "Participants have to pay on their own for any extra rides and events at the sightseeing spots i.e coracle ride / safari etc.",
+    "Tour Operators have the right to make any On-Spot Changes in the Tour Program for any unforeseen events occurred."
+  ],
+  "related": ["goa", "gokarna-murudeshwar", "coorg"]
+}

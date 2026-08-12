@@ -2,13 +2,14 @@
   "slug": "coorg",
   "title": "Coorg",
   "subtitle": "Madikeri · Abbey Falls · Talacauvery · Coffee Plantations",
-  "dates": "24 – 28 June 2026",
+  "dates": "12 – 16 November 2026",
   "duration": "5 Days / 4 Nights",
   "price": 10999,
   "priceLabel": "₹10,999/-",
   "priceNote": "per person (Sleeper) | ₹13,499/- (3AC)",
-  "lastBooking": "10 Apr 2026",
+  "lastBooking": "30 August 2026",
   "category": ["nature"],
+  "transport": "Train + Bus",
   "hero": "assets/images/1200w/coorg.webp",
   "gallery": [
     "assets/images/600w/coorg.webp",
@@ -18,7 +19,7 @@
   "highlights": [
     "Abbey Falls",
     "Talacauvery Temple",
-    "Dubbare Elephant Camp",
+    "Dubare Elephant Camp",
     "Golden Temple (Nisargdham)",
     "Coffee Plantation Visit"
   ],
@@ -29,79 +30,90 @@
     "3 Breakfasts & 2 Dinners",
     "1L Mineral Water on sightseeing days",
     "Guide Charges",
-    "All Entry Fees",
-    "Tour Manager"
+    "All Entry Fees of Sightseeing",
+    "Tour Buddy"
   ],
   "exclusions": [
     "5% GST",
     "Lunch",
     "Meals during train journey",
-    "Boating/Ride Charges",
-    "Personal expenses",
+    "Any kind of Boating/Ride Charges",
+    "Any personal expense",
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Panvel Station — 10:30 AM, 24 Jun 2026",
+    "departure": "Panvel Station — 10:30 AM, 12 Nov 2026",
     "train": "Train to Mangaluru",
-    "arrival": "Reach Mumbai by 10:45 AM, 28 Jun 2026"
+    "arrival": "Reach Mumbai by 10:45 AM, 16 Nov 2026"
   },
   "itinerary": [
     {
       "day": 1,
-      "title": "Board Train from Mumbai",
-      "description": "Reporting Station: Panvel Station. Reporting Time: 10:30 AM. Board train for Mangaluru. Overnight journey. 24 June 2026 (Wednesday)",
+      "title": "Train Journey — Mumbai to Mangaluru",
+      "description": "Reporting Station: Panvel Station. Reporting Time: 10:30 AM. Board train for Mangaluru. Overnight journey. 12 November 2026 (Thursday).",
       "meals": ""
     },
     {
       "day": 2,
       "title": "Reach Mangaluru & Travel to Coorg",
-      "description": "Arrive at Mangaluru Junction by 06:00 AM. Travel to Madikeri by Non-AC Bus (3 hrs). En-route breakfast. Check in at hotel. Freshen up. Evening at leisure. Dinner and overnight stay. 25 June 2026 (Thursday)",
+      "description": "Arrive at Mangaluru Junction by 6:00 AM. Travel to Madikeri by Non-AC Bus (3 hrs). En-route breakfast. Check in at hotel. Freshen up. Evening at leisure. Dinner at hotel. 13 November 2026 (Friday).\n\nSightseeing places: Abbey Falls, Talacauvery Temple, Bagmandala, Raja Seat view point.\n\nNote: Sightseeing sequence may vary as per on-time situations.",
       "meals": ""
     },
     {
       "day": 3,
       "title": "Coorg Sightseeing",
-      "description": "After breakfast, proceed for Coorg sightseeing. Visit Dubare Elephant Camp for elephant interaction. Visit Golden Temple (Namdroling Monastery) in Bylakuppe. Explore local spice plantations. Dinner and overnight stay. 26 June 2026 (Friday)",
+      "description": "Breakfast. Out for sightseeing. Dinner at hotel. 14 November 2026 (Saturday).\n\nSightseeing places: Dubare Elephant Camp, Golden Temple, Nisargdham Forest, Coffee Plantation Visit.\n\nNote: Sightseeing sequence may vary as per on-time situations.",
       "meals": ""
     },
     {
       "day": 4,
-      "title": "Abbey Falls & Departure",
-      "description": "After breakfast, check out from hotel. Visit Abbey Falls, the stunning cascade in the coffee plantations. Later, proceed to Mangaluru Junction Station. Board train for Mumbai. 27 June 2026 (Saturday)",
+      "title": "Sightseeing & Return Journey",
+      "description": "Check-out from hotel. Breakfast at 8 AM. Visit Omkareshwar Temple. Travel to Mangaluru Junction Station. Train Boarding Time: 1:30 PM. 15 November 2026 (Sunday).",
       "meals": ""
     },
     {
       "day": 5,
       "title": "Reach Mumbai",
-      "description": "Reach Mumbai by approximately 10:45 AM on 28 June 2026. Return home with sweet memories!",
+      "description": "Reach Mumbai by 10:45 AM. 16 November 2026 (Monday). Return home with sweet memories!",
       "meals": ""
     }
   ],
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "₹5,999/- (SL) | ₹8,499/- (3AC)",
-      "dueBy": "20 Apr 2026"
+      "amount": "₹5,999/- (SL Coach) | ₹8,499/- (3AC Coach)",
+      "dueBy": "30 August 2026"
     },
     {
       "name": "2nd Installment",
       "amount": "₹5,000/-",
-      "dueBy": "05 Jun 2026"
+      "dueBy": "10 October 2026"
     }
   ],
   "cancellation": [
     {
-      "deadline": "On/Before 30 Apr 2026",
+      "deadline": "On/Before 20 September 2026",
       "deduction": "40%"
     },
     {
-      "deadline": "On/Before 10 Jun 2026",
+      "deadline": "On/Before 20 October 2026",
       "deduction": "90%"
     },
     {
-      "deadline": "After that",
+      "deadline": "Further till the time of departure",
       "deduction": "No Refund"
     }
+  ],
+  "notes": [
+    "Smoking and drinking is strictly prohibited during travel and sightseeing and at any other sightseeing places.",
+    "If you commit any illegal act or your behavior is found to be abusive, causing unnecessary inconvenience or any damage to the property or put other travelers or our staff in any risk/danger we may terminate your travel arrangements without any liability on our part.",
+    "Participants should sit as per the seating arrangement allotted to you in the bus/train during the travel/journey; seats are allotted as per your booking.",
+    "Company won't be responsible for any additional expenses caused due to any unforeseen events like Accidents, vehicle breakdowns, Riots, Delay in Train, Climatic conditions etc.",
+    "Company won't be responsible for any unconfirmed booking.",
+    "First Installment amount is Non-Refundable.",
+    "Sightseeing schedule is subject to change as per the on-day circumstances and availability of time.",
+    "Participants have to pay on their own for any extra rides and events at the sightseeing spots i.e ride / safari etc.",
+    "Tour Operators have the right to make any On-Spot Changes in the Tour Program for any unforeseen events occurred."
   ],
   "related": ["wayanad", "kerala", "ooty-mysore"]
 }

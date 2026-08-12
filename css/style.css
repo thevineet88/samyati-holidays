@@ -299,9 +299,6 @@
   .top-\[64px\] {
     top: 64px;
   }
-  .top-full {
-    top: 100%;
-  }
   .-right-8 {
     right: calc(var(--spacing) * -8);
   }

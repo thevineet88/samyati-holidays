@@ -1,14 +1,15 @@
 {
   "slug": "hampi",
   "title": "Hampi",
-  "subtitle": "Vijayanagara Ruins · Temple Architecture · Heritage",
-  "dates": "05 – 09 November 2025",
+  "subtitle": "Ancient Ruins · Stone Chariot · UNESCO World Heritage",
+  "dates": "12 – 16 November 2026",
   "duration": "5 Days / 4 Nights",
-  "price": 7999,
-  "priceLabel": "₹7,999/-",
-  "priceNote": "per person (inclusive of bus)",
-  "lastBooking": "25 Oct 2025",
-  "category": ["nature", "adventure"],
+  "price": 9999,
+  "priceLabel": "₹9,999/-",
+  "priceNote": "per person",
+  "lastBooking": "30 August 2026",
+  "category": ["adventure", "nature"],
+  "transport": "Train + Bus",
   "hero": "assets/images/1200w/hampi.webp",
   "gallery": [
     "assets/images/600w/hampi.webp",
@@ -20,63 +21,99 @@
     "Vittala Temple & Stone Chariot",
     "Lotus Mahal",
     "Elephant Stables",
+    "Queen's Bath Complex",
     "Underground Shiva Temple"
   ],
   "inclusions": [
-    "Mumbai to Hampi AC Bus Tickets (both ways)",
-    "Accommodation",
-    "Breakfast & Dinner",
+    "Mumbai to Mumbai SL Class Train Tickets",
+    "Local sightseeing by Non-AC Bus",
+    "Accommodation in 3★ Hotel (3-4 Sharing)",
+    "3 Breakfasts & 2 Dinners",
     "Entry Fees",
-    "Mineral Water",
-    "First Aid",
-    "Tour Manager"
+    "Mineral Water (1L on sightseeing days)",
+    "Tour Buddy"
   ],
   "exclusions": [
     "5% GST",
     "Lunch",
-    "Meals during bus journey",
-    "Personal expenses",
-    "Coracle Ride (at own cost)",
+    "Meals during train journey",
+    "Any kind of Boating/Ride Charges",
+    "Any personal expense",
     "Anything not mentioned in inclusions"
   ],
   "travel": {
-    "departure": "Borivali — 2:00 PM, 05 Nov | Multiple pickup points across Mumbai",
-    "train": "AC Bus to Hampi",
-    "arrival": "Reach Mumbai, 09 Nov 2025"
+    "departure": "Panvel Station — 10:30 AM, 12 Nov 2026",
+    "train": "Train to Hosapete",
+    "arrival": "Reach Mumbai by 10:45 AM, 16 Nov 2026"
   },
   "itinerary": [
     {
       "day": 1,
-      "title": "Board Bus from Mumbai",
-      "description": "Boarding points: Borivali (2:00 PM), Sion (3:00 PM), Nerul LP (4:00 PM), Kalamboli MCD (5:00 PM), Wakad Bridge (7:30 PM), Navale Bridge (9:00 PM). Arrive 15 minutes before departure. Overnight bus journey towards Hosapete.",
-      "meals": "No Meals"
+      "title": "Train Journey — Mumbai to Hosapete",
+      "description": "Reporting Station: Panvel Station. Reporting Time: 10:30 AM. Board train for Hosapete. Overnight journey. 12 November 2026 (Thursday).",
+      "meals": ""
     },
     {
       "day": 2,
-      "title": "Hampi Sightseeing",
-      "description": "Reach Hosapete by approximately 6:00 AM. Freshen up in common dormitory rooms. Breakfast. Sightseeing: Underground Shiva Temple, Lotus Mahal, Elephant Stable, Queen's Bath Complex, Monolithic Nandi. Check into hotel. Dinner and overnight stay.",
-      "meals": "Breakfast, Dinner"
+      "title": "Reach Hosapete & Travel to Hampi",
+      "description": "Arrive at Hosapete by 6:00 AM. Travel to Hampi by bus (30 min). En-route breakfast. Check in at hotel. Freshen up. Evening at leisure. Dinner at hotel. 13 November 2026 (Friday).",
+      "meals": ""
     },
     {
       "day": 3,
-      "title": "Hampi Sightseeing",
-      "description": "Breakfast. Visit Kondaram Temple, Sugreev Caves, King's Balance, Stone Chariot, and Vijay Vitthal Temple. Evening: Coracle Ride (at own expense). Shopping in Hampi streets. Return to hotel. Dinner and overnight stay.",
-      "meals": "Breakfast, Dinner"
+      "title": "Hampi Sightseeing — Day 1",
+      "description": "Breakfast. Out for sightseeing. Dinner at hotel. 14 November 2026 (Saturday).\n\nSightseeing places: Underground Shiva Temple, Lotus Mahal, Elephant Stable, Queen's Bath Complex, Nandi (Monolithic).",
+      "meals": ""
     },
     {
       "day": 4,
-      "title": "Hampi Sightseeing + Return",
-      "description": "Breakfast. Visit Virupaksha Temple, Kadalekalu Ganesha, Sasivekalu Ganesha, Badavalinga Temple, and Ugra Narasimha Temple. After sightseeing, board bus for return journey to Mumbai.",
-      "meals": "Breakfast"
+      "title": "Hampi Sightseeing — Day 2",
+      "description": "Breakfast. Out for sightseeing. Dinner at hotel. 15 November 2026 (Sunday).\n\nSightseeing places: Kondaram Temple, Sugreev Caves, King's Balance, Stone Chariot, Vijay Vitthal Temple, Coracle Ride.",
+      "meals": ""
     },
     {
       "day": 5,
-      "title": "Reach Mumbai",
-      "description": "Reach Mumbai by approximately 7:00 AM. Return home with sweet memories!",
-      "meals": "No Meals"
+      "title": "Return Journey",
+      "description": "Breakfast at 8 AM. Visit Virupaksha Temple, Kadalekalu Ganesha, Sasivekalu Ganesha, Badavalinga Temple. Travel to Hosapete Station. Board train for Mumbai. 16 November 2026 (Monday).\n\nReach Mumbai by 10:45 AM. Return home with sweet memories!",
+      "meals": ""
     }
   ],
-  "installments": [],
-  "cancellation": [],
-  "related": ["goa", "gokarna-murudeshwar", "coorg"]
+  "installments": [
+    {
+      "name": "1st Installment (Non-Refundable)",
+      "amount": "₹4,999/-",
+      "dueBy": "30 August 2026"
+    },
+    {
+      "name": "2nd Installment",
+      "amount": "₹5,000/-",
+      "dueBy": "10 October 2026"
+    }
+  ],
+  "cancellation": [
+    {
+      "deadline": "On/Before 20 September 2026",
+      "deduction": "50%"
+    },
+    {
+      "deadline": "On/Before 20 October 2026",
+      "deduction": "90%"
+    },
+    {
+      "deadline": "Further till the time of departure",
+      "deduction": "No Refund"
+    }
+  ],
+  "notes": [
+    "Smoking and drinking is strictly prohibited during travel and sightseeing and at any other sightseeing places.",
+    "If you commit any illegal act or your behavior is found to be abusive, causing unnecessary inconvenience or any damage to the property or put other travelers or our staff in any risk/danger we may terminate your travel arrangements without any liability on our part.",
+    "Participants should sit as per the seating arrangement allotted to you in the bus/train during the travel/journey; seats are allotted as per your booking.",
+    "Company won't be responsible for any additional expenses caused due to any unforeseen events like Accidents, vehicle breakdowns, Riots, Delay in Train, Climatic conditions etc.",
+    "Company won't be responsible for any unconfirmed booking.",
+    "First Installment amount is Non-Refundable.",
+    "Sightseeing schedule is subject to change as per the on-day circumstances and availability of time.",
+    "Participants have to pay on their own for any extra rides and events at the sightseeing spots i.e ride / safari etc.",
+    "Tour Operators have the right to make any On-Spot Changes in the Tour Program for any unforeseen events occurred."
+  ],
+  "related": ["hampi-womens-special", "goa", "kerala"]
 }
