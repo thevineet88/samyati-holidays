@@ -823,31 +823,38 @@
               />
             </svg>
           </button>
-          <!-- Left side — Branding (40%) -->
+          <!-- Left side — Branding (40% on desktop, banner on mobile) -->
           <div
-            class="bg-navy text-white p-8 md:p-10 flex flex-col justify-between items-center text-center lp-branding relative overflow-hidden"
+            class="bg-navy text-white relative overflow-hidden lp-branding"
+            style="min-height: 160px"
           >
-            <!-- Background moon image -->
+            <!-- Full-bleed background image -->
             <img
-              src="https://images.unsplash.com/photo-1506905925346-3b7de6ca0a5e?w=600&q=80"
+              src="assets/munnar_tree.webp"
               alt=""
-              class="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-overlay pointer-events-none"
+              class="absolute inset-0 w-full h-full object-cover opacity-25 pointer-events-none"
               aria-hidden="true"
             />
-            <!-- Top content -->
-            <div class="relative z-10 mt-4">
-              <h3 class="font-poppins font-bold text-xl md:text-2xl mb-3">Feeling FamilyVali!</h3>
-              <p class="text-white/70 text-sm leading-relaxed">
+            <!-- Dark overlay for text readability -->
+            <div class="absolute inset-0 bg-navy/70"></div>
+            <!-- Content -->
+            <div
+              class="relative z-10 flex flex-col items-center justify-center text-center p-6 md:p-8 h-full min-h-[160px]"
+            >
+              <h3 class="font-poppins font-bold text-lg md:text-xl mb-2 leading-tight">
+                Feeling फॅमिली वाली!
+              </h3>
+              <p class="text-white/80 text-xs md:text-sm leading-relaxed max-w-[220px]">
                 Explore our handpicked group tours and start planning your next unforgettable
                 journey.
               </p>
             </div>
-            <!-- Bottom-right logo -->
-            <div class="relative z-10 self-end mb-2">
+            <!-- Logo bottom-right -->
+            <div class="absolute bottom-3 right-3 md:bottom-4 md:right-4 z-10">
               <img
                 src="assets/samyati-logo-cropped.png"
                 alt="Samyati Holidays"
-                class="h-14 md:h-16 w-auto opacity-90"
+                class="h-10 md:h-12 w-auto opacity-90"
                 onerror="this.style.display = 'none'"
               />
             </div>

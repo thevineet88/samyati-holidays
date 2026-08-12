@@ -1,10 +1,44 @@
 <!-- Lead Capture Popup -->
 <style>
-  #lead-popup .lp-branding  { flex: 0 0 100%; max-width: 100%; }
+  /* Layout */
+  #lead-popup .lp-branding  { flex: 1 1 100%; max-width: 100%; }
   #lead-popup .lp-form     { flex: 1 1 100%; max-width: 100%; }
   @media (min-width: 768px) {
     #lead-popup .lp-branding  { flex: 0 0 40%; max-width: 40%; }
     #lead-popup .lp-form     { flex: 0 0 60%; max-width: 60%; }
+  }
+  @media (max-width: 767px) {
+    #lead-popup-panel {
+      flex-direction: column !important;
+      max-width: 100% !important;
+      max-height: 95vh !important;
+      border-radius: 1rem !important;
+    }
+  }
+  /* Visibility & Animation */
+  #lead-popup.hidden { display: none !important; }
+  .animate-popup-in {
+    animation: popupIn 0.35s ease-out;
+  }
+  @keyframes popupIn {
+    from { opacity: 0; transform: scale(0.92) translateY(16px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  body.popup-open { overflow: hidden; }
+  /* Feedback messages */
+  #lead-popup .form-success {
+    padding: 0.75rem 1rem;
+    background: #f0fdf4;
+    color: #166534;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+  }
+  #lead-popup .form-error {
+    padding: 0.75rem 1rem;
+    background: #fef2f2;
+    color: #991b1b;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
   }
 </style>
 <div id="lead-popup" class="hidden" role="dialog" aria-modal="true" aria-labelledby="lead-popup-title">
@@ -19,30 +53,30 @@
         </svg>
       </button>
 
-      <!-- Left side — Branding (40%) -->
-      <div class="bg-navy text-white p-8 md:p-10 flex flex-col justify-between items-center text-center lp-branding relative overflow-hidden">
-        <!-- Background moon image -->
+      <!-- Left side — Branding (40% on desktop, banner on mobile) -->
+      <div class="bg-navy text-white relative overflow-hidden lp-branding" style="min-height:200px">
+        <!-- Full-bleed background image -->
         <img
-          src="https://images.unsplash.com/photo-1506905925346-3b7de6ca0a5e?w=600&q=80"
+          src="assets/munnar_tree.webp"
           alt=""
-          class="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-overlay pointer-events-none"
+          class="absolute inset-0 w-full h-full object-cover opacity-25 pointer-events-none"
           aria-hidden="true"
         />
-        <!-- Top content -->
-        <div class="relative z-10 mt-4">
-          <h3 class="font-poppins font-bold text-xl md:text-2xl mb-3">Feeling FamilyVali!</h3>
-          <p class="text-white/70 text-sm leading-relaxed">
-            Explore our handpicked group tours and start planning your next unforgettable journey.
-          </p>
-        </div>
-        <!-- Bottom-right logo -->
-        <div class="relative z-10 self-end mb-2">
+        <!-- Dark overlay for text readability -->
+        <div class="absolute inset-0 bg-navy/70"></div>
+        <!-- Content -->
+        <div class="relative z-10 flex flex-col items-center justify-center text-center p-6 md:p-8 h-full min-h-[200px]">
+          <!-- Logo -->
           <img
             src="assets/samyati-logo-cropped.png"
             alt="Samyati Holidays"
-            class="h-14 md:h-16 w-auto opacity-90"
+            class="h-12 md:h-14 w-auto mb-4 opacity-90"
             onerror="this.style.display='none'"
           />
+          <h3 class="font-poppins font-bold text-lg md:text-xl mb-2 leading-tight">Feeling फॅमिली वाली!</h3>
+          <p class="text-white/80 text-xs md:text-sm leading-relaxed max-w-[220px]">
+            Explore our handpicked group tours and start planning your next unforgettable journey.
+          </p>
         </div>
       </div>
 
