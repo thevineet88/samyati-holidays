@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "samyati-holidays",
+      "name": "Samyati Dev Server",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "3456", "--directory", "/Users/vinitbrahmankar/Documents/Kuber Projects/samyati-holidays"],
-      "port": 3456
+      "runtimeArgs": ["-m", "http.server", "8081"],
+      "port": 8081
     }
   ]
 }

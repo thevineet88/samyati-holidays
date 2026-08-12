@@ -1,0 +1,106 @@
+<!-- Lead Capture Popup -->
+<style>
+  #lead-popup .lp-branding  { flex: 0 0 100%; max-width: 100%; }
+  #lead-popup .lp-form     { flex: 1 1 100%; max-width: 100%; }
+  @media (min-width: 768px) {
+    #lead-popup .lp-branding  { flex: 0 0 40%; max-width: 40%; }
+    #lead-popup .lp-form     { flex: 0 0 60%; max-width: 60%; }
+  }
+</style>
+<div id="lead-popup" class="hidden" role="dialog" aria-modal="true" aria-labelledby="lead-popup-title">
+  <!-- Backdrop (no click-to-close — only the X button closes) -->
+  <div id="lead-popup-backdrop" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-[200] flex items-center justify-center p-4">
+    <div id="lead-popup-panel" class="bg-white rounded-2xl shadow-2xl overflow-hidden w-full max-w-3xl max-h-[90vh] flex flex-col md:flex-row relative animate-popup-in">
+
+      <!-- Close button -->
+      <button id="lead-popup-close" class="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center rounded-full bg-white/80 hover:bg-white text-navy hover:text-orange transition-colors" aria-label="Close">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+
+      <!-- Left side — Branding (40%) -->
+      <div class="bg-navy text-white p-8 md:p-10 flex flex-col justify-between items-center text-center lp-branding relative overflow-hidden">
+        <!-- Background moon image -->
+        <img
+          src="https://images.unsplash.com/photo-1506905925346-3b7de6ca0a5e?w=600&q=80"
+          alt=""
+          class="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-overlay pointer-events-none"
+          aria-hidden="true"
+        />
+        <!-- Top content -->
+        <div class="relative z-10 mt-4">
+          <h3 class="font-poppins font-bold text-xl md:text-2xl mb-3">Feeling FamilyVali!</h3>
+          <p class="text-white/70 text-sm leading-relaxed">
+            Explore our handpicked group tours and start planning your next unforgettable journey.
+          </p>
+        </div>
+        <!-- Bottom-right logo -->
+        <div class="relative z-10 self-end mb-2">
+          <img
+            src="assets/samyati-logo-cropped.png"
+            alt="Samyati Holidays"
+            class="h-14 md:h-16 w-auto opacity-90"
+            onerror="this.style.display='none'"
+          />
+        </div>
+      </div>
+
+      <!-- Right side — Enquiry Form (60%) -->
+      <div class="p-6 md:p-8 lp-form overflow-y-auto">
+        <h4 id="lead-popup-title" class="font-poppins font-bold text-navy text-lg mb-1">Let's Plan Your Trip!</h4>
+        <p class="text-muted text-sm mb-5">Fill in your details and we'll get back to you within 24 hours.</p>
+
+        <div class="form-success mb-3" style="display:none" id="lead-popup-success">
+          Thank you! We'll reach out shortly.
+        </div>
+        <div class="form-error mb-3" style="display:none" id="lead-popup-error">
+          Something went wrong. Please WhatsApp us directly.
+        </div>
+
+        <form
+          action="https://formspree.io/f/xnjelqae"
+          method="POST"
+          data-async
+          class="space-y-3"
+          id="lead-popup-form"
+        >
+          <input type="hidden" name="source" value="popup-enquiry" />
+          <div>
+            <label for="lp-name" class="form-label">Your Name</label>
+            <input
+              type="text"
+              id="lp-name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+              class="form-field"
+            />
+          </div>
+          <div>
+            <label for="lp-phone" class="form-label">Phone / WhatsApp Number</label>
+            <input
+              type="tel"
+              id="lp-phone"
+              name="phone"
+              placeholder="+91 98765 43210"
+              required
+              class="form-field"
+            />
+          </div>
+          <div>
+            <label for="lp-interest" class="form-label">Trip You're Interested In</label>
+            <input
+              type="text"
+              id="lp-interest"
+              name="trip_interest"
+              placeholder="e.g. Kedarnath, Goa, Kashmir..."
+              class="form-field"
+            />
+          </div>
+          <button type="submit" class="btn-orange w-full py-3 text-sm">Send Enquiry</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

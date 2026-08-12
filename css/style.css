@@ -347,6 +347,9 @@
   .z-\[100\] {
     z-index: 100;
   }
+  .z-\[200\] {
+    z-index: 200;
+  }
   .container {
     width: 100%;
     @media (width >= 40rem) {
@@ -491,6 +494,9 @@
   .h-7 {
     height: calc(var(--spacing) * 7);
   }
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
   .h-9 {
     height: calc(var(--spacing) * 9);
   }
@@ -502,6 +508,9 @@
   }
   .h-12 {
     height: calc(var(--spacing) * 12);
+  }
+  .h-16 {
+    height: calc(var(--spacing) * 16);
   }
   .h-40 {
     height: calc(var(--spacing) * 40);
@@ -529,6 +538,9 @@
   }
   .max-h-\[50vh\] {
     max-height: 50vh;
+  }
+  .max-h-\[90vh\] {
+    max-height: 90vh;
   }
   .min-h-\[26px\] {
     min-height: 26px;
@@ -559,6 +571,9 @@
   }
   .w-7 {
     width: calc(var(--spacing) * 7);
+  }
+  .w-8 {
+    width: calc(var(--spacing) * 8);
   }
   .w-9 {
     width: calc(var(--spacing) * 9);
@@ -636,6 +651,9 @@
     flex: 1;
   }
   .flex-shrink-0 {
+    flex-shrink: 0;
+  }
+  .shrink-0 {
     flex-shrink: 0;
   }
   .-translate-x-1\/2 {
@@ -895,6 +913,12 @@
   .bg-amber-50 {
     background-color: var(--color-amber-50);
   }
+  .bg-black\/60 {
+    background-color: color-mix(in srgb, #000 60%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 60%, transparent);
+    }
+  }
   .bg-blue-50 {
     background-color: var(--color-blue-50);
   }
@@ -1010,6 +1034,12 @@
     background-color: color-mix(in srgb, #fff 30%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-white) 30%, transparent);
+    }
+  }
+  .bg-white\/80 {
+    background-color: color-mix(in srgb, #fff 80%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-white) 80%, transparent);
     }
   }
   .bg-gradient-to-br {
@@ -1553,6 +1583,9 @@
     .hover\:bg-pink-500:hover {
       background-color: var(--color-pink-500);
     }
+    .hover\:bg-white:hover {
+      background-color: var(--color-white);
+    }
     .hover\:bg-white\/10:hover {
       background-color: color-mix(in srgb, #fff 10%, transparent);
     }
@@ -1676,6 +1709,9 @@
     .md\:h-16 {
       height: calc(var(--spacing) * 16);
     }
+    .md\:h-20 {
+      height: calc(var(--spacing) * 20);
+    }
     .md\:h-\[78px\] {
       height: 78px;
     }
@@ -1685,8 +1721,14 @@
     .md\:max-h-\[60vh\] {
       max-height: 60vh;
     }
+    .md\:w-2\/5 {
+      width: calc(2 / 5 * 100%);
+    }
     .md\:w-3 {
       width: calc(var(--spacing) * 3);
+    }
+    .md\:w-3\/5 {
+      width: calc(3 / 5 * 100%);
     }
     .md\:w-4 {
       width: calc(var(--spacing) * 4);
@@ -1739,6 +1781,9 @@
     }
     .md\:p-8 {
       padding: calc(var(--spacing) * 8);
+    }
+    .md\:p-10 {
+      padding: calc(var(--spacing) * 10);
     }
     .md\:px-12 {
       padding-inline: calc(var(--spacing) * 12);

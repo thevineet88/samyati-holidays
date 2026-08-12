@@ -72,9 +72,23 @@ function bindMobileMenu() {
 
 async function init() {
   try {
-    const [header, footer] = await Promise.all([loadPartial('header'), loadPartial('footer')]);
+    const [header, footer, leadPopup] = await Promise.all([
+      loadPartial('header'),
+      loadPartial('footer'),
+      loadPartial('lead-popup')
+    ]);
     inject('PARTIAL_HEADER', header);
     inject('PARTIAL_FOOTER', footer);
+    // Inject lead-capture popup (no marker needed — append to body)
+    if (leadPopup) {
+      const wrapper = document.createElement('div');
+      wrapper.innerHTML = leadPopup;
+      const popup = wrapper.querySelector('#lead-popup');
+      if (popup) {
+        document.body.appendChild(popup);
+        window.dispatchEvent(new window.CustomEvent('lead-popup-injected'));
+      }
+    }
     // Header was just injected into the DOM — bind its hamburger menu
     bindMobileMenu();
     // Notify other scripts (search.js, etc.) that the header is ready

@@ -501,3 +501,126 @@ document.querySelectorAll('nav:not(#mobile-menu) .nav-link').forEach((link) => {
     link.classList.add('active');
   }
 });
+
+// ── Lead Capture Popup ──
+// Runs on every page. Uses sessionStorage so the popup reappears on a new session.
+(function () {
+  if (window.__leadPopupInitialized) return;
+  window.__leadPopupInitialized = true;
+
+  var KEY = 'samyati_lead_popup_dismissed';
+  var popup, btn;
+
+  function dismissed() {
+    try {
+      return sessionStorage.getItem(KEY) === '1';
+    } catch (e) {
+      return false;
+    }
+  }
+  function setDismissed() {
+    try {
+      sessionStorage.setItem(KEY, '1');
+    } catch (e) {}
+  }
+
+  function hide() {
+    if (!popup) return;
+    popup.classList.add('hidden');
+    document.body.classList.remove('popup-open');
+  }
+
+  function show() {
+    if (!popup) return;
+    popup.classList.remove('hidden');
+    document.body.classList.add('popup-open');
+  }
+
+  function initForm() {
+    var f = document.getElementById('lead-popup-form');
+    if (!f) return;
+    f.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var btn = f.querySelector('button[type="submit"]');
+      var ok = document.getElementById('lead-popup-success');
+      var err = document.getElementById('lead-popup-error');
+      var t = btn.textContent;
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+      fetch(f.action, {
+        method: 'POST',
+        body: new FormData(f),
+        headers: { Accept: 'application/json' }
+      })
+        .then(function (r) {
+          if (r.ok) {
+            f.reset();
+            if (ok) ok.style.display = 'block';
+            if (err) err.style.display = 'none';
+            setTimeout(hide, 3000);
+          } else {
+            if (err) err.style.display = 'block';
+            setTimeout(function () {
+              if (err) err.style.display = 'none';
+            }, 5000);
+          }
+        })
+        .catch(function () {
+          if (err) err.style.display = 'block';
+          setTimeout(function () {
+            if (err) err.style.display = 'none';
+          }, 5000);
+        })
+        .finally(function () {
+          btn.textContent = t;
+          btn.disabled = false;
+        });
+    });
+  }
+
+  function bind() {
+    popup = document.getElementById('lead-popup');
+    btn = document.getElementById('lead-popup-close');
+    backdrop = document.getElementById('lead-popup-backdrop');
+    if (!popup) return;
+
+    initForm();
+
+    btn.addEventListener('click', function () {
+      hide();
+      setDismissed();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && popup && !popup.classList.contains('hidden')) {
+        hide();
+        setDismissed();
+      }
+    });
+  }
+
+  function tryShow() {
+    if (dismissed()) return;
+    bind();
+    show();
+  }
+
+  // For root pages: popup is injected by partials.js asynchronously.
+  // For dist/template pages: popup HTML comes after main.js in the DOM.
+  if (document.getElementById('lead-popup')) {
+    // Dist/template pages: popup already in DOM, show immediately
+    tryShow();
+  } else {
+    // Root pages: wait for partials.js to inject the popup
+    window.addEventListener('lead-popup-injected', function () {
+      tryShow();
+    });
+    // Fallback: if the popup is later in the DOM (e.g. dist pages where
+    // main.js is loaded before the popup markup), also check after DOM ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function () {
+        if (document.getElementById('lead-popup')) tryShow();
+      });
+    }
+  }
+})();
