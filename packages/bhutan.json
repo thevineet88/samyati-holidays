@@ -8,6 +8,7 @@
   "priceLabel": "₹33,333/-",
   "priceNote": "per person",
   "lastBooking": "05 April 2026",
+  "comingSoon": true,
   "category": ["adventure", "nature"],
   "hero": "assets/images/1200w/bhutan.webp",
   "gallery": [

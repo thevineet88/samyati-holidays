@@ -136,6 +136,7 @@ const SAMYATI_PACKAGES = [
     "priceLabel": "₹33,333/-",
     "priceNote": "per person",
     "lastBooking": "05 April 2026",
+    "comingSoon": true,
     "category": [
       "adventure",
       "nature"
@@ -595,6 +596,7 @@ const SAMYATI_PACKAGES = [
     "priceNote": "per person",
     "lastBooking": "10 August 2026",
     "category": [
+      "adventure",
       "ladies-special"
     ],
     "transport": "AC Sleeper Bus",

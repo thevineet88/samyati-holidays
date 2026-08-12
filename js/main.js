@@ -298,7 +298,9 @@ function initCarousels() {
     if (cat === 'coming-soon') continue;
     var cards = sorted
       .filter(function (p) {
-        return (p.category || []).indexOf(cat) !== -1;
+        if ((p.category || []).indexOf(cat) === -1) return false;
+        if (p.comingSoon === true) return false;
+        return true;
       })
       .map(renderPackageCard)
       .join('');
