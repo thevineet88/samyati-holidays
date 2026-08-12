@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Solang Valley · Parvati Valley · Kasol Campsite · Adventure" />
+    <meta
+      name="description"
+      content="Solang Valley · Parvati Valley · Kasol Campsite · Adventure"
+    />
     <title>Manali – Kasol</title>
     <link rel="icon" type="image/png" sizes="any" href="assets/favicon/favicon-512x512.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
@@ -25,160 +28,201 @@
   <body class="bg-white">
     <!-- Header -->
     <header
-  id="main-header"
-  class="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-sm shadow-sm"
->
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-[64px] md:h-[78px]">
-      <a href="index.html" class="flex items-center gap-2">
-        <img
-          src="assets/samyati-logo-cropped.png"
-          alt="Samyati Holidays"
-          class="h-12 md:h-16 w-auto"
-          onerror="this.style.display = 'none'"
-        />
-        <span
-          class="tagline-hand self-end block text-navy text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2 font-bold"
-          >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
-        >
-      </a>
-      <div class="relative">
-        <nav class="hidden md:flex items-center gap-6">
-          <a
-            href="index.html"
-            class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
-            >Home</a
-          ><a
-            href="packages.html"
-            class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link  active"
-            >Packages</a
-          ><a
-            href="about.html"
-            class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link "
-            >About Us</a
-          ><a
-            href="contact.html"
-            class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link "
-            >Contact</a
-          >
-          <button
-            id="search-toggle-btn"
-            class="p-2 text-navy hover:text-orange transition-colors"
-            aria-label="Search packages"
-          >
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
-          </button><a
-            href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages."
-            target="_blank"
-            rel="noopener"
-            class="btn-whatsapp text-sm py-2 px-4 flex items-center gap-2 rounded-lg transition-colors"
-            ><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-.005 0"
-              />
-              <path
-                d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10 10 10"
-                /></svg
-            >WhatsApp Us</a
-          >
-        </nav>
-        <div class="flex items-center gap-1 md:hidden">
-          <button
-            id="search-toggle-btn-mobile"
-            class="p-2 text-navy hover:text-orange transition-colors"
-            aria-label="Search packages"
-          >
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
-          </button>
-          <button id="mobile-menu-btn" class="p-2" aria-label="Toggle menu">
-            <svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </button>
-        </div>
-
-        <!-- Search Dropdown -->
-        <div id="search-panel" class="hidden fixed top-[64px] left-0 right-0 w-full md:absolute md:top-full md:left-auto md:right-0 md:w-[380px] z-[100]">
-          <div class="bg-white rounded-b-2xl md:rounded-2xl shadow-2xl border border-t-0 md:border-t border-gray-100 overflow-hidden">
-            <div class="flex items-center gap-3 px-4 py-3 border-b border-gray-100">
-              <svg class="w-5 h-5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-              </svg>
-              <input
-                id="search-input"
-                type="text"
-                placeholder="Search packages..."
-                class="flex-1 text-base font-poppins text-navy placeholder-gray-400 outline-none"
-                autocomplete="off"
-              />
-              <button id="search-close-btn" class="p-1 text-gray-400 hover:text-navy transition-colors flex-shrink-0" aria-label="Close search">
+      id="main-header"
+      class="fixed top-0 left-0 right-0 z-50 bg-white backdrop-blur-sm shadow-sm"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-[64px] md:h-[78px]">
+          <a href="index.html" class="flex items-center gap-2">
+            <img
+              src="assets/samyati-logo-cropped.png"
+              alt="Samyati Holidays"
+              class="h-12 md:h-16 w-auto"
+              onerror="this.style.display = 'none'"
+            />
+            <span
+              class="tagline-hand self-end block text-navy text-[11px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2 font-bold"
+              >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
+            >
+          </a>
+          <div class="relative">
+            <nav class="hidden md:flex items-center gap-6">
+              <a
+                href="index.html"
+                class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+                >Home</a
+              ><a
+                href="packages.html"
+                class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link active"
+                >Packages</a
+              ><a
+                href="about.html"
+                class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+                >About Us</a
+              ><a
+                href="contact.html"
+                class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+                >Contact</a
+              >
+              <button
+                id="search-toggle-btn"
+                class="p-2 text-navy hover:text-orange transition-colors"
+                aria-label="Search packages"
+              >
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg></button
+              ><a
+                href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages."
+                target="_blank"
+                rel="noopener"
+                class="btn-whatsapp text-sm py-2 px-4 flex items-center gap-2 rounded-lg transition-colors"
+                ><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-.005 0"
+                  />
+                  <path
+                    d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10 10 10"
+                  /></svg
+                >WhatsApp Us</a
+              >
+            </nav>
+            <div class="flex items-center gap-1 md:hidden">
+              <button
+                id="search-toggle-btn-mobile"
+                class="p-2 text-navy hover:text-orange transition-colors"
+                aria-label="Search packages"
+              >
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+              </button>
+              <button id="mobile-menu-btn" class="p-2" aria-label="Toggle menu">
+                <svg
+                  class="w-6 h-6 text-navy"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 </svg>
               </button>
             </div>
-            <div id="search-results" class="overflow-y-auto max-h-[50vh] md:max-h-[60vh]"></div>
+
+            <!-- Search Dropdown -->
+            <div
+              id="search-panel"
+              class="hidden fixed top-[64px] left-0 right-0 w-full md:absolute md:top-full md:left-auto md:right-0 md:w-[380px] z-[100]"
+            >
+              <div
+                class="bg-white rounded-b-2xl md:rounded-2xl shadow-2xl border border-t-0 md:border-t border-gray-100 overflow-hidden"
+              >
+                <div class="flex items-center gap-3 px-4 py-3 border-b border-gray-100">
+                  <svg
+                    class="w-5 h-5 text-gray-400 flex-shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    />
+                  </svg>
+                  <input
+                    id="search-input"
+                    type="text"
+                    placeholder="Search packages..."
+                    class="flex-1 text-base font-poppins text-navy placeholder-gray-400 outline-none"
+                    autocomplete="off"
+                  />
+                  <button
+                    id="search-close-btn"
+                    class="p-1 text-gray-400 hover:text-navy transition-colors flex-shrink-0"
+                    aria-label="Close search"
+                  >
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M6 18L18 6M6 6l12 12"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div id="search-results" class="overflow-y-auto max-h-[50vh] md:max-h-[60vh]"></div>
+              </div>
+            </div>
           </div>
         </div>
+        <nav id="mobile-menu" class="hidden md:hidden pb-4">
+          <div class="flex flex-col gap-3">
+            <a
+              href="index.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Home</a
+            ><a
+              href="packages.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link active"
+              >Packages</a
+            ><a
+              href="about.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >About Us</a
+            ><a
+              href="contact.html"
+              class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
+              >Contact</a
+            ><a
+              href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages."
+              target="_blank"
+              rel="noopener"
+              class="btn-whatsapp text-sm py-2 px-5 text-center rounded-lg transition-colors"
+              >WhatsApp Us</a
+            >
+          </div>
+        </nav>
       </div>
-    </div>
-    <nav id="mobile-menu" class="hidden md:hidden pb-4">
-      <div class="flex flex-col gap-3">
-        <a
-          href="index.html"
-          class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link"
-          >Home</a
-        ><a
-          href="packages.html"
-          class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link  active"
-          >Packages</a
-        ><a
-          href="about.html"
-          class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link "
-          >About Us</a
-        ><a
-          href="contact.html"
-          class="font-poppins font-medium text-navy px-3 py-2 text-base nav-link "
-          >Contact</a
-        ><a
-          href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20would%20like%20to%20know%20more%20about%20your%20tour%20packages."
-          target="_blank"
-          rel="noopener"
-          class="btn-whatsapp text-sm py-2 px-5 text-center rounded-lg transition-colors"
-          >WhatsApp Us</a
-        >
-      </div>
-    </nav>
-  </div>
-</header>
-
+    </header>
 
     <!-- Hero -->
     <section class="reveal relative h-[60vh] min-h-[400px] flex items-end">
       <picture>
-      <source media="(max-width: 640px)" srcset="assets/images/600w/manali-kasol.webp" type="image/webp" />
-      <source media="(max-width: 1023px)" srcset="assets/images/800w/manali-kasol.webp" type="image/webp" />
-      <img fetchpriority="high" src="assets/images/1200w/manali-kasol.webp" alt="Manali – Kasol" class="absolute inset-0 w-full h-full object-cover" />
-    </picture>
+        <source
+          media="(max-width: 640px)"
+          srcset="assets/images/600w/manali-kasol.webp"
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 1023px)"
+          srcset="assets/images/800w/manali-kasol.webp"
+          type="image/webp"
+        />
+        <img
+          fetchpriority="high"
+          src="assets/images/1200w/manali-kasol.webp"
+          alt="Manali – Kasol"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+      </picture>
       <div class="hero-overlay absolute inset-0"></div>
       <div class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 hero-offset">
         <nav class="flex items-center gap-2 text-white/60 text-sm mb-4">
@@ -186,11 +230,15 @@
           ><a href="packages.html" class="hover:text-white">Packages</a><span>/</span
           ><span class="text-white">Manali – Kasol</span>
         </nav>
-        <span class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block">Adventure</span>
-      <span class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block">Nature &amp; Hills</span>
-        <h1 class="font-poppins font-bold text-white text-3xl md:text-5xl mb-4">
-          Manali – Kasol
-        </h1>
+        <span
+          class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block"
+          >Adventure</span
+        >
+        <span
+          class="bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full mb-3 inline-block"
+          >Nature &amp; Hills</span
+        >
+        <h1 class="font-poppins font-bold text-white text-3xl md:text-5xl mb-4">Manali – Kasol</h1>
         <div class="flex flex-wrap gap-4">
           <span
             class="bg-white/20 text-white text-sm font-semibold px-4 py-2 rounded-full backdrop-blur-sm"
@@ -200,7 +248,7 @@
             class="bg-white/20 text-white text-sm font-semibold px-4 py-2 rounded-full backdrop-blur-sm"
             >08 – 15 April 2026</span
           >
-          
+
           <span class="bg-orange text-white text-sm font-semibold px-4 py-2 rounded-full"
             >₹17,999/-</span
           >
@@ -213,89 +261,239 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div class="lg:col-span-2 space-y-12">
-            <div><p class="section-eyebrow">Package Overview</p><h2 class="section-title text-2xl md:text-3xl mt-1 mb-4">Solang Valley · Parvati Valley · Kasol Campsite · Adventure</h2></div>
+            <div>
+              <p class="section-eyebrow">Package Overview</p>
+              <h2 class="section-title text-2xl md:text-3xl mt-1 mb-4">
+                Solang Valley · Parvati Valley · Kasol Campsite · Adventure
+              </h2>
+            </div>
 
             <!-- Trip Highlights -->
-            <div><div class="section-pin-divider mb-6"><div class="pin-icon"></div><div class="line"></div><span class="section-eyebrow">Trip Highlights</span></div><div class="grid grid-cols-1 md:grid-cols-2 gap-3"><div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span><span class="text-sm">Solang Valley Snow Activities</span></div>
-          <div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span><span class="text-sm">Hidimba Temple Manali</span></div>
-          <div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span><span class="text-sm">Kasol Parvati Valley</span></div>
-          <div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span><span class="text-sm">Tibetan Monastery</span></div>
-          <div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg"><span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span><span class="text-sm">DJ Night in Manali</span></div></div></div>
+            <div>
+              <div class="section-pin-divider mb-6">
+                <div class="pin-icon"></div>
+                <div class="line"></div>
+                <span class="section-eyebrow">Trip Highlights</span>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg">
+                  <span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span
+                  ><span class="text-sm">Solang Valley Snow Activities</span>
+                </div>
+                <div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg">
+                  <span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span
+                  ><span class="text-sm">Hidimba Temple Manali</span>
+                </div>
+                <div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg">
+                  <span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span
+                  ><span class="text-sm">Kasol Parvati Valley</span>
+                </div>
+                <div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg">
+                  <span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span
+                  ><span class="text-sm">Tibetan Monastery</span>
+                </div>
+                <div class="flex items-center gap-3 p-4 bg-light-gray rounded-lg">
+                  <span class="text-orange text-base flex-shrink-0 leading-none">&#9733;</span
+                  ><span class="text-sm">DJ Night in Manali</span>
+                </div>
+              </div>
+            </div>
 
             <!-- Itinerary -->
             <div id="itinerary-section">
               <p class="section-eyebrow">Day by Day</p>
               <h2 class="section-title text-2xl mt-1 mb-6">Detailed Itinerary</h2>
-              <div class="space-y-0" id="itinerary-list"><div class="accordion-item">
-      <button class="accordion-btn" aria-expanded="false" aria-controls="day-1">
-        <div class="flex items-center gap-3"><div class="day-badge">1</div><span>Day 1, Board Train from Mumbai</span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)</p>
-        
-      </div>
-    </div>
-<div class="accordion-item">
-      <button class="accordion-btn" aria-expanded="false" aria-controls="day-2">
-        <div class="flex items-center gap-3"><div class="day-badge">2</div><span>Day 2, Train Journey &amp; Reach Manali</span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)</p>
-        
-      </div>
-    </div>
-<div class="accordion-item">
-      <button class="accordion-btn" aria-expanded="false" aria-controls="day-3">
-        <div class="flex items-center gap-3"><div class="day-badge">3</div><span>Day 3, Solang Valley Adventure</span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)</p>
-        
-      </div>
-    </div>
-<div class="accordion-item">
-      <button class="accordion-btn" aria-expanded="false" aria-controls="day-4">
-        <div class="flex items-center gap-3"><div class="day-badge">4</div><span>Day 4, Manali Local Sightseeing</span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)</p>
-        
-      </div>
-    </div>
-<div class="accordion-item">
-      <button class="accordion-btn" aria-expanded="false" aria-controls="day-5">
-        <div class="flex items-center gap-3"><div class="day-badge">5</div><span>Day 5, Manali to Kasol</span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)</p>
-        
-      </div>
-    </div>
-<div class="accordion-item">
-      <button class="accordion-btn" aria-expanded="false" aria-controls="day-6">
-        <div class="flex items-center gap-3"><div class="day-badge">6</div><span>Day 6, Kasol &amp; Parvati Valley</span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)</p>
-        
-      </div>
-    </div>
-<div class="accordion-item">
-      <button class="accordion-btn" aria-expanded="false" aria-controls="day-7">
-        <div class="flex items-center gap-3"><div class="day-badge">7</div><span>Day 7, Kasol to Manali</span></div>
-        <svg class="accordion-icon w-5 h-5 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
-      </button>
-      <div class="accordion-body pb-4 pl-11">
-        <p class="text-gray-600 text-sm mb-2">Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)</p>
-        
-      </div>
-    </div></div>
+              <div class="space-y-0" id="itinerary-list">
+                <div class="accordion-item">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-1">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">1</div>
+                      <span>Day 1, Board Train from Mumbai</span>
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM.
+                      Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-2">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">2</div>
+                      <span>Day 2, Train Journey &amp; Reach Manali</span>
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM.
+                      Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-3">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">3</div>
+                      <span>Day 3, Solang Valley Adventure</span>
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM.
+                      Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-4">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">4</div>
+                      <span>Day 4, Manali Local Sightseeing</span>
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM.
+                      Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-5">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">5</div>
+                      <span>Day 5, Manali to Kasol</span>
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM.
+                      Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-6">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">6</div>
+                      <span>Day 6, Kasol &amp; Parvati Valley</span>
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM.
+                      Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <button class="accordion-btn" aria-expanded="false" aria-controls="day-7">
+                    <div class="flex items-center gap-3">
+                      <div class="day-badge">7</div>
+                      <span>Day 7, Kasol to Manali</span>
+                    </div>
+                    <svg
+                      class="accordion-icon w-5 h-5 text-navy"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <div class="accordion-body pb-4 pl-11">
+                    <p class="text-gray-600 text-sm mb-2">
+                      Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM.
+                      Board train for Manali. Overnight journey. 01 April 2026 (Wednesday)
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <!-- Inclusions & Exclusions -->
@@ -310,14 +508,40 @@
                       >&#10003;</span
                     >What's Included
                   </h3>
-                  <div class="space-y-2"><div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Mumbai to Mumbai Train Tickets (3AC upgrade available)</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Non-AC Bus for local transfers</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Accommodation (3/4 Sharing)</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Breakfast &amp; Dinner</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Entry Fees</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Mineral Water</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>First Aid</span></div>
-            <div class="inclusion-item"><span class="text-green-500 font-bold mt-0.5">&#10003;</span><span>Tour Manager</span></div></div>
+                  <div class="space-y-2">
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Mumbai to Mumbai Train Tickets (3AC upgrade available)</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Non-AC Bus for local transfers</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Accommodation (3/4 Sharing)</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Breakfast &amp; Dinner</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Entry Fees</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Mineral Water</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>First Aid</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-green-500 font-bold mt-0.5">&#10003;</span
+                      ><span>Tour Manager</span>
+                    </div>
+                  </div>
                 </div>
                 <div>
                   <h3 class="font-poppins font-semibold text-navy mb-4 flex items-center gap-2">
@@ -326,30 +550,89 @@
                       >&#10005;</span
                     >Not Included
                   </h3>
-                  <div class="space-y-2"><div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>5% GST</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Train Food</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Lunch</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Snow activities &amp; clothes (at own cost)</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Personal expenses</span></div>
-            <div class="inclusion-item"><span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Anything not mentioned in inclusions</span></div></div>
+                  <div class="space-y-2">
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>5% GST</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Train Food</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span><span>Lunch</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Snow activities &amp; clothes (at own cost)</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Personal expenses</span>
+                    </div>
+                    <div class="inclusion-item">
+                      <span class="text-red-400 font-bold mt-0.5">&#10005;</span
+                      ><span>Anything not mentioned in inclusions</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
             <!-- Advisory -->
-            <div class="bg-orange/10 border-l-4 border-orange rounded-r-xl p-4"><div class="flex gap-3 items-start"><svg class="w-5 h-5 text-orange flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg><div><p class="font-poppins font-semibold text-navy text-sm mb-1">Important Advisory</p><p class="text-gray-700 text-sm">Snow activities and snow clothes at own cost. Carry warm jackets. Good physical fitness recommended for valley treks.</p></div></div></div>
+            <div class="bg-orange/10 border-l-4 border-orange rounded-r-xl p-4">
+              <div class="flex gap-3 items-start">
+                <svg
+                  class="w-5 h-5 text-orange flex-shrink-0 mt-0.5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <div>
+                  <p class="font-poppins font-semibold text-navy text-sm mb-1">
+                    Important Advisory
+                  </p>
+                  <p class="text-gray-700 text-sm">
+                    Snow activities and snow clothes at own cost. Carry warm jackets. Good physical
+                    fitness recommended for valley treks.
+                  </p>
+                </div>
+              </div>
+            </div>
 
             <!-- Travel Details -->
-            <div><p class="section-eyebrow">Travel Details</p><h2 class="section-title text-2xl mt-1 mb-6">Travel Details</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-4"><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Departure Point</p><p class="font-poppins font-semibold text-navy text-sm">Mumbai Central (MMCT) — 5:30 PM, 08 Apr 2026</p></div><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Travel Mode</p><p class="font-poppins font-semibold text-navy text-sm">Train to Ambala Cantt</p></div><div class="bg-light-gray rounded-lg p-4"><p class="text-xs text-muted mb-1">Return</p><p class="font-poppins font-semibold text-navy text-sm">Reach Mumbai, 15 Apr 2026</p></div></div></div>
+            <div>
+              <p class="section-eyebrow">Travel Details</p>
+              <h2 class="section-title text-2xl mt-1 mb-6">Travel Details</h2>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-light-gray rounded-lg p-4">
+                  <p class="text-xs text-muted mb-1">Departure Point</p>
+                  <p class="font-poppins font-semibold text-navy text-sm">
+                    Mumbai Central (MMCT) — 5:30 PM, 08 Apr 2026
+                  </p>
+                </div>
+                <div class="bg-light-gray rounded-lg p-4">
+                  <p class="text-xs text-muted mb-1">Travel Mode</p>
+                  <p class="font-poppins font-semibold text-navy text-sm">Train to Ambala Cantt</p>
+                </div>
+                <div class="bg-light-gray rounded-lg p-4">
+                  <p class="text-xs text-muted mb-1">Return</p>
+                  <p class="font-poppins font-semibold text-navy text-sm">
+                    Reach Mumbai, 15 Apr 2026
+                  </p>
+                </div>
+              </div>
+            </div>
 
             <!-- Payment Schedule -->
-            
 
             <!-- Cancellation Policy -->
-            
 
             <!-- Points to Note -->
-            
           </div>
 
           <!-- Sidebar -->
@@ -361,14 +644,14 @@
                 <p class="text-muted text-xs mb-4">per person (Sleeper) | ₹22,999/- (3AC)</p>
                 <div class="space-y-3 mb-5 text-sm">
                   <div class="flex items-center gap-2">
-                    <span class="text-navy">&#128197;</span><span>08 – 15 April 2026 Departure</span>
+                    <span class="text-navy">&#128197;</span
+                    ><span>08 – 15 April 2026 Departure</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <span class="text-navy">&#128205;</span><span>Mumbai</span>
                   </div>
                   <div class="flex items-center gap-2">
-                    <span class="text-navy">&#128642;</span
-                    ><span>Train</span>
+                    <span class="text-navy">&#128642;</span><span>Train</span>
                   </div>
                   <div class="flex items-center gap-2">
                     <span class="text-navy">&#128101;</span><span>8 Days / 7 Nights</span>
@@ -463,208 +746,312 @@
     </main>
 
     <!-- Related Packages -->
-    <section class="reveal py-12 bg-light-gray"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2><div class="grid grid-cols-1 md:grid-cols-3 gap-6"><div class="related-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/himachal.webp" alt="Himachal Pradesh" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Himachal Pradesh</h3><div class="flex gap-2 mb-3"><span class="chip">9 Days / 8 Nights</span><span class="chip">22 – 30 January 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹16,499/-</p><div class="flex gap-2"><a href="himachal.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Himachal%20Pradesh.%20Please%20share%20details." target="_blank" rel="noopener" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
-      <div class="related-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/kashmir.webp" alt="Kashmir" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Kashmir</h3><div class="flex gap-2 mb-3"><span class="chip">9 Days / 8 Nights</span><span class="chip">06 – 14 February 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹20,499/-</p><div class="flex gap-2"><a href="kashmir.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Kashmir.%20Please%20share%20details." target="_blank" rel="noopener" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div>
-      <div class="related-card"><div class="relative"><img loading="lazy" decoding="async" src="assets/images/600w/sikkim-darjeeling.webp" alt="Sikkim – Darjeeling" class="w-full h-48 object-cover"/><span class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full">Adventure</span></div><div class="p-5"><h3 class="font-poppins font-bold text-navy text-lg mb-2">Sikkim – Darjeeling</h3><div class="flex gap-2 mb-3"><span class="chip">7 Days / 6 Nights</span><span class="chip">03 – 09 September 2026</span></div><p class="font-poppins font-bold text-orange text-xl mb-3">₹27,777/-</p><div class="flex gap-2"><a href="sikkim-darjeeling.html" class="btn-navy flex-1 text-sm py-2">View Details</a><a href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Sikkim%20%E2%80%93%20Darjeeling.%20Please%20share%20details." target="_blank" rel="noopener" class="btn-orange flex-1 text-sm py-2">WhatsApp Now</a></div></div></div></div></div></section>
+    <section class="reveal py-12 bg-light-gray">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="font-poppins font-bold text-navy text-2xl mb-8">You Might Also Like</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="related-card">
+            <div class="relative">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/images/600w/himachal.webp"
+                alt="Himachal Pradesh"
+                class="w-full h-48 object-cover"
+              /><span
+                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
+                >Adventure</span
+              >
+            </div>
+            <div class="p-5">
+              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Himachal Pradesh</h3>
+              <div class="flex gap-2 mb-3">
+                <span class="chip">9 Days / 8 Nights</span
+                ><span class="chip">22 – 30 January 2026</span>
+              </div>
+              <p class="font-poppins font-bold text-orange text-xl mb-3">₹16,499/-</p>
+              <div class="flex gap-2">
+                <a href="himachal.html" class="btn-navy flex-1 text-sm py-2">View Details</a
+                ><a
+                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Himachal%20Pradesh.%20Please%20share%20details."
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-orange flex-1 text-sm py-2"
+                  >WhatsApp Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="related-card">
+            <div class="relative">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/images/600w/kashmir.webp"
+                alt="Kashmir"
+                class="w-full h-48 object-cover"
+              /><span
+                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
+                >Adventure</span
+              >
+            </div>
+            <div class="p-5">
+              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Kashmir</h3>
+              <div class="flex gap-2 mb-3">
+                <span class="chip">9 Days / 8 Nights</span
+                ><span class="chip">06 – 14 February 2026</span>
+              </div>
+              <p class="font-poppins font-bold text-orange text-xl mb-3">₹20,499/-</p>
+              <div class="flex gap-2">
+                <a href="kashmir.html" class="btn-navy flex-1 text-sm py-2">View Details</a
+                ><a
+                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Kashmir.%20Please%20share%20details."
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-orange flex-1 text-sm py-2"
+                  >WhatsApp Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="related-card">
+            <div class="relative">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="assets/images/600w/sikkim-darjeeling.webp"
+                alt="Sikkim – Darjeeling"
+                class="w-full h-48 object-cover"
+              /><span
+                class="absolute top-3 left-3 bg-navy text-white text-xs font-poppins font-semibold px-3 py-1 rounded-full"
+                >Adventure</span
+              >
+            </div>
+            <div class="p-5">
+              <h3 class="font-poppins font-bold text-navy text-lg mb-2">Sikkim – Darjeeling</h3>
+              <div class="flex gap-2 mb-3">
+                <span class="chip">7 Days / 6 Nights</span
+                ><span class="chip">03 – 09 September 2026</span>
+              </div>
+              <p class="font-poppins font-bold text-orange text-xl mb-3">₹27,777/-</p>
+              <div class="flex gap-2">
+                <a href="sikkim-darjeeling.html" class="btn-navy flex-1 text-sm py-2"
+                  >View Details</a
+                ><a
+                  href="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%20am%20interested%20in%20Sikkim%20%E2%80%93%20Darjeeling.%20Please%20share%20details."
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-orange flex-1 text-sm py-2"
+                  >WhatsApp Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer class="bg-navy text-white reveal">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- Main Footer Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-8">
-      <!-- Col 1: Logo & About -->
-      <div class="sm:col-span-2 lg:col-span-1">
-        <a href="index.html" class="inline-flex items-center gap-2">
-          <img
-            src="assets/samyati-logo-cropped.png"
-            alt="Samyati Holidays"
-            class="h-12 md:h-16 w-auto"
-            onerror="this.style.display = 'none'"
-          />
-          <span
-            class="tagline-hand self-end block text-white text-[14px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2"
-            >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
-          >
-        </a>
-        <p class="text-white/80 text-sm mt-2 leading-relaxed">
-          Your journey. Our expertise. Mumbai &amp; Pune-based group tour specialists with 6+ years
-          of experience and 20,000+ happy travellers.
-        </p>
-        <div class="flex items-center gap-3 mt-3">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Main Footer Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-8">
+          <!-- Col 1: Logo & About -->
+          <div class="sm:col-span-2 lg:col-span-1">
+            <a href="index.html" class="inline-flex items-center gap-2">
+              <img
+                src="assets/samyati-logo-cropped.png"
+                alt="Samyati Holidays"
+                class="h-12 md:h-16 w-auto"
+                onerror="this.style.display = 'none'"
+              />
+              <span
+                class="tagline-hand self-end block text-white text-[14px] sm:text-xs lg:text-sm leading-none whitespace-nowrap pb-2"
+                >Feeling <span class="fam">"फॅमिली"</span> वाली!</span
+              >
+            </a>
+            <p class="text-white/80 text-sm mt-2 leading-relaxed">
+              Your journey. Our expertise. Mumbai &amp; Pune-based group tour specialists with 6+
+              years of experience and 20,000+ happy travellers.
+            </p>
+            <div class="flex items-center gap-3 mt-3">
+              <a
+                href="https://wa.me/919076068549"
+                target="_blank"
+                rel="noopener"
+                aria-label="WhatsApp"
+                class="w-9 h-9 rounded-full bg-white/10 hover:bg-[${var(--whatsapp)}] flex items-center justify-center transition-colors"
+              >
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.instagram.com/samyati_holidays"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram"
+                class="w-9 h-9 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition-colors"
+              >
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Col 2: Quick Links -->
+          <div class="text-center sm:text-left">
+            <h4 class="font-poppins font-semibold text-orange mb-2">Quick Links</h4>
+            <ul class="space-y-1.5 text-sm text-white/80">
+              <li><a href="index.html" class="hover:text-orange transition-colors">Home</a></li>
+              <li>
+                <a href="packages.html" class="hover:text-orange transition-colors">All Packages</a>
+              </li>
+              <li><a href="about.html" class="hover:text-orange transition-colors">About Us</a></li>
+              <li>
+                <a href="contact.html" class="hover:text-orange transition-colors">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Our Tours -->
+          <div class="text-center sm:text-left">
+            <h4 class="font-poppins font-semibold text-orange mb-2">Our Tours</h4>
+            <ul class="space-y-1.5 text-sm text-white/80">
+              <li>
+                <a href="kerala.html" class="hover:text-orange transition-colors"
+                  >Best Kerala Trip</a
+                >
+              </li>
+              <li>
+                <a href="rameshwaram.html" class="hover:text-orange transition-colors"
+                  >Rameshwaram &amp; Kanyakumari</a
+                >
+              </li>
+              <li>
+                <a href="ujjain-indore.html" class="hover:text-orange transition-colors"
+                  >Ujjain – Indore – Omkareshwar</a
+                >
+              </li>
+              <li>
+                <a href="himachal.html" class="hover:text-orange transition-colors">Himachal</a>
+              </li>
+              <li>
+                <a href="kedarnath-badrinath.html" class="hover:text-orange transition-colors"
+                  >Kedarnath &amp; Badrinath</a
+                >
+              </li>
+              <li>
+                <a href="sikkim-darjeeling.html" class="hover:text-orange transition-colors"
+                  >Sikkim &amp; Darjeeling</a
+                >
+              </li>
+              <li>
+                <a href="somnath-dwarka.html" class="hover:text-orange transition-colors"
+                  >Somnath &amp; Dwarka</a
+                >
+              </li>
+              <li>
+                <a href="packages.html" class="hover:text-orange transition-colors">View All →</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 4: Contact -->
+          <div class="sm:col-span-2 lg:col-span-1 text-center sm:text-left">
+            <h4 class="font-poppins font-bold text-orange text-xl mb-3">Get In Touch</h4>
+            <ul class="space-y-2 text-sm text-white/80">
+              <li class="flex justify-center sm:justify-start items-center gap-3">
+                <svg
+                  class="w-5 h-5 flex-shrink-0 text-orange"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+                <span class="font-semibold">+91 90760 68549</span>
+              </li>
+              <li class="flex justify-center sm:justify-start items-center gap-3">
+                <svg
+                  class="w-5 h-5 flex-shrink-0 text-orange"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+                <a
+                  href="mailto:rohit@samyatiholidays.com"
+                  class="hover:text-orange transition-colors"
+                  >rohit@samyatiholidays.com</a
+                >
+              </li>
+              <li class="flex justify-center sm:justify-start items-center gap-3">
+                <svg
+                  class="w-5 h-5 flex-shrink-0 text-orange"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <span>Mumbai and Pune, Maharashtra</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Brand Bar -->
+        <div
+          class="border-t border-white/10 py-4 flex flex-col sm:flex-row items-center justify-between gap-3"
+        >
+          <p class="text-white/40 text-xs">
+            &copy; 2026 Samyati Holidays. All rights reserved. Airoli, Mumbai.
+          </p>
           <a
-            href="https://wa.me/919076068549"
+            href="https://kubertechsolutions.in/"
             target="_blank"
             rel="noopener"
-            aria-label="WhatsApp"
-            class="w-9 h-9 rounded-full bg-white/10 hover:bg-[${var(--whatsapp)}] flex items-center justify-center transition-colors"
+            class="flex items-center gap-2 group"
           >
-            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.542l4.858-1.28A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0m0 22c-1.438 0-2.846-.24-4.166-.689l-.298-.059-3.064.805.82-2.989-.197-.306A9.94 9.94 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10"
-              />
-            </svg>
-          </a>
-          <a
-            href="https://www.instagram.com/samyati_holidays"
-            target="_blank"
-            rel="noopener"
-            aria-label="Instagram"
-            class="w-9 h-9 rounded-full bg-white/10 hover:bg-pink-500 flex items-center justify-center transition-colors"
-          >
-            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
-              />
-            </svg>
+            <span class="text-white/30 group-hover:text-white/60 text-xs transition-colors"
+              >Designed & Engineered by Kuber Tech Solutions</span
+            >
+            <img
+              src="assets/KuberTechLogo.png"
+              alt="Kuber Tech"
+              class="h-10 w-auto opacity-80 group-hover:opacity-100 transition-opacity"
+            />
           </a>
         </div>
       </div>
-
-      <!-- Col 2: Quick Links -->
-      <div class="text-center sm:text-left">
-        <h4 class="font-poppins font-semibold text-orange mb-2">Quick Links</h4>
-        <ul class="space-y-1.5 text-sm text-white/80">
-          <li><a href="index.html" class="hover:text-orange transition-colors">Home</a></li>
-          <li>
-            <a href="packages.html" class="hover:text-orange transition-colors">All Packages</a>
-          </li>
-          <li><a href="about.html" class="hover:text-orange transition-colors">About Us</a></li>
-          <li>
-            <a href="contact.html" class="hover:text-orange transition-colors">Contact</a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Col 3: Our Tours -->
-      <div class="text-center sm:text-left">
-        <h4 class="font-poppins font-semibold text-orange mb-2">Our Tours</h4>
-        <ul class="space-y-1.5 text-sm text-white/80">
-          <li>
-            <a href="kerala.html" class="hover:text-orange transition-colors">Best Kerala Trip</a>
-          </li>
-          <li>
-            <a href="rameshwaram.html" class="hover:text-orange transition-colors"
-              >Rameshwaram &amp; Kanyakumari</a
-            >
-          </li>
-          <li>
-            <a href="ujjain-indore.html" class="hover:text-orange transition-colors"
-              >Ujjain – Indore – Omkareshwar</a
-            >
-          </li>
-          <li>
-            <a href="himachal.html" class="hover:text-orange transition-colors">Himachal</a>
-          </li>
-          <li>
-            <a href="kedarnath-badrinath.html" class="hover:text-orange transition-colors"
-              >Kedarnath &amp; Badrinath</a
-            >
-          </li>
-          <li>
-            <a href="sikkim-darjeeling.html" class="hover:text-orange transition-colors"
-              >Sikkim &amp; Darjeeling</a
-            >
-          </li>
-          <li>
-            <a href="somnath-dwarka.html" class="hover:text-orange transition-colors"
-              >Somnath &amp; Dwarka</a
-            >
-          </li>
-          <li>
-            <a href="packages.html" class="hover:text-orange transition-colors">View All →</a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Col 4: Contact -->
-      <div class="sm:col-span-2 lg:col-span-1 text-center sm:text-left">
-        <h4 class="font-poppins font-bold text-orange text-xl mb-3">Get In Touch</h4>
-        <ul class="space-y-2 text-sm text-white/80">
-          <li class="flex justify-center sm:justify-start items-center gap-3">
-            <svg
-              class="w-5 h-5 flex-shrink-0 text-orange"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-              />
-            </svg>
-            <span class="font-semibold">+91 90760 68549</span>
-          </li>
-          <li class="flex justify-center sm:justify-start items-center gap-3">
-            <svg
-              class="w-5 h-5 flex-shrink-0 text-orange"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-              />
-            </svg>
-            <a href="mailto:rohit@samyatiholidays.com" class="hover:text-orange transition-colors"
-              >rohit@samyatiholidays.com</a
-            >
-          </li>
-          <li class="flex justify-center sm:justify-start items-center gap-3">
-            <svg
-              class="w-5 h-5 flex-shrink-0 text-orange"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-              />
-            </svg>
-            <span>Mumbai and Pune, Maharashtra</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Brand Bar -->
-    <div
-      class="border-t border-white/10 py-4 flex flex-col sm:flex-row items-center justify-between gap-3"
-    >
-      <p class="text-white/40 text-xs">
-        &copy; 2026 Samyati Holidays. All rights reserved. Airoli, Mumbai.
-      </p>
-      <a
-        href="https://kubertechsolutions.in/"
-        target="_blank"
-        rel="noopener"
-        class="flex items-center gap-2 group"
-      >
-        <span class="text-white/30 group-hover:text-white/60 text-xs transition-colors"
-          >Designed & Engineered by Kuber Tech Solutions</span
-        >
-        <img
-          src="assets/KuberTechLogo.png"
-          alt="Kuber Tech"
-          class="h-10 w-auto opacity-80 group-hover:opacity-100 transition-opacity"
-        />
-      </a>
-    </div>
-  </div>
-</footer>
-
+    </footer>
 
     <!-- Floating WhatsApp -->
     <a
