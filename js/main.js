@@ -512,16 +512,10 @@ document.querySelectorAll('nav:not(#mobile-menu) .nav-link').forEach((link) => {
   var popup, btn;
 
   function dismissed() {
-    try {
-      return sessionStorage.getItem(KEY) === '1';
-    } catch (e) {
-      return false;
-    }
+    return sessionStorage.getItem(KEY) === '1';
   }
   function setDismissed() {
-    try {
-      sessionStorage.setItem(KEY, '1');
-    } catch (e) {}
+    sessionStorage.setItem(KEY, '1');
   }
 
   function hide() {
@@ -581,7 +575,6 @@ document.querySelectorAll('nav:not(#mobile-menu) .nav-link').forEach((link) => {
   function bind() {
     popup = document.getElementById('lead-popup');
     btn = document.getElementById('lead-popup-close');
-    backdrop = document.getElementById('lead-popup-backdrop');
     if (!popup) return;
 
     initForm();
