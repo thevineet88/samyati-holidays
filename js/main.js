@@ -595,7 +595,9 @@ document.querySelectorAll('nav:not(#mobile-menu) .nav-link').forEach((link) => {
   function tryShow() {
     if (dismissed()) return;
     bind();
-    setTimeout(function () { show(); }, 6000);
+    setTimeout(function () {
+      show();
+    }, 6000);
   }
 
   // For root pages: popup is injected by partials.js asynchronously.
