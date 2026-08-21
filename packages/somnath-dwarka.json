@@ -2,12 +2,12 @@
   "slug": "somnath-dwarka",
   "title": "Somnath – Dwarka",
   "subtitle": "Dwarkadish Temple · Somnath Jyotirlinga · Girnar Darshan · Bet Dwarka",
-  "dates": "15 – 21 January 2026",
+  "dates": "26th Nov – 2nd Dec 2026",
   "duration": "7 Days / 6 Nights",
-  "price": 13499,
-  "priceLabel": "₹13,499/-",
-  "priceNote": "per person (Sleeper) | ₹14,999/- (3AC)",
-  "lastBooking": "08 November 2025",
+  "price": 13999,
+  "priceLabel": "₹13,999/-",
+  "priceNote": "per person (Sleeper) | ₹15,555/- (3AC)",
+  "lastBooking": "1st September 2026",
   "category": ["spiritual"],
   "hero": "assets/images/1200w/somnath-dwarka.webp",
   "gallery": [
@@ -24,97 +24,97 @@
   ],
   "inclusions": [
     "Both way Train Tickets (Sleeper/3AC)",
-    "Accommodation in 3★ Hotel",
-    "Transport for sightseeing",
-    "Breakfast & Dinner",
-    "Entry Fees",
-    "Mineral Water",
+    "AC Tempo Traveler for local sightseeing",
+    "Accommodation in 3 Star Hotels (2-3 Sharing)",
+    "3 Breakfast",
+    "4 Dinner",
+    "1L mineral on sightseeing days",
+    "Entry fees",
     "First Aid",
-    "Tour Manager"
-  ],
-  "exclusions": [
+    "Tour Manager",
     "5% GST",
-    "Train Food",
-    "Lunch (at own cost)",
-    "Girnar Ropeway Tickets (book online)",
-    "Personal expenses",
-    "Anything not mentioned in inclusions"
+    "Ropeway ticket",
+    "Meals during train journey",
+    "Day 5 Breakfast",
+    "All day Lunch",
+    "Mineral water"
   ],
+  "exclusions": ["Personal expense", "Anything which is not mentioned in Inclusions"],
   "travel": {
-    "departure": "Mumbai Central — 8:00 PM, 15 Jan 2026",
+    "departure": "Mumbai Central Railway Station — 8:00 PM, 26 Nov 2026 (Train: Saurashtra Mail 22945)",
     "train": "Saurashtra Mail",
-    "arrival": "Reach Mumbai by 06:00 AM, 21 Jan 2026 (Saurashtra Janta Express 19218 from Junagadh)"
+    "arrival": "Reach Mumbai by 06:00 AM, 2nd Dec 2026 (Saurashtra Janta Express 19218 from Junagadh)"
   },
   "itinerary": [
     {
       "day": 1,
-      "title": "Board Train from Mumbai",
-      "description": "Reporting Station: Mumbai Central Railway Station. Reporting Time: 8:00 PM, 15 January 2026. Train: Saurashtra Mail. Board train for Dwarka. Overnight journey.",
+      "title": "Train Travelling (Mumbai to Dwarka)",
+      "description": "Reporting Station: Mumbai Central Railway Station. Reporting Time: 08:00 PM. Train: Saurashtra Mail. Board train for Dwarka. Overnight journey.",
       "meals": "No Meals"
     },
     {
       "day": 2,
-      "title": "Dwarka Sightseeing",
-      "description": "Reach Dwarka Railway Station by approximately 1:15 PM. Proceed to hotel and check in. Lunch at own cost. Visit Dwarkadhish Temple and Rukmini Temple. Return to hotel, dinner and rest. Overnight at Dwarka.",
+      "title": "Sightseeing in Dwarka",
+      "description": "Reach Dwarka railway station by 01:15 PM. Reach Hotel and check in. Have lunch (at your own cost) in the hotel. Proceed for sightseeing: visit Dwarkadish Temple and take blessings of Lord Krishna. Next visit Rukmini Temple. Get back to hotel, have dinner and rest.",
       "meals": "Dinner"
     },
     {
       "day": 3,
-      "title": "Bet Dwarka and Somnath",
-      "description": "Breakfast and hotel checkout. Visit Bet Dwarka and Nageshwar Temple. Lunch en route at own expense. Continue to Somnath (4.5 hrs). Evening visit to Somnath Jyotirlinga. Check in at hotel, dinner and rest.",
+      "title": "Sightseeing in Dwarka & Somnath Jyotirlinga",
+      "description": "Enjoy breakfast and check out from hotel. Start your day with Bet Dwarka darshan. Next visit the Lord Shiva's famous Nageshwar Temple. Enroute have lunch (at your own expense) and continue journey to Somnath (4.5 hrs). Spend evening at the sacred Somnath Jyotirlinga. Proceed to hotel check in, have dinner and take rest.",
       "meals": "Breakfast, Dinner"
     },
     {
       "day": 4,
-      "title": "Somnath to Girnar",
-      "description": "Breakfast and checkout. Visit Bhalka Teerth, Geeta Mandir, and Triveni Sangam. Travel towards Girnar (2.5 hrs). Reach Girnar, check in at hotel. Dinner and rest. Overnight at Girnar/Junagadh.",
+      "title": "Sightseeing in Somnath & Travel to Girnar",
+      "description": "Enjoy breakfast and check out from hotel. Start your day sightseeing with Bhalka Teerth, the place where Lord Krishna drew his final breath. Next visit Geeta Mandir and Triveni Sangam. Post lunch move to Girnar (2.5 hrs). Reach Girnar and proceed to hotel check in, have dinner and take rest.",
       "meals": "Breakfast, Dinner"
     },
     {
       "day": 5,
       "title": "Girnar Darshan",
-      "description": "Start early for Girnar Darshan. Breakfast en route at own expense. Reach Girnar Ropeway point and take ropeway to top. Complete Girnar Darshan. Ropeway tickets must be booked online at udankhatola.com (time slot: 7:00 AM - 8:00 AM). Return to hotel. Dinner and rest.",
+      "description": "Early morning start journey towards Girnar Darshan. Enroute have breakfast (at your own expense). Reach Ropeway point and head to the top. Complete Girnar Darshan. Return back to Hotel, have dinner and take rest.\n\nNOTE: Participants should book their ropeway tickets online from udankhatola.com. Time slot: 07 AM - 08 AM.",
       "meals": "Dinner"
     },
     {
       "day": 6,
-      "title": "Junagadh to Mumbai",
-      "description": "Breakfast. Check out and proceed towards Junagadh Railway Station. Board return train (Saurashtra Janta Express, 19218) at approximately 12:58 PM. Overnight journey to Mumbai.",
+      "title": "Catch Train for Mumbai",
+      "description": "Enjoy breakfast and get ready to return home. Check out from hotel and head towards Junagadh station. Board train around 12:58 PM. Train: Saurashtra Janta Express.",
       "meals": "Breakfast"
     },
     {
       "day": 7,
       "title": "Reach Mumbai",
-      "description": "Reach Mumbai at approximately 6:00 AM. Return home with sweet memories!",
+      "description": "Reach Mumbai by 06:00 AM. Return home with sweet memories!",
       "meals": "No Meals"
     }
   ],
   "installments": [
     {
       "name": "1st Installment (Non-Refundable)",
-      "amount": "₹7,499/- (SL) | ₹8,999/- (3AC)",
-      "dueBy": "08 November 2025"
+      "amount": "₹7,999/- (SL) | ₹9,555/- (3AC)",
+      "dueBy": "1st September 2026"
     },
     {
       "name": "2nd Installment",
       "amount": "₹6,000/-",
-      "dueBy": "28 December 2025"
+      "dueBy": "1st November 2026"
     }
   ],
   "cancellation": [
     {
-      "deadline": "On/Before 30 November 2025",
+      "deadline": "On/Before 1st October 2026",
       "deduction": "50%"
     },
     {
-      "deadline": "On/Before 05 January 2026",
+      "deadline": "On/Before 2nd November 2026",
       "deduction": "80%"
     },
     {
-      "deadline": "After that",
+      "deadline": "Further till the time of departure",
       "deduction": "No Refund"
     }
   ],
-  "advisory": "Girnar ropedway tickets must be booked online at udankhatola.com. Time slot: 7 AM - 8 AM. Carry valid ID proof.",
+  "advisory": "Girnar ropeway tickets must be booked online at udankhatola.com. Time slot: 7 AM - 8 AM. Smoking and drinking is strictly prohibited during travel and sightseeing. Participants should sit as per the seating arrangement allotted to you in train during the journey. Company won't be responsible for any additional expense caused due to unforeseen events like accidents, vehicle breakdown, riots, delay in train, or climatic conditions. First Installment amount is Non-Refundable. Sightseeing schedule is subject to change as per on-day circumstances and availability of time. Participants have to pay on their own for any extra rides and events at the sightseeing spots.",
   "related": ["ayodhya-kashi-prayagraj", "rameshwaram", "jagannath-puri"]
 }
