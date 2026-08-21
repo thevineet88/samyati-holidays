@@ -260,9 +260,6 @@
   .pointer-events-none {
     pointer-events: none;
   }
-  .collapse {
-    visibility: collapse;
-  }
   .invisible {
     visibility: hidden;
   }
@@ -1195,14 +1192,8 @@
   .pl-3 {
     padding-left: calc(var(--spacing) * 3);
   }
-  .pl-11 {
-    padding-left: calc(var(--spacing) * 11);
-  }
   .text-center {
     text-align: center;
-  }
-  .text-left {
-    text-align: left;
   }
   .text-right {
     text-align: right;
@@ -1248,6 +1239,9 @@
   .text-xs {
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
+  }
+  .text-\[0\.95rem\] {
+    font-size: 0.95rem;
   }
   .text-\[10px\] {
     font-size: 10px;
@@ -1306,6 +1300,9 @@
   }
   .text-\[\#25D366\] {
     color: #25D366;
+  }
+  .text-\[var\(--color-navy\)\] {
+    color: var(--color-navy);
   }
   .text-amber-500 {
     color: var(--color-amber-500);
@@ -2274,9 +2271,11 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--dark-gray);
   line-height: 1.6;
   padding-right: 24px;
+  padding-bottom: 0;
 }
 .accordion-body.open {
   max-height: 1200px !important;
+  padding-bottom: 16px;
 }
 .accordion-icon {
   transition: transform 0.3s;
@@ -2414,19 +2413,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
   font-size: 0.9rem;
 }
-.day-badge {
-  width: 32px;
-  height: 32px;
-  background: var(--navy);
-  color: white;
-  border-radius: 50%;
+.day-pin {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 0.8rem;
-  flex-shrink: 0;
 }
 .form-field {
   width: 100%;

@@ -534,22 +534,26 @@
 
         // ── Itinerary ──
         const itiList = document.getElementById('itinerary-list');
-        (pkg.itinerary || []).forEach((day) => {
+        (pkg.itinerary || []).forEach((day, idx) => {
+          const pinColor = day.day === 1 ? 'var(--color-navy)' : '#9CA3AF';
           const item = document.createElement('div');
           item.className = 'accordion-item';
           item.innerHTML = `
           <button class="accordion-btn">
-            <div class="flex items-center gap-3">
-              <span class="day-badge">${day.day}</span>
-              <div class="text-left">
-                ${day.title}
+            <div class="flex items-center gap-2.5">
+              <div class="day-pin">
+                <svg width="28" height="36" viewBox="0 0 28 36" fill="none">
+                  <path d="M14 34C14 34 25 23.5 25 15.5C25 8.5 20.5 3.5 14 3.5C7.5 3.5 3 8.5 3 15.5C3 23.5 14 34 14 34Z" fill="${pinColor}" stroke="white" stroke-width="2"/>
+                  <circle cx="14" cy="15" r="5" fill="white" stroke="${pinColor}" stroke-width="2"/>
+                </svg>
               </div>
+              <span class="font-poppins font-semibold text-[var(--color-navy)] text-[0.95rem]">Day ${day.day}, ${day.title}</span>
             </div>
             <svg class="accordion-icon w-5 h-5 text-navy flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
             </svg>
           </button>
-          <div class="accordion-body pb-4 pl-11" style="display:none">
+          <div class="accordion-body">
             <p class="text-gray-600 text-sm mb-2">${day.description}</p>
             <span class="text-xs font-poppins font-semibold text-orange">🍽 ${day.meals}</span>
           </div>`;

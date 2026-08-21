@@ -40,10 +40,8 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// ── Accordion — collapse all on load, then toggle via inline style ──
-// Collapse all accordion bodies immediately — no CSS dependency
+// ── Accordion — toggle via classList (CSS max-height transition) ──
 document.querySelectorAll('.accordion-body').forEach(function (b) {
-  b.style.display = 'none';
   b.classList.remove('open');
 });
 
@@ -52,16 +50,20 @@ document.addEventListener('click', function (e) {
   if (!btn) return;
   var body = btn.nextElementSibling;
   var icon = btn.querySelector('.accordion-icon');
-  var isOpen = body && body.style.display !== 'none';
+  if (!body) return;
+  var isOpen = body.classList.contains('open');
 
-  if (!isOpen && body) {
-    body.style.display = 'block';
+  // Close all others
+  document.querySelectorAll('.accordion-body').forEach(function (b) {
+    b.classList.remove('open');
+  });
+  document.querySelectorAll('.accordion-icon').forEach(function (ic) {
+    ic.classList.remove('open');
+  });
+
+  if (!isOpen) {
     body.classList.add('open');
     icon && icon.classList.add('open');
-  } else if (isOpen && body) {
-    body.style.display = 'none';
-    body.classList.remove('open');
-    icon && icon.classList.remove('open');
   }
 });
 

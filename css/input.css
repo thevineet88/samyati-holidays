@@ -371,8 +371,9 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--dark-gray);
   line-height: 1.6;
   padding-right: 24px;
+  padding-bottom: 0;
 }
-.accordion-body.open { max-height: 1200px !important; }
+.accordion-body.open { max-height: 1200px !important; padding-bottom: 16px; }
 .accordion-icon { transition: transform 0.3s; flex-shrink: 0; }
 .accordion-icon.open { transform: rotate(180deg); }
 
@@ -498,16 +499,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.9rem;
 }
 
-.day-badge {
-  width: 32px; height: 32px;
-  background: var(--navy);
-  color: white;
-  border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 0.8rem;
+/* ── ITINERARY PIN MARKERS ── */
+.day-pin {
+  width: 28px; height: 28px;
   flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
 }
 
 /* ── FORM ── */
