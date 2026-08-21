@@ -1686,6 +1686,9 @@
     .md\:left-auto {
       left: auto;
     }
+    .md\:z-10 {
+      z-index: 10;
+    }
     .md\:mb-8 {
       margin-bottom: calc(var(--spacing) * 8);
     }
