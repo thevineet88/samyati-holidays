@@ -31,15 +31,18 @@
     "1L mineral on sightseeing days",
     "Entry fees",
     "First Aid",
-    "Tour Manager",
+    "Mineral water",
+    "Tour Manager"
+  ],
+  "exclusions": [
+    "Personal expense",
+    "Anything which is not mentioned in Inclusions",
     "5% GST",
     "Ropeway ticket",
     "Meals during train journey",
     "Day 5 Breakfast",
-    "All day Lunch",
-    "Mineral water"
+    "All day Lunch"
   ],
-  "exclusions": ["Personal expense", "Anything which is not mentioned in Inclusions"],
   "travel": {
     "departure": "Mumbai Central Railway Station — 8:00 PM, 26 Nov 2026 (Train: Saurashtra Mail 22945)",
     "train": "Saurashtra Mail",
