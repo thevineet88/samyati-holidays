@@ -437,6 +437,9 @@
   .-ml-2 {
     margin-left: calc(var(--spacing) * -2);
   }
+  .ml-1 {
+    margin-left: var(--spacing);
+  }
   .line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;
@@ -2801,6 +2804,74 @@ footer img[src*="samyati-logo"] {
   color: #9ca3af;
   padding: 2rem 1rem;
   font-size: 0.95rem;
+}
+.video-intro-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.8s ease, visibility 0.8s ease;
+}
+.video-intro-overlay.video-intro--exit {
+  opacity: 0;
+  visibility: hidden;
+}
+.video-intro-thumb {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.video-intro-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.video-intro-play {
+  position: absolute;
+  z-index: 10;
+  inset: 0;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(244, 121, 32, 0.85);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s, transform 0.2s;
+}
+.video-intro-play:hover {
+  background: rgba(244, 121, 32, 1);
+  transform: scale(1.1);
+}
+.video-intro-skip {
+  position: absolute;
+  z-index: 10;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 9999px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+.video-intro-skip:hover {
+  background: rgba(0, 0, 0, 0.65);
 }
 @property --tw-translate-x {
   syntax: "*";

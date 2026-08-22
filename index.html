@@ -27,6 +27,108 @@
     data-wa-link="https://wa.me/919076068549?text=Hi%20Samyati%20Holidays!%20I%27d%20like%20to%20enquire%20about%20your%20packages."
     class="font-inter text-dark-gray"
   >
+    <!-- ── VIDEO INTRO OVERLAY ── -->
+    <div id="video-intro" class="video-intro-overlay" aria-hidden="true">
+      <img
+        src="assets/samyati_launch_video_thumbnail.png"
+        alt=""
+        class="video-intro-thumb"
+        aria-hidden="true"
+      />
+      <video
+        id="intro-video"
+        autoplay
+        playsinline
+        poster="assets/samyati_launch_video_thumbnail.png"
+        class="video-intro-video"
+      >
+        <source
+          src="assets/samyati_launch_video_mobile.mp4"
+          type="video/mp4"
+          media="(max-width: 767px)"
+        />
+        <source src="assets/samyati_launch_video.mp4" type="video/mp4" media="(min-width: 768px)" />
+      </video>
+      <button id="intro-skip" class="video-intro-skip" aria-label="Skip intro">
+        Skip Intro
+        <svg
+          class="w-4 h-4 inline ml-1"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <button id="intro-play" class="video-intro-play" aria-label="Play intro video">
+        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M8 5v14l11-7z" />
+        </svg>
+      </button>
+    </div>
+    <script>
+      // ── Video Intro ── try autoplay with audio; fall back to play button
+      (function () {
+        var overlay = document.getElementById('video-intro');
+        var video = document.getElementById('intro-video');
+        if (!overlay || !video) return;
+
+        // If already seen this session, stop audio and remove overlay
+        if (sessionStorage.getItem('samyatiIntroSeen')) {
+          video.pause();
+          video.removeAttribute('src');
+          video.load();
+          overlay.remove();
+          return;
+        }
+
+        var skip = document.getElementById('intro-skip');
+        var play = document.getElementById('intro-play');
+        if (!skip || !play) return;
+
+        // Try playing directly (no muted attr) — browser either allows it or blocks it
+        video
+          .play()
+          .then(function () {
+            // Autoplay with audio succeeded
+          })
+          .catch(function () {
+            // Autoplay blocked — show play button for user gesture
+            play.style.display = 'flex';
+          });
+
+        // Fade out and remove the overlay
+        function hideIntro() {
+          if (sessionStorage.getItem('samyatiIntroSeen')) return;
+          sessionStorage.setItem('samyatiIntroSeen', '1');
+          overlay.style.transition = 'opacity 0.8s ease, visibility 0.8s ease';
+          overlay.style.opacity = '0';
+          overlay.style.visibility = 'hidden';
+          overlay.style.pointerEvents = 'none';
+          setTimeout(function () {
+            if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+          }, 900);
+        }
+
+        // Hide when video finishes
+        video.addEventListener('ended', hideIntro);
+        // Fallback: hide when video reaches its natural end via timeupdate
+        video.addEventListener('timeupdate', function () {
+          if (video.duration && video.currentTime >= video.duration - 0.3) {
+            hideIntro();
+          }
+        });
+        // Skip button
+        skip.addEventListener('click', hideIntro);
+        // Play button — user gesture, audio guaranteed
+        play.addEventListener('click', function () {
+          play.style.display = 'none';
+          video.play();
+        });
+      })();
+    </script>
+
     <script src="js/preloader.js"></script>
 
     <!-- PARTIAL_HEADER -->
@@ -61,9 +163,7 @@
             <span class="text-orange">We'll take you there.</span>
           </h1>
           <div class="flex flex-col sm:flex-row gap-4">
-            <a href="packages.html" class="btn-navy text-base py-3 px-8"
-              >Explore Our Packages</a
-            >
+            <a href="packages.html" class="btn-navy text-base py-3 px-8">Explore Our Packages</a>
           </div>
         </div>
       </div>
